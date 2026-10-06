@@ -1,0 +1,349 @@
+{
+  "numero": 7,
+  "titulo": "¿Cómo llego a un lugar?",
+  "trimestre": 2,
+  "fechas": "Del 27 de enero al 14 de febrero",
+  "dias": 15,
+  "centroInteres": "Representación de nuestro planeta.",
+  "relevanciaSocial": "Las representaciones del planeta permiten al alumnado comprender el mundo que les rodea. Decreto 101/2023.",
+  "ods": [
+    "ODS 14. Vida submarina",
+    "ODS 16. Paz, justicia e instituciones sólidas"
+  ],
+  "sda": {
+    "ud": {
+      "titulo": "¿Cómo llego a un lugar?",
+      "producto": "Plano de mi barrio incluyendo centros sanitarios cercanos."
+    },
+    "proyecto": {
+      "nombre": "¿Buceamos?",
+      "producto": "Máscara marina. Galería de Arte sostenible."
+    },
+    "aps": {
+      "nombre": "Opera prima",
+      "producto": "Fotografías para el corto. Un día en el cole."
+    }
+  },
+  "objetivosEtapa": [
+    "c",
+    "e",
+    "g",
+    "h",
+    "j",
+    "n",
+    "ñ"
+  ],
+  "objetivosAprendizaje": [
+    "1. Escuchar y contar avisos e instrucciones. Leer y escribir normas, cartas y correos electrónicos.",
+    "2. Utilizar los conocimientos básicos sobre la lengua: los determinantes posesivos y numerales, las onomatopeyas y palabras con r y rr.",
+    "3. Reconocer el tiempo como una medida que se divide en horas, minutos, días, semanas, meses y años.",
+    "4. Utilizar relojes (analógicos y digitales) y calendarios para medir el tiempo y leer la hora correcta.",
+    "5. Conocer y utilizar diferentes tipos de representación de la Tierra.",
+    "6. Conocer las manifestaciones artísticas más importantes de las distintas épocas, lugares y estilos."
+  ],
+  "competenciasClave": "CCL (1-2-3-4-5), CP (2-3), STEM (1-2-4), CD (1-2-4-5), CPSAA (1-2), CC (1-2-3-4), CE (1-2-3), CCEC (1-2-3-4)",
+  "areas": [
+    {
+      "area": "Lengua Castellana y Literatura",
+      "sigla": "LCL",
+      "competencias": [
+        {
+          "num": "3",
+          "texto": "Producir textos orales y multimodales para expresar ideas y sentimientos."
+        },
+        {
+          "num": "4",
+          "texto": "Comprender e interpretar textos escritos y multimodales, su sentido global e ideas principales."
+        },
+        {
+          "num": "5",
+          "texto": "Producir textos escritos y multimodales con corrección gramatical y ortográfica."
+        },
+        {
+          "num": "7",
+          "texto": "Leer de manera autónoma obras seleccionadas para fomentar el gusto por la lectura."
+        },
+        {
+          "num": "9",
+          "texto": "Reflexionar sobre el lenguaje a partir de procesos de producción y comprensión de textos."
+        }
+      ],
+      "criterios": [
+        {
+          "codigo": "3.2.a",
+          "texto": "Participar en interacciones orales."
+        },
+        {
+          "codigo": "4.1.a",
+          "texto": "Leer de manera silenciosa y en voz alta."
+        },
+        {
+          "codigo": "5.1.a",
+          "texto": "Producir textos escritos sencillos."
+        },
+        {
+          "codigo": "7.1.a",
+          "texto": "Leer de manera autónoma o acompañada."
+        },
+        {
+          "codigo": "9.2.a",
+          "texto": "Revisar los textos propios y ajenos."
+        }
+      ],
+      "saberes": [
+        {
+          "codigo": "2.B.3.3",
+          "texto": "Planificación y producción de textos orales."
+        },
+        {
+          "codigo": "2.B.3.4",
+          "texto": "Lectura compartida y entonada."
+        },
+        {
+          "codigo": "2.B.3.5",
+          "texto": "Coherencia y cohesión textual."
+        },
+        {
+          "codigo": "2.B.3.4",
+          "texto": "Estrategias antes, durante y después."
+        },
+        {
+          "codigo": "2.D.3",
+          "texto": "Determinantes."
+        }
+      ]
+    },
+    {
+      "area": "Matemáticas",
+      "sigla": "MAT",
+      "competencias": [
+        {
+          "num": "2",
+          "texto": "Resolver situaciones problematizadas, aplicando técnicas, estrategias y formas de razonamiento."
+        },
+        {
+          "num": "3",
+          "texto": "Plantear problemas de tipo matemático en situaciones basadas en la vida cotidiana."
+        },
+        {
+          "num": "4",
+          "texto": "Utilizar el pensamiento computacional, organizando datos, descomponiendo en partes."
+        },
+        {
+          "num": "5",
+          "texto": "Reconocer y utilizar conexiones entre diferentes ideas matemáticas."
+        },
+        {
+          "num": "7",
+          "texto": "Gestionar las emociones al enfrentarse a retos matemáticos para disfrutar del aprendizaje."
+        }
+      ],
+      "criterios": [
+        {
+          "codigo": "2.2.a",
+          "texto": "Obtener posibles soluciones."
+        },
+        {
+          "codigo": "3.2.a",
+          "texto": "Ejemplificar situaciones problemas."
+        },
+        {
+          "codigo": "4.1.a",
+          "texto": "Automatizar una rutina."
+        },
+        {
+          "codigo": "5.2.a",
+          "texto": "Reconocer conexiones matemáticas."
+        },
+        {
+          "codigo": "7.1.a",
+          "texto": "Identificar las emociones al abordar retos"
+        }
+      ],
+      "saberes": [
+        {
+          "codigo": "2.A.3.2",
+          "texto": "Explicación del proceso y resultado."
+        },
+        {
+          "codigo": "2.D.2.2",
+          "texto": "Invención de problemas."
+        },
+        {
+          "codigo": "2.B.2.2",
+          "texto": "Medición mediante reloj analógico y digital."
+        },
+        {
+          "codigo": "2.B.1.3",
+          "texto": "Medida del tiempo (año, mes, semana, día...)."
+        },
+        {
+          "codigo": "2.F.1.3",
+          "texto": "Autoconfianza en las propias posibilidades."
+        }
+      ]
+    },
+    {
+      "area": "Conocimiento del Medio Natural, Social y Cultural",
+      "sigla": "CMN",
+      "competencias": [
+        {
+          "num": "2",
+          "texto": "Plantear y dar respuesta a cuestiones científicas sencillas, con técnicas del pensamiento científico."
+        },
+        {
+          "num": "5",
+          "texto": "Identificar las características del medio natural y emprender acciones para un uso responsable."
+        },
+        {
+          "num": "6",
+          "texto": "Identificar las causas y consecuencias de la intervención humana en el entorno."
+        }
+      ],
+      "criterios": [
+        {
+          "codigo": "2.2.a",
+          "texto": "Usar estrategias de selección de información."
+        },
+        {
+          "codigo": "5.1.a",
+          "texto": "Reconocer características de los elementos del medio"
+        },
+        {
+          "codigo": "6.1.a",
+          "texto": "Identificar problemas ecosociales."
+        }
+      ],
+      "saberes": [
+        {
+          "codigo": "2.A.1.3",
+          "texto": "Vocabulario científico."
+        },
+        {
+          "codigo": "2.C.1.1",
+          "texto": "La Tierra: globo terráqueo, mapas"
+        },
+        {
+          "codigo": "2.C.4.4",
+          "texto": "Los ecosistemas naturales."
+        }
+      ]
+    },
+    {
+      "area": "Educación Artística",
+      "sigla": "EAR",
+      "competencias": [
+        {
+          "num": "2",
+          "texto": "Investigar distintas manifestaciones artísticas para disfrutar de ellas."
+        }
+      ],
+      "criterios": [
+        {
+          "codigo": "2.2.a",
+          "texto": "Reconocer elementos del patrimonio de la cultura andaluza."
+        }
+      ],
+      "saberes": [
+        {
+          "codigo": "2.C.7",
+          "texto": "Estrategias y técnicas de uso de historias audiovisuales."
+        }
+      ]
+    }
+  ],
+  "semanas": [
+    {
+      "numero": 1,
+      "fase": "motivar – activar",
+      "LCL": "(L) Leo una noticia. Escucha el aviso y responde. Escribe un aviso para informar que tu perro se ha perdido. (M) Leo un relato. Comprendo la lectura. Las onomatopeyas. C.EV.6.1.a. (X) Capítulo del libro. Taller de escritura. Por equipos, escribo normas de convivencia, en una biblioteca, una piscina pública, en un cine. Exponemos. C.EV.3.2.a. (J) Día de la NO-Violencia y la Paz. ¿por qué se celebra? Corto “Cadena de favores” Reflexión y Debate. (V) Dramatizaciones. Ruta por el colegio para buscar textos cotidianos: notas, normas, listas, etc. Realiza un registro. C.EV.8.3.a.",
+      "MAT": "(L) Estudio el calendario. ¿Qué meses tienen 30 días? ¿Y 31? ¿cuántos días tiene el mes de febrero? C.EV.2.2.a. (M) Problemas exprés. (X) Resolución de problemas. Unidades de tiempo: día, semana, mes año. Número de días en una semana. Número de días en un mes. Número de días y meses en un año. Año bisiesto. Escribe la fecha de dos formas diferentes. C.EV.5.2.a. J) Día de la NO-Violencia y la Paz. Puzle de la Paz. Escribe un mensaje y construye el puzle. (V) Concurso de problemas.",
+      "CMN": "(J) Vídeo ¿Cómo se mueve la Tierra? Representamos nuestro planeta. Haz un dibujo con los movimientos de la Tierra. Cuenta cuál es tu estación del año favorita y por qué. 30 de enero. Día de la No Violencia y la Paz. Marcha por la paz. C.Ev.2.2.a (V) SdA. UD. Plano de mi barrio incluyendo centros sanitarios cercanos.",
+      "EAR": "(V) Texturas visuales. Elaboración de un collage marino."
+    },
+    {
+      "numero": 2,
+      "fase": "explorar - estructurar",
+      "LCL": "(L) Leo una noticia. Partes de una carta. (M) Leo una carta. Comprendo la lectura C.EV.4.1.a. Los determinantes posesivos. C.EV.6.1.a. (X) Capítulo del libro. Taller de escritura. Escribo una carta a un compañero para felicitarle por su cumpleaños. C.EV.5.1.a. (J) Cuenta cuentos. Las instrucciones. Cuento unas instrucciones. Cómo elaborar una brocheta de fruta saludable C.EV.7.1.a. (V) Dramatizaciones. Los determinantes numerales. Copio y completo un esquema.",
+      "MAT": "(L) Vídeo. El día, la hora y los minutos. Horas en un día. Recuentos de horas. ¿Cuántas horas hay en 2 días? Calcula cuantas horas hay en una semana. (M) Problemas exprés. (X) Resolución de problemas. Minutos en una hora ¿Cuántos minutos son 3 horas? Media hora y cuarto de hora. ¿Cuántos minutos son tres cuartos de hora? (J) Las horas y los minutos. ¿Cuántas horas tienen 4 días? Calcula los minutos que hay. ¿Cuántos cuartos de hora son 60 minutos? (V) Concurso de problemas. Cálculo mental. Suma de dos cifras con llevadas en unidades. C.Ev.3.2.a.",
+      "CMN": "(J) ¿Cómo podemos representar la Tierra? Escribe la diferencia entre un globo terráqueo y un planisferio. Escribe los elementos de un planisferio. Busca tu país y localízalo en un globo terráqueo. C.Ev.5.1.1.a. (V) SdA. UD. Plano de mi barrio incluyendo centros sanitarios cercanos.",
+      "EAR": "(V) Pablo Picasso. Descubriendo el cubismo, guía de dibujo."
+    },
+    {
+      "numero": 3,
+      "fase": "aplicar – concluir",
+      "LCL": "(L) Leo una noticia. Partes de un correo electrónico. (M) Leo un correo electrónico. Vocabulario. Comprendo la lectura. Completo el esquema de los determinantes. (X) Capítulo del libro. Vocabulario. Taller de escritura. Escribo una carta a un compañero para felicitarle por su cumpleaños. Lectura a los compañeros. (J) Cuenta cuentos. El sonido de la r suave y fuerte. (V) Dramatizaciones. Repasamos las reglas de ortografía. Dictado. Leo, escucho, escribo, reviso e intercambio de cuadernos. C.EV. 9.2.a.",
+      "MAT": "(L) Leo la hora de un reloj. Aguja corta y aguja larga. Dibuja en tu cuaderno relojes y relaciona la hora escrita. Escribe la hora de los relojes. C.EV.4.1.a. (M) Problemas exprés. (X) Resolución de problemas. Haz una redacción explicando qué haces al salir del cole e indica las horas de cada actividad. (J) El reloj digital. Leer la hora en reloj digital. Pasar de analógico a digital. (V) Concurso de problemas. Pienso paso a paso. Recordar los días de cada mes utilizando los nudillos. C.Ev.7.2.a.",
+      "CMN": "(J) ¿Cómo nos podemos orientar? ¿Para qué usamos los mapas? ¿Qué métodos usarías para orientarte en un bosque? Busca información sobre cómo funciona una brújula. (V) SdA. Proyecto. ¿Buceamos? Producto. Máscara marina. Galería de Arte sostenible. C.Ev. 6.1.a.",
+      "EAR": "(V) APS. Opera prima Producto. Fotografías para el corto de animación. C.Ev. 2.C.7."
+    }
+  ],
+  "complementaria": "SdA. 30 de enero. Día de la No Violencia y la Paz. Marcha por la paz.",
+  "refuerzoProfundizacion": "Actividades multinivel siguiendo los principios DUA.",
+  "metodologia": "Trabajo individual y cooperativo con perspectiva de género. Tutoría entre iguales.",
+  "principiosPedagogicos": "Art. 6 del Decreto 101/2023 a-j",
+  "agrupamientos": "Trabajo individual, pequeños grupos heterogéneos, grupo clase",
+  "recursos": {
+    "espaciales": "Aula, patio, biblioteca.",
+    "digitales": "Google Classroom, Google Maps, Canva.",
+    "personales": "Familias, expertos.",
+    "materiales": "Material fungible, prensa, textos cotidianos, reloj analógico"
+  },
+  "diversidad": {
+    "dua": [
+      "1. Múltiples formas de representación. Clarificación de vocabulario y símbolos. Imágenes, vídeos...",
+      "2. Múltiples formas de expresión. Diferentes opciones y distintos lenguajes (oral, escrito, esquemas...)",
+      "3. Múltiples formas de implicación. Trabajo cooperativo, utilización del feedback"
+    ],
+    "medidasGenerales": "Aprendizaje cooperativo. Metodología por proyectos.",
+    "medidasEspecificas": "NEE. Programa de refuerzo. Autonomía del centro 30´ LCL y 30´ MAT. DIA: PRA y PE. COM: PRA",
+    "evaluacionMedidas": "Orden 30/5/2023. Observación y valoración cualitativa de las medidas DUA aplicadas, en la escala 1. Poco adecuado. 2. Aceptable, pero requiere revisión. 3. Adecuada. 4. Buena. 5. Excelente. Valoración de las actividades de refuerzo y/o profundización. Observación y valoración cualitativa del trabajo cooperativo. Autoevaluación del alumnado respecto a las medidas específicas."
+  },
+  "evaluacion": {
+    "instrumentos": "Listas de cotejo, escalas de observación, portfolio, registro anecdótico, rúbrica. Rúbrica de todos los criterios de evaluación. Orden 30/5/23",
+    "procedimientos": "Observación sistemática, corrección de tareas.",
+    "evidencias": "Evidencias-Trazabilidad. Respuestas a preguntas, producto final de tareas y proyectos. Desempeños. Presentación oral, ...",
+    "productos": "Plano",
+    "autoevaluacion": "Autoevaluación-coevaluación",
+    "criteriosEvaluados": {
+      "LCL": [
+        "3.2.a",
+        "4.1.a",
+        "5.1.a",
+        "7.1.a",
+        "9.2.a"
+      ],
+      "MAT": [
+        "2.2.a",
+        "3.2.a",
+        "4.1.a",
+        "5.2.a",
+        "7.2.a"
+      ],
+      "CMN": [
+        "2.2.a",
+        "5.1.a",
+        "6.1.a"
+      ],
+      "EAR": [
+        "2.C.7"
+      ]
+    },
+    "escala": "IN 1-4,9 (Con dificultad); SU 5-5,9 (Con ayuda); BI 6-6,9 (Sin dificultades); NT 7-8,9 (Con facilidad); SB 9-10 (Muestra dominio)"
+  },
+  "autoevaluacionDocente": {
+    "indicadores": "Los materiales y recursos didácticos han sido adecuados, la metodología tiene un enfoque competencial, etc.",
+    "instrumentos": "Listas de cotejo, escala de valoración 1- 4"
+  },
+  "observaciones": [
+    "Fechas: el original indica 'Del 27 de enero al 14 de febrero de 2025'. En 2025 (lun 27/1 - vie 14/2) salen 15 días lectivos (coincide); en 2026 el 14/2 sería sábado. Año incoherente con UD fechadas en 2025-2026.",
+    "ODS indicado como 'ODS 14-16'; se separa en ODS 14 y ODS 16. El título de sda.ud no aparece explícito: se usa el título de la UD.",
+    "SdA APS: producto 'Fotografías para el corto. Un día en el cole.' en la justificación y 'Fotografías para el corto de animación' en la semana 3.",
+    "LCL: el saber 2.B.3.4 aparece repetido con dos textos distintos ('Lectura compartida y entonada' y 'Estrategias antes, durante y después'). En las semanas aparecen C.EV.6.1.a (semanas 1 y 2) y C.EV.8.3.a (semana 1), que no son criterios de LCL en esta UD.",
+    "MAT: el criterio de la tabla es 7.1.a, pero en semana 3 y en la evaluación figura 7.2.a. Texto del criterio 7.1.a cortado ('...al abordar retos'). Semana 1 'J)' sin paréntesis de apertura. Semana 2 (V) 'Suma de dos cifras con llevadas' no encaja con la medida del tiempo.",
+    "CMN: código mal formado 'C.Ev.5.1.1.a' (semana 2; debería ser 5.1.a). Textos del criterio 5.1.a y del saber 2.C.1.1 cortados.",
+    "EAR: el criterio es 2.2.a, pero en semana 3 y en la evaluación se usa el código del saber 2.C.7 como criterio; semanas 1 y 2 sin C.EV.",
+    "LCL semana 3 (X) repite la carta de cumpleaños de la semana 2 pese a trabajarse el correo electrónico.",
+    "Evaluación: la tabla de instrumentos/procedimientos/evidencias está en columnas mezcladas en el PDF; el reparto entre campos es una reconstrucción."
+  ]
+}

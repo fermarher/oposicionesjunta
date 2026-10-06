@@ -1,0 +1,348 @@
+{
+  "numero": 11,
+  "titulo": "¿En qué edad estamos?",
+  "trimestre": 3,
+  "fechas": "Del 8 al 30 de mayo",
+  "dias": 17,
+  "centroInteres": "La historia y el paso del tiempo.",
+  "relevanciaSocial": "Comprender la evolución de las sociedades a lo largo del tiempo. Decreto 101/2023.",
+  "ods": [
+    "ODS 4. Educación de calidad",
+    "ODS 16. Paz, justicia e instituciones sólidas"
+  ],
+  "sda": {
+    "ud": {
+      "titulo": "¿En qué edad estamos?",
+      "producto": "Línea del tiempo de nuestra vida."
+    },
+    "proyecto": {
+      "nombre": "Huellas del pasado",
+      "producto": "Escribir el contenido del Lapbook."
+    },
+    "aps": {
+      "nombre": "Opera prima",
+      "producto": "Diseño de un cartel para el evento de fin de curso."
+    }
+  },
+  "objetivosEtapa": [
+    "c",
+    "e",
+    "f",
+    "g",
+    "h",
+    "j",
+    "o"
+  ],
+  "objetivosAprendizaje": [
+    "1. Conocer y producir textos literarios: escuchar la tertulia y un debate, leer y escribir un diálogo.",
+    "2. Utilizar los conocimientos de la lengua: clases de oraciones, palabras terminadas en d y z, los neologismos y extranjerismos.",
+    "3. Reconocer rectas paralelas, secantes y perpendiculares, así como ángulos rectos, agudos y obtusos.",
+    "4. Comprender la relación entre ángulos y figuras geométricas en el plano.",
+    "5. Utilizar el siglo como unidad de medida y diferentes técnicas para situar acontecimientos históricos.",
+    "6. Desarrollar una sensibilidad propia en la investigación artística."
+  ],
+  "competenciasClave": "CCL (1-2-3-4-5), CP (1-2-3), STEM (1-2-3-4), CD (1-2-4-5), CPSAA (1-2-3), CC (1-2-3-4), CE (1-2-3), CCEC (1-2-3-4)",
+  "areas": [
+    {
+      "area": "Lengua Castellana y Literatura",
+      "sigla": "LCL",
+      "competencias": [
+        {
+          "num": "3",
+          "texto": "Producir textos orales y multimodales para expresar ideas y sentimientos."
+        },
+        {
+          "num": "4",
+          "texto": "Comprender e interpretar textos escritos y multimodales, su sentido global e ideas principales."
+        },
+        {
+          "num": "5",
+          "texto": "Producir textos escritos y multimodales con corrección gramatical y ortográfica."
+        },
+        {
+          "num": "6",
+          "texto": "Buscar, seleccionar y contrastar información procedente de dos o más fuentes."
+        },
+        {
+          "num": "9",
+          "texto": "Reflexionar sobre el lenguaje a partir de procesos de producción y comprensión de textos."
+        }
+      ],
+      "criterios": [
+        {
+          "codigo": "3.2.a",
+          "texto": "Participar en interacciones orales."
+        },
+        {
+          "codigo": "4.1.a",
+          "texto": "Leer de manera silenciosa y en voz alta."
+        },
+        {
+          "codigo": "5.1.a",
+          "texto": "Producir textos escritos sencillos."
+        },
+        {
+          "codigo": "6.1.a",
+          "texto": "Localizar información de distintas fuentes"
+        },
+        {
+          "codigo": "9.1.a",
+          "texto": "Observar la relación entre sujeto y verbo."
+        }
+      ],
+      "saberes": [
+        {
+          "codigo": "2.B.3.1",
+          "texto": "Escucha empática."
+        },
+        {
+          "codigo": "2.B.3.4",
+          "texto": "Identificación de ideas más relevantes."
+        },
+        {
+          "codigo": "2.B.3.5",
+          "texto": "Coherencia y cohesión textual."
+        },
+        {
+          "codigo": "2.C.1",
+          "texto": "Búsqueda guiada de información."
+        },
+        {
+          "codigo": "2.D.3",
+          "texto": "Sonidos y letras, palabras, oraciones y textos."
+        }
+      ]
+    },
+    {
+      "area": "Matemáticas",
+      "sigla": "MAT",
+      "competencias": [
+        {
+          "num": "2",
+          "texto": "Resolver situaciones problematizadas, aplicando técnicas, estrategias y formas de razonamiento."
+        },
+        {
+          "num": "3",
+          "texto": "Plantear problemas de tipo matemático en situaciones basadas en la vida cotidiana."
+        },
+        {
+          "num": "4",
+          "texto": "Utilizar el pensamiento computacional, organizando datos, descomponiendo en partes."
+        },
+        {
+          "num": "5",
+          "texto": "Reconocer y utilizar conexiones entre diferentes ideas matemáticas."
+        },
+        {
+          "num": "7",
+          "texto": "Identificar y gestionar emociones al enfrentarse a retos matemáticos para disfrutar en el aprendizaje."
+        }
+      ],
+      "criterios": [
+        {
+          "codigo": "2.1.a",
+          "texto": "Emplear estrategias resolver problemas."
+        },
+        {
+          "codigo": "3.2.a",
+          "texto": "Ejemplificar situaciones problemas."
+        },
+        {
+          "codigo": "4.1.a",
+          "texto": "Utilizar el pensamiento computacional"
+        },
+        {
+          "codigo": "5.1.a",
+          "texto": "Reconocer conexiones matemáticas"
+        },
+        {
+          "codigo": "7.1.a",
+          "texto": "identificar las emociones al abordar retos"
+        }
+      ],
+      "saberes": [
+        {
+          "codigo": "2.A.2.6",
+          "texto": "Explicación del proceso de resolución."
+        },
+        {
+          "codigo": "2.B.1.1",
+          "texto": "Amplitud del ángulo."
+        },
+        {
+          "codigo": "2.D.4.1",
+          "texto": "Interpretación de algoritmos sencillos."
+        },
+        {
+          "codigo": "2.C.2.3",
+          "texto": "Interpretación de itinerarios en planos."
+        },
+        {
+          "codigo": "2.E.1.1",
+          "texto": "Gráficos estadísticos cotidianos"
+        }
+      ]
+    },
+    {
+      "area": "Conocimiento del Medio Natural, Social y Cultural",
+      "sigla": "CMN",
+      "competencias": [
+        {
+          "num": "2",
+          "texto": "Plantear y dar respuesta a cuestiones científicas sencillas, con técnicas del pensamiento científico."
+        },
+        {
+          "num": "7",
+          "texto": "Comprender cambios del medio social y cultural para explicar los diferentes elementos."
+        },
+        {
+          "num": "9",
+          "texto": "Participar la vida social desde el respeto para generar interacciones positivas de dialogo."
+        }
+      ],
+      "criterios": [
+        {
+          "codigo": "2.2.a",
+          "texto": "Usar estrategias de selección de información."
+        },
+        {
+          "codigo": "7.1.a",
+          "texto": "Identificar hechos del entorno de la historia."
+        },
+        {
+          "codigo": "9.1.a",
+          "texto": "Emplear un lenguaje inclusivo y no violento."
+        }
+      ],
+      "saberes": [
+        {
+          "codigo": "2.A.1.4",
+          "texto": "Curiosidad en las investigaciones."
+        },
+        {
+          "codigo": "2.C.1.3",
+          "texto": "El tiempo histórico."
+        },
+        {
+          "codigo": "2.C.4.4",
+          "texto": "Normas para la vida en sociedad."
+        }
+      ]
+    },
+    {
+      "area": "Educación Artística",
+      "sigla": "EAR",
+      "competencias": [
+        {
+          "num": "3",
+          "texto": "Comunicar de manera creativa ideas para producir obras propias."
+        }
+      ],
+      "criterios": [
+        {
+          "codigo": "3.3.a",
+          "texto": "Valorar tanto las producciones propias como las ajenas."
+        }
+      ],
+      "saberes": [
+        {
+          "codigo": "2.B.11",
+          "texto": "Características del lenguaje audiovisual."
+        }
+      ]
+    }
+  ],
+  "semanas": [
+    {
+      "numero": 1,
+      "fase": "motivar – activar",
+      "LCL": "(L) Leo una noticia. Escucho una tertulia. Respondo a las preguntas. C.EV.3.2.a. (M) Leo un texto. ¿Cómo serán las ciudades del futuro? Comprendo la lectura. (X) Capítulo del libro. Taller de escritura. Redactar una descripción de la ciudad de futuro perfecta y dibujarla. (J) Cuenta cuentos. C.EV.4.1.a. Los neologismos y los extranjerismos. (V) Dramatizaciones. Participo en un debate Ventajas y desventajas de que en el futuro los robots hagan el trabajo que ahora hacen las personas.",
+      "MAT": "(L) Rectas secantes y restas paralelas. Nombra rectas y di su relación dos a dos. Identifica rectas paralelas y secantes. Dibuja rectas paralelas y secantes. Traza utilizando la regla. (M) Problemas exprés. (X) Resolución de problemas. Busca un plano donde aparezca vuestro colegio. ¿Qué calles son paralelas y secantes? Indica las rectas paralelas y secantes que ves a tu alrededor. C.EV.2.1.a. (J) Ángulos. Los ángulos y sus elementos. Identifica ángulos Los elementos de un ángulo. Piensa en objetos cotidianos en los que se pueda observar ángulos. C.EV.3.2.a. (V) Concurso de problemas. Inventa un problema.",
+      "CMN": "(J) La historia y el paso del tiempo. Las edades de la historia. Utiliza internet para investigar un acontecimiento importante de cada edad histórica. Represéntalos en una línea del tiempo. Elabora un cómic con una escena de la prehistoria. C.Ev 5.1.a. (V) SdA. UD. Línea del tiempo de nuestra vida.",
+      "EAR": "(V) Crea a tu manera un diseño con la técnica del esgrafiado."
+    },
+    {
+      "numero": 2,
+      "fase": "explorar - estructurar",
+      "LCL": "(L) Leo una noticia. Vocabulario. C.EV.2.1.a. Consejos para participar en un debate. (M) Leo un diálogo. Vocabulario. Comprendo la lectura. Uso de las rayas en el texto. (X) Capítulo del libro. Taller de escritura. Escribo un diálogo entre personajes de un cuento. C.EV.5.1.a. (J) Cuenta cuentos. C.EV.4.1.a. Busca en la biblioteca un cuento donde se reproduzca un diálogo y se utilicen rayas. Lee y escribe un resumen. C.EV.6.1.a. (V) Dramatizaciones. Improvisar una conversación telefónica. Ejemplo: llamar a tus padres al trabajo para pedirles que vayan a buscarte al colegio.",
+      "MAT": "(L) Dibuja un ángulo y marca sus partes. Rectas perpendiculares. Indica si las rectas son perpendiculares o no. Escribe una lista de objetos del aula que contengan ángulos rectos. (M) Problemas exprés. (X) Resolución de problemas. Dibuja tres ángulos rectos con la ayuda de la escuadra. Gira la escuadra para que los ángulos estén en diferentes posiciones. C.EV.2.1.a. (J) Calca el plano y completa el nombre de las calles, siguiendo las instrucciones. (V) Concurso de problemas. Cálculo mental. Doble de dos cifras sin llevadas. C.EV.7.1.a.",
+      "CMN": "(J) Investiga sobre los avances e inventos de la Edad moderna y realiza una ficha de uno de ellos, el que creas más importante. Ponla en común con el resto de la clase. (V) SdA. UD. Línea del tiempo de nuestra vida.",
+      "EAR": "(V) Murillo. Copia la obra. Niños comiendo melón y uvas."
+    },
+    {
+      "numero": 3,
+      "fase": "aplicar – concluir",
+      "LCL": "(L) Leo una noticia. Vocabulario. C.EV.2.1.a. Clases de oraciones. Copio y completo el esquema C.EV.9.1.a. (M) Salida al Centro Pompidou en Málaga. (X) Capítulo del libro. Taller de escritura. Escribo un diálogo entre personajes de un cuento. Lectura a los compañeros. (J) Cuenta cuentos. C.EV.4.1.a. Vocabulario. Palabras terminadas en d y z (V) Dramatizaciones. Repasamos la ortografía de la unidad. Inventamos un dictado en grupo. Por equipos, formamos oraciones, escribimos y entregamos al maestro/a. Escucha, escribe, revisa y corrige.",
+      "MAT": "(L) Esquema tipo de ángulos. En grupos, representa ángulos de diferente amplitud, con el cuerpo. (M) Salida al Centro Pompidou en Málaga. (X) Resolución de problemas. Situación en un plano. Dibuja el plano de tu clase. Fíjate en la forma de tu clase, donde están las puertas y las ventanas. Dibuja primero los objetos grandes y después el resto. C.EV.5.1.a. (J) Construimos un geoplano para conocer mejor las rectas los ángulos y el plano. (V) Concurso de problemas. Pienso paso a paso. Utiliza un muñequito para indicar los pasos a seguir para llegar hasta la casa en el plano. C.EV.4.1.a.",
+      "CMN": "(J) Investiga y escribe algunos avances de la Edad Contemporánea, comparte el resultado con el grupo. (V) SdA. Proyecto. Huellas del pasado. Producto. Escribir el contenido del Lapbook.",
+      "EAR": "(V) APS. Opera prima. Producto. Diseño de un cartel para el evento de fin de curso. C.EV.2.B.11"
+    }
+  ],
+  "complementaria": "Salida al Centro Pompidou en Málaga.",
+  "refuerzoProfundizacion": "Actividades multinivel siguiendo los principios DUA.",
+  "metodologia": "Trabajo individual y cooperativo con perspectiva de género. Tutoría entre iguales.",
+  "principiosPedagogicos": "Art. 6 del Decreto 101/2023 a-j",
+  "agrupamientos": "Trabajo individual, pequeños grupos heterogéneos, grupo clase.",
+  "recursos": {
+    "espaciales": "Aula, patio, biblioteca.",
+    "digitales": "Google Classroom, Google Maps, Canva.",
+    "personales": "Familias, expertos.",
+    "materiales": "Material fungible, prensa, textos cotidianos."
+  },
+  "diversidad": {
+    "dua": [
+      "1. Múltiples formas de representación. Clarificación de vocabulario y símbolos. Imágenes, vídeos...",
+      "2. Múltiples formas de expresión. Diferentes opciones y distintos lenguajes (oral, escrito, esquemas...)",
+      "3. Múltiples formas de implicación. Trabajo cooperativo, utilización del feedback"
+    ],
+    "medidasGenerales": "Aprendizaje cooperativo. Metodología por proyectos.",
+    "medidasEspecificas": "NEE. Programa de refuerzo. Autonomía del centro 30´ LCL y 30´ MAT. DIA: PRA y PE. COM: PRA",
+    "evaluacionMedidas": "Orden 30/5/2023. Observación y valoración cualitativa de las medidas DUA aplicadas, en la escala 1. Poco adecuado. 2. Aceptable, pero requiere revisión. 3. Adecuada. 4. Buena. 5. Excelente. Valoración de las actividades de refuerzo y/o profundización. Observación y valoración cualitativa del trabajo cooperativo. Autoevaluación del alumnado respecto a las medidas específicas."
+  },
+  "evaluacion": {
+    "instrumentos": "Listas de cotejo, escalas de observación, portfolio, registro anecdótico, rúbrica. Rúbrica de todos los criterios de evaluación. Orden 30/5/23",
+    "procedimientos": "Observación sistemática, corrección de tareas.",
+    "evidencias": "Evidencias-Trazabilidad. Respuestas a preguntas, producto final de tareas y proyectos. Desempeños. Presentación oral, ...",
+    "productos": "Cartel",
+    "autoevaluacion": "Autoevaluación-coevaluación",
+    "criteriosEvaluados": {
+      "LCL": [
+        "3.2.a",
+        "4.1.a",
+        "5.1.a",
+        "6.1.a",
+        "9.1.a"
+      ],
+      "MAT": [
+        "2.1.a",
+        "3.2.a",
+        "4.1.a",
+        "5.4.a",
+        "7.1.a"
+      ],
+      "CMN": [
+        "2.2.a",
+        "5.1.a",
+        "6.1.a"
+      ],
+      "EAR": [
+        "2.B.11"
+      ]
+    },
+    "escala": "IN 1-4,9 (Con dificultad); SU 5-5,9 (Con ayuda); BI 6-6,9 (Sin dificultades); NT 7-8,9 (Con facilidad); SB 9-10 (Muestra dominio)"
+  },
+  "autoevaluacionDocente": {
+    "indicadores": "Los materiales y recursos didácticos han sido adecuados, la metodología tiene un enfoque competencial, etc.",
+    "instrumentos": "Listas de cotejo, escala de valoración 1- 4"
+  },
+  "observaciones": [
+    "Fechas: el original indica 'Del 8 al 30 de mayo de 2025'. En 2025 el 8/5 es jueves y el 30/5 viernes: salen 17 días lectivos (coincide), pero son 3 semanas y media y la secuenciación solo tiene 3 semanas con (L)-(V).",
+    "ODS indicado como 'ODS 4-16'; se separa en ODS 4 y ODS 16. El título de sda.ud no aparece explícito: se usa el título de la UD.",
+    "LCL: en las semanas 2 y 3 se usa 'C.EV.2.1.a', criterio que no existe en LCL en esta UD (sí 3.2.a, 4.1.a, 5.1.a, 6.1.a, 9.1.a). La actividad (X) 'Escribo un diálogo entre personajes de un cuento' se repite en semanas 2 y 3. La semana 1 (ciudades del futuro, robots) casa poco con el centro de interés (la historia). Falta punto antes de '(V)' en semana 3 y tras 'Participo en un debate' en semana 1.",
+    "MAT: errata 'restas paralelas' (rectas) en semana 1; 'Identifica ángulos Los elementos' sin punto. El criterio 7.1.a empieza en minúscula. En la evaluación aparece 'MAT. 5.4.a', pero el criterio de la UD es 5.1.a. El saber 2.E.1.1 'Gráficos estadísticos cotidianos' no se trabaja en ninguna actividad.",
+    "CMN: en semana 1 se usa 'C.Ev 5.1.a.' y en la evaluación 'CMN. 2.2.a. / 5.1.a. / 6.1.a.', que no coinciden con los criterios de la UD (2.2.a, 7.1.a, 9.1.a); 5.1.a y 6.1.a parecen copiados de otra UD. Semanas 2 y 3 sin C.EV. Competencia 9: 'Participar la vida social' (falta 'en') y 'dialogo' sin tilde. La SdA UD 'Línea del tiempo de nuestra vida' figura en (V) de las semanas 1 y 2.",
+    "EAR: el criterio es 3.3.a, pero en semana 3 y en la evaluación se usa el código del saber 2.B.11 como criterio. El saber 'Características del lenguaje audiovisual' casa poco con esgrafiado, copia de Murillo y diseño de un cartel. En el original falta espacio en 'curso.C.EV.2.B.11'.",
+    "Complementaria: la salida al Centro Pompidou ocupa el (M) de la semana 3 en LCL y MAT.",
+    "Evaluación: la tabla de instrumentos/procedimientos/evidencias está en columnas mezcladas en el PDF; el reparto entre campos es una reconstrucción."
+  ]
+}

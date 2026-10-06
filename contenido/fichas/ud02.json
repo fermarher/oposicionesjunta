@@ -1,0 +1,351 @@
+{
+  "numero": 2,
+  "titulo": "¿Cómo son las plantas?",
+  "trimestre": 1,
+  "fechas": "Del 30 de septiembre al 18 de octubre",
+  "dias": 15,
+  "centroInteres": "Las plantas.",
+  "relevanciaSocial": "Beneficios de cuidar y proteger las plantas de nuestro entorno. Decreto 101/2023",
+  "ods": [
+    "ODS 15. Vida de ecosistemas terrestres",
+    "ODS 16. Paz, justicia e instituciones sólidas"
+  ],
+  "sda": {
+    "ud": {
+      "titulo": "¿Cómo son las plantas?",
+      "producto": "Guía de las plantas que nos rodean."
+    },
+    "proyecto": {
+      "nombre": "¡Sí, chef!",
+      "producto": "Presentación de una receta. Recetario andaluz."
+    },
+    "aps": {
+      "nombre": "Opera prima",
+      "producto": "Guión para el corto de animación. Un día en mi cole."
+    }
+  },
+  "objetivosEtapa": [
+    "b",
+    "e",
+    "g",
+    "h",
+    "j",
+    "l",
+    "ñ"
+  ],
+  "objetivosAprendizaje": [
+    "1. Conocer la estructura para hacer una exposición oral. Leer y escribir un cuento.",
+    "2. Utilizar los conocimientos básicos sobre la lengua: las palabras derivadas, los párrafos, el punto, la mayúscula, las siglas.",
+    "3. Desarrollar habilidades de cálculo de suma y resta tanto en vertical como por descomposición.",
+    "4. Aplicar la suma y la resta para realizar operaciones con monedas y billetes.",
+    "5. Conocer la clasificación de las plantas que habitan en nuestros ecosistemas.",
+    "6. Descubrir manifestaciones artísticas de diferentes estilos."
+  ],
+  "competenciasClave": "CCL (1-2-3-5), CP (1-2-3), STEM (1-3-4-5), CD (1-2-3,5), CPSAA (1,3-4-5), CC (1-3-4), CE (1-2-3), CCEC (1-2-3-4)",
+  "areas": [
+    {
+      "area": "Lengua Castellana y Literatura",
+      "sigla": "LCL",
+      "competencias": [
+        {
+          "num": "2",
+          "texto": "Producir textos orales y multimodales para expresar ideas y sentimientos."
+        },
+        {
+          "num": "4",
+          "texto": "Comprender e interpretar textos escritos y multimodales, su sentido global e ideas principales."
+        },
+        {
+          "num": "5",
+          "texto": "Producir textos escritos y multimodales con corrección gramatical y ortográfica."
+        },
+        {
+          "num": "6",
+          "texto": "Buscar, seleccionar y contrastar información procedente de dos o más fuentes."
+        },
+        {
+          "num": "9",
+          "texto": "Reflexionar sobre la lengua para mejorar las destrezas de producción y comprensión oral y escrita."
+        }
+      ],
+      "criterios": [
+        {
+          "codigo": "2.1.a",
+          "texto": "Comprender el sentido de textos orales."
+        },
+        {
+          "codigo": "4.1.a",
+          "texto": "Leer de manera silenciosa y en voz alta."
+        },
+        {
+          "codigo": "5.1.a",
+          "texto": "Producir textos escritos sencillos."
+        },
+        {
+          "codigo": "6.1.a",
+          "texto": "Localizar información de distintas fuentes."
+        },
+        {
+          "codigo": "8.3.a",
+          "texto": "Conocer pequeños textos literarios."
+        }
+      ],
+      "saberes": [
+        {
+          "codigo": "2.B.3.4",
+          "texto": "Estrategias de comprensión lectora."
+        },
+        {
+          "codigo": "2.B.3.5",
+          "texto": "Lectura compartida y entonada."
+        },
+        {
+          "codigo": "2.A.3.6",
+          "texto": "Uso de un lenguaje respetuoso."
+        },
+        {
+          "codigo": "2.B.3.6",
+          "texto": "Uso de la biblioteca."
+        },
+        {
+          "codigo": "2.B.2.1",
+          "texto": "La narración, el diálogo y la exposición."
+        }
+      ]
+    },
+    {
+      "area": "Matemáticas",
+      "sigla": "MAT",
+      "competencias": [
+        {
+          "num": "2",
+          "texto": "Resolver situaciones problematizadas, aplicando técnicas, estrategias y formas de razonamiento."
+        },
+        {
+          "num": "4",
+          "texto": "Utilizar el pensamiento computacional, organizando datos, descomponiendo en partes."
+        },
+        {
+          "num": "5",
+          "texto": "Reconocer y utilizar conexiones entre diferentes ideas matemáticas."
+        },
+        {
+          "num": "6",
+          "texto": "Comunicar de forma individual y colectiva procedimientos y resultados matemáticos."
+        },
+        {
+          "num": "8",
+          "texto": "Desarrollar habilidades sociales, participando en equipos de trabajo heterogéneos."
+        }
+      ],
+      "criterios": [
+        {
+          "codigo": "2.1.a",
+          "texto": "Emplear estrategias para resolver problemas."
+        },
+        {
+          "codigo": "4.2.a",
+          "texto": "Manejar herramientas adecuadas."
+        },
+        {
+          "codigo": "5.2.a",
+          "texto": "Reconocer conexiones matemáticas."
+        },
+        {
+          "codigo": "6.2.a",
+          "texto": "Explicar procesos matemáticos sencillos."
+        },
+        {
+          "codigo": "8.1.a",
+          "texto": "Colaborar en el trabajo en equipo."
+        }
+      ],
+      "saberes": [
+        {
+          "codigo": "2.A.3.2",
+          "texto": "Operaciones simples de suma y resta."
+        },
+        {
+          "codigo": "2.A.3.4",
+          "texto": "Sumas y restas de números naturales."
+        },
+        {
+          "codigo": "2.C.2.1",
+          "texto": "Posición de objetos en el espacio."
+        },
+        {
+          "codigo": "2.E.1.2",
+          "texto": "Clasificación y organización de datos."
+        },
+        {
+          "codigo": "2.F.1.1",
+          "texto": "Respeto ante las diferencias individuales."
+        }
+      ]
+    },
+    {
+      "area": "Conocimiento del Medio Natural, Social y Cultural",
+      "sigla": "CMN",
+      "competencias": [
+        {
+          "num": "2",
+          "texto": "Plantear y dar respuesta a cuestiones científicas sencillas, con técnicas del pensamiento científico."
+        },
+        {
+          "num": "5",
+          "texto": "Identificar las características del medio natural y emprender acciones para un uso responsable."
+        },
+        {
+          "num": "6",
+          "texto": "Identificar las causas y consecuencias de la intervención humana en el entorno."
+        }
+      ],
+      "criterios": [
+        {
+          "codigo": "2.2.a",
+          "texto": "Usar estrategias de selección de información."
+        },
+        {
+          "codigo": "5.1.a",
+          "texto": "Reconocer características de los elementos del medio."
+        },
+        {
+          "codigo": "6.1.a",
+          "texto": "Identificar problemas ecosociales."
+        }
+      ],
+      "saberes": [
+        {
+          "codigo": "2.A.1.4",
+          "texto": "Lectura de textos científicos."
+        },
+        {
+          "codigo": "2.A.2.5",
+          "texto": "Plantas."
+        },
+        {
+          "codigo": "2.C.4.4",
+          "texto": "Protección de la naturaleza."
+        }
+      ]
+    },
+    {
+      "area": "Educación Artística",
+      "sigla": "EAR",
+      "competencias": [
+        {
+          "num": "2",
+          "texto": "Investigar diferentes manifestaciones artísticas para disfrutar de ellas."
+        }
+      ],
+      "criterios": [
+        {
+          "codigo": "2.1.a",
+          "texto": "Identificar estrategias para la búsqueda de información."
+        }
+      ],
+      "saberes": [
+        {
+          "codigo": "2.A.4",
+          "texto": "Vocabulario específico en las artes plásticas, visuales y audiovisuales."
+        }
+      ]
+    }
+  ],
+  "semanas": [
+    {
+      "numero": 1,
+      "fase": "motivar – activar",
+      "LCL": "(L) Leo una noticia. Vocabulario. Escucho una exposición. La exposición oral. Esquema. (M) Leo un texto expositivo. El Ogro. Lee el texto. Observa las imágenes. Vocabulario. Comprendo la lectura. (X) Capítulo del libro. Vocabulario. En grupo, busca información sobre una ONG que luche contra el hambre. C.EV.6.1.a. Taller de escritura. Escribimos los pasos para hacer una exposición oral y exponer al grupo. (J) Cuenta cuentos. Vocabulario. Debate sobre cómo se podría acabar con el hambre en el mundo. Las siglas. Los puntos suspensivos. (V) Exposiciones orales. C.EV.2.1.a.",
+      "MAT": "(L) Sumar por descomposición. Suma de números de tres cifras con y sin llevadas. Utiliza los bloques para calcular. C.EV.4.2.a. (M) Problemas exprés. (X) Resolución de problemas. Sumo en vertical. Colocación de sumandos. Propiedades de la suma. Inventa una suma y resuélvela. (J) Propiedad conmutativa. Suma de tres sumandos. Coloca los sumandos y suma. (V) Concurso de problemas. Inventamos y resolvemos problemas. C.EV.2.1.a.",
+      "CMN": "(J) Lluvia de ideas sobre las plantas. Clasificamos seres vivos según sus características. Realizamos un esquema de las funciones vitales de los seres vivos. (V) SdA. UD. SdA. UD. Guía de las plantas que nos rodean. Elabora una ficha con cada planta que has recogido de tu barrio. Dibuja la planta, escribe las partes y describela. ¿Qué tipo de planta es? ¿Qué nos aporta? C.Ev.6.1.a.",
+      "EAR": "(V) Video. Crea a tu manera. Los dibujos esquemáticos."
+    },
+    {
+      "numero": 2,
+      "fase": "explorar - estructurar",
+      "LCL": "(L) Leo una noticia. Vocabulario. Exposiciones orales. (M) Leo un cuento actual. Cambia el final del cuento. C.EV.8.3.a. Los cuentos en la actualidad. (X) Capítulo del libro. Vocabulario. Taller de escritura. Escribimos los pasos para hacer una exposición oral y exponer al grupo C.EV.5.1.a. (J) Cuenta cuentos. Las palabras derivadas. Los sufijos. (V) Dramatizaciones de cuentos. Los prefijos in- y des-. Busca palabras con prefijos y escribe una oración.",
+      "MAT": "(L) Las propiedades de la suma. La propiedad conmutativa y asociativa. Realiza las sumas. (M) Problemas exprés. (X) Resolución de problemas. Restas por descomposición. Resta sin llevadas y con llevadas. Utiliza los bloques para calcular. (J) Resto en vertical. Términos de la resta. Restas con y sin llevadas. Colocar la resta en forma vertical. Propiedad del minuendo. (V) Concurso de problemas. Cálculo mental. Sumar una cifra sin llevadas. C.EV.6.2.a",
+      "CMN": "(J) ¿Cómo son las plantas? Dibuja en tu cuaderno una planta con flor, escribe y aprende sus partes. (V) SdA. UD. Guía de las plantas que nos rodean. Elaboramos fichas de alimentos que obtengamos de las plantas, hacemos el dibujo, ¿Qué parte de la planta utilizamos? ¿Qué nos aporta? Hacemos la guí de las planta. C.Ev 5.1.a.",
+      "EAR": "(V) Velázquez. Audioguía de las meninas. Láminas para colorear, componer. C.EV.2.1.a."
+    },
+    {
+      "numero": 3,
+      "fase": "aplicar – concluir",
+      "LCL": "(L) Leo una noticia. Vocabulario. Los párrafos. (M) Leo un texto. La mayúscula. Tipos de punto. Coloca la mayúscula en el texto. (X) Capítulo del libro. C.EV.4.1.a. En grupos, redacta un cuento actual. (J) Leo mi cuento. Elaboración de un esquema sobre las palabras derivadas. (V) Leo el texto. Dictado en parejas. Cada niño dictará un párrafo del texto. La otra persona deberá escribirlo. Intercambio de cuadernos para corregir.",
+      "MAT": "(L) Prueba de la resta. Relación suma y resta. C.EV.5.2.a. Calcula y comprueba las restas. (M) Problemas exprés. (X) Resolución de problemas. Las monedas y los billetes. Uso del dinero. Equivalencia de monedas y billetes de una cantidad. (J) ¡El precio justo! Organizad un mercadillo en clase con objetos que ya no uses. ¡Somos compradores y vendedores! (V) Concurso de problemas. Pienso paso a paso. Ordena las instrucciones de comprar una barra de pan. C.EV.8.1.a.",
+      "CMN": "(J) Investiga y explica la diferencia entre fotosíntesis y respiración. Realiza un esquema sobre la reproducción de las plantas. Estudia el esquema. (V) SdA. Proyecto. ¡Si chef! Producto. Presentación de una receta. Recetario andaluz. C.Ev. 2.2.a.",
+      "EAR": "APS. Opera prima Producto. Guión para el corto de animación. Resolución de conflictos."
+    }
+  ],
+  "complementaria": "SdA 16 de octubre. Día Mundial de la alimentación. Recogida de alimentos ONG.",
+  "refuerzoProfundizacion": "Actividades multinivel siguiendo los principios DUA.",
+  "metodologia": "Trabajo individual y cooperativo con perspectiva de género. Tutoría entre iguales.",
+  "principiosPedagogicos": "Art. 6 del Decreto 101/2023 a-j",
+  "agrupamientos": "Trabajo individual, pequeños grupos heterogéneos, grupo clase",
+  "recursos": {
+    "espaciales": "Aula, patio, biblioteca.",
+    "digitales": "Google Classroom, Google Maps, Canva.",
+    "personales": "Familias.",
+    "materiales": "Material fungible, prensa, textos cotidianos, policubos, monedas."
+  },
+  "diversidad": {
+    "dua": [
+      "1. Múltiples formas de representación. Clarificación de vocabulario y símbolos. Imágenes, vídeos...",
+      "2. Múltiples formas de expresión. Diferentes opciones y distintos lenguajes (oral, escrito, esquemas...)",
+      "3. Múltiples formas de implicación. Trabajo cooperativo. Utilización del feedback."
+    ],
+    "medidasGenerales": "Aprendizaje cooperativo. Metodología por proyectos.",
+    "medidasEspecificas": "NEE. Programa de refuerzo. Autonomía del centro 30´ LCL y 30´ MAT. DIA: PRA y PE. COM: PRA",
+    "evaluacionMedidas": "Orden 30/5/2023. Observación y valoración cualitativa de las medidas DUA aplicadas, en la escala 1. Poco adecuado. 2. Aceptable, pero requiere revisión. 3. Adecuada. 4. Buena. 5. Excelente. Valoración de las actividades de refuerzo y/o profundización. Observación y valoración cualitativa del trabajo cooperativo. Autoevaluación del alumnado respecto a las medidas específicas."
+  },
+  "evaluacion": {
+    "instrumentos": "Listas de cotejo, escalas de observación, portfolio, registro anecdótico, rúbrica. Rúbrica de todos los criterios de evaluación. Orden 30/5/23",
+    "procedimientos": "Observación sistemática, corrección de tareas y proyectos.",
+    "evidencias": "Respuestas a preguntas, producto final de tareas. Desempeños. Presentación oral, ...",
+    "productos": "Guía",
+    "autoevaluacion": "Autoevaluación-coevaluación",
+    "criteriosEvaluados": {
+      "LCL": [
+        "2.1.a",
+        "4.1.a",
+        "5.1.a",
+        "6.1.a",
+        "8.3.a"
+      ],
+      "MAT": [
+        "1.2.a",
+        "2.1.a",
+        "3.2.a",
+        "4.1.a",
+        "5.1.a",
+        "6.2.a"
+      ],
+      "CMN": [
+        "2.2.a",
+        "5.1.a",
+        "6.1.a"
+      ],
+      "EAR": [
+        "4.1.a"
+      ]
+    },
+    "escala": "IN 1-4,9 (Con dificultad); SU 5-5,9 (Con ayuda); BI 6-6,9 (Sin dificultades); NT 7-8,9 (Con facilidad); SB 9-10 (Muestra dominio)"
+  },
+  "autoevaluacionDocente": {
+    "indicadores": "Los materiales y recursos didácticos han sido adecuados, la metodología tiene un enfoque competencial, etc.",
+    "instrumentos": "Listas de cotejo, escala de valoración 1- 4"
+  },
+  "observaciones": [
+    "Fechas: del 30/09/2025 (martes) al 17/10/2025 hay 14 días lectivos (L-V), no 15; el 18/10/2025 es sábado. La semana 1 programa actividades (L) aunque empieza en martes.",
+    "El original escribe el proyecto como '¡Si chef!' (sin tilde ni coma); se normaliza a '¡Sí, chef!' en sda.proyecto.nombre (en las semanas se copia literal).",
+    "Evaluación MAT: la tabla lista 1.2.a, 3.2.a, 4.1.a y 5.1.a, que no son criterios de la UD (son 2.1.a, 4.2.a, 5.2.a, 6.2.a, 8.1.a); falta 8.1.a, evaluado en la semana 3.",
+    "Evaluación EAR: la tabla lista 4.1.a, pero el criterio de la UD es 2.1.a (el evaluado en la semana 2).",
+    "LCL: se evalúa el criterio 8.3.a pero la competencia específica 8 no figura; la competencia 9 figura sin criterio asociado. El saber 2.A.3.6 'Uso de un lenguaje respetuoso' casa mal con 5.1.a (producción escrita).",
+    "MAT: el saber 2.C.2.1 'Posición de objetos en el espacio' no se trabaja en la UD (suma, resta, dinero).",
+    "Semana 1 LCL: el texto 'El Ogro' y la ONG contra el hambre no tienen relación con el centro de interés (plantas); parece arrastre de otra UD o vínculo con el Día de la alimentación.",
+    "Erratas literales: 'SdA. UD. SdA. UD.' duplicado (semana 1 CMN), 'describela' sin tilde, 'Hacemos la guí de las planta' (semana 2 CMN), 'CD (1-2-3,5)'.",
+    "Semana 3 EAR sin marca de día; ODS indicado como 'ODS 15-16'.",
+    "Evaluación: la tabla de instrumentos/procedimientos/evidencias está en columnas mezcladas en el PDF; el reparto entre campos es una reconstrucción."
+  ]
+}

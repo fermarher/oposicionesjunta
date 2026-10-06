@@ -1,0 +1,353 @@
+{
+  "numero": 6,
+  "titulo": "Cuidamos la ciudad",
+  "trimestre": 2,
+  "fechas": "Del 7 al 24 de enero",
+  "dias": 14,
+  "centroInteres": "Máquinas, transporte público, reciclado de materiales.",
+  "relevanciaSocial": "Cuidar la ciudad para el desarrollo de entornos seguros y saludables. Decreto 101/2023.",
+  "ods": [
+    "ODS 11. Ciudades y comunidades sostenibles",
+    "ODS 16. Paz, justicia e instituciones sólidas"
+  ],
+  "sda": {
+    "ud": {
+      "titulo": "Cuidamos la ciudad",
+      "producto": "Informe sobre el uso de la bicicleta como medio de transporte."
+    },
+    "proyecto": {
+      "nombre": "¿Buceamos?",
+      "producto": "Cómic. Galería de Arte sostenible."
+    },
+    "aps": {
+      "nombre": "Opera prima",
+      "producto": "Fotografías para el corto animado. Resolución de conflictos."
+    }
+  },
+  "objetivosEtapa": [
+    "b",
+    "e",
+    "g",
+    "h",
+    "j",
+    "n",
+    "ñ"
+  ],
+  "objetivosAprendizaje": [
+    "1. Conocer y producir textos literarios. Escuchar y contar mitos y leyendas. Leer y escribir un cómic.",
+    "2. Utilizar los conocimientos básicos sobre la lengua: los determinantes, los artículos, demostrativos y palabras con m antes de b y p.",
+    "3. Leer, escribir, comparar y representar gráficamente fracciones.",
+    "4. Identificar los términos de una fracción, reconocer el numerador y el denominador.",
+    "5. Observar e identificar máquinas y aparatos y su utilidad para facilitar las actividades humanas.",
+    "6. Conocer las manifestaciones artísticas más importantes de las distintas épocas, lugares y estilos."
+  ],
+  "competenciasClave": "CCL (1-2-3-4-5), CP (2), STEM (1-2-3-4-5), CD (1-2-3-5), CPSAA (1-2-3-5), CC (1-3-4), CE (1-2-3), CCEC (1-2-3-4)",
+  "areas": [
+    {
+      "area": "Lengua Castellana y Literatura",
+      "sigla": "LCL",
+      "competencias": [
+        {
+          "num": "2",
+          "texto": "Comprender textos orales y multimodales para construir conocimiento."
+        },
+        {
+          "num": "4",
+          "texto": "Comprender e interpretar textos escritos y multimodales, su sentido global e ideas principales."
+        },
+        {
+          "num": "5",
+          "texto": "Producir textos escritos y multimodales con corrección gramatical y ortográfica."
+        },
+        {
+          "num": "6",
+          "texto": "Buscar, seleccionar y contrastar información procedente de dos o más fuentes."
+        },
+        {
+          "num": "8",
+          "texto": "Leer, interpretar y analizar de manera acompañada obras literarias adecuados a su desarrollo."
+        }
+      ],
+      "criterios": [
+        {
+          "codigo": "2.1.a",
+          "texto": "Comprender el sentido de textos orales."
+        },
+        {
+          "codigo": "4.1.a",
+          "texto": "Leer de manera silenciosa y en voz alta."
+        },
+        {
+          "codigo": "5.1.a",
+          "texto": "Producir textos escritos sencillos."
+        },
+        {
+          "codigo": "6.1.a",
+          "texto": "Localizar información de distintas fuentes"
+        },
+        {
+          "codigo": "8.3.a",
+          "texto": "Conocer textos de la literatura tradicional"
+        }
+      ],
+      "saberes": [
+        {
+          "codigo": "2.B.3.2",
+          "texto": "Interpretación del sentido global."
+        },
+        {
+          "codigo": "2.B.3.5",
+          "texto": "Convenciones del código escrito, ortografía."
+        },
+        {
+          "codigo": "2.B.3.6",
+          "texto": "Estrategias para la búsqueda de información."
+        },
+        {
+          "codigo": "2.C.1",
+          "texto": "Lectura de obras la literatura infantil (cómic)."
+        },
+        {
+          "codigo": "2.D.3",
+          "texto": "Procedimientos de adquisición de vocabulario."
+        }
+      ]
+    },
+    {
+      "area": "Matemáticas",
+      "sigla": "MAT",
+      "competencias": [
+        {
+          "num": "1",
+          "texto": "Interpretar situaciones de la vida cotidiana proporcionando estrategias para analizar la información."
+        },
+        {
+          "num": "3",
+          "texto": "Plantear problemas de tipo matemático en situaciones basadas en la vida cotidiana."
+        },
+        {
+          "num": "4",
+          "texto": "Utilizar el pensamiento computacional, organizando datos, descomponiendo en partes."
+        },
+        {
+          "num": "6",
+          "texto": "Comunicar y representar de forma individual y colectiva conceptos, procedimientos y resultados."
+        },
+        {
+          "num": "8",
+          "texto": "Participar en equipos de trabajo heterogéneos con roles asignados para crear relaciones saludables."
+        }
+      ],
+      "criterios": [
+        {
+          "codigo": "1.2.a",
+          "texto": "Producir esquemas para la resolución."
+        },
+        {
+          "codigo": "3.2.a",
+          "texto": "Ejemplificar situaciones problemas."
+        },
+        {
+          "codigo": "4.1.a",
+          "texto": "Automatizar una rutina."
+        },
+        {
+          "codigo": "6.1.a",
+          "texto": "Reconocer el vocabulario específico."
+        },
+        {
+          "codigo": "8.1.a",
+          "texto": "Colaborar en el trabajo en equipo."
+        }
+      ],
+      "saberes": [
+        {
+          "codigo": "2.A.4.2",
+          "texto": "Fracciones: comparación y ordenación."
+        },
+        {
+          "codigo": "2.D.2.2",
+          "texto": "Invención de problemas."
+        },
+        {
+          "codigo": "2.D.4.1",
+          "texto": "Interpretación de algoritmos sencillos."
+        },
+        {
+          "codigo": "2.A.2.4",
+          "texto": "Fracciones propias."
+        },
+        {
+          "codigo": "2.F.2.2",
+          "texto": "Participación activa en el trabajo en equipo."
+        }
+      ]
+    },
+    {
+      "area": "Conocimiento del Medio Natural, Social y Cultural",
+      "sigla": "CMN",
+      "competencias": [
+        {
+          "num": "1",
+          "texto": "Utilizar recursos digitales de forma responsable para buscar información y crear contenido digital."
+        },
+        {
+          "num": "5",
+          "texto": "Identificar las características del medio natural y emprender acciones para un uso responsable."
+        },
+        {
+          "num": "6",
+          "texto": "Identificar las causas y consecuencias de la intervención humana en el entorno."
+        }
+      ],
+      "criterios": [
+        {
+          "codigo": "1.1.a",
+          "texto": "Utilizar dispositivos y recursos digitales."
+        },
+        {
+          "codigo": "5.1.a",
+          "texto": "Reconocer características de los elementos del medio."
+        },
+        {
+          "codigo": "6.1.a",
+          "texto": "Identificar problemas ecosociales."
+        }
+      ],
+      "saberes": [
+        {
+          "codigo": "2.B.1.2",
+          "texto": "Estrategias de búsquedas guiadas"
+        },
+        {
+          "codigo": "2.C.1.3",
+          "texto": "La materia."
+        },
+        {
+          "codigo": "2.C.4.4",
+          "texto": "Estilos de vida sostenible."
+        }
+      ]
+    },
+    {
+      "area": "Educación Artística",
+      "sigla": "EAR",
+      "competencias": [
+        {
+          "num": "1",
+          "texto": "Descubrir propuestas artísticas de diferentes géneros, estilos, épocas ."
+        }
+      ],
+      "criterios": [
+        {
+          "codigo": "4.1.a",
+          "texto": "Identificar propuestas artísticas de diferentes géneros, estilos, épocas."
+        }
+      ],
+      "saberes": [
+        {
+          "codigo": "2.C.1",
+          "texto": "Cultura visual."
+        },
+        {
+          "codigo": "2.C.8",
+          "texto": "El cine de animación."
+        }
+      ]
+    }
+  ],
+  "semanas": [
+    {
+      "numero": 1,
+      "fase": "motivar – activar",
+      "LCL": "(L) Leo una noticia. Vocabulario. Escucho textos sobre mitos. Los mitos. (M) Salida. Bioparc de Fuengirola. Una aventura salvaje. C.EV.6.1.a. (X) Capítulo del libro. Vocabulario. Taller de escritura. En grupos, hacer una búsqueda guiada en internet sobre mitos griegos, elegir uno y explicarlo a la clase. C.EV.2.1.a. (J) Cuenta cuentos. Recomienda un cómic. Título, explicar el argumento y describir los personajes. (V) Dramatizaciones. Los refranes. Busca un refrán relacionado con una estación del año.",
+      "MAT": "(L) Aprendo fracciones. Concepto de fracción. División en partes iguales. Representar una fracción. C.EV.1.2.a. Nombrar fracciones. (M) Salida. Bioparc de Fuengirola. Una aventura salvaje. (X) Resolución de problemas. Términos de una fracción. Identificar el numerador y el denominador de las fracciones. C.EV.6.1.a. (J) Nombre de las fracciones. Dibuja un rectángulo y colorea la fracción que se indica. (V) Concurso de problemas. Inventa un problema con fracciones. C.Ev.3.2.a.",
+      "CMN": "(J) ¿Qué es la materia? Vídeo Los estados y los cambios de la materia. Busca información sobre un material artificial y escribe cómo se obtiene, sus propiedades y para qué se utiliza. Presentamos al grupo. C.Ev.1.1.a. (V). SdA. UD. Informe sobre el uso de la bicicleta como medio de transporte.",
+      "EAR": "(V) La geometría. Realizar un dibujo original utilizando figuras geométricas."
+    },
+    {
+      "numero": 2,
+      "fase": "explorar - estructurar",
+      "LCL": "(L) Leo una noticia. Vocabulario. Las leyendas. Lee la leyenda y responde. (M) Leo un cómic. Vocabulario. En grupos, hacer una búsqueda guiada en internet sobre leyendas relacionadas con la naturaleza y el lugar donde vivís. Explicarlo a la clase. (X) Capítulo del libro. Vocabulario. C.EV.4.1.a. Taller de escritura. Escribo un cómic. SdA. Proyecto ¿Buceamos? Producto. Cómic. Galería de Arte sostenible. Prepara un borrador. C.EV.5.1.a. (J) Cuenta cuentos. Recomienda un cómic. Título, explica el argumento y describe los personajes. (V) Dramatizaciones. Los determinantes. Los artículos. Escribimos oraciones y Clasificamos palabras. C.EV.3.2.a.",
+      "MAT": "(L) Medios, tercios y cuartos. Representación y lectura de las fracciones resultantes de dividir la unidad en 2, 3 o 4 partes. (M) Problemas exprés. (X) Resolución de problemas. (J) Representar fracciones con regletas. Equivalencias entre fracciones. C.EV.4.1.a. (V) Concurso de problemas. Cálculo mental. Suma de dos cifras con llevadas.",
+      "CMN": "(J) ¿De qué materiales están hechos los juguetes? Materiales naturales y artificiales. Propiedades de los materiales. Clasifica materiales. Hacemos un esquema de las propiedades de los materiales (V). SdA. UD. Informe sobre el uso de la bicicleta como medio de transporte. C.EV.6.1.a.",
+      "EAR": "(V) Vídeo. Biografía de Pablo Picasso. Descubriendo el cubismo guía de dibujo."
+    },
+    {
+      "numero": 3,
+      "fase": "aplicar – concluir",
+      "LCL": "(L) Leo una noticia. Los demostrativos. Copia y completa el esquema sobre los determinantes. (M) Leo un cómic. Comprensión. Completar una tabla con los determinantes demostrativos. (X) Capítulo del libro. Vocabulario. Taller de escritura. Escribo un cómic. SdA. Proyecto ¿Buceamos? Producto. Cómic. Galería de Arte sostenible. Prepara un borrador. (J) Cuenta cuentos. Palabras con m antes de b y p. Copia las oraciones y completa con mb o mp. (V) Dramatizaciones. Elaborar un esquema con las normas de ortografía estudiadas. Dictado. Lee, escucha, escribe y revisa. C.EV.8.3.a.",
+      "MAT": "(L) Comparo fracciones. Compara fracciones con el mismo denominador. (M) Problemas exprés. (X) Resolución de problemas. Encontrar fracciones mayores o menores que una dada. (J) Completa con los signos mayor que o menor que las fracciones. (V) Concurso de problemas. Pienso paso a paso. Dibuja un rectángulo. Divídelo por la mitad, una y otra vez, hasta que puedas. Colorea. C.Ev.8.1.a.",
+      "CMN": "(J) ¿Qué son las máquinas? Máquinas simples y compuestas. Elige una máquina y escribe sus características. ¿Qué es un invento? Busca información y escribe el nombre de dos inventos y para qué sirven. C.Ev.5.1.a. (V) SdA. Proyecto ¿Buceamos? Producto. Cómic. Galería de Arte sostenible.",
+      "EAR": "(V) APS. Opera prima. Producto. Fotografías para el corto de animación C.Ev.2.C.1 / 2.C.8"
+    }
+  ],
+  "complementaria": "SdA. Salida. Bioparc de Fuengirola. Una aventura salvaje.",
+  "refuerzoProfundizacion": "Actividades multinivel siguiendo los principios DUA.",
+  "metodologia": "Trabajo individual y cooperativo con perspectiva de género. Tutoría entre iguales.",
+  "principiosPedagogicos": "Art. 6 del Decreto 101/2023 a-j",
+  "agrupamientos": "Trabajo individual, pequeños grupos heterogéneos, grupo clase.",
+  "recursos": {
+    "espaciales": "Aula, patio, biblioteca.",
+    "digitales": "Google Classroom, Google Maps, Canva.",
+    "personales": "Familias, expertos.",
+    "materiales": "Material fungible, prensa, textos cotidianos"
+  },
+  "diversidad": {
+    "dua": [
+      "1. Múltiples formas de representación. Clarificación de vocabulario y símbolos. Imágenes, vídeos...",
+      "2. Múltiples formas de expresión. Diferentes opciones y distintos lenguajes (oral, escrito, esquemas...)",
+      "3. Múltiples formas de implicación. Trabajo cooperativo, utilización del feedback"
+    ],
+    "medidasGenerales": "Aprendizaje cooperativo. Metodología por proyectos.",
+    "medidasEspecificas": "NEE. Programa de refuerzo. Autonomía del centro 30´ LCL y 30´ MAT. DIA: PRA y PE. COM: PRA",
+    "evaluacionMedidas": "Orden 30/5/2023. Observación y valoración cualitativa de las medidas DUA aplicadas, en la escala 1. Poco adecuado. 2. Aceptable, pero requiere revisión. 3. Adecuada. 4. Buena. 5. Excelente. Valoración de las actividades de refuerzo y/o profundización. Observación y valoración cualitativa del trabajo cooperativo. Autoevaluación del alumnado respecto a las medidas específicas."
+  },
+  "evaluacion": {
+    "instrumentos": "Listas de cotejo, escalas de observación, portfolio, registro anecdótico, rúbrica. Rúbrica de todos los criterios de evaluación. Orden 30/5/23",
+    "procedimientos": "Observación sistemática, corrección de tareas.",
+    "evidencias": "Evidencias-Trazabilidad. Respuestas a preguntas, producto final de tareas y proyectos. Desempeños. Presentación oral",
+    "productos": "Informe",
+    "autoevaluacion": "Autoevaluación-coevaluación",
+    "criteriosEvaluados": {
+      "LCL": [
+        "2.1.a",
+        "4.1.a",
+        "5.1.a",
+        "6.1.a",
+        "8.3.a"
+      ],
+      "MAT": [
+        "1.2.a",
+        "3.2.a",
+        "4.1.a",
+        "6.1.a",
+        "8.1.a"
+      ],
+      "CMN": [
+        "2.2.a",
+        "5.1.a",
+        "6.1.a"
+      ],
+      "EAR": [
+        "2.C.1",
+        "2.C.8"
+      ]
+    },
+    "escala": "IN 1-4,9 (Con dificultad); SU 5-5,9 (Con ayuda); BI 6-6,9 (Sin dificultades); NT 7-8,9 (Con facilidad); SB 9-10 (Muestra dominio)"
+  },
+  "autoevaluacionDocente": {
+    "indicadores": "Los materiales y recursos didácticos han sido adecuados, la metodología tiene un enfoque competencial, etc.",
+    "instrumentos": "Listas de cotejo, escala de valoración 1- 4"
+  },
+  "observaciones": [
+    "Fechas: el original indica 'Del 7 al 24 de enero de 2025' (año incoherente con UD anteriores fechadas en 2025-2026). En 2025 (mar 7 - vie 24) salen 14 días lectivos (coincide); en 2026 el 24/1 sería sábado y saldrían 13.",
+    "ODS indicado como 'ODS 11-16'; se separa en dos entradas. El título de sda.ud no aparece explícito: se usa el título de la UD.",
+    "SdA Proyecto: en esta UD es '¿Buceamos?' (no '¡Sí, chef!'); producto 'Cómic. Galería de Arte sostenible.' APS 'Opera prima' sin tilde.",
+    "LCL semana 2 (V) con C.EV.3.2.a, que no es criterio de LCL en esta UD (es de MAT). LCL saber 2.C.1: 'Lectura de obras la literatura infantil' (falta 'de').",
+    "EAR: la competencia específica es la 1 pero el criterio es 4.1.a; el saber 2.C.8 aparece como 'C.EV.2.C.8'. En semana 3 se usan códigos de saberes (2.C.1 / 2.C.8) como C.Ev.; EAR semanas 1 y 2 sin C.EV.",
+    "Evaluación: en CMN figura 2.2.a, que no es criterio de la UD (la UD tiene 1.1.a, evaluado en semana 1); en EAR figuran saberes 2.C.1 / 2.C.8 en lugar del criterio 4.1.a.",
+    "MAT semana 2 (V) 'Cálculo mental. Suma de dos cifras con llevadas' no encaja con fracciones. MAT semana 1 (M) repite la salida al Bioparc. CMN semana 2 coloca '(V)' tras la actividad.",
+    "Evaluación: la tabla de instrumentos/procedimientos/evidencias está en columnas mezcladas en el PDF; el reparto entre campos es una reconstrucción."
+  ]
+}

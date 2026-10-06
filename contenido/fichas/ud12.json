@@ -1,0 +1,346 @@
+{
+  "numero": 12,
+  "titulo": "Huellas del pasado",
+  "trimestre": 3,
+  "fechas": "Del 2 al 20 de junio",
+  "dias": 15,
+  "centroInteres": "Las edades de la historia, los museos y monumentos.",
+  "relevanciaSocial": "Comprender la evolución de las sociedades a lo largo del tiempo. Decreto 101/2023.",
+  "ods": [
+    "ODS 16. Paz, justicia e instituciones sólidas"
+  ],
+  "sda": {
+    "ud": {
+      "titulo": "Huellas del pasado",
+      "producto": "Maqueta del Centro Pompidou."
+    },
+    "proyecto": {
+      "nombre": "Huellas del pasado",
+      "producto": "Decorar y presentar el Lapbook."
+    },
+    "aps": {
+      "nombre": "Opera prima",
+      "producto": "Festival de cine fin de curso."
+    }
+  },
+  "objetivosEtapa": [
+    "d",
+    "e",
+    "g",
+    "h",
+    "i",
+    "j",
+    "o"
+  ],
+  "objetivosAprendizaje": [
+    "1. Conocer y producir textos literarios: escuchar y dramatizar una obra de teatro y leer y escribir un texto teatral.",
+    "2. Utilizar los conocimientos de la lengua: las lenguas de España, palabras con bl y br.",
+    "3. Identificar y clasificar los triángulos según sus lados y sus ángulos y los cuadriláteros en paralelogramos y no paralelogramos.",
+    "4. Aprender a dibujar una circunferencia con el compás y sus elementos: centro, radio y diámetro.",
+    "5. Identificar el patrimonio cultural como algo que hay que cuidar y valorar los museos.",
+    "6. Producir obras propias tanto de forma individual como colectiva."
+  ],
+  "competenciasClave": "CCL (1-2-3-4-5), CP (2-3), STEM (1-2-4), CD (1-2-3-4-5), CPSAA (1-2-3), CC (1-2-3-4), CE (1-2-3), CCEC (1-2-3-4)",
+  "areas": [
+    {
+      "area": "Lengua Castellana y Literatura",
+      "sigla": "LCL",
+      "competencias": [
+        {
+          "num": "1",
+          "texto": "Reconocer la diversidad lingüística para valorarla como fuente de riqueza cultural."
+        },
+        {
+          "num": "3",
+          "texto": "Producir textos orales y multimodales para expresar ideas y sentimientos."
+        },
+        {
+          "num": "5",
+          "texto": "Producir textos escritos y multimodales con corrección gramatical y ortográfica."
+        },
+        {
+          "num": "8",
+          "texto": "Leer, interpretar y analizar de manera acompañada obras literarias adecuados a su desarrollo."
+        },
+        {
+          "num": "10",
+          "texto": "Poner las prácticas comunicativas al servicio de la convivencia democrática."
+        }
+      ],
+      "criterios": [
+        {
+          "codigo": "1.2.a",
+          "texto": "Identificar la pluralidad lingüística."
+        },
+        {
+          "codigo": "3.2.a",
+          "texto": "Participar en interacciones orales."
+        },
+        {
+          "codigo": "5.1.a",
+          "texto": "Producir textos escritos sencillos."
+        },
+        {
+          "codigo": "8.3.a",
+          "texto": "Conocer textos de la literatura tradicional."
+        },
+        {
+          "codigo": "10.2.a",
+          "texto": "Iniciar la gestión dialogada de conflictos."
+        }
+      ],
+      "saberes": [
+        {
+          "codigo": "2.A.2",
+          "texto": "La diversidad lingüística andaluza."
+        },
+        {
+          "codigo": "2.B.3.2",
+          "texto": "Comprensión oral. Sentido global."
+        },
+        {
+          "codigo": "2.B.3.5",
+          "texto": "Producción escrita. Ortografía reglada."
+        },
+        {
+          "codigo": "2.C.1",
+          "texto": "Lectura de obras de la literatura infantil."
+        },
+        {
+          "codigo": "2.B.1.1",
+          "texto": "Incidencia en el acto comunicativo."
+        }
+      ]
+    },
+    {
+      "area": "Matemáticas",
+      "sigla": "MAT",
+      "competencias": [
+        {
+          "num": "3",
+          "texto": "Plantear problemas de tipo matemático en situaciones basadas en la vida cotidiana."
+        },
+        {
+          "num": "4",
+          "texto": "Utilizar el pensamiento computacional, organizando datos, descomponiendo en partes."
+        },
+        {
+          "num": "5",
+          "texto": "Reconocer y utilizar conexiones entre diferentes ideas matemáticas."
+        },
+        {
+          "num": "6",
+          "texto": "Comunicar situaciones matemáticas, utilizando el lenguaje oral, escrito, gráfico."
+        },
+        {
+          "num": "8",
+          "texto": "Participar activamente en equipos de trabajo heterogéneos con roles asignados."
+        }
+      ],
+      "criterios": [
+        {
+          "codigo": "3.2.a",
+          "texto": "Ejemplificar situaciones problema."
+        },
+        {
+          "codigo": "4.1.a",
+          "texto": "Utilizar el pensamiento computacional."
+        },
+        {
+          "codigo": "5.1.a",
+          "texto": "Realizar conexiones matemáticas."
+        },
+        {
+          "codigo": "6.1.a",
+          "texto": "Utilizar vocabulario específico."
+        },
+        {
+          "codigo": "8.1.a",
+          "texto": "Colaborar en el trabajo en equipo."
+        }
+      ],
+      "saberes": [
+        {
+          "codigo": "2.B.1.1",
+          "texto": "Amplitud del ángulo."
+        },
+        {
+          "codigo": "2C.1.4",
+          "texto": "Propiedades de figuras geométricas."
+        },
+        {
+          "codigo": "2.C.4.1",
+          "texto": "Cálculo de perímetros de figuras planas."
+        },
+        {
+          "codigo": "2.D.1.1",
+          "texto": "Descripción verbal a partir de figuras."
+        },
+        {
+          "codigo": "2.F.2.4",
+          "texto": "Formulación de conjeturas a partir de datos."
+        }
+      ]
+    },
+    {
+      "area": "Conocimiento del Medio Natural, Social y Cultural",
+      "sigla": "CMN",
+      "competencias": [
+        {
+          "num": "3",
+          "texto": "Resolver problemas cooperativamente para generar productos creativos e innovadores."
+        },
+        {
+          "num": "7",
+          "texto": "Comprender cambios del medio social y cultural para explicar los diferentes acontecimientos."
+        },
+        {
+          "num": "9",
+          "texto": "Participar en la vida social desde el respeto para generar interacciones positivas de dialogo."
+        }
+      ],
+      "criterios": [
+        {
+          "codigo": "3.1.a",
+          "texto": "Diseñar en equipo un producto final sencillo."
+        },
+        {
+          "codigo": "7.2.a",
+          "texto": "Conocer las principales características de las personas."
+        },
+        {
+          "codigo": "9.1.a",
+          "texto": "Emplear un lenguaje inclusivo y no violento."
+        }
+      ],
+      "saberes": [
+        {
+          "codigo": "2.B.2.3",
+          "texto": "Técnicas cooperativas sencillas."
+        },
+        {
+          "codigo": "2.A.1.5",
+          "texto": "Avances en el pasado."
+        },
+        {
+          "codigo": "2.C.3.2",
+          "texto": "Normas para la vida en sociedad."
+        }
+      ]
+    },
+    {
+      "area": "Educación Artística",
+      "sigla": "EAR",
+      "competencias": [
+        {
+          "num": "4",
+          "texto": "Participar de la elaboración y la difusión de producciones artísticas."
+        }
+      ],
+      "criterios": [
+        {
+          "codigo": "4.3.a",
+          "texto": "Compartir los proyectos creativos, explicando el proceso y el resultado."
+        }
+      ],
+      "saberes": [
+        {
+          "codigo": "2.C.1",
+          "texto": "Materiales de expresión plástica y visual."
+        }
+      ]
+    }
+  ],
+  "semanas": [
+    {
+      "numero": 1,
+      "fase": "motivar – activar",
+      "LCL": "(L) Leo una noticia. Escucho un ensayo teatral. Respondo a las preguntas. Las obras de teatro. C.EV.3.2.a. (M) Leo una obra de teatro. Vocabulario. Comprendo la lectura. (X) Capítulo del libro. Taller de escritura. Crear un cartel publicitario con un eslogan sobre un medio de transporte. (J) Cuenta cuentos. El campo semántico. En grupos, escribir todas las palabras que pertenezcan al campo semántico deportes. (V) Dramatizo una obra de teatro. Escribe los consejos para dramatizar una obra de teatro.",
+      "MAT": "(L) Los polígonos. Identifica los polígonos. Dibuja polígonos en tu cuaderno. Elementos de un polígono. (M) Problemas exprés. (X) Resolución de problemas. El nombre de los polígonos según su número de lados. Dibuja tres polígonos y escribe cómo se llaman. ¿cuántos lados tienen? Dibuja tres figuras que no sean polígonos. (J) Identifica los lados, vértices y ángulos de los polígonos. C.EV.3.2.a. Juega con bloques geométricos, forma polígonos e indica su nombre. Haz series o forma figuras. Busca polígonos en los objetos que hay a tu alrededor y dibuja alguno. C.EV.6.1.a. (V) Concurso de problemas.",
+      "CMN": "(J) ¿Qué son las fuentes históricas? Busca en internet y escribe el titular de una noticia histórica de tu localidad. (V) SdA. UD. Maqueta del Centro Pompidou. C.Ev.3.1.a.",
+      "EAR": "(V) Crea como quieras una invitación para el evento de final de curso."
+    },
+    {
+      "numero": 2,
+      "fase": "explorar - estructurar",
+      "LCL": "(L) Leo una noticia. Respondo a las preguntas. Las lenguas de España. C.EV.1.2.a. (M) Leo un texto. Vocabulario. C.EV.8.3.a. Comprendo la lectura. El andaluz. (X) Capítulo del libro. Taller de escritura. Escribo un texto teatral. En grupos, decidís argumento, personajes y lugar. Como empieza y acaba la historia. Los diálogos, la vestimenta, el decorado y como se va a llamar vuestra obra. (J) Cuenta cuentos. Copio y completo el esquema de las lenguas de España. (V) Dramatizo una obra de teatro.",
+      "MAT": "(L) El perímetro. Calcula el perímetro de los polígonos dados. Dibuja un cuadrilátero que tenga todos sus lados iguales y cuyo perímetro mida 12 cm. Calcula el perímetro en centímetros de tu mesa. C.EV.5.1.a. (M) Problemas exprés. (X) Resolución de problemas. Clases de triángulos. Esquema. Clasifica según sus lados. (J) Clase de triángulos según sus ángulos. Esquema. Clasifica los triángulos que hay en el tangram. Recorta un cuadrado y divídelo en dos triángulos iguales. C.EV.3.2.a. (V) Concurso de problemas. Cálculo mental. Mitad de cifras pares. C.EV.8.1.a.",
+      "CMN": "(J) ¿Qué son los museos? ¿Has visitado alguno? Redacta y expón al grupo normas sobre cómo comportarse en un museo. 14 de junio. Día de la Memoria Histórica. Exposición de dibujos contra la guerra C.Ev.9.1.a. (V) SdA. UD. Maqueta del Centro Pompidou",
+      "EAR": "(V) Murillo. Copia la obra Niños comiendo melón y uvas. Mural de las obras del grupo."
+    },
+    {
+      "numero": 3,
+      "fase": "aplicar – concluir",
+      "LCL": "(L) Leo una noticia. Respondo a las preguntas. Participo en un debate. ¿Qué pasaría si tuvieras que irte a vivir a otro país? C.EV.10.1.a (M) Leo un texto. Comprendo la lectura. (X) Capítulo del libro. Taller de escritura. Escribo un texto teatral. En grupos, decidís argumento, personajes y lugar. Como empieza y acaba la historia. Los diálogos, la vestimenta, el decorado y como se va a llamar vuestra obra. (J) Cuenta cuentos. C.EV.5.1.a Palabras con bl y br. (V) Dramatizo una obra de teatro. Dictado.",
+      "MAT": "(L) Clases de cuadriláteros. Esquema. Características. Describir cuadriláteros. (M) Problemas exprés. (X) Resolución de problemas. Juega con los bloques geométricos para formar figuras. Describe las figuras con vocabulario geométrico. Dibuja un robot utilizando cuadriláteros. (J) Circunferencia y círculo. Identifica objetos con forma de círculo. Dibuja un círculo y una circunferencia y señala el centro, radio y diámetro. Aprende a dibujar una circunferencia con el compás. C.EV.3.2.a. (V) Concurso de problemas. Pienso paso a paso. Encuentra la figura geométrica a través de su descripción. C.EV.4.1.a.",
+      "CMN": "(J) Busca fotografías antiguas que muestren lugares de tu localidad en el pasado. Busca algún personaje histórico de Andalucía e investiga sobre su vida, a qué se dedicaba y por qué era importante. C.Ev. 7.2.a. (V) SdA. Proyecto. Huellas del pasado. Producto F. Decorar y presentar el Lapbook.",
+      "EAR": "APS. Opera prima. Producto. Festival de cine fin de curso C.Ev. 2.C.1."
+    }
+  ],
+  "complementaria": "14 de junio. Día de la Memoria Histórica. Exposición de dibujos contra la guerra.",
+  "refuerzoProfundizacion": "Actividades multinivel siguiendo los principios DUA.",
+  "metodologia": "Trabajo individual y cooperativo con perspectiva de género. Tutoría entre iguales.",
+  "principiosPedagogicos": "Art. 6 del Decreto 101/2023 a-j",
+  "agrupamientos": "Trabajo individual, pequeños grupos heterogéneos, grupo clase",
+  "recursos": {
+    "espaciales": "Aula, patio, biblioteca.",
+    "digitales": "Google Classroom, Google Maps, Canva.",
+    "personales": "Familias, expertos.",
+    "materiales": "Material fungible, prensa, textos cotidianos, reglas, compás"
+  },
+  "diversidad": {
+    "dua": [
+      "1. Múltiples formas de representación. Clarificación de vocabulario y símbolos. Imágenes, vídeos...",
+      "2. Múltiples formas de expresión. Diferentes opciones y distintos lenguajes (oral, escrito, esquemas...)",
+      "3. Múltiples formas de implicación. Trabajo cooperativo, utilización del feedback"
+    ],
+    "medidasGenerales": "Aprendizaje cooperativo. Metodología por proyectos.",
+    "medidasEspecificas": "NEE. Programa de refuerzo. Autonomía del centro 30´ LCL y 30´ MAT. DIA: PRA y PE. COM: PRA",
+    "evaluacionMedidas": "Orden 30/5/2023. Observación y valoración cualitativa de las medidas DUA aplicadas, en la escala 1. Poco adecuado. 2. Aceptable, pero requiere revisión. 3. Adecuada. 4. Buena. 5. Excelente. Valoración de las actividades de refuerzo y/o profundización. Observación y valoración cualitativa del trabajo cooperativo. Autoevaluación del alumnado respecto a las medidas específicas."
+  },
+  "evaluacion": {
+    "instrumentos": "Listas de cotejo, escalas de observación, portfolio, registro anecdótico, rúbrica. Rúbrica de todos los criterios de evaluación. Orden 30/5/23",
+    "procedimientos": "Observación sistemática, corrección de tareas.",
+    "evidencias": "Evidencias-Trazabilidad. Respuestas a preguntas, producto final de tareas y proyectos. Desempeños. Presentación oral",
+    "productos": "Maqueta",
+    "autoevaluacion": "Autoevaluación-coevaluación",
+    "criteriosEvaluados": {
+      "LCL": [
+        "1.2.a",
+        "3.2.a",
+        "5.1.a",
+        "8.3.a",
+        "10.2.a"
+      ],
+      "MAT": [
+        "3.2.a",
+        "4.1.a",
+        "5.1.a",
+        "6.1.a",
+        "8.1.a"
+      ],
+      "CMN": [
+        "2.2.a",
+        "5.1.a",
+        "6.1.a"
+      ],
+      "EAR": [
+        "2.C.1"
+      ]
+    },
+    "escala": "IN 1-4,9 (Con dificultad); SU 5-5,9 (Con ayuda); BI 6-6,9 (Sin dificultades); NT 7-8,9 (Con facilidad); SB 9-10 (Muestra dominio)"
+  },
+  "autoevaluacionDocente": {
+    "indicadores": "Los materiales y recursos didácticos han sido adecuados, la metodología tiene un enfoque competencial, etc.",
+    "instrumentos": "Listas de cotejo, escala de valoración 1- 4"
+  },
+  "observaciones": [
+    "Fechas: el original indica 'Del 2 al 20 de junio de 2025', 15 días lectivos (cuadra con 3 semanas completas); el año 2025 no casa con un curso 2025-2026. El 14 de junio (Día de la Memoria Histórica, actividad complementaria) cae en sábado en 2025 y se sitúa en la semana 2.",
+    "El título de sda.ud no aparece explícito: se usa el título de la UD. El proyecto se llama igual que la UD ('Huellas del pasado'). En la semana 3 aparece 'Producto F.' (posible 'Producto final').",
+    "LCL: las actividades de la semana 1 (cartel publicitario sobre un medio de transporte, campo semántico 'deportes') no casan con el centro de interés. La semana 3 evalúa 'C.EV.10.1.a', pero el criterio de la UD es 10.2.a. El criterio 8.3.a (literatura tradicional) se empareja con el saber 2.C.1 (literatura infantil).",
+    "MAT: el saber '2C.1.4' carece de punto (2.C.1.4). Los saberes 2.B.1.1 (amplitud del ángulo) y 2.F.2.4 (conjeturas a partir de datos) apenas casan con las actividades (polígonos, perímetro, triángulos, cuadriláteros, circunferencia). El objetivo 3 menciona paralelogramos y no paralelogramos, que no aparecen explícitamente en las semanas.",
+    "CMN: la evaluación lista 2.2.a, 5.1.a y 6.1.a, que no son criterios de esta UD, y omite 3.1.a, 7.2.a y 9.1.a, que sí se usan en las semanas. El criterio 7.2.a ('características de las personas') casa mal con el saber 2.A.1.5 (avances en el pasado).",
+    "EAR: el criterio es 4.3.a, pero en la semana 3 y en la evaluación se usa el código del saber 2.C.1 como criterio; semanas 1 y 2 sin C.EV. La entrada EAR de la semana 3 no lleva marca de día.",
+    "Evaluación: la tabla de instrumentos/procedimientos/evidencias está en columnas mezcladas en el PDF; el reparto entre campos es una reconstrucción. Producto de la evaluación: 'Maqueta' (producto de la SdA de la UD)."
+  ]
+}

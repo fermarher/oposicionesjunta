@@ -1,0 +1,350 @@
+{
+  "numero": 9,
+  "titulo": "Somos ciudadanos",
+  "trimestre": 2,
+  "fechas": "Del 17 de marzo al 4 de abril",
+  "dias": 15,
+  "centroInteres": "La localidad y su organización.",
+  "relevanciaSocial": "Comprender el entorno que nos rodea y desenvolvernos en la vida cotidiana. Decreto 101/2023.",
+  "ods": [
+    "ODS 11. Ciudades y comunidades sostenibles",
+    "ODS 16. Paz, justicia e instituciones sólidas"
+  ],
+  "sda": {
+    "ud": {
+      "titulo": "Somos ciudadanos",
+      "producto": "Mural sobre tradiciones oficiales de España."
+    },
+    "proyecto": {
+      "nombre": "¿Buceamos?",
+      "producto": "Galería de Arte sostenible."
+    },
+    "aps": {
+      "nombre": "Opera prima",
+      "producto": "Edición de fotografías para el corto animado. Un día en mi colegio."
+    }
+  },
+  "objetivosEtapa": [
+    "a",
+    "e",
+    "g",
+    "h",
+    "j",
+    "k",
+    "ñ"
+  ],
+  "objetivosAprendizaje": [
+    "1. Conocer y producir textos literarios. Escuchar y contar las partes de un anuncio, la publicidad. Leer y escribir una comparación literaria.",
+    "2. Utilizar los conocimientos de la lengua: el verbo y los tiempos verbales y palabras con g y j.",
+    "3. Conocer y utilizar unidades de medida convencionales (metro, centímetro, kilómetro) y no convencionales (palmo, pie, paso).",
+    "4. Utilizar la regla y otras herramientas para medir objetos y calcular distancias en el entorno cercano.",
+    "5. Explicar la organización y estructura de las instituciones locales y autonómicas.",
+    "6. Producir obras propias tanto de forma individual como colectiva."
+  ],
+  "competenciasClave": "CCL (1-2-3-4-5), CP (2-3), STEM (1-2-4-5), CD (1-2-5), CPSAA (1-2-3-5), CC (1-2-3-4), CE (1-2-3), CCEC (1-2-3-4)",
+  "areas": [
+    {
+      "area": "Lengua Castellana y Literatura",
+      "sigla": "LCL",
+      "competencias": [
+        {
+          "num": "3",
+          "texto": "Producir textos orales y multimodales para expresar ideas y sentimientos."
+        },
+        {
+          "num": "4",
+          "texto": "Comprender e interpretar textos escritos y multimodales, su sentido global e ideas principales."
+        },
+        {
+          "num": "5",
+          "texto": "Producir textos escritos y multimodales con corrección gramatical y ortográfica."
+        },
+        {
+          "num": "6",
+          "texto": "Buscar, seleccionar y contrastar información procedente de dos o más fuentes."
+        },
+        {
+          "num": "9",
+          "texto": "Reflexionar sobre el lenguaje a partir de procesos de producción y comprensión de textos."
+        }
+      ],
+      "criterios": [
+        {
+          "codigo": "3.2.a",
+          "texto": "Participar en interacciones orales."
+        },
+        {
+          "codigo": "4.1.a",
+          "texto": "Leer de manera silenciosa y en voz alta."
+        },
+        {
+          "codigo": "5.1.a",
+          "texto": "Producir textos escritos sencillos."
+        },
+        {
+          "codigo": "6.1.a",
+          "texto": "Localizar información de distintas fuentes"
+        },
+        {
+          "codigo": "9.1.a",
+          "texto": "Observar la relación entre sujeto y verbo."
+        }
+      ],
+      "saberes": [
+        {
+          "codigo": "2.B.3.4",
+          "texto": "Estrategias de comprensión lectora."
+        },
+        {
+          "codigo": "2.B.3.5",
+          "texto": "Convenciones del código escrito, ortografía."
+        },
+        {
+          "codigo": "2.B.3.6",
+          "texto": "Estrategias para la búsqueda de información."
+        },
+        {
+          "codigo": "2.C.1",
+          "texto": "Lectura de obras la literatura infantil."
+        },
+        {
+          "codigo": "2.D.1",
+          "texto": "Relaciones entre sustantivos, adjetivos y verbos"
+        }
+      ]
+    },
+    {
+      "area": "Matemáticas",
+      "sigla": "MAT",
+      "competencias": [
+        {
+          "num": "1",
+          "texto": "Interpretar situaciones de la vida cotidiana proporcionando estrategias para analizar la información."
+        },
+        {
+          "num": "4",
+          "texto": "Utilizar el pensamiento computacional, organizando datos, descomponiendo en partes."
+        },
+        {
+          "num": "5",
+          "texto": "Utilizar conexiones entre las diferentes ideas matemáticas para interpretar situaciones."
+        },
+        {
+          "num": "6",
+          "texto": "Comunicar de forma individual y colectiva, conceptos, procedimientos y resultados matemáticos."
+        },
+        {
+          "num": "7",
+          "texto": "Gestionar las emociones ante retos matemáticos y controlar la frustración en el ensayo y error."
+        }
+      ],
+      "criterios": [
+        {
+          "codigo": "1.1.a",
+          "texto": "Reconocer y comprender problemas."
+        },
+        {
+          "codigo": "4.1.a",
+          "texto": "Utilizar el pensamiento computacional."
+        },
+        {
+          "codigo": "5.1.a",
+          "texto": "Realizar conexiones matemáticas."
+        },
+        {
+          "codigo": "6.1.a",
+          "texto": "Reconocer el vocabulario específico."
+        },
+        {
+          "codigo": "7.1.a",
+          "texto": "Identificar las emociones al abordar retos."
+        }
+      ],
+      "saberes": [
+        {
+          "codigo": "2.D.2.1",
+          "texto": "Representaciones de problemas matemáticos."
+        },
+        {
+          "codigo": "2.D.4.1",
+          "texto": "Interpretación de algoritmos sencillos."
+        },
+        {
+          "codigo": "2.B.2.1",
+          "texto": "Mediciones con instrumentos convencionales."
+        },
+        {
+          "codigo": "2.D.3.1",
+          "texto": "Relaciones de igualdad y desigualdad."
+        },
+        {
+          "codigo": "2.F.1.3",
+          "texto": "Autoconfianza en las propias posibilidades."
+        }
+      ]
+    },
+    {
+      "area": "Conocimiento del Medio Natural, Social y Cultural",
+      "sigla": "CMN",
+      "competencias": [
+        {
+          "num": "3",
+          "texto": "Resolver problemas a través de proyectos de diseño para generar productos creativos."
+        },
+        {
+          "num": "5",
+          "texto": "Identificar las características del medio natural y emprender acciones para un uso responsable."
+        },
+        {
+          "num": "8",
+          "texto": "Reconocer y valorar la igualdad de género mostrando empatía para contribuir al bienestar social."
+        }
+      ],
+      "criterios": [
+        {
+          "codigo": "3.2.a",
+          "texto": "Presentar el producto final con ayuda de un guion."
+        },
+        {
+          "codigo": "5.2.a",
+          "texto": "Reconocer características de los elementos del medio."
+        },
+        {
+          "codigo": "8.1.a",
+          "texto": "Valorar la diversidad cultural y la igualdad."
+        }
+      ],
+      "saberes": [
+        {
+          "codigo": "2.B.2.1",
+          "texto": "Fases de los proyectos de diseño."
+        },
+        {
+          "codigo": "2.C.1.4",
+          "texto": "La organización del territorio."
+        },
+        {
+          "codigo": "2.C.4.4",
+          "texto": "Las costumbres y tradiciones."
+        }
+      ]
+    },
+    {
+      "area": "Educación Artística",
+      "sigla": "EAR",
+      "competencias": [
+        {
+          "num": "4",
+          "texto": "Participar de la elaboración y la difusión de producciones artísticas."
+        }
+      ],
+      "criterios": [
+        {
+          "codigo": "4.2.a",
+          "texto": "Participar en el proceso cooperativo de forma creativa y respetuosa."
+        }
+      ],
+      "saberes": [
+        {
+          "codigo": "2.B.4",
+          "texto": "Materiales de expresión plástica y visual."
+        }
+      ]
+    }
+  ],
+  "semanas": [
+    {
+      "numero": 1,
+      "fase": "motivar – activar",
+      "LCL": "(L) Leo una noticia. Escucho un anuncio. Responde a las presuntas. La publicidad. (M) Leo un texto informativo. La receta. Busco información sobre recetas de aprovechamiento. C.EV.6.1.a. (X) Capítulo del libro. Taller de escritura. Redacta una receta en la que se aproveche restos de alimentos. Grabarte en vídeo imitando un programa de cocina. (J) Cuenta cuentos. C.EV.4.1.a. Recicla y reutiliza. Preparamos un amigo o amiga invisible. Organizamos el sorteo y fabricamos un regalo con materiales que ya no utilicemos. (V) Dramatizaciones. Representa un anuncio que conozcas.",
+      "MAT": "(L) Mide con clips y anota los resultados. Mide con palmos el largo de tu mesa y con pasos el ancho de la puerta de tu clase y anota en tu cuaderno. Dibuja las unidades de medida corporales. C.EV.5.1.a. (M) Problemas exprés. (X) Resolución de problemas. Mide el ancho de tu clase con tus pies y con tus pasos. Compara el resultado con tus compañeros. C.EV.7.1.a. J) Recoge en una tabla de datos las medidas en pasos o palmos de tres objetos de la clase. Realiza un gráfic. (V) Concurso de problemas.",
+      "CMN": "(J) Vídeo ¿Qué es una localidad? Los barrios y las calles de la localidad. Escribe tres características de un municipio. Describe tres diferencias entre pueblo y ciudad. Describe el barrio de tu colegio. (V) 22 de marzo. Día Mundial del Agua. Mural sobre el uso responsable del agua.",
+      "EAR": "(V) Las formas de los animales. Construcción de animales de papel en 3D."
+    },
+    {
+      "numero": 2,
+      "fase": "explorar - estructurar",
+      "LCL": "(L) Leo una noticia. Las frases hechas. ¿Qué significa, dejar volar la imaginación? Debate. C.EV.3.2.a. (M) Leo un texto informativo. Las partes de un anuncio. (X) Capítulo del libro. Taller de escritura. Redactar una receta en la que se aproveche restos de alimentos. Grabarse en vídeo imitando el formato de un programa de cocina. C.EV.5.1.a. (J) Cuenta cuentos. C.EV.4.1.a. Creo un eslogan publicitario. (V) Dramatizaciones. Grabamos el eslogan de un anuncio.",
+      "MAT": "(L) El metro. Utiliza la cinta métrica. Indica y comprueba si estas longitudes son mayores o menores que el metro Elabora una lista con longitudes que miden más de un metro. Medir la clase. (M) Problemas exprés. C.EV.1.1.a. X) Resolución de problemas. Mide tu cuerpo con una cinta métrica y compara con tu pareja. J) El centímetro. Paso de metros a centímetros. Paso de centímetros a metros. Equivalencia de unidades 1m = 100 cm. Dividir entre 10, 100 o 1000. C.EV.6.1.a. (V) Concurso de problemas. Cálculo mental. Completa decenas.",
+      "CMN": "(J) ¿Qué normas pondrías en tu localidad? Esquema y dibujos de los tipos de señales de tráfico. Si fueras alcalde o alcaldesa ¿qué mejorarías de tu localidad? Investiga el nombre del alcalde o alcaldesa de tu localidad C.Ev.5.2.a. (V) SdA. UD. Mural sobre tradiciones oficiales de España C.Ev.8.1.a.",
+      "EAR": "(V) Pablo Picasso. Descubriendo el cubismo, guía de dibujo. Colorea como quieras. Mural aula."
+    },
+    {
+      "numero": 3,
+      "fase": "aplicar – concluir",
+      "LCL": "(L) Leo una noticia. Vocabulario. Utilizo recursos literarios: la comparación. Diseña y crea una nota decorada con comparaciones, decora con un dibujo. (M) Leo una nota literaria. El verbo y los tiempos verbales. Hacemos un esquema. C.EV.9.1.a. (X) Capítulo del libro. Vocabulario. Taller de escritura. Visualizado de recetas grabadas en vídeo como un programa de cocina. (J) Cuenta cuentos. Palabras con g y j. La diéresis. C.EV.4.1.a. Creo un eslogan publicitario. (V) Dramatizaciones. Repasamos la ortografía. Dictado. Escucha, escribe, revisa y lee en voz alta al resto de la clase.",
+      "MAT": "(L) Mido con regla objetos del aula. Anoto los resultados. Mido con la regla la línea más larga. La longitud de las regletas. (M) Problemas exprés. (X) Resolución de problemas. El kilómetro. El símbolo del Km. Equivalencia de unidades 1 km = 1000 m. Expresa las longitudes en metros. C.EV.1.1.a. J) Qué unidades utilizarías para medir estas longitudes: el metro, el centímetro o el kilómetro. transforma las longitudes. (V) Concurso de problemas. Pienso paso a paso. C.EV.4.1.a.",
+      "CMN": "(J) La organización del territorio. Busca información y escribe en orden alfabético las provincias que tiene tu comunidad autónoma. ¿Cuántos países pertenecen a Europa? ¿Qué moneda se utilizaba en España antes del euro? (V) SdA. Proyecto. Producto. Galería de Arte sostenible. C.Ev.3.2.a.",
+      "EAR": "(V) APS. Opera prima Producto: fotografías para el corto de animación C.Ev. 2.B.4."
+    }
+  ],
+  "complementaria": "22 de marzo. Día Mundial del Agua. Mural sobre el uso responsable del agua",
+  "refuerzoProfundizacion": "Actividades multinivel siguiendo los principios DUA.",
+  "metodologia": "Trabajo individual y cooperativo con perspectiva de género. Tutoría entre iguales.",
+  "principiosPedagogicos": "Art. 6 del Decreto 101/2023 a-j",
+  "agrupamientos": "Trabajo individual, pequeños grupos heterogéneos, grupo clase.",
+  "recursos": {
+    "espaciales": "Aula, patio, biblioteca.",
+    "digitales": "Google Classroom, Google Maps, Canva.",
+    "personales": "Familias, expertos.",
+    "materiales": "Material fungible, prensa, textos cotidianos, regla."
+  },
+  "diversidad": {
+    "dua": [
+      "1. Múltiples formas de representación. Clarificación de vocabulario y símbolos. Imágenes, vídeos...",
+      "2. Múltiples formas de expresión. Diferentes opciones y distintos lenguajes (oral, escrito, esquemas...)",
+      "3. Múltiples formas de implicación. Trabajo cooperativo, utilización del feedback"
+    ],
+    "medidasGenerales": "Aprendizaje cooperativo. Metodología por proyectos.",
+    "medidasEspecificas": "NEE. Programa de refuerzo. Autonomía del centro 30´ LCL y 30´ MAT. DIA: PRA y PE. COM: PRA",
+    "evaluacionMedidas": "Orden 30/5/2023. Observación y valoración cualitativa de las medidas DUA aplicadas, en la escala 1. Poco adecuado. 2. Aceptable, pero requiere revisión. 3. Adecuada. 4. Buena. 5. Excelente. Valoración de las actividades de refuerzo y/o profundización. Observación y valoración cualitativa del trabajo cooperativo. Autoevaluación del alumnado respecto a las medidas específicas."
+  },
+  "evaluacion": {
+    "instrumentos": "Listas de cotejo, escalas de observación, portfolio, registro anecdótico, rúbrica. Rúbrica de todos los criterios de evaluación. Orden 30/5/23",
+    "procedimientos": "Observación sistemática, corrección de tareas.",
+    "evidencias": "Evidencias-Trazabilidad. Respuestas a preguntas, producto final de tareas y proyectos. Desempeños. Presentación oral, ...",
+    "productos": "Mural",
+    "autoevaluacion": "Autoevaluación-coevaluación",
+    "criteriosEvaluados": {
+      "LCL": [
+        "3.2.a",
+        "4.1.a",
+        "5.1.a",
+        "6.1.a",
+        "9.1.a"
+      ],
+      "MAT": [
+        "1.1.a",
+        "4.1.a",
+        "5.1.a",
+        "6.1.a",
+        "7.1.a"
+      ],
+      "CMN": [
+        "2.2.a",
+        "5.1.a",
+        "6.1.a"
+      ],
+      "EAR": [
+        "2.B.4"
+      ]
+    },
+    "escala": "IN 1-4,9 (Con dificultad); SU 5-5,9 (Con ayuda); BI 6-6,9 (Sin dificultades); NT 7-8,9 (Con facilidad); SB 9-10 (Muestra dominio)"
+  },
+  "autoevaluacionDocente": {
+    "indicadores": "Los materiales y recursos didácticos han sido adecuados, la metodología tiene un enfoque competencial, etc.",
+    "instrumentos": "Listas de cotejo, escala de valoración 1- 4"
+  },
+  "observaciones": [
+    "Fechas: el original indica 'Del 17 de marzo al 4 de abril de 2025'. En 2025 (lun 17/3 - vie 4/4) salen 15 días lectivos (coincide); en 2026 el 17/3 sería martes y el 4/4 sábado (y cae en Semana Santa). Año incoherente con UD fechadas en 2025-2026.",
+    "Objetivos de etapa: 'a), e), ñ), g), h), j), k), ñ)' repite la ñ; se deja una sola vez.",
+    "ODS indicado como 'ODS 11-16'; se separa en ODS 11 y ODS 16. El título de sda.ud no aparece explícito: se usa el título de la UD. La tabla 6 de la programación dice 'Mural sobre tradiciones oficiales en España' (aquí 'de España').",
+    "SdA APS: producto 'Edición de fotografías para el corto animado. Un día en mi colegio.' en la justificación y 'fotografías para el corto de animación' en la semana 3.",
+    "LCL: erratas 'Responde a las presuntas' (preguntas), 'Grabarte' (sem. 1) y saber 2.C.1 'Lectura de obras la literatura infantil' (falta 'de'); texto del criterio 6.1.a sin punto final. La actividad de la receta de aprovechamiento se repite casi igual en (X) de semanas 1 y 2, y 'Creo un eslogan publicitario' en (J) de semanas 2 y 3; ambas encajan poco con el centro de interés (la localidad).",
+    "MAT: 'J)' y 'X)' sin paréntesis de apertura; 'Realiza un gráfic.' cortado (sem. 1); falta punto en 'que el metro Elabora' (sem. 2); 'transforma' en minúscula (sem. 3).",
+    "CMN: la evaluación indica 'CMN. 2.2.a. / 5.1.a. / 6.1.a.', que no coinciden con los criterios de la UD (3.2.a, 5.2.a, 8.1.a, que sí aparecen en las semanas); parece copiado de la UD 7. La competencia 5 alude al medio natural y la 8 a la igualdad de género, poco relacionadas con la organización de la localidad. La semana 1 no tiene C.EV. y el (V) de la semana 1 (Día Mundial del Agua) no trata la localidad.",
+    "CMN y MAT comparten el código de saber 2.B.2.1 con textos distintos (es correcto al ser áreas distintas, pero puede confundir).",
+    "EAR: el criterio es 4.2.a, pero en semana 3 y en la evaluación se usa el código del saber 2.B.4 como criterio; semanas 1 y 2 sin C.EV.",
+    "Evaluación: la tabla de instrumentos/procedimientos/evidencias está en columnas mezcladas en el PDF; el reparto entre campos es una reconstrucción."
+  ]
+}

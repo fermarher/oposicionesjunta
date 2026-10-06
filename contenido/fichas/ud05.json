@@ -1,0 +1,349 @@
+{
+  "numero": 5,
+  "titulo": "Cuidamos los ecosistemas",
+  "trimestre": 1,
+  "fechas": "Del 2 al 20 de diciembre",
+  "dias": 13,
+  "centroInteres": "Los ecosistemas en Andalucía.",
+  "relevanciaSocial": "Cuidar y proteger los ecosistemas para mitigar los efectos del cambio climático. Decreto 101/2023",
+  "ods": [
+    "ODS 15. Vida de ecosistemas terrestres",
+    "ODS 16. Paz, justicia e instituciones sólidas"
+  ],
+  "sda": {
+    "ud": {
+      "titulo": "Cuidamos los ecosistemas",
+      "producto": "Mural con medidas para proteger el planeta."
+    },
+    "proyecto": {
+      "nombre": "¡Sí, chef!",
+      "producto": "Elaboración y degustación en el aula. Recetario andaluz."
+    },
+    "aps": {
+      "nombre": "Opera prima",
+      "producto": "Escenario para el corto de animación. Resolución de conflictos."
+    }
+  },
+  "objetivosEtapa": [
+    "a",
+    "e",
+    "g",
+    "h",
+    "j",
+    "m",
+    "ñ"
+  ],
+  "objetivosAprendizaje": [
+    "1. Expresar oralmente y por escrito la descripción de lugares y objetos.",
+    "2. Utilizar los conocimientos básicos sobre la lengua: el adjetivo, palabras antónimas y palabras que contengan la h.",
+    "3. Comprender la división como reparto de una cantidad en partes iguales (mitad, tercio y cuarto).",
+    "4. Identificar el dividendo, el divisor y el cociente de una división y comprender la propiedad del resto.",
+    "5. Conocer los elementos que conforman el medio natural, social y cultural y valorar su diversidad.",
+    "6. Mostrar confianza en sus capacidades creativas."
+  ],
+  "competenciasClave": "CCL (1-2-3-4-5), CP (2-3), STEM (1-2-4), CD (1-2-5), CPSAA (1-2-3), CC (1-2-3-4), CE (1-2-3), CCEC (1-2-3-4)",
+  "areas": [
+    {
+      "area": "Lengua Castellana y Literatura",
+      "sigla": "LCL",
+      "competencias": [
+        {
+          "num": "3",
+          "texto": "Producir textos orales y multimodales para expresar ideas y sentimientos."
+        },
+        {
+          "num": "5",
+          "texto": "Producir textos escritos y multimodales con corrección gramatical y ortográfica."
+        },
+        {
+          "num": "7",
+          "texto": "Leer de manera autónoma obras seleccionadas atendiendo a sus gustos para fomentar la lectura."
+        },
+        {
+          "num": "9",
+          "texto": "Reflexionar sobre el lenguaje a partir de procesos de producción y comprensión de textos."
+        },
+        {
+          "num": "10",
+          "texto": "Poner las prácticas comunicativas al servicio de la convivencia democrática."
+        }
+      ],
+      "criterios": [
+        {
+          "codigo": "3.2.a",
+          "texto": "Participar en interacciones orales."
+        },
+        {
+          "codigo": "5.1.a",
+          "texto": "Producir textos escritos usando normas."
+        },
+        {
+          "codigo": "7.1.a",
+          "texto": "Leer de manera autónoma o acompañada."
+        },
+        {
+          "codigo": "9.1.a",
+          "texto": "Revisar los textos propios y ajenos."
+        },
+        {
+          "codigo": "10.2.a",
+          "texto": "Iniciar la gestión dialogada de conflictos."
+        }
+      ],
+      "saberes": [
+        {
+          "codigo": "2.B.3.4",
+          "texto": "Estrategias de comprensión lectora."
+        },
+        {
+          "codigo": "2.B.3.5",
+          "texto": "Código escrito y ortografía reglada básica."
+        },
+        {
+          "codigo": "2.B.3.4",
+          "texto": "Lectura compartida y entonada."
+        },
+        {
+          "codigo": "2.D.1",
+          "texto": "Relaciones entre sustantivos y adjetivos."
+        },
+        {
+          "codigo": "2.B.1.1",
+          "texto": "Incidencia en el acto comunicativo."
+        }
+      ]
+    },
+    {
+      "area": "Matemáticas",
+      "sigla": "MAT",
+      "competencias": [
+        {
+          "num": "2",
+          "texto": "Resolver situaciones problematizadas, aplicando técnicas, estrategias y formas de razonamiento."
+        },
+        {
+          "num": "3",
+          "texto": "Plantear problemas de tipo matemático en situaciones basadas en la vida cotidiana."
+        },
+        {
+          "num": "4",
+          "texto": "Utilizar el pensamiento computacional, organizando datos, descomponiendo en partes."
+        },
+        {
+          "num": "6",
+          "texto": "Comunicar situaciones matemáticas, utilizando el lenguaje oral, escrito, gráfico."
+        },
+        {
+          "num": "7",
+          "texto": "Gestionar las emociones para disfrutar en el aprendizaje de las matemáticas."
+        }
+      ],
+      "criterios": [
+        {
+          "codigo": "2.1.a",
+          "texto": "Emplear estrategias para resolver problema"
+        },
+        {
+          "codigo": "3.2.a",
+          "texto": "Ejemplificar situaciones problemas."
+        },
+        {
+          "codigo": "4.1.a",
+          "texto": "Utilizar el pensamiento computacional."
+        },
+        {
+          "codigo": "6.2.a",
+          "texto": "Explicar procesos matemáticos sencillos."
+        },
+        {
+          "codigo": "7.1.a",
+          "texto": "Identificar las emociones al abordar retos."
+        }
+      ],
+      "saberes": [
+        {
+          "codigo": "2.A.3.2",
+          "texto": "Operaciones simples. La división."
+        },
+        {
+          "codigo": "2.D.2.2",
+          "texto": "Invención de problemas."
+        },
+        {
+          "codigo": "2.D.4.1",
+          "texto": "Interpretación de algoritmos sencillos."
+        },
+        {
+          "codigo": "2.A.4.1",
+          "texto": "Sistema de numeración de base 10."
+        },
+        {
+          "codigo": "2.F.1.1",
+          "texto": "Tolerancia ante la frustración."
+        }
+      ]
+    },
+    {
+      "area": "Conocimiento del Medio Natural, Social y Cultural",
+      "sigla": "CMN",
+      "competencias": [
+        {
+          "num": "3",
+          "texto": "Resolver problemas cooperativamente para generar productos creativos e innovadores."
+        },
+        {
+          "num": "5",
+          "texto": "Identificar las características del medio natural y emprender acciones para un uso responsable."
+        },
+        {
+          "num": "6",
+          "texto": "Identificar las causas y consecuencias de la intervención humana en el entorno."
+        }
+      ],
+      "criterios": [
+        {
+          "codigo": "3.1.a",
+          "texto": "Diseñar en equipo un producto final sencillo."
+        },
+        {
+          "codigo": "5.2.a",
+          "texto": "Identificar conexiones entre el medio y los humanos."
+        },
+        {
+          "codigo": "6.1.a",
+          "texto": "Identificar problemas ecosociales."
+        }
+      ],
+      "saberes": [
+        {
+          "codigo": "2.B.2.1",
+          "texto": "Fases de los proyectos de diseño."
+        },
+        {
+          "codigo": "2.A.2.6",
+          "texto": "Los ecosistemas."
+        },
+        {
+          "codigo": "2.C.4.4",
+          "texto": "Conservación de la naturaleza."
+        }
+      ]
+    },
+    {
+      "area": "Educación Artística",
+      "sigla": "EAR",
+      "competencias": [
+        {
+          "num": "4",
+          "texto": "Participar de la elaboración y la difusión de producciones artísticas."
+        }
+      ],
+      "criterios": [
+        {
+          "codigo": "4.2.a",
+          "texto": "Participar en el proceso cooperativo de forma creativa y respetuosa."
+        }
+      ],
+      "saberes": [
+        {
+          "codigo": "2.B.3",
+          "texto": "Profesiones vinculadas con las artes plásticas, visuales y audiovisuales."
+        }
+      ]
+    }
+  ],
+  "semanas": [
+    {
+      "numero": 1,
+      "fase": "motivar – activar",
+      "LCL": "(L) Leo una noticia. Vocabulario. Escucho una descripción. Comprensión. La descripción. (M) Leo una biografía. Gloria Fuertes. Vocabulario. Comprendo la lectura. Busco un poema de Gloria Fuertes. Leo en voz alta a los compañeros. (X) Capítulo del libro. Vocabulario. Taller de escritura. ¡Qué bonita es Andalucía! Describe tu paisaje preferido. (J) Cuenta cuentos. Vocabulario. Las palabras antónimas. (V) Dramatizaciones. Poemas de Gloria Fuertes. ¿A qué te gustaría dedicarte cuando seas mayor? ¿Crees que es importante esforzarse para conseguir lo que deseas? C.EV.3.2.a.",
+      "MAT": "(L) Realizo repartos. Video. Repartos iguales con policubos. Expresamos repartos mediante división. (M) Problemas exprés. (X) Resolución de problemas. En grupos, calculamos la mitad, el tercio y el cuarto. Aprendo a dividir. Algoritmo de la división. Calcula las divisiones. (J) La división exacta e inexacta. Ejercicios prácticos. (V) Concurso de problemas. Inventamos problemas a partir de una división. C.Ev 2.1.a.",
+      "CMN": "(J) Vídeo ¿Qué es un ecosistema? ¿Pueden los seres vivos vivir aislados sin relacionarse con otros seres vivos? Escribe una cadena alimentaria con tres animales. ¿Por qué son importantes las rocas en un ecosistema? (V) SdA. UD. Mural con medidas para proteger el planeta.",
+      "EAR": "(V) Dibujo de la simetría de los copos de nieve"
+    },
+    {
+      "numero": 2,
+      "fase": "explorar - estructurar",
+      "LCL": "(L) Leo una noticia. Describir lugares y objetos. Realizar descripciones orales de diferentes lugares del colegio. C.EV.7.1.a. (M) Leo una Descripción. Elige una imagen y describe el paisaje en tu cuaderno. Lee a los compañeros. (X) Capítulo del libro. Taller de escritura. ¡Qué bonita es Andalucía! Describe tu paisaje preferido. C.EV.5.1.a. (J) Cuenta cuentos. Describo personajes principales y secundarias. (V) Dramatizaciones. Jugar al “veo, veo” haciendo descripciones de objetos. C.EV.2.1.a.",
+      "MAT": "(L) Descomponer números para dividir. En grupo resolver divisiones con bloques base 10. C.EV.6.2.a. Resolvemos divisiones descomponiendo. Uso de regletas. (M) Problemas exprés. (X) Resolución de problemas. Video. Calcular divisiones en caja. Repartir decenas y unidades. Divisiones con cero en el cociente. J) Practicamos la división. Propiedad del resto. (V) Concurso de problemas. Inventamos problemas a partir de una división. Cálculo mental de sumas con llevadas. C.EV.3.2.a.",
+      "CMN": "(J) ¿Cómo son los ecosistemas andaluces? Busca fotografías y dibuja un ecosistema de Andalucía que hayas visitado y escribe una pequeña descripción de los animales o plantas que viste. C.Ev.5.2.a. (V) 6 de diciembre. Día de la Constitución. SdA. UD. Mural con medidas para proteger el planeta.",
+      "EAR": "(V) Velázquez. Las meninas. Mural con los dibujos del grupo. C.Ev.4.2.a."
+    },
+    {
+      "numero": 3,
+      "fase": "aplicar – concluir",
+      "LCL": "(L) 16 de diciembre. Día de la lectura en Andalucía. Lectura sobre curiosidades de Andalucía. (M) Leo una ficha de personajes de un libro. El adjetivo. Escribe los adjetivos del texto. Esquema del adjetivo. (X) Capítulo del libro. Taller de escritura. ¡Qué bonita es Andalucía! Describe tu paisaje preferido. Lectura al grupo. C.EV.10.2.a. (J) Cuenta cuentos. Palabras con h. (V) Dramatizaciones. Jugar al “veo, veo” haciendo descripciones de objetos. Dictado. C.EV.9.1.a.",
+      "MAT": "(L) División errónea. Propiedad del resto. Prueba de la división. (M) Problemas exprés. (X) Resolución de problemas. En grupos, inventa problemas de divisiones. Repasa las tablas de multiplicar. Calcula divisiones aplicando la prueba. Expresa emociones. C.EV.7.1.a. (J) Calcula divisiones aplicando la prueba. (V) Concurso de problemas. Pienso paso a paso. Partes de un problema para preparar el desayuno. C.Ev 4.1.a.",
+      "CMN": "(J) ¿Qué daños estamos provocando a los ecosistemas y cómo podemos protegerlos? En grupos escribimos consejos para llevar un estilo de vida sostenible. Exponemos. C.Ev.6.1.a. (V) SdA. Proyecto ¡Si chef! Producto. Elaboración y degustación en el aula. Recetario andaluz. C.Ev. 3.1.a.",
+      "EAR": "APS. Opera prima Producto. Escenario para el corto Resolución de conflictos"
+    }
+  ],
+  "complementaria": "6 de diciembre. Día de la Constitución. Visionado de un vídeo sobre la Constitución Española para niños. https://www.youtube.com/watch?v=ofMR4HhaqBQ 16 de diciembre. Día de la lectura en Andalucía. Lectura sobre curiosidades de Andalucía.",
+  "refuerzoProfundizacion": "Actividades multinivel siguiendo los principios DUA.",
+  "metodologia": "Trabajo individual y cooperativo con perspectiva de género. Tutoría entre iguales.",
+  "principiosPedagogicos": "Art. 6 del Decreto 101/2023 a-j",
+  "agrupamientos": "Trabajo individual, pequeños grupos heterogéneos, grupo clase",
+  "recursos": {
+    "espaciales": "Aula, patio, biblioteca.",
+    "digitales": "Google Classroom, Google Maps, Canva.",
+    "personales": "Familias, expertos.",
+    "materiales": "Material fungible, prensa, textos cotidianos"
+  },
+  "diversidad": {
+    "dua": [
+      "1. Múltiples formas de representación. Clarificación de vocabulario y símbolos. Imágenes, vídeos...",
+      "2. Múltiples formas de expresión. Diferentes opciones y distintos lenguajes (oral, escrito, esquemas...)",
+      "3. Múltiples formas de implicación. Trabajo cooperativo, utilización del feedback"
+    ],
+    "medidasGenerales": "Aprendizaje cooperativo. Metodología por proyectos.",
+    "medidasEspecificas": "NEE. Programa de refuerzo. Autonomía del centro 30´ LCL y 30´ MAT. DIA: PRA y PE. COM: PRA",
+    "evaluacionMedidas": "Orden 30/5/2023. Observación y valoración cualitativa de las medidas DUA aplicadas, en la escala 1. Poco adecuado. 2. Aceptable, pero requiere revisión. 3. Adecuada. 4. Buena. 5. Excelente. Valoración de las actividades de refuerzo y/o profundización. Observación y valoración cualitativa del trabajo cooperativo. Autoevaluación del alumnado respecto a las medidas específicas."
+  },
+  "evaluacion": {
+    "instrumentos": "Listas de cotejo, escalas de observación, portfolio, registro anecdótico, rúbrica. Rúbrica de todos los criterios de evaluación. Orden 30/5/23",
+    "procedimientos": "Observación sistemática, corrección de tareas.",
+    "evidencias": "Evidencias-Trazabilidad. Respuestas a preguntas, producto final de tareas y proyectos. Desempeños. Presentación oral, ...",
+    "productos": "Mural, escenario",
+    "autoevaluacion": "Autoevaluación-coevaluación",
+    "criteriosEvaluados": {
+      "LCL": [
+        "3.2.a",
+        "5.1.a",
+        "7.1.a",
+        "9.1.a",
+        "10.2.a"
+      ],
+      "MAT": [
+        "2.1.a",
+        "3.2.a",
+        "4.1.a",
+        "6.2.a",
+        "7.1.a"
+      ],
+      "CMN": [
+        "2.2.a",
+        "5.1.a",
+        "6.1.a"
+      ],
+      "EAR": [
+        "4.1.a"
+      ]
+    },
+    "escala": "IN 1-4,9 (Con dificultad); SU 5-5,9 (Con ayuda); BI 6-6,9 (Sin dificultades); NT 7-8,9 (Con facilidad); SB 9-10 (Muestra dominio)"
+  },
+  "autoevaluacionDocente": {
+    "indicadores": "Los materiales y recursos didácticos han sido adecuados, la metodología tiene un enfoque competencial, etc.",
+    "instrumentos": "Listas de cotejo, escala de valoración 1- 4"
+  },
+  "observaciones": [
+    "Fechas: el 2/12/2025 es martes y el 20/12/2025 sábado; con el 8/12 festivo (Inmaculada) salen 13 días lectivos (coincide). La semana 1 programa actividades (L) aunque empieza en martes.",
+    "El 6 de diciembre (Día de la Constitución) cae en sábado y antes de la semana 2 (9-12/12), donde se programa en CMN (V). El 16 de diciembre (martes) se programa en LCL (L) de la semana 3.",
+    "El original escribe el proyecto como '¡Si chef!'; se normaliza a '¡Sí, chef!' en sda.proyecto.nombre (en las semanas se copia literal). ODS indicado como 'ODS 15-16'; se separa en dos entradas.",
+    "LCL: el código de saber 2.B.3.4 se repite con dos textos distintos ('Estrategias de comprensión lectora' y 'Lectura compartida y entonada').",
+    "LCL semana 2 (V) con C.EV.2.1.a, que no es criterio de LCL en esta UD (es de MAT); LCL 3.2.a sí se evalúa en semana 1.",
+    "Evaluación: la tabla de criterios evaluados no coincide con los de la UD en CMN (2.2.a y 5.1.a; la UD tiene 3.1.a y 5.2.a) ni en EAR (4.1.a; la UD tiene 4.2.a). LCL y MAT sí coinciden.",
+    "MAT semana 2: marca 'J)' sin paréntesis de apertura y '(V) ... Cálculo mental de sumas con llevadas' no encaja con la división.",
+    "Erratas literales: 'resolver problema' (sin s) en MAT 2.1.a, 'personajes principales y secundarias', 'Leo una Descripción', 'Opera prima' sin tilde; EAR semana 1 sin C.EV. y EAR semana 3 sin marca de día ni C.EV.; la escala usa descriptores breves ('Con dificultad', 'Con ayuda'...).",
+    "Evaluación: la tabla de instrumentos/procedimientos/evidencias está en columnas mezcladas en el PDF; el reparto entre campos es una reconstrucción. Productos: 'Mural, escenario'."
+  ]
+}

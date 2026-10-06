@@ -1,0 +1,335 @@
+{
+  "numero": 1,
+  "titulo": "Somos un equipo",
+  "trimestre": 1,
+  "fechas": "Del 10 al 27 de septiembre",
+  "dias": 14,
+  "centroInteres": "El trabajo en equipo.",
+  "relevanciaSocial": "Beneficios del trabajo cooperativo para desarrollar habilidades sociales, la empatía la resolución pacífica de conflictos. Decreto 101/2023.",
+  "ods": [
+    "ODS 16. Paz, justicia e instituciones sólidas"
+  ],
+  "sda": {
+    "ud": {
+      "titulo": "Somos un equipo",
+      "producto": "Cartel para definir las normas de colaboración."
+    },
+    "proyecto": {
+      "nombre": "¡Sí, chef!",
+      "producto": "Entrevista a un familiar para el recetario andaluz."
+    },
+    "aps": {
+      "nombre": "Opera prima",
+      "producto": "Informe sobre la técnica de animación de Stop Motion."
+    }
+  },
+  "objetivosEtapa": [
+    "a",
+    "d",
+    "e",
+    "g",
+    "h",
+    "j",
+    "ñ"
+  ],
+  "objetivosAprendizaje": [
+    "1. Conocer y producir textos literarios. Contar y escribir adivinanzas.",
+    "2. Utilizar los conocimientos básicos sobre la lengua: la letra, la sílaba, la palabra y la oración, el abecedario y el diccionario.",
+    "3. Descomponer, componer y redondear números de tres y cuatro cifras.",
+    "4. Identificar y nombrar los números ordinales para ordenar elementos en diferentes contextos.",
+    "5. Utilizar estrategias para realizar trabajos de forma individual y en equipo con mediación.",
+    "6. Conocer las manifestaciones artísticas más importantes de las distintas épocas, lugares y estilos."
+  ],
+  "competenciasClave": "CCL (1-2-3-4-5), CP (2-3), STEM (1-2-4), CD (1-2-5), CPSAA (1-2-3), CC (1-2-3-4), CE (1-2-3), CCEC (1-2-3-4)",
+  "areas": [
+    {
+      "area": "Lengua Castellana y Literatura",
+      "sigla": "LCL",
+      "competencias": [
+        {
+          "num": "1",
+          "texto": "Reconocer y valorar la diversidad lingüística del mundo como fuente de riqueza cultural."
+        },
+        {
+          "num": "4",
+          "texto": "Comprender e interpretar textos escritos y multimodales, su sentido global e ideas principales."
+        },
+        {
+          "num": "5",
+          "texto": "Producir textos escritos y multimodales con corrección gramatical y ortográfica."
+        },
+        {
+          "num": "6",
+          "texto": "Buscar información procedente de dos o más fuentes para transformarla en conocimiento."
+        },
+        {
+          "num": "7",
+          "texto": "Leer de manera autónoma para iniciar el gusto y la construcción de la identidad lectora."
+        }
+      ],
+      "criterios": [
+        {
+          "codigo": "1.3.a",
+          "texto": "Reconocer rasgos de la lingüística andaluza"
+        },
+        {
+          "codigo": "4.1.a",
+          "texto": "Leer de manera silenciosa y en voz alta."
+        },
+        {
+          "codigo": "5.1.a",
+          "texto": "Producir textos escritos sencillos."
+        },
+        {
+          "codigo": "6.1.a",
+          "texto": "Localizar información para la investigación"
+        },
+        {
+          "codigo": "7.1.a",
+          "texto": "Leer de manera autónoma o acompañada."
+        }
+      ],
+      "saberes": [
+        {
+          "codigo": "2.A.2",
+          "texto": "La diversidad lingüística andaluza."
+        },
+        {
+          "codigo": "2.B.3.4",
+          "texto": "Comprensión lectora: ideas principales."
+        },
+        {
+          "codigo": "2.B.3.5",
+          "texto": "Producción escrita."
+        },
+        {
+          "codigo": "2.B.3.6",
+          "texto": "Alfabetización mediática: búsqueda guiada."
+        },
+        {
+          "codigo": "2.C.1",
+          "texto": "Fragmentos de la literatura infantil y popular."
+        }
+      ]
+    },
+    {
+      "area": "Matemáticas",
+      "sigla": "MAT",
+      "competencias": [
+        {
+          "num": "1",
+          "texto": "Interpretar situaciones de la vida cotidiana para analizar la información más relevante."
+        },
+        {
+          "num": "4",
+          "texto": "Utilizar el pensamiento computacional, organizando datos, descomponiendo en partes."
+        },
+        {
+          "num": "5",
+          "texto": "Reconocer y utilizar conexiones entre diferentes ideas matemáticas."
+        },
+        {
+          "num": "6",
+          "texto": "Comunicar de forma individual y colectiva procedimientos y resultados matemáticos."
+        },
+        {
+          "num": "7",
+          "texto": "Gestionar emociones al enfrentarse a retos matemáticos para disfrutar del aprendizaje."
+        }
+      ],
+      "criterios": [
+        {
+          "codigo": "1.1.a",
+          "texto": "Comprender problemas de la vida cotidiana"
+        },
+        {
+          "codigo": "4.1.a",
+          "texto": "Utilizar el pensamiento computacional."
+        },
+        {
+          "codigo": "5.1.a",
+          "texto": "Realizar conexiones matemáticas."
+        },
+        {
+          "codigo": "6.2.a",
+          "texto": "Explicar procesos matemáticos sencillos."
+        },
+        {
+          "codigo": "7.1.a",
+          "texto": "Identificar las emociones al abordar retos."
+        }
+      ],
+      "saberes": [
+        {
+          "codigo": "2.A.2.1",
+          "texto": "Orden de magnitud de los números."
+        },
+        {
+          "codigo": "2.D.4.1",
+          "texto": "Interpretación de algoritmos sencillos."
+        },
+        {
+          "codigo": "2.C.4.3",
+          "texto": "Relaciones geométricas matemáticas."
+        },
+        {
+          "codigo": "2.A.2.3",
+          "texto": "Representación de la recta numérica."
+        },
+        {
+          "codigo": "2.E.1.1",
+          "texto": "Tolerancia ante la frustración."
+        }
+      ]
+    },
+    {
+      "area": "Conocimiento del Medio Natural, Social y Cultural",
+      "sigla": "CMN",
+      "competencias": [
+        {
+          "num": "1",
+          "texto": "Utilizar recursos digitales para buscar información de manera individual y en equipo."
+        },
+        {
+          "num": "8",
+          "texto": "Reconocer la igualdad de género para contribuir al bienestar individual y colectivo."
+        }
+      ],
+      "criterios": [
+        {
+          "codigo": "1.1.a",
+          "texto": "Utilizar recursos digitales de forma segura."
+        },
+        {
+          "codigo": "8.1.a",
+          "texto": "Valorar la diversidad cultural y la igualdad de género."
+        }
+      ],
+      "saberes": [
+        {
+          "codigo": "2.C.1.3",
+          "texto": "Dispositivos digitales."
+        },
+        {
+          "codigo": "2.C.3.1",
+          "texto": "Normas para la vida en sociedad"
+        }
+      ]
+    },
+    {
+      "area": "Educación Artística",
+      "sigla": "EAR",
+      "competencias": [
+        {
+          "num": "1",
+          "texto": "Descubrir propuestas artísticas de diferentes géneros, estilos, épocas."
+        }
+      ],
+      "criterios": [
+        {
+          "codigo": "1.1.a",
+          "texto": "identificar propuestas artísticas de diferentes géneros, estilos y culturas"
+        }
+      ],
+      "saberes": [
+        {
+          "codigo": "2.A.2",
+          "texto": "Recepción activa de propuestas artísticas."
+        }
+      ]
+    }
+  ],
+  "semanas": [
+    {
+      "numero": 1,
+      "fase": "motivar – activar",
+      "LCL": "(L) Leo una noticia. Vocabulario. Escucho una conversación. La lengua oral y escrita. C.EV.1.3.a. (M) Leo un cuento. Los duendes y el zapatero. Antes de leer. Lee el título y observa la ilustración. Vocabulario. Comprendo la lectura. Piensa en otro final. (X) Capítulo del libro. Vocabulario. El abecedario. El diccionario. (J) Cuenta cuentos. Las adivinanzas. Inventa, crea y memoriza una adivinanza sobre una profesión. Competición por equipos. (V) Dramatizaciones. Textos tradicionales. Lee las estrofas de la canción tradicional la Tarara e inventa dos más. Leer y valorar.",
+      "MAT": "(L) Los números de tres cifras. Lectura de números. Escritura de números en cifras y en letras. (M) Problemas exprés. (X) Resolución de problemas. Contar hacia delante y hacia atrás. Contar más allá del número 999. Contar decenas y centenas. C.EV.1.1.a. (J) Identificar números con bloques base 10. Utiliza los bloques para representar los números. Identifica el valor de una cifra. Pasar de centenas a decenas y unidades. (V) Concurso de problemas. Por equipos, inventamos y resolvemos problemas.",
+      "CMN": "(J) Vídeo ¿Qué es el método científico? Realizamos un esquema con los pasos del método científico. (V) ¿Cómo podemos trabajar de forma cooperativa? División del grupo por equipos heterogéneos y asignación de roles. SdA. UD. Somos un equipo. Producto. Cartel para definir las normas de colaboración. C.EV. 1.1.a.",
+      "EAR": "(V) Los materiales de plástica. Crea a tu manera, las letras tridimensionales. C.EV.1.1.a"
+    },
+    {
+      "numero": 2,
+      "fase": "explorar - estructurar",
+      "LCL": "(L) Leo una noticia. Vocabulario. La letra, la sílaba, la palabra y la oración. (M) Leo un cuento tradicional. C.EV.7.1.a. Preparamos un listado de los cuentos tradicionales. C.EV.5.1.a. (X) Capítulo del libro. Escribo un cuento siguiendo los pasos. (J) Cuenta cuentos. Clases de palabras según el número de sílabas. (V) Dramatizaciones de cuentos. Elaboración de un esquema sobre las clases de palabras. Jugar a palabras encadenadas.",
+      "MAT": "(L) Los números de cuatro cifras. El número mil. Lectura de números de cuatro cifras. Conteo de centenas. (M) Problemas exprés. (X) Resolución de problemas. Series de 10 en 10, de 100 en 100, de 1000 en 1000. Equivalencia entre unidades de millar, centenas, decenas y unidades. (J) Identificar números con bloques base 10. Identifica el valor de una cifra. Pasar de centenas a decenas y unidades. (V) Concurso de problemas. Cálculo mental. Sumar una cifra sin llevadas. C.EV.6.2.a.",
+      "CMN": "(J) ¿Conoces algún científico o científica? Explica a la clase quien es y lo que hace. Haz un dibujo de cómo te lo imaginas (V) SdA. UD. Somos un equipo. Producto. Cartel para definir las normas de colaboración. Escribe las normas, corrige, revisa y haz los cambios necesarios. C.EV.1.1.a.",
+      "EAR": "(V) Pintores importantes de Andalucía. Velázquez. Vídeo. Biografía. Obra las meninas."
+    },
+    {
+      "numero": 3,
+      "fase": "aplicar – concluir",
+      "LCL": "Leo una noticia. Vocabulario. La oración. Escribo oraciones. (M) Leo un poema. Clases de sílabas: tónicas y átonas. (X) Capítulo del libro. C.EV.4.1.a. Tipos de palabras según la posición de la sílaba tónica. Encuentra la sílaba tónica. El alumnado cuenta qué ha desayunado e indica la sílaba tónica de los alimentos. C.EV. 6.1.a. (J) Cuenta cuentos. Cuenta las sílabas y rodea la tónica. La tilde. (V) Dramatizaciones de cuentos. Dictado. Leo y escribo el texto. Intercambio de cuadernos para corregir.",
+      "MAT": "(L) Comparo números. Ordenar de menor a mayor y de mayor a menor. (M) Problemas exprés. C.EV.5.1.a. (X) Resolución de problemas. Redondeo de números. Identificar un número entre dos dados usando la recta numérica. Redondear a las decenas, centenas y a los millares. C.EV.7.1.a. (J) Los números ordinales. Lectura y escritura. Anteriores y posteriores. (V) Concurso de problemas. Pienso paso a paso cómo preparar la mochila. C.EV.4.1.a.",
+      "CMN": "(J) ¿Qué comemos en casa? Elegir la comida preferida. Escribir un cuestionario para la entrevista a un familiar. (V) SdA. UD. Producto. Cartel para definir las normas de colaboración. Lectura de las entrevistas a los familiares. Elaboración y exposición del Cartel para definir las normas. C.Ev.8.1.a.",
+      "EAR": "APS. Opera prima. Producto UD. Informe sobre la técnica de animación de Stop Motion."
+    }
+  ],
+  "complementaria": "Inicio del curso escolar. Jornada gastronómica andaluza.",
+  "refuerzoProfundizacion": "Actividades multinivel siguiendo los principios DUA.",
+  "metodologia": "Trabajo individual y cooperativo con perspectiva de género. Tutoría entre iguales.",
+  "principiosPedagogicos": "Art. 6 del Decreto 101/2023 a-j",
+  "agrupamientos": "Trabajo individual, pequeños grupos heterogéneos, grupo clase.",
+  "recursos": {
+    "espaciales": "Aula, patio, biblioteca.",
+    "digitales": "Google Classroom, Google Maps, Canva.",
+    "personales": "Familias.",
+    "materiales": "Material fungible, prensa, textos cotidianos, policubos, tangram."
+  },
+  "diversidad": {
+    "dua": [
+      "1. Múltiples formas de representación. Clarificación de vocabulario y símbolos. Imágenes, vídeos...",
+      "2. Múltiples formas de expresión. Diferentes opciones y distintos lenguajes (oral, escrito, esquemas...)",
+      "3. Múltiples formas de implicación. Trabajo cooperativo, utilización del feedback"
+    ],
+    "medidasGenerales": "Aprendizaje cooperativo. Metodología por proyectos.",
+    "medidasEspecificas": "NEE. Programa de refuerzo. Autonomía del centro 30´ LCL y 30´ MAT. DIA: PRA y PE. COM: PRA",
+    "evaluacionMedidas": "Orden 30/5/2023. Observación y valoración cualitativa de las medidas DUA aplicadas, en la escala 1. Poco adecuado. 2. Aceptable, pero requiere revisión. 3. Adecuada. 4. Buena. 5. Excelente. Valoración de las actividades de refuerzo y/o profundización. Observación y valoración cualitativa del trabajo cooperativo. Autoevaluación del alumnado respecto a las medidas específicas."
+  },
+  "evaluacion": {
+    "instrumentos": "Listas de cotejo, escalas de observación, portfolio, registro anecdótico, rúbrica. Rúbrica de todos los criterios de evaluación. Orden 30/5/23",
+    "procedimientos": "Observación sistemática, corrección de tareas y proyectos.",
+    "evidencias": "Respuestas a preguntas, producto final de tareas. Desempeños. Presentación oral, ...",
+    "productos": "Cartel",
+    "autoevaluacion": "Autoevaluación-coevaluación",
+    "criteriosEvaluados": {
+      "LCL": [
+        "1.3.a",
+        "4.1.a",
+        "5.1.a",
+        "6.1.a",
+        "7.1.a"
+      ],
+      "MAT": [
+        "1.1.a",
+        "4.1.a",
+        "5.1.a",
+        "6.1.a",
+        "7.1.a"
+      ],
+      "CMN": [
+        "1.1.a",
+        "8.1.a"
+      ],
+      "EAR": [
+        "1.1.a"
+      ]
+    },
+    "escala": "IN 1-4,9 (Con dificultad); SU 5-5,9 (Con ayuda); BI 6-6,9 (Sin dificultades); NT 7-8,9 (Con facilidad); SB 9-10 (Muestra dominio)"
+  },
+  "autoevaluacionDocente": {
+    "indicadores": "Los materiales y recursos didácticos han sido adecuados, la metodología tiene un enfoque competencial, etc.",
+    "instrumentos": "Anecdotario, listas de cotejo, escala de valoración 1- 4"
+  },
+  "observaciones": [
+    "Fechas: del 10 al 27/09/2025 hay 13 días lectivos (L-V), no 14; el 27/09/2025 es sábado y el 10/09 es miércoles, aunque la semana 1 programa actividades (L) y (M).",
+    "El original escribe el proyecto como '¡Si chef!' (sin tilde ni coma); se normaliza a '¡Sí, chef!'.",
+    "En la tabla de evaluación MAT figura 6.1.a, pero el criterio de MAT es 6.2.a (el que aparece en la secuenciación).",
+    "MAT 5.1.a (conexiones matemáticas) se vincula al saber 2.C.4.3 'Relaciones geométricas', que no se trabaja en la UD (números de 3-4 cifras).",
+    "CMN: la competencia 8 solo habla de igualdad de género, pero el criterio 8.1.a añade diversidad cultural; las actividades de CMN (método científico, científicos) no casan con los saberes 2.C.1.3/2.C.3.1.",
+    "Semana 3 LCL: falta la marca (L) en 'Leo una noticia'.",
+    "Semana 3 CMN y EAR mezclan productos: la entrevista a un familiar es del proyecto ¡Sí, chef! y el informe de Stop Motion es del APS, pero se etiqueta como 'Producto UD'.",
+    "Criterio LCL 1.3.a aparece truncado ('Reconocer rasgos de la lingüística andaluza') y EAR 1.1.a empieza en minúscula.",
+    "Evaluación: la tabla de instrumentos/procedimientos/evidencias está en columnas mezcladas en el PDF; el reparto entre campos es una reconstrucción."
+  ]
+}

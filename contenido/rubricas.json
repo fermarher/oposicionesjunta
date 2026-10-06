@@ -1,0 +1,473 @@
+{
+ "fuente": "Criterios de actuación de los tribunales, Cuerpo 597 (Andalucía 2025) y actilla de calificación de la segunda prueba (24/07/2025).",
+ "pd": {
+  "titulo": "Defensa de la programación didáctica (Parte A)",
+  "nota": "Pesos sobre la parte A. El documento escrito suma el 30 % restante (en 2025 obtuvo ~9).",
+  "totales2025": [
+   6.5606,
+   6.1694,
+   5.7073,
+   6.0803,
+   5.9221
+  ],
+  "items": [
+   {
+    "id": "intro",
+    "titulo": "Introducción y justificación",
+    "peso": 2.1,
+    "notas2025": [
+     5.1,
+     5.15,
+     4.0,
+     5.0,
+     5.1
+    ],
+    "media2025": 4.87,
+    "indicadores": [
+     "Presenta la programación detallando aspectos significativos",
+     "Justifica normativa, curricular y epistemológicamente su importancia y relevancia",
+     "Cita autores y los vincula con la programación"
+    ]
+   },
+   {
+    "id": "contexto",
+    "titulo": "Contextualización y adecuación",
+    "peso": 2.8,
+    "notas2025": [
+     5.0,
+     5.25,
+     3.0,
+     5.0,
+     5.0
+    ],
+    "media2025": 4.65,
+    "indicadores": [
+     "Expone el contexto y las características del centro",
+     "Contextualiza con detalle: centro, etapa, grupo, alumnado NEAE",
+     "Se adecúa a la etapa y al nivel del alumnado",
+     "Expone características generales y particulares del alumnado",
+     "Se ajusta a la realidad",
+     "Concreta y precisa las áreas"
+    ]
+   },
+   {
+    "id": "marco",
+    "titulo": "Marco normativo y concreción curricular",
+    "peso": 7,
+    "notas2025": [
+     5.15,
+     4.25,
+     5.5,
+     6.0,
+     5.1
+    ],
+    "media2025": 5.2,
+    "indicadores": [
+     "Explicita el marco legislativo vigente nacional y autonómico",
+     "Concreta cada competencia específica vinculándola con descriptores operativos, criterios de evaluación y saberes básicos"
+    ]
+   },
+   {
+    "id": "metodologia",
+    "titulo": "Aspectos metodológicos y principios pedagógicos",
+    "peso": 24.5,
+    "notas2025": [
+     5.25,
+     3.8,
+     3.5,
+     3.0,
+     3.0
+    ],
+    "media2025": 3.71,
+    "indicadores": [
+     "Expone principios y orientaciones pedagógicas de la normativa",
+     "Estrategias motivantes e innovadoras que propician implicación, participación e interés",
+     "Combina trabajo individual, cooperativo y entre iguales, con perspectiva de género",
+     "Sirven para desarrollar todos los criterios y competencias específicas",
+     "Conexiones con las prácticas sociales y culturales de Andalucía",
+     "Enfoque integrador, interdisciplinar y holístico",
+     "Contempla medidas generales y específicas de atención a la diversidad",
+     "Facilita la coordinación docente",
+     "Contempla la orientación y acción tutorial",
+     "Utiliza recursos didácticos, espaciales, personales y materiales",
+     "Expone la temporalización de las unidades didácticas",
+     "Actividades complementarias y extraescolares motivadoras"
+    ]
+   },
+   {
+    "id": "diversidad",
+    "titulo": "Medidas de atención a la diversidad",
+    "peso": 7,
+    "notas2025": [
+     7.0,
+     6.25,
+     5.0,
+     7.0,
+     7.0
+    ],
+    "media2025": 6.45,
+    "indicadores": [
+     "Expone con detalle la aplicación de medidas generales y/o específicas",
+     "Explicita medidas para las diferencias individuales durante la puesta en práctica",
+     "Establece cauces de coordinación con los profesionales implicados"
+    ]
+   },
+   {
+    "id": "evaluacion",
+    "titulo": "Evaluación",
+    "peso": 10.5,
+    "notas2025": [
+     4.5,
+     4.75,
+     4.0,
+     4.5,
+     4.0
+    ],
+    "media2025": 4.35,
+    "indicadores": [
+     "Evalúa tomando como referente los criterios de evaluación",
+     "Instrumentos adecuados, coherentes y variados",
+     "Procedimiento de evaluación inicial",
+     "Evaluación de las medidas de atención a la diversidad",
+     "Evaluación de la práctica docente: indicadores, instrumentos y evidencias",
+     "Evaluación de la programación y autoevaluación del alumnado",
+     "Criterios de calificación"
+    ]
+   },
+   {
+    "id": "conclusion",
+    "titulo": "Conclusión",
+    "peso": 3.5,
+    "notas2025": [
+     4.0,
+     3.25,
+     5.0,
+     4.25,
+     4.0
+    ],
+    "media2025": 4.1,
+    "indicadores": [
+     "Conclusión vinculada con la programación",
+     "Síntesis de los aspectos más relevantes"
+    ]
+   },
+   {
+    "id": "bibliografia",
+    "titulo": "Bibliografía",
+    "peso": 2.1,
+    "notas2025": [
+     10,
+     10,
+     10,
+     10,
+     10
+    ],
+    "media2025": 10.0,
+    "indicadores": [
+     "Más de tres citas normativas y más de tres bibliográficas durante la defensa"
+    ]
+   },
+   {
+    "id": "pizarra",
+    "titulo": "Uso adecuado de la pizarra",
+    "peso": 3.5,
+    "notas2025": [
+     6.5,
+     6.5,
+     4.0,
+     6.0,
+     7.0
+    ],
+    "media2025": 6.0,
+    "indicadores": [
+     "Uso coherente y ordenado",
+     "Letra clara, legible y sin faltas",
+     "Distribución adecuada de los espacios"
+    ]
+   },
+   {
+    "id": "oral",
+    "titulo": "Expresión oral",
+    "peso": 7,
+    "notas2025": [
+     6.0,
+     6.25,
+     4.0,
+     6.5,
+     6.0
+    ],
+    "media2025": 5.75,
+    "indicadores": [
+     "Lenguaje técnico-pedagógico y precisión terminológica",
+     "Coherencia y corrección léxica y gramatical",
+     "Comunicación verbal: entonación, sin muletillas, contacto visual, proyección de voz, seguridad",
+     "Maneja adecuadamente los tiempos"
+    ]
+   }
+  ],
+  "penalizacion": "Si alguna unidad didáctica no contiene al menos una situación de aprendizaje: −10 puntos en la defensa."
+ },
+ "ud": {
+  "titulo": "Exposición de la unidad didáctica (Parte B)",
+  "nota": "Pesos sobre la parte B. La parte B vale el 70 % de la segunda prueba.",
+  "totales2025": [
+   4.283,
+   4.628,
+   4.164,
+   4.711,
+   4.336
+  ],
+  "items": [
+   {
+    "id": "presentacion",
+    "titulo": "Presentación, introducción y justificación",
+    "peso": 2,
+    "notas2025": [
+     4.0,
+     4.1,
+     4.0,
+     3.75,
+     4.5
+    ],
+    "media2025": 4.07,
+    "indicadores": [
+     "Presenta la UD detallando aspectos significativos",
+     "Justifica y vincula normativa, curricular y epistemológicamente su importancia y relevancia"
+    ]
+   },
+   {
+    "id": "contexto",
+    "titulo": "Contextualización",
+    "peso": 2,
+    "notas2025": [
+     6.5,
+     5.5,
+     5.0,
+     6.5,
+     6.0
+    ],
+    "media2025": 5.9,
+    "indicadores": [
+     "Aspectos concretos del contexto, centro y alumnado significativos para la UD",
+     "Ubica la UD en el tiempo",
+     "Concreta las áreas"
+    ]
+   },
+   {
+    "id": "concrecion",
+    "titulo": "Concreción curricular y vinculación con los aprendizajes",
+    "peso": 5,
+    "notas2025": [
+     8.1,
+     7.1,
+     8.0,
+     8.1,
+     7.5
+    ],
+    "media2025": 7.76,
+    "indicadores": [
+     "Concreta cada competencia específica con descriptores operativos, competencias clave, criterios de evaluación y saberes básicos"
+    ]
+   },
+   {
+    "id": "sd1",
+    "titulo": "Secuencia didáctica 1: actividades y relación entre ellas",
+    "peso": 25,
+    "notas2025": [
+     4.0,
+     4.8,
+     4.0,
+     5.0,
+     4.0
+    ],
+    "media2025": 4.36,
+    "indicadores": [
+     "Actividades y ejercicios de aplicación",
+     "Relación entre ellas",
+     "Enfoque integrador, interdisciplinar y holístico"
+    ]
+   },
+   {
+    "id": "sd2",
+    "titulo": "Secuencia didáctica 2: integración en diferentes situaciones y contextos",
+    "peso": 10,
+    "notas2025": [
+     3.0,
+     3.5,
+     3.0,
+     3.0,
+     3.0
+    ],
+    "media2025": 3.1,
+    "indicadores": [
+     "Integra los aprendizajes y los usa de forma efectiva en distintas situaciones y contextos"
+    ]
+   },
+   {
+    "id": "sd3",
+    "titulo": "Secuencia didáctica 3: secuenciación y temporalización",
+    "peso": 5,
+    "notas2025": [
+     4.0,
+     4.0,
+     4.0,
+     4.0,
+     3.0
+    ],
+    "media2025": 3.8,
+    "indicadores": [
+     "Secuenciación y temporalización completa y coherente en todo el periodo"
+    ]
+   },
+   {
+    "id": "sd4",
+    "titulo": "Secuencia didáctica 4: ajuste a la realidad y al alumnado",
+    "peso": 5,
+    "notas2025": [
+     4.0,
+     5.1,
+     5.0,
+     5.0,
+     4.0
+    ],
+    "media2025": 4.62,
+    "indicadores": [
+     "Se ajusta a la realidad y se adecúa al contexto y al alumnado"
+    ]
+   },
+   {
+    "id": "metodologia",
+    "titulo": "Metodología",
+    "peso": 6,
+    "notas2025": [
+     2.45,
+     2.8,
+     2.4,
+     2.25,
+     2.0
+    ],
+    "media2025": 2.38,
+    "indicadores": [
+     "Principios pedagógicos de la norma vinculados con la secuencia",
+     "Estrategias aplicadas: agrupamientos, espacios, recursos",
+     "Actividades que propician implicación y conectan con conocimientos previos",
+     "Conexión con las realidades sociales y culturales de Andalucía"
+    ]
+   },
+   {
+    "id": "diversidad",
+    "titulo": "Medidas de atención a la diversidad",
+    "peso": 8,
+    "notas2025": [
+     3.1,
+     3.1,
+     3.0,
+     3.2,
+     2.7
+    ],
+    "media2025": 3.02,
+    "indicadores": [
+     "Medidas generales y/o específicas vinculadas con las actividades",
+     "Cauces de coordinación con los profesionales implicados"
+    ]
+   },
+   {
+    "id": "evaluacion",
+    "titulo": "Evaluación",
+    "peso": 10,
+    "notas2025": [
+     4.0,
+     3.5,
+     4.5,
+     4.5,
+     6.0
+    ],
+    "media2025": 4.5,
+    "indicadores": [
+     "Criterios de evaluación como referente",
+     "Instrumentos adecuados, coherentes y variados",
+     "Evaluación de las medidas de atención a la diversidad",
+     "Evaluación de la práctica docente: indicadores, instrumentos y evidencias",
+     "Evaluación de la UD y autoevaluación del alumnado"
+    ]
+   },
+   {
+    "id": "conclusion",
+    "titulo": "Conclusión",
+    "peso": 5,
+    "notas2025": [
+     4.0,
+     5.0,
+     5.0,
+     5.0,
+     3.5
+    ],
+    "media2025": 4.5,
+    "indicadores": [
+     "Conclusión vinculada con la UD",
+     "Síntesis de los aspectos más relevantes"
+    ]
+   },
+   {
+    "id": "bibliografia",
+    "titulo": "Bibliografía",
+    "peso": 2,
+    "notas2025": [
+     2.4,
+     3.5,
+     2.5,
+     3.0,
+     2.0
+    ],
+    "media2025": 2.68,
+    "indicadores": [
+     "Más de tres citas normativas o bibliográficas durante la exposición"
+    ]
+   },
+   {
+    "id": "pizarra",
+    "titulo": "Uso adecuado de la pizarra",
+    "peso": 5,
+    "notas2025": [
+     6.5,
+     6.2,
+     6.0,
+     6.0,
+     7.0
+    ],
+    "media2025": 6.34,
+    "indicadores": [
+     "Uso coherente y ordenado",
+     "Letra clara, legible y sin faltas",
+     "Distribución adecuada de los espacios"
+    ]
+   },
+   {
+    "id": "oral",
+    "titulo": "Expresión oral",
+    "peso": 10,
+    "notas2025": [
+     6.0,
+     6.8,
+     4.0,
+     6.5,
+     6.0
+    ],
+    "media2025": 5.86,
+    "indicadores": [
+     "Lenguaje técnico-pedagógico y precisión terminológica",
+     "Coherencia y corrección",
+     "Comunicación verbal adecuada",
+     "Maneja adecuadamente los tiempos"
+    ]
+   }
+  ],
+  "penalizacion": "Si la unidad didáctica no contiene al menos una situación de aprendizaje: −10 puntos en la parte B."
+ },
+ "prueba": [
+  "Parte A (30 %): defensa oral de la programación, máximo 30 minutos. Dentro de la parte A, el documento escrito pesa un 30 % y la defensa un 70 %.",
+  "Parte B (70 %): se eligen 3 unidades didácticas al azar de la propia programación y se escoge una. Una hora de preparación sin dispositivos electrónicos y exposición de máximo 30 minutos.",
+  "Guion: un DIN A5 por una cara, máximo 120 palabras, que se entrega al tribunal al terminar. Material auxiliar sin contenido curricular.",
+  "Cada parte se califica de 0 a 10; hace falta al menos 2,5 en cada parte y 5 de media ponderada para superar la prueba."
+ ]
+}
