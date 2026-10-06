@@ -226,7 +226,7 @@ def main():
     ap.add_argument('--modelo', required=True)
     ap.add_argument('--voces', required=True)
     ap.add_argument('--voz', default='ef_dora')
-    ap.add_argument('--velocidad', type=float, default=0.86)
+    ap.add_argument('--velocidad', type=float, default=0.9)
     ap.add_argument('--pistas', default='')
     ap.add_argument('--procesos', type=int, default=4)
     ap.add_argument('--cache', default=os.path.join(RAIZ, '.cache_audio'))
