@@ -99,12 +99,13 @@
     "d_sda": "el alumno con TDAH es el encargado del material, un rol que le permite moverse, y sigue la tarea por pasos; y los alumnos con dificultades parten de una norma modelo.",
     "n_criterios": "trece",
     "e_inicial": "la asamblea con la pregunta del inicio, cuyas respuestas registro en el anecdotario.",
-    "e_fases": "en la primera, la tarjeta de roles, con escala de observación del 1.1.a de Conocimiento del Medio; en la segunda, el borrador, en el anecdotario; y en la tercera, el cartel, con una rúbrica del 8.1.a.",
+    "e_fases": "en la primera, la tarjeta de roles, con escala del 1.1.a de Conocimiento del Medio; en la segunda, el borrador, en el anecdotario; y en la tercera, el cartel, con una rúbrica del 8.1.a.",
     "e_criterios": "con rúbrica de fluidez, la lectura oral, 4.1.a de Lengua; con escala de observación, «La Tarara», 1.3.a, y en Matemáticas, la mochila y el cálculo, 4.1.a y 6.2.a; con lista de cotejo, el diccionario, 6.1.a de Lengua, los problemas, 1.1.a y 5.1.a de Matemáticas, y «Las meninas», 1.1.a de Educación Artística; con porfolio, el cuento, 5.1.a de Lengua; y con registro anecdótico, la lectura autónoma y la frustración, el 7.1.a de Lengua y el de Matemáticas.",
     "e_coevaluacion": "cada equipo valora con una lista de cotejo si ha cumplido sus normas, y corregimos el dictado intercambiando los cuadernos.",
     "e_diversidad": "si a un alumno le cuesta leer números de cuatro cifras, la medida son bloques de base 10 con un compañero tutor; si lo logra con ayuda, la valoro con un 4.",
     "producto_proyecto": "una entrevista a un familiar para el recetario andaluz",
     "conclusion_ud": "En definitiva, mi alumnado no solo lee números de cuatro cifras o crea adivinanzas: aprende a ser un equipo, y lo deja escrito en un cartel para todo el curso.",
-    "siguiente_ud": "la unidad 2, «¿Cómo son las plantas?», donde estos equipos elaborarán una guía de las plantas"
+    "siguiente_ud": "la unidad 2, «¿Cómo son las plantas?», donde estos equipos elaborarán una guía de las plantas",
+    "ods_corto": "el ODS 16"
   }
 }

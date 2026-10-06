@@ -239,6 +239,8 @@
         if (st.ud && u.numero !== st.ud) return;
         huecos.forEach((h) => {
           if (st.hueco && h !== st.hueco) return;
+          // por defecto, solo lo que se dice en voz alta (no los rótulos de pizarra o guion)
+          if (!st.hueco && /^(pz_|numero$|trimestre_letra$|ods_corto$)/.test(h)) return;
           const v = t[`${u.numero}:${h}`] || { ok: 0, ko: 0 };
           const peso = 1 + v.ko * 2 - Math.min(v.ok, 4) * 0.2;
           candidatos.push({ n: u.numero, h, peso: Math.max(0.2, peso) });
