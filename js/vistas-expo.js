@@ -588,7 +588,7 @@
         <div class="fila entre"><h3>Resultado del ensayo</h3><span class="chip ${total > LIMITE ? 'critico' : total > LIMITE - 60 ? 'aviso' : 'bueno'}">${mmss(total)} ${total > LIMITE ? '· te has pasado de 30:00' : ''}</span></div>
         <div class="desliza"><table class="tabla"><thead><tr><th>Sección</th><th class="n">Previsto</th><th class="n">Real</th><th class="n">Diferencia</th></tr></thead><tbody>${filas}</tbody></table></div>
         ${st.cobertura != null ? `<p class="${st.cobertura >= 80 ? 'info-caja' : 'aviso-caja'}">Palabras clave del discurso que se han oído: <b>${st.cobertura} %</b>.</p>` : ''}
-        ${st.grabacion ? `<div class="pila" style="gap:6px"><b>Tu grabación</b><audio controls src="${st.grabacion}" style="width:100%"></audio><a class="btn mini" href="${st.grabacion}" download="ensayo-${esc(expo.id)}.${st.grabacionExt || 'webm'}">Descargar la grabación</a></div>` : ''}
+        ${st.grabacion ? `<div class="pila" style="gap:6px"><b>Tu grabación</b><audio controls src="${st.grabacion}" style="width:100%"></audio>${window.claude ? '' : `<a class="btn mini" href="${st.grabacion}" download="ensayo-${esc(expo.id)}.${st.grabacionExt || 'webm'}">Descargar la grabación</a>`}</div>` : ''}
         <div class="fila"><button class="btn primario" data-acc="otra">Otro ensayo</button><a class="btn" href="#${expo.id}-rubrica">Autoevaluarme con la rúbrica</a></div>
       </div>
       ${htmlHistorial()}`;

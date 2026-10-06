@@ -24,6 +24,13 @@ Para las unidades didácticas, **el discurso es el mismo en las 12** y solo camb
 - **Guion A5** de cada UD (≤ 120 palabras, como permite la convocatoria) y **ficha** con los datos de la programación.
 - **Sorteo**: tres bolas, eliges una, una hora de preparación y paso directo al ensayo de 30 minutos.
 
+## Contenidos
+
+- **Programación** («Aprendemos juntos»): 8 secciones, ≈3.800 palabras (≈29 min a 130 palabras/min; el audio va a ≈140 palabras/min y dura ≈27 min, para dejar margen para escribir en la pizarra).
+- **Unidades didácticas**: plantilla común de 11 secciones (≈53 % de texto idéntico en las 12 UD) con 102 huecos para lo propio de cada unidad; cada UD dura entre 29,0 y 29,4 min a 130 palabras/min y su guion A5 tiene entre 105 y 117 palabras.
+- Los discursos están escritos para nombrar cada indicador de las rúbricas oficiales, con más tiempo para lo que más pesa (secuencia didáctica, metodología, evaluación) y lo que más puntos perdió en 2025, y con más de tres citas normativas y bibliográficas (solo autores de la bibliografía de la programación).
+- Cada ficha de UD incluye las erratas o incoherencias detectadas en la programación escrita (códigos de criterios, fechas, días lectivos…), para no repetirlas ante el tribunal.
+
 ## Cómo abrirla
 
 - **En el ordenador**: abre `index.html` con doble clic (funciona sin servidor y sin conexión, salvo las tipografías).
