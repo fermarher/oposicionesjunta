@@ -40,7 +40,7 @@ def rellenar(texto, valores):
     return HUECO.sub(lambda m: valores.get(m.group(1), ''), texto)
 
 
-FIN_FRASE = re.compile(r'(?<=[.!?…:;])["»”)]*\s+(?=[¿¡«"“(]?[A-ZÁÉÍÓÚÑ0-9])')
+FIN_FRASE = re.compile(r'(?<=[.!?…])["»”)]*\s+(?=[¿¡«"“(]?[A-ZÁÉÍÓÚÑ0-9])|(?<=[:;])["»”)]*\s+(?=[¿¡«"“(]?[A-ZÁÉÍÓÚÑ])')
 
 
 def frases(texto):
@@ -52,7 +52,7 @@ def frases(texto):
         trozo = texto[inicio:corte].strip()
         # no partir abreviaturas ni números tipo "4.1.a" o "art." o "Sr."
         previo = texto[max(0, corte - 6):corte]
-        if re.search(r'\b(art|Sr|Sra|núm|pág|etc|p\. ej|ej)\.$', previo) or len(trozo) < 12:
+        if re.search(r'\b(art|Sr|Sra|núm|pág|etc|p\. ej|ej)\.$', previo) or len(trozo) < 20:
             continue
         res.append((inicio, corte))
         inicio = m.end()
@@ -110,8 +110,13 @@ def codigo_oral(m):
     return dicho
 
 
+DESCRIPTORES = {'CCL': 'ce ce ele', 'CP': 'ce pe', 'STEM': 'estem', 'CD': 'ce de', 'CPSAA': 'ce pe ese a a',
+                'CC': 'ce ce', 'CE': 'ce e', 'CCEC': 'ce ce e ce', 'DO': 'de o', 'CEv': 'ce e uve', 'SB': 'ese be'}
+
+
 def normalizar(t):
     """Adapta el texto para que la voz sintética lo lea como se diría en voz alta."""
+    t = re.sub(r'\b(CCL|CPSAA|CCEC|STEM|CP|CD|CC|CE)(\d)\b', lambda m: f'{DESCRIPTORES[m.group(1)]} {m.group(2)}', t)
     t = t.replace('«', '').replace('»', '').replace('“', '').replace('”', '').replace('"', '')
     t = re.sub(r'\s*[—–]\s*', ', ', t)
     t = re.sub(r'\s*\(\s*', ', ', t)
@@ -221,7 +226,7 @@ def main():
     ap.add_argument('--modelo', required=True)
     ap.add_argument('--voces', required=True)
     ap.add_argument('--voz', default='ef_dora')
-    ap.add_argument('--velocidad', type=float, default=1.0)
+    ap.add_argument('--velocidad', type=float, default=0.86)
     ap.add_argument('--pistas', default='')
     ap.add_argument('--procesos', type=int, default=4)
     ap.add_argument('--cache', default=os.path.join(RAIZ, '.cache_audio'))

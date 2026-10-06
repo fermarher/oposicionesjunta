@@ -30,6 +30,17 @@
       </div>`).join('')}</div>`;
   }
 
+  // Dónde deberías estar en los minutos 10 y 20 de cada exposición.
+  function puntosControl() {
+    const linea = (expo, etiqueta) => {
+      if (!expo) return '';
+      const en = (m) => { const s = expo.secciones.find((x) => x.iniMin <= m && x.finMin > m) || expo.secciones[expo.secciones.length - 1]; return s ? s.titulo.toLowerCase() : ''; };
+      return `<li><b>${etiqueta}:</b> en el minuto 10, ${esc(en(10))}; en el 20, ${esc(en(20))}; a los 28, cerrando.</li>`;
+    };
+    const ud = Modelo.uds.length ? Modelo.expo(Modelo.idUD(Modelo.uds[0].numero)) : null;
+    return linea(Modelo.expo('pd'), 'Programación') + linea(ud, 'Unidad didáctica') + '<li>Termina antes de 30:00: la exposición no puede exceder de treinta minutos.</li>';
+  }
+
   function vistaInicio() {
     const pd = Modelo.expo('pd');
     const R = Modelo.rubricas;
@@ -94,6 +105,15 @@
           <div class="tarjeta pila">
             <h3>Últimos ensayos</h3>
             ${ens.length ? `<div class="desliza"><table class="tabla"><tbody>${ens.map((e) => `<tr><td>${esc(nombre(e.expo))}</td><td>${new Date(e.fecha).toLocaleDateString('es-ES')}</td><td class="n">${mmss(e.total)}</td></tr>`).join('')}</tbody></table></div>` : '<p class="suave">Aún no has hecho ningún ensayo cronometrado.</p>'}
+          </div>
+        </section>
+
+        <section class="tarjeta pila">
+          <h2>Antes de entrar al aula</h2>
+          <div class="rejilla">
+            <div class="pila" style="gap:6px"><h3>Pizarra</h3><ul class="esq-lista suave"><li>Al empezar, escribe la cabecera y el índice numerado a la izquierda.</li><li>Centro para las ideas clave, derecha para normativa y autores: siempre igual.</li><li>Letra grande, líneas rectas y sin faltas: repasa las tildes (situación, evaluación, didáctica, metodología).</li></ul></div>
+            <div class="pila" style="gap:6px"><h3>Tiempo</h3><ul class="esq-lista suave">${puntosControl()}</ul></div>
+            <div class="pila" style="gap:6px"><h3>Guion y voz</h3><ul class="esq-lista suave"><li>Guion A5: máximo 120 palabras, una cara, se entrega al final.</li><li>Mira al tribunal, haz una pausa al cambiar de apartado y anúncialo («Paso al punto…»).</li><li>Sin muletillas: mejor un silencio breve que un «eh».</li></ul></div>
           </div>
         </section>
 

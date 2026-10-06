@@ -76,7 +76,7 @@
   }
 
   // ---------------------------------------------------------------- frases (mismo criterio que herramientas/audio/generar_audio.py)
-  const FIN_FRASE = /[.!?…:;]["»”)]*\s+(?=[¿¡«"“(]?[A-ZÁÉÍÓÚÑ0-9])/g;
+  const FIN_FRASE = /[.!?…]["»”)]*\s+(?=[¿¡«"“(]?[A-ZÁÉÍÓÚÑ0-9])|[:;]["»”)]*\s+(?=[¿¡«"“(]?[A-ZÁÉÍÓÚÑ])/g;
   function frases(texto) {
     const res = [];
     let inicio = 0;
@@ -86,7 +86,7 @@
       const corte = m.index + 1;
       const trozo = texto.slice(inicio, corte).trim();
       const previo = texto.slice(Math.max(0, corte - 6), corte);
-      if (/\b(art|Sr|Sra|núm|pág|etc|p\. ej|ej)\.$/.test(previo) || trozo.length < 12) continue;
+      if (/\b(art|Sr|Sra|núm|pág|etc|p\. ej|ej)\.$/.test(previo) || trozo.length < 20) continue;
       res.push([inicio, corte]);
       inicio = m.index + m[0].length;
     }
@@ -150,8 +150,10 @@
     UD: 'unidad didáctica', SdA: 'situación de aprendizaje', NEAE: 'neáe', DUA: 'dúa', ETCP: 'e te ce pe',
   };
   const MESES = ['enero', 'febrero', 'marzo', 'abril', 'mayo', 'junio', 'julio', 'agosto', 'septiembre', 'octubre', 'noviembre', 'diciembre'];
+  const DESCRIPTORES = { CCL: 'ce ce ele', CP: 'ce pe', STEM: 'estem', CD: 'ce de', CPSAA: 'ce pe ese a a', CC: 'ce ce', CE: 'ce e', CCEC: 'ce ce e ce' };
   function paraVoz(t) {
     return String(t)
+      .replace(/\b(CCL|CPSAA|CCEC|STEM|CP|CD|CC|CE)(\d)\b/g, (m, a, n) => `${DESCRIPTORES[a]} ${n}`)
       .replace(/[«»“”"]/g, '')
       .replace(/\s*[—–]\s*/g, ', ')
       .replace(/y\/o/g, 'y o')

@@ -296,6 +296,49 @@
       this.emitir();
       if (seguir) this.play();
     }
+    /** Coloca el audio en t; si el servidor no permite saltar, descarga el fichero entero una vez y salta en memoria. */
+    fijarTiempo(t) {
+      const a = this.audio;
+      const ex = this.expo;
+      const aplicar = () => {
+        const s = a.seekable;
+        let ok = false;
+        for (let k = 0; k < s.length; k++) if (t >= s.start(k) - 0.05 && t <= s.end(k) + 0.05) ok = true;
+        if (!ok && t > 0.5 && ex && !this.blobUrls[ex.id] && location.protocol !== 'file:') { this.pasarABlob(t); return; }
+        try { a.currentTime = t; } catch (e) { /* nada */ }
+      };
+      if (a.readyState >= 1) aplicar(); else a.addEventListener('loadedmetadata', aplicar, { once: true });
+    }
+    async pasarABlob(t) {
+      const ex = this.expo;
+      if (this._descargando) { this._tPendiente = t; return; }
+      this._descargando = true;
+      this._tPendiente = t;
+      this.errorAudio = 'Preparando el audio para poder saltar…';
+      this.emitir();
+      try {
+        const r = await fetch(ex.audio.src);
+        if (!r.ok) throw new Error(String(r.status));
+        this.blobUrls[ex.id] = URL.createObjectURL(await r.blob());
+      } catch (e) {
+        this._descargando = false;
+        this.errorAudio = '';
+        try { this.audio.currentTime = this._tPendiente; } catch (err) { /* nada */ }
+        this.emitir();
+        return;
+      }
+      this._descargando = false;
+      this.errorAudio = '';
+      if (this.expo !== ex) return;
+      const seguir = this.reproduciendo;
+      this.audio.src = this.blobUrls[ex.id];
+      this.audio.playbackRate = this.velocidad;
+      this.audio.addEventListener('loadedmetadata', () => {
+        try { this.audio.currentTime = this._tPendiente; } catch (e) { /* nada */ }
+        if (seguir) { this.reproduciendo = true; const p = this.audio.play(); if (p && p.catch) p.catch(() => {}); }
+        this.emitir();
+      }, { once: true });
+    }
     alTiempo() {
       if (this.modo !== 'mp3' || !this.expo) return;
       const t = this.audio.currentTime;
@@ -303,7 +346,7 @@
       if (this.soloPropias && this.reproduciendo && !this.expo.frases[i].propia) {
         const j = this.siguientePermitida(i);
         if (j >= this.expo.frases.length) { this.pausa(); return; }
-        this.audio.currentTime = this.expo.frases[j].t0 + 0.01;
+        this.fijarTiempo(this.expo.frases[j].t0 + 0.01);
         i = j;
       }
       if (i !== this.frase || this.reproduciendo) {
@@ -371,13 +414,12 @@
       const seguir = reproducir == null ? this.reproduciendo : reproducir;
       this.frase = i;
       if (this.modo === 'mp3') {
-        const t0 = ex.frases[i].t0 || 0;
-        try { this.audio.currentTime = t0 + 0.01; } catch (e) { /* aún sin metadatos */ this.audio.addEventListener('loadedmetadata', () => { this.audio.currentTime = t0 + 0.01; }, { once: true }); }
+        this.fijarTiempo((ex.frases[i].t0 || 0) + 0.01);
         if (seguir) this.play(); else this.emitir();
       } else if (seguir) { this.reproduciendo = true; this.hablar(i); } else { this.emitir(); }
     }
     saltarSeg(d) {
-      if (this.modo === 'mp3' && this.audio) { this.audio.currentTime = Math.max(0, Math.min(this.audio.duration || 1e9, this.audio.currentTime + d)); this.alTiempo(); return; }
+      if (this.modo === 'mp3' && this.audio) { this.fijarTiempo(Math.max(0, Math.min(this.audio.duration || 1e9, this.audio.currentTime + d))); this.alTiempo(); return; }
       const ex = this.expo; if (!ex) return;
       const objetivo = (ex.frases[this.frase].est0 / this.velocidad) + d;
       let i = this.frase;
@@ -387,7 +429,7 @@
     }
     irATiempo(t) {
       const ex = this.expo; if (!ex) return;
-      if (this.modo === 'mp3') { this.audio.currentTime = t; this.alTiempo(); return; }
+      if (this.modo === 'mp3') { this.fijarTiempo(t); this.alTiempo(); return; }
       let i = 0;
       while (i < ex.frases.length - 1 && ex.frases[i + 1].est0 / this.velocidad <= t) i++;
       this.irAFrase(i);

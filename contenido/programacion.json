@@ -10,19 +10,20 @@
         "Introducción y justificación",
         "Bibliografía"
       ],
-      "minutos": 2.4,
+      "minutos": 1.8,
       "esquema": [
-        "Saludo y presentación: «Aprendemos juntos», tercero de Primaria, cuatro áreas",
-        "Estructura: 12 UD con SdA, 3 proyectos de diseño, APS «Opera prima»",
-        "Justificación normativa: LOMLOE, LEA, RD 157/2022, D. 101/2023, Orden 30/05/2023 (art. 3)",
-        "Justificación curricular: Coll (2013), 3 niveles + 4.º de Cabrerizo, Rubio y Castillo (2014)",
-        "Justificación epistemológica: Piaget e Inhelder, Vygotsky, Ausubel",
-        "Rasgos: competencial, cooperativa, lectura, razonamiento, DUA, viable"
+        "Saludo: «Aprendemos juntos», tercero, Mijas Costa, cuatro áreas",
+        "12 UD, cada una con su SdA + 3 proyectos de diseño + APS",
+        "Índice de 8 apartados (escrito al empezar)",
+        "Normativa: art. 91 LOE · art. 3 Orden 30/05/2023",
+        "Curricular: Coll (2013) + Cabrerizo, Rubio y Castillo (2014) · perfil competencial del ciclo",
+        "Epistemológica, autor → práctica: Piaget manipulativo · Vygotsky tutoría · Ausubel previos · Bruner investigaciones",
+        "Control de tiempo: terminar hacia el minuto 2"
       ],
       "bloques": [
         {
           "id": "p1b1",
-          "texto": "Buenos días, señoras y señores miembros del tribunal. Voy a defender mi programación didáctica «Aprendemos juntos», para tercero de Educación Primaria, en un colegio bilingüe de Mijas Costa, en Málaga. Es una programación interdisciplinar de cuatro áreas: Lengua Castellana y Literatura, Matemáticas, Conocimiento del Medio Natural, Social y Cultural y Educación Artística. Tiene doce unidades didácticas, cada una con su situación de aprendizaje, tres proyectos de diseño y un aprendizaje-servicio anual. Mi exposición sigue los ocho apartados que dejo escritos en la pizarra.",
+          "texto": "Buenos días, señoras y señores miembros del tribunal. Defiendo mi programación didáctica «Aprendemos juntos», para tercero de Primaria. Es una programación interdisciplinar de cuatro áreas: Lengua Castellana y Literatura, Matemáticas, Conocimiento del Medio y Educación Artística. Tiene doce unidades didácticas, y cada una contiene su situación de aprendizaje; además, tres proyectos de diseño y un aprendizaje-servicio anual. Mi exposición tiene ocho apartados: introducción; contexto; normativa y concreción curricular; metodología; organización y temporalización; diversidad; evaluación; y conclusión.",
           "pizarra": [
             {
               "zona": "cabecera",
@@ -38,15 +39,15 @@
             },
             {
               "zona": "indice",
-              "texto": "3. Marco normativo y concreción curricular"
+              "texto": "3. Normativa y concreción curricular"
             },
             {
               "zona": "indice",
-              "texto": "4. Metodología"
+              "texto": "4. Principios y metodología"
             },
             {
               "zona": "indice",
-              "texto": "5. Organización y temporalización"
+              "texto": "5. Organización, recursos y temporalización"
             },
             {
               "zona": "indice",
@@ -64,26 +65,12 @@
         },
         {
           "id": "p1b2",
-          "texto": "En primer lugar, la justifico normativamente. Programar es la primera función docente según la Ley Orgánica 2/2006, de Educación, modificada por la Ley Orgánica 3/2020, la LOMLOE, y también la Ley 17/2007, de Educación de Andalucía. Mi programación concreta los elementos curriculares del Real Decreto 157/2022, el Decreto 101/2023 y la Orden de 30 de mayo de 2023, y cumple su artículo 3, que exige situaciones de aprendizaje que integren las distintas áreas.",
-          "pizarra": [
-            {
-              "zona": "normativa",
-              "texto": "LOMLOE · LEA 17/2007"
-            },
-            {
-              "zona": "normativa",
-              "texto": "RD 157/2022 · D. 101/2023 · O. 30/05/2023"
-            }
-          ]
-        },
-        {
-          "id": "p1b3",
-          "texto": "En segundo lugar, la justifico curricularmente. Como señala Coll (2013), programar es concretar qué, cuándo y cómo enseñar y evaluar. Coll distingue tres niveles de concreción: el currículo de la Administración; la programación didáctica del equipo de ciclo, donde se sitúa esta programación; y la programación de aula, donde desarrollo mis doce unidades didácticas. Cabrerizo, Rubio y Castillo (2014) añaden un cuarto nivel: las medidas para el alumnado con necesidades específicas de apoyo educativo, imprescindibles en mi grupo.",
+          "texto": "La justifico, primero, normativamente: según el artículo 91 de la Ley Orgánica 2/2006, programar es la primera función docente; y el artículo 3 de la Orden de 30 de mayo de 2023 exige situaciones de aprendizaje que integren las áreas. Segundo, curricularmente: Coll (2013) distingue tres niveles de concreción, y mi programación y sus unidades ocupan el segundo y el tercero; Cabrerizo, Rubio y Castillo (2014) añaden un cuarto, la atención a la diversidad.",
           "pizarra": [
             {
               "zona": "centro",
               "caja": "1. Justificación",
-              "texto": "Coll: 3 niveles + 4.º NEAE · constructivismo"
+              "texto": "Normativa · curricular · constructivista (Piaget, Vygotsky, Ausubel, Bruner)"
             },
             {
               "zona": "normativa",
@@ -92,8 +79,8 @@
           ]
         },
         {
-          "id": "p1b4",
-          "texto": "En tercer lugar, la justifico epistemológicamente desde el constructivismo: con Piaget e Inhelder (2022), ajusto la enseñanza a las operaciones concretas; con Vygotsky (2020), aprovecho la zona de desarrollo próximo cooperando; y con Ausubel (2009), parto de los conocimientos previos. De ahí su título: «Aprendemos juntos». En síntesis, es una programación competencial, cooperativa e inclusiva, que impulsa la lectura y el razonamiento matemático, integra la sostenibilidad y la igualdad, se basa en el Diseño Universal para el Aprendizaje y es coherente y viable.",
+          "id": "p1b3",
+          "texto": "Y tercero, epistemológicamente, desde el constructivismo: con Piaget e Inhelder (2022), uso material manipulativo, propio de las operaciones concretas; con Vygotsky (2020), la tutoría entre iguales aprovecha la zona de desarrollo próximo; con Ausubel (2009), cada unidad empieza activando los conocimientos previos; y con Bruner (2018), propongo pequeñas investigaciones guiadas. Es relevante para este grupo porque tercero abre el segundo ciclo, el momento de consolidar la lectura comprensiva y el razonamiento matemático. De ahí su título: «Aprendemos juntos».",
           "pizarra": []
         }
       ]
@@ -104,44 +91,58 @@
       "rubrica": [
         "Contextualización y adecuación"
       ],
-      "minutos": 2.2,
+      "minutos": 2.1,
       "esquema": [
-        "Centro: colegio bilingüe de Mijas Costa, tres líneas, RD 132/2010 y RD 658/2024",
-        "Plan de Centro: Paz, Igualdad, Actuación Digital, CIMA (vida saludable, ALDEA, STEAM)",
-        "Etapa y nivel: tercero, segundo ciclo; 22 alumnos de 8-9 años",
-        "Rasgos generales (Piaget e Inhelder 2022) → manipulativo y equipo",
-        "Rasgos particulares: 2 con dificultades LCL-MAT, TDAH, compensatoria",
-        "Cuatro áreas concretadas; ajustada a la realidad (calendario, horario, recursos)"
+        "Centro: CEIP bilingüe de Mijas Costa (40 000 hab.), tres líneas",
+        "Planes (Antúnez e Imbernón 2010): Paz, Igualdad, Actuación Digital, CIMA (vida saludable, ALDEA, STEAM)",
+        "Tercero: 22 alumnos de 8-9 años, operaciones concretas",
+        "Psicoevolutivo: físico-motriz · cognitivo · lingüístico · afectivo-social · moral → manipulativo, cooperativo, movimiento-calma",
+        "Instr. 08/03/2017: 2 NEAE (DIA derivadas de TDAH · compensación educativa) + 2 con programa de refuerzo",
+        "Horario: LCL 5,5 h · MAT 5,5 h · CMN 2,5 h · EAR (Plástica) 1 h · clases 10/9-23/6 (178 días)",
+        "Control de tiempo: el apartado 3 empieza hacia el minuto 4"
       ],
       "bloques": [
         {
           "id": "p2b1",
-          "texto": "Paso al segundo apartado: la contextualización y adecuación. El centro es un colegio público bilingüe de Educación Infantil y Primaria de Mijas Costa, en Málaga, una localidad moderna, turística y comercial de unos cuarenta mil habitantes. Tiene tres líneas por nivel, y sus instalaciones cumplen el Real Decreto 132/2010, modificado por el Real Decreto 658/2024. Siguiendo a Antúnez e Imbernón (2010), parto del Proyecto Educativo y vinculo la programación con sus planes y programas: el Plan de Cultura de Paz, el Plan de Igualdad, el Plan de Actuación Digital y el programa CIMA, con hábitos de vida saludable, ALDEA y STEAM.",
+          "texto": "Paso al segundo apartado: contextualización y adecuación. El centro es un colegio público bilingüe de Infantil y Primaria de Mijas Costa, una zona turística y comercial de unos cuarenta mil habitantes, con tres líneas por nivel. Siguiendo a Antúnez e Imbernón (2010), parto del Proyecto Educativo y vinculo la programación con sus planes y programas: Cultura de Paz, Igualdad, Actuación Digital y los programas CIMA de vida saludable, ALDEA y STEAM.",
           "pizarra": [
             {
               "zona": "centro",
               "caja": "2. Contexto",
-              "texto": "CEIP bilingüe Mijas Costa · Paz · Igualdad · CIMA"
-            },
-            {
-              "zona": "normativa",
-              "texto": "RD 132/2010 – RD 658/2024 · Antúnez e Imbernón (2010)"
+              "texto": "CEIP bilingüe · Mijas Costa · 3 líneas"
             }
           ]
         },
         {
           "id": "p2b2",
-          "texto": "En cuanto a la etapa y el nivel, se dirige a tercero de Educación Primaria, primer curso del segundo ciclo: veintidós alumnos y alumnas de ocho y nueve años. Según Piaget e Inhelder (2022), están en las operaciones concretas: razonan sobre hechos concretos y combinan operaciones para resolver problemas. Además, tienen mucha energía, amplían su vocabulario, necesitan sentirse queridos, disfrutan en grupo e interiorizan mejor las normas. Por eso uso material manipulativo, como los bloques de base diez, los policubos o el tangram, y normas consensuadas, como el cartel de normas de colaboración de la primera unidad.",
-          "pizarra": []
-        },
-        {
-          "id": "p2b3",
-          "texto": "En cuanto a las características particulares, el grupo presenta diversidad: dos alumnos con dificultades en Lengua y Matemáticas, un alumno con TDAH, censado con dificultades de aprendizaje, y una alumna que necesita atención de compensación educativa. Les dedicaré el sexto apartado. La programación concreta y precisa las cuatro áreas a las que va dirigida: Lengua Castellana y Literatura, Matemáticas, Conocimiento del Medio y Educación Artística en su parte de Plástica. Y se ajusta a la realidad: respeta el calendario escolar, el horario real del grupo y los recursos del centro.",
+          "texto": "El grupo tiene veintidós alumnos y alumnas de ocho y nueve años, en las operaciones concretas de Piaget. En lo físico-motriz, tienen mucha energía y precisión en los juegos; en lo cognitivo, razonan sobre hechos concretos y combinan operaciones; en lo lingüístico, amplían su vocabulario y usan oraciones más complejas; en lo afectivo-social, necesitan sentirse queridos y disfrutan en grupo; y en lo moral, interiorizan mejor las normas y los valores. Por eso mi programación es manipulativa y cooperativa y alterna el movimiento con la calma.",
           "pizarra": [
             {
               "zona": "centro",
               "caja": "2. Contexto",
-              "texto": "22 alumnos, 8-9 años · NEAE: 2 dif., TDAH, COM"
+              "texto": "8-9 años: motriz · cognitivo · lingüístico · afectivo · moral"
+            }
+          ]
+        },
+        {
+          "id": "p2b3",
+          "texto": "Entre sus características particulares, según las Instrucciones de 8 de marzo de 2017, hay dos alumnos con necesidades específicas de apoyo educativo: un alumno con dificultades de aprendizaje derivadas de TDAH y una alumna de compensación educativa. Además, otros dos alumnos con dificultades en Lengua y Matemáticas siguen un programa de refuerzo.",
+          "pizarra": [
+            {
+              "zona": "centro",
+              "caja": "2. Contexto",
+              "texto": "22 alumnos · 2 NEAE (DIA-TDAH, COM) · 2 con refuerzo"
+            }
+          ]
+        },
+        {
+          "id": "p2b4",
+          "texto": "La programación concreta y precisa sus áreas con su horario semanal: cinco horas y media de Lengua, cinco y media de Matemáticas, dos y media de Conocimiento del Medio y una de Educación Artística, en su parte de Plástica. Y se ajusta al calendario real: las unidades van del 10 de septiembre al 20 de junio, y los últimos días, hasta el 23, son de evaluación final.",
+          "pizarra": [
+            {
+              "zona": "centro",
+              "caja": "2. Contexto",
+              "texto": "Horas: LCL 5,5 · MAT 5,5 · CMN 2,5 · EAR 1"
             }
           ]
         }
@@ -149,92 +150,112 @@
     },
     {
       "id": "p3",
-      "titulo": "Marco normativo y concreción curricular",
+      "titulo": "Normativa y concreción curricular",
       "rubrica": [
         "Marco normativo y concreción curricular",
         "Bibliografía"
       ],
       "minutos": 4.4,
       "esquema": [
-        "Nacional: LOE-LOMLOE, RD 157/2022, RD 132/2010 y 658/2024",
-        "Autonómico: LEA 17/2007, D. 101/2023, Orden 30/05/2023 + Instrucciones",
-        "Cadena: objetivos → competencias clave → descriptores → CE → CEv → saberes",
-        "31 CE: LCL 10, MAT 8, CMN 9, EAR 4 (tablas 3, 4 y 5)",
-        "LCL CE 4 → 4.1.a → 2.B.3.4 · MAT CE 2 → 2.1.a → 2.A.3.5",
-        "CMN CE 3 → 3.1.a → 2.B.2.1 · EAR CE 4 → 4.1.a → 2.B.1",
-        "SdA (art. 7 D. 101/2023, INTEF 2023): 12 UD + 3 proyectos + APS"
+        "Nacional: LOE-LOMLOE (LO 3/2020), RD 157/2022 · Autonómico: LEA, D. 101/2023, Orden 30/05/2023, D. 328/2010 + Instrucciones 21/06/2023, 18/06/2024, 08/03/2017",
+        "Cadena (Escamilla 2018): objetivos → competencias clave → descriptores → 31 competencias específicas → 70 criterios → saberes (tablas 3, 4 y 5)",
+        "LCL 10: diversidad · comprensión oral · expresión oral · lectura · escritura · información · lectura autónoma · literatura · reflexión · uso ético",
+        "MAT 8: interpretar · resolver · plantear · computacional · conexiones · comunicar · emociones · equipo",
+        "CMN 9: digital · ciencia · diseño · cuerpo · medio · intervención humana · tiempo · igualdad · democracia · EAR 4: descubrir · investigar · expresar · participar",
+        "Cadenas: LCL 4 (CCL 2-3-5, CP 2, STEM 1, CD 1, CPSAA 4) → 4.1.a · MAT 2 (STEM 1-2, CPSAA 4-5, CE 3) → 2.1.a",
+        "CMN 3 (STEM 3-4, CD 5, CPSAA 3-4-5, CE 1-3, CCEC 4) → 3.1.a, UD 5 · EAR 3 (CCL 1, CD 2, CPSAA 5, CC 2, CE 1, CCEC 3-4) → 3.1.a, UD 8",
+        "SdA (art. 7 D. 101/2023, INTEF 2023): 12 UD + 3 proyectos (ODS 2, 15, 4) + APS (ODS 16) · Control: el apartado 4 empieza hacia el minuto 8"
       ],
       "bloques": [
         {
           "id": "p3b1",
-          "texto": "Paso al tercer apartado: el marco normativo y la concreción curricular. El marco legislativo vigente es, en el ámbito nacional, la Ley Orgánica 2/2006, de Educación, modificada por la LOMLOE; el Real Decreto 157/2022, de 1 de marzo, de enseñanzas mínimas de Educación Primaria; y el Real Decreto 132/2010, modificado por el Real Decreto 658/2024, de requisitos mínimos de los centros.",
-          "pizarra": []
+          "texto": "Paso al tercer apartado: normativa y concreción curricular. En el ámbito nacional, el marco vigente es la Ley Orgánica 2/2006, de Educación, modificada por la Ley Orgánica 3/2020, y el Real Decreto 157/2022. En el autonómico, la Ley 17/2007, de Educación de Andalucía; el Decreto 101/2023; la Orden de 30 de mayo de 2023, que lo desarrolla; y el Decreto 328/2010, Reglamento Orgánico de los centros. Y las Instrucciones de 21 de junio de 2023, sobre la lectura; de 18 de junio de 2024, sobre el razonamiento matemático; y de 8 de marzo de 2017, sobre el alumnado con necesidades específicas.",
+          "pizarra": [
+            {
+              "zona": "normativa",
+              "texto": "LOE-LOMLOE · RD 157/22 · LEA 17/07"
+            },
+            {
+              "zona": "normativa",
+              "texto": "D. 101/23 · O. 30/05/23 · D. 328/10"
+            },
+            {
+              "zona": "normativa",
+              "texto": "Instr. lectura 2023 · razonamiento 2024 · NEAE 2017"
+            }
+          ]
         },
         {
           "id": "p3b2",
-          "texto": "En el ámbito autonómico, la Ley 17/2007, de Educación de Andalucía; el Decreto 101/2023, de 9 de mayo, que establece el currículo de Primaria en Andalucía; y la Orden de 30 de mayo de 2023, que lo desarrolla y regula la atención a la diversidad y la evaluación. Además, las Instrucciones sobre la lectura, el razonamiento matemático y el alumnado con necesidades específicas de apoyo educativo.",
-          "pizarra": []
-        },
-        {
-          "id": "p3b3",
-          "texto": "Sobre este marco, concreto el currículo como una cadena. Los objetivos de etapa del artículo 5 del Decreto 101/2023 se vinculan con el perfil competencial, según el anexo III de la Orden. Las ocho competencias clave se concretan en descriptores operativos; de ellos parten las competencias específicas, que se evalúan con criterios de evaluación y se trabajan con saberes básicos. Así lo recojo, en las tablas 3, 4 y 5, para cada una de las treinta y una competencias específicas: diez de Lengua, ocho de Matemáticas, nueve de Conocimiento del Medio y cuatro de Educación Artística. Siguiendo a Escamilla (2018), esta vinculación es la base de una programación por competencias.",
+          "texto": "Siguiendo a Escamilla (2018), concreto el currículo como una cadena. Los objetivos de etapa, del artículo 5 del Decreto 101/2023, se vinculan con el perfil competencial. Las competencias clave se concretan en descriptores operativos; de ellos parten las competencias específicas, que se evalúan con criterios de evaluación y se trabajan con saberes básicos. En total, treinta y una competencias específicas y setenta criterios, recogidos en mis tablas 3, 4 y 5.",
           "pizarra": [
             {
               "zona": "centro",
               "caja": "3. Concreción curricular",
-              "texto": "Obj. etapa → CC → descriptores → CE → CEv → saberes"
+              "texto": "Obj. → comp. clave → DO → 31 CEsp → 70 CEv → saberes"
             },
+            {
+              "zona": "normativa",
+              "texto": "Escamilla (2018) · INTEF (2023)"
+            }
+          ]
+        },
+        {
+          "id": "p3b3",
+          "texto": "Concreto todas las competencias específicas. Lengua, diez: 1, diversidad lingüística; 2, comprensión oral; 3, expresión oral; 4, comprensión lectora; 5, escritura; 6, búsqueda de información; 7, lectura autónoma; 8, educación literaria; 9, reflexión sobre la lengua; y 10, uso ético del lenguaje. Matemáticas, ocho: 1, interpretar situaciones cotidianas; 2, resolver problemas; 3, plantear problemas; 4, pensamiento computacional; 5, conexiones matemáticas; 6, comunicar y representar; 7, gestión emocional; y 8, trabajo en equipo.",
+          "pizarra": [
             {
               "zona": "centro",
               "caja": "3. Concreción curricular",
-              "texto": "31 CE: LCL 10 · MAT 8 · CMN 9 · EAR 4"
+              "texto": "CEsp: LCL 10 · MAT 8 · CMN 9 · EAR 4"
             }
           ]
         },
         {
           "id": "p3b4",
-          "texto": "Pongo un ejemplo por área. En Lengua Castellana y Literatura, la competencia específica 4, comprender textos escritos y multimodales, se vincula con los descriptores de comunicación lingüística 2, 3 y 5 y de competencia digital 1; se evalúa con el criterio 4.1.a, leer en silencio y en voz alta identificando el sentido global; y se trabaja con el saber 2.B.3.4, estrategias antes, durante y después de la lectura. En Matemáticas, la competencia específica 2, resolver situaciones problematizadas, se vincula con los descriptores STEM 1 y 2 y de aprender a aprender 4 y 5; se evalúa con el criterio 2.1.a, emplear estrategias para resolver problemas de forma pautada; y se trabaja con el saber 2.A.3.5, fases de resolución de un problema.",
-          "pizarra": [
-            {
-              "zona": "centro",
-              "caja": "3. Concreción curricular",
-              "texto": "LCL: CE 4 → CEv 4.1.a → saber 2.B.3.4"
-            },
-            {
-              "zona": "centro",
-              "caja": "3. Concreción curricular",
-              "texto": "MAT: CE 2 → CEv 2.1.a → saber 2.A.3.5"
-            }
-          ]
+          "texto": "Conocimiento del Medio, nueve: 1, recursos digitales; 2, indagación científica; 3, proyectos de diseño; 4, cuerpo y salud; 5, medio natural, social y cultural; 6, intervención humana en el entorno; 7, cambios en el tiempo; 8, igualdad y diversidad cultural; y 9, valores democráticos. Y Educación Artística, cuatro: 1, descubrir; 2, investigar; 3, expresar; y 4, participar en producciones colectivas. Cada una, con sus descriptores, criterios y saberes.",
+          "pizarra": []
         },
         {
           "id": "p3b5",
-          "texto": "En Conocimiento del Medio, la competencia específica 3, resolver problemas mediante proyectos de diseño, se vincula con los descriptores STEM 3 y 4 y de competencia emprendedora 1 y 3; se evalúa con el criterio 3.1.a, diseñar en equipo un producto que resuelva un problema de diseño; y se trabaja con el saber 2.B.2.1, fases de los proyectos de diseño. En Educación Artística, la competencia específica 4, participar en producciones artísticas colectivas, se vincula con comunicación lingüística 5 y conciencia y expresiones culturales 3 y 4; se evalúa con el criterio 4.1.a, participar de forma guiada y cooperativa asumiendo diferentes funciones; y se trabaja con el saber 2.B.1, fases del proceso creativo.",
+          "texto": "Y una cadena completa por área. Lengua 4, comprensión lectora: descriptores de comunicación lingüística 2, 3 y 5, plurilingüe 2, STEM 1, digital 1 y aprender a aprender 4; criterio 4.1.a, leer identificando el sentido global; y saber, las estrategias antes, durante y después de la lectura. Matemáticas 2, resolver problemas: descriptores STEM 1 y 2, aprender a aprender 4 y 5 y emprendedora 3; criterio 2.1.a, emplear estrategias de forma pautada; y saber, las fases de resolución de un problema.",
           "pizarra": [
             {
               "zona": "centro",
               "caja": "3. Concreción curricular",
-              "texto": "CMN: CE 3 → CEv 3.1.a → saber 2.B.2.1"
+              "texto": "LCL4 → CCL2-3-5, CP2, STEM1, CD1, CPSAA4 → 4.1.a"
             },
             {
               "zona": "centro",
               "caja": "3. Concreción curricular",
-              "texto": "EAR: CE 4 → CEv 4.1.a → saber 2.B.1"
+              "texto": "MAT2 → STEM1-2, CPSAA4-5, CE3 → 2.1.a"
             }
           ]
         },
         {
           "id": "p3b6",
-          "texto": "Todos estos elementos se integran en situaciones de aprendizaje, que según el artículo 7 del Decreto 101/2023 son actividades articuladas para desarrollar las competencias específicas en un contexto determinado. Siguiendo al INTEF (2023), las organizo en tres niveles. Primero, cada una de las doce unidades didácticas contiene su situación de aprendizaje. Segundo, un proyecto de diseño por trimestre, ligado a los ODS 2, 15 y 4: «¡Sí, chef!», con un recetario andaluz; «¿Buceamos?», con una galería de arte sostenible; y «Huellas del pasado», con un lapbook sobre la Prehistoria. Tercero, el aprendizaje-servicio anual «Opera prima», ligado al ODS 16: un corto de animación en stop motion.",
+          "texto": "Conocimiento del Medio 3, proyectos de diseño: STEM 3 y 4, digital 5, aprender a aprender 3, 4 y 5, emprendedora 1 y 3 y cultural 4; criterio 3.1.a, diseñar en equipo un producto final; y saber, las fases de los proyectos de diseño, que aplicamos en el recetario de la unidad 5. Y Educación Artística 3, expresar: comunicación lingüística 1, digital 2, aprender a aprender 5, ciudadana 2, emprendedora 1 y cultural 3 y 4; criterio 3.1.a, producir obras propias con la imagen y los medios digitales; y saber, las técnicas de animación, con las fotografías del corto de «Ópera prima» en la unidad 8.",
+          "pizarra": [
+            {
+              "zona": "centro",
+              "caja": "3. Concreción curricular",
+              "texto": "CMN3 → STEM3-4, CD5, CPSAA3-4-5, CE1-3, CCEC4 → 3.1.a"
+            },
+            {
+              "zona": "centro",
+              "caja": "3. Concreción curricular",
+              "texto": "EAR3 → CCL1, CD2, CPSAA5, CC2, CE1, CCEC3-4 → 3.1.a"
+            }
+          ]
+        },
+        {
+          "id": "p3b7",
+          "texto": "Todo se integra en situaciones de aprendizaje, que, según el artículo 7 del Decreto 101/2023, movilizan las competencias específicas. Siguiendo al INTEF (2023), las organizo en tres niveles: las doce unidades, cada una con su situación de aprendizaje; un proyecto de diseño por trimestre, ligado a los ODS 2, 15 y 4: «¡Sí, chef!», «¿Buceamos?» y «Huellas del pasado»; y el aprendizaje-servicio anual «Ópera prima», ligado al ODS 16.",
           "pizarra": [
             {
               "zona": "centro",
               "caja": "3. Concreción curricular",
               "texto": "SdA: 12 UD + 3 proyectos de diseño + APS"
-            },
-            {
-              "zona": "normativa",
-              "texto": "Escamilla (2018) · INTEF (2023)"
             }
           ]
         }
@@ -242,125 +263,119 @@
     },
     {
       "id": "p4",
-      "titulo": "Principios pedagógicos y estrategias metodológicas",
+      "titulo": "Principios y metodología",
       "rubrica": [
         "Aspectos metodológicos y principios pedagógicos",
         "Bibliografía"
       ],
-      "minutos": 5.8,
+      "minutos": 6.3,
       "esquema": [
-        "Principios del artículo 6 del Decreto 101/2023 + orientaciones metodológicas",
-        "Lectura: Instrucciones 21/06/2023, 30 minutos diarios, rutina semanal (Cassany 2019)",
-        "Razonamiento: Instrucciones 18/06/2024, 3 × 30 min, pasos heurísticos",
-        "Métodos y estrategias: ABP, proyectos, cooperativo, APS, rutinas; Baena (2019): 3 fases",
-        "1 Implicación · 2 individual-cooperativo-iguales con género (Pujolás y Lago 2023)",
-        "3 Todos los criterios y CE · 4 Andalucía",
-        "5 Enfoque integrador, interdisciplinar y holístico (Zabala 2012) → resto en apartado 5"
+        "Principios: art. 6 D. 101/2023 (lectura, DUA, TIC, emociones: Bisquerra 2015) · orientaciones de las Instrucciones",
+        "Lectura: Instr. 21/06/2023, 30' a las 9:00 · Razonamiento: Instr. 18/06/2024, M-X-V, pasos heurísticos",
+        "Por área: LCL comunicativo (Cassany 2019) · MAT computacional (mochila, UD 1) · CMN indagación + proyectos de diseño (bloque B, CIMA STEAM) · EAR proceso creativo",
+        "Métodos y estrategias (Cooper y Murphy 2024) + «Veo, pienso, me pregunto»; Baena (2019): 3 semanas = 3 fases",
+        "a) Implicación (Bueno) · b) 1-2-4, lápices al centro, folio giratorio (Pujolás y Lago) + roles y género (CMN 8.1.a)",
+        "c) Todas las CEsp y CEv: LCL 5.1.a en las 12 UD · d) Andalucía (art. 5 D. 101/2023)",
+        "e) Holístico (Zabala): UD 2 en las cuatro áreas + APS · f) Diversidad (art. 27)",
+        "g), h), i) → apartado 5 · Control de tiempo: termina hacia el minuto 15"
       ],
       "bloques": [
         {
           "id": "p4b1",
-          "texto": "Paso al cuarto apartado, el corazón de mi programación: los principios pedagógicos y las estrategias metodológicas. Parto de los principios y orientaciones pedagógicas que marca la normativa vigente, el artículo 6 del Decreto 101/2023. Los aplico así: la lectura como eje de todas las áreas; la integración de las TIC; la sostenibilidad; el Diseño Universal para el Aprendizaje; la educación emocional, siguiendo a Bisquerra, Pérez y García (2015); las peculiaridades de Andalucía; la resolución pacífica de conflictos; y tiempo para proyectos significativos y razonamiento matemático. De ellos derivo mis orientaciones: partir del desarrollo y los intereses del alumnado, construir aprendizajes significativos y funcionales, provocar conflictos cognitivos y enseñar a aprender a aprender.",
-          "pizarra": [
-            {
-              "zona": "centro",
-              "caja": "4. Metodología",
-              "texto": "Principios: art. 6 D. 101/2023"
-            },
-            {
-              "zona": "normativa",
-              "texto": "Bisquerra, Pérez y García (2015)"
-            }
-          ]
+          "texto": "Paso al cuarto apartado, el corazón de mi programación: principios y metodología. Parto de los principios pedagógicos del artículo 6 del Decreto 101/2023. Destaco cuatro: la lectura como eje de todas las áreas, el Diseño Universal para el Aprendizaje, la integración de las tecnologías y la educación emocional, siguiendo a Bisquerra, Pérez y García (2015). Y aplico las orientaciones metodológicas de las Instrucciones de lectura y de razonamiento matemático: ir de lo concreto y cercano, el modelado de la maestra y la combinación de gran grupo, pequeño grupo y trabajo individual.",
+          "pizarra": []
         },
         {
           "id": "p4b2",
-          "texto": "Destaco dos medidas que exige la normativa. La primera, el fomento de la lectura. Siguiendo las Instrucciones de 21 de junio de 2023, dedicamos al menos treinta minutos diarios a leer: en mi horario, la primera media hora de cada mañana. Trabajamos los tres momentos, antes, durante y después de leer; contamos con un mediador de lecturas; leemos noticias, cuentos, poemas, carteles o recetas, y también nuestras propias producciones; y elaboramos diccionarios personales. Como plantean Cassany, Luna y Sanz (2019), la lengua se aprende usándola con sentido; por eso cada día tiene su rutina: leo una noticia, leo un cuento, capítulo del libro, cuentacuentos y dramatizaciones.",
+          "texto": "La primera medida que exige la normativa es el fomento de la lectura. Siguiendo las Instrucciones de 21 de junio de 2023, dedicamos al menos treinta minutos diarios a leer: la primera media hora de cada mañana. Trabajamos los momentos antes, durante y después de leer, con un mediador de lecturas y diccionarios personales.",
           "pizarra": [
             {
               "zona": "centro",
               "caja": "4. Metodología",
-              "texto": "Lectura: 30 min diarios · antes, durante, después"
-            },
-            {
-              "zona": "normativa",
-              "texto": "Instr. 21/06/2023 · Cassany, Luna y Sanz (2019)"
+              "texto": "Lectura 30' diarios · razonamiento 3 × 30'"
             }
           ]
         },
         {
           "id": "p4b3",
-          "texto": "La segunda, el fomento del razonamiento matemático. Las Instrucciones de 18 de junio de 2024 hacen de la resolución de problemas la columna vertebral del área, con tres sesiones semanales de al menos treinta minutos: en mi horario, martes, miércoles y viernes. Seguimos siempre los mismos pasos heurísticos: planteamos la situación, la comprendemos organizando los datos, subrayamos con colores los datos, las palabras clave y la pregunta, elegimos y aplicamos una estrategia, comprobamos la solución y reflexionamos juntos sobre el proceso. Lo concretamos en rutinas motivadoras, como los problemas exprés y el concurso de problemas por equipos, partiendo de lo concreto y valorando el proceso, no solo el resultado.",
-          "pizarra": [
-            {
-              "zona": "centro",
-              "caja": "4. Metodología",
-              "texto": "Razonamiento: 3 × 30 min · pasos heurísticos"
-            },
-            {
-              "zona": "normativa",
-              "texto": "Instr. 18/06/2024"
-            }
-          ]
+          "texto": "La segunda, el fomento del razonamiento matemático. Las Instrucciones de 18 de junio de 2024 hacen de la resolución de problemas la columna vertebral del área, con tres sesiones semanales de al menos treinta minutos: en mi horario, martes, miércoles y viernes. Seguimos siempre los mismos pasos heurísticos: comprender, subrayar con colores los datos y la pregunta, aplicar una estrategia, comprobar y reflexionar juntos.",
+          "pizarra": []
         },
         {
           "id": "p4b4",
-          "texto": "Combino tres métodos: el expositivo para explicar, el demostrativo para modelar con ejemplos y el investigativo guiado para pequeñas investigaciones. Y planteo estrategias metodológicas motivantes e innovadoras: el aprendizaje basado en problemas; el aprendizaje basado en proyectos, que según Cooper y Murphy (2024) da sentido a lo aprendido mediante un producto real; el aprendizaje cooperativo y la tutoría entre iguales; el aprendizaje-servicio; y las rutinas de pensamiento. Todo se organiza con el aprendizaje experiencial de Baena (2019): cada unidad didáctica dura unas tres semanas, y cada semana es una fase: motivar y activar, explorar y estructurar, y aplicar y concluir.",
+          "texto": "Y cada área tiene su enfoque. En Lengua, el comunicativo: como plantean Cassany, Luna y Sanz (2019), la lengua se aprende usándola con sentido. En Matemáticas, además, el pensamiento computacional: en la unidad 1 pensamos paso a paso cómo preparar la mochila. En Conocimiento del Medio, la indagación científica y los proyectos de diseño del bloque B, dentro del programa CIMA STEAM. Y en Educación Artística, el proceso creativo, de la recepción y el análisis a la creación.",
           "pizarra": [
             {
               "zona": "centro",
               "caja": "4. Metodología",
-              "texto": "ABP · proyectos · cooperativo · APS · rutinas"
-            },
-            {
-              "zona": "centro",
-              "caja": "4. Metodología",
-              "texto": "Motivar-activar → explorar-estructurar → aplicar-concluir"
-            },
-            {
-              "zona": "normativa",
-              "texto": "Cooper y Murphy (2024) · Baena (2019)"
+              "texto": "Por área: comunicativo · computacional · indagación · creativo"
             }
           ]
         },
         {
           "id": "p4b5",
-          "texto": "Explico ahora qué permiten estas estrategias, indicador por indicador. Primero, propician la implicación, la participación y el interés del alumnado: como explica Bueno (2019), la emoción y la curiosidad activan el aprendizaje; por eso cada unidad parte de una pregunta cercana, como «¿Cómo llego a un lugar?», y termina en un producto real, como un plano del barrio. Segundo, combinan el trabajo individual, el cooperativo y el aprendizaje entre iguales, con perspectiva de género. Siguiendo a Pujolás y Lago (2023), formo equipos heterogéneos con roles rotatorios, para que niñas y niños sean por igual coordinadores o portavoces, sin estereotipos; y en la tutoría entre iguales, prevista en el artículo 27 de la Orden de 30 de mayo de 2023, quien domina un aprendizaje ayuda a otro compañero.",
+          "texto": "Combino tres métodos: el expositivo para explicar, el demostrativo para modelar y el investigativo guiado. Y estrategias motivantes e innovadoras: el aprendizaje basado en problemas; el basado en proyectos, que, según Cooper y Murphy (2024), da sentido a lo aprendido con un producto real; el cooperativo; el aprendizaje-servicio; y las rutinas de pensamiento, como «Veo, pienso, me pregunto». Todo se organiza con el aprendizaje experiencial de Baena (2019): cada unidad dura unas tres semanas, y cada semana es una fase: motivar y activar, explorar y estructurar, y aplicar y concluir.",
           "pizarra": [
             {
               "zona": "centro",
               "caja": "4. Metodología",
-              "texto": "1 Implicación · 2 Cooperativo e iguales con género"
+              "texto": "Problemas · proyectos · cooperativo · APS · rutinas · Baena: 3 fases"
             },
             {
               "zona": "normativa",
-              "texto": "Bueno (2019) · Pujolás y Lago (2023)"
+              "texto": "Bisquerra (2015) · Cassany (2019) · Cooper y Murphy (2024)"
             }
           ]
         },
         {
           "id": "p4b6",
-          "texto": "Tercero, sirven para el desarrollo de todos los criterios de evaluación y todas las competencias específicas, porque los criterios se secuencian a lo largo de las doce unidades y cada situación de aprendizaje moviliza criterios de las cuatro áreas. Cuarto, fomentan conexiones con las prácticas sociales y culturales de Andalucía: la jornada gastronómica andaluza, el recetario andaluz, la visita de una bailaora en el Día del Flamenco, el desayuno andaluz del 28 de febrero, la canción popular «La Tarara», la obra de Velázquez y la modalidad lingüística andaluza, que evalúo con el criterio 1.3.a de Lengua.",
+          "texto": "Explico ahora qué permiten estas estrategias. Primero, propician la implicación, la participación y el interés: como explica Bueno (2019), la emoción y la curiosidad activan el aprendizaje; por eso cada unidad parte de una pregunta cercana, como «¿Cómo llego a un lugar?», y termina en un producto real, como el plano del barrio. Segundo, combinan el trabajo individual, el cooperativo y el aprendizaje entre iguales, con técnicas del programa de Pujolás y Lago (2023): en el 1-2-4, cada alumno piensa solo, lo contrasta con su pareja y el equipo de cuatro consensúa una respuesta; y también usamos lápices al centro y el folio giratorio.",
           "pizarra": [
             {
               "zona": "centro",
               "caja": "4. Metodología",
-              "texto": "3 Todos los CEv y CE · 4 Andalucía"
+              "texto": "a) Implicación · b) 1-2-4, lápices al centro + género"
+            },
+            {
+              "zona": "normativa",
+              "texto": "Baena (2019) · Bueno (2019) · Pujolás y Lago (2023)"
             }
           ]
         },
         {
           "id": "p4b7",
-          "texto": "Quinto, proporcionan un enfoque integrador, interdisciplinar y holístico. Como defiende Zabala (2012), un enfoque globalizador acerca la escuela a la vida. Por ejemplo, en el aprendizaje-servicio «Opera prima» el alumnado escribe el guion en Lengua, diseña el storyboard, el escenario y el cartel en Educación Artística, usa herramientas digitales para fotografiar y editar y, al final, lo comparte con la comunidad en un festival de cine. Además, estas estrategias contemplan las medidas de atención a la diversidad, facilitan la coordinación docente, incluyen la orientación y acción tutorial y utilizan recursos didácticos, espaciales, personales y materiales, como desarrollo a continuación.",
+          "texto": "Y todo ello con perspectiva de género. Los equipos son heterogéneos y los roles rotan, coordinador, secretario, portavoz y responsable del material, para que niñas y niños los asuman por igual, sin estereotipos. Además, aplico el Plan de Igualdad del centro con un lenguaje inclusivo; presento referentes femeninos, como cuando en la unidad 1 preguntamos «¿Conoces algún científico o científica?»; y evalúo la igualdad con el criterio 8.1.a de Conocimiento del Medio en las unidades 1 y 9.",
+          "pizarra": []
+        },
+        {
+          "id": "p4b8",
+          "texto": "Tercero, sirven para el desarrollo de todas las competencias específicas y de sus criterios de evaluación. Lo garantizo con una tabla de secuenciación de criterios por unidades, donde los básicos se repiten. Por ejemplo, el criterio 5.1.a de Lengua, producir textos escritos, se evalúa en las doce unidades, y el 4.1.a, leer, en diez. Cuarto, fomentan conexiones con las prácticas sociales y culturales de Andalucía, como pide el artículo 5 del Decreto 101/2023: el Día del Flamenco con una bailaora, el desayuno andaluz del 28 de febrero y «La Tarara», con la modalidad lingüística andaluza.",
           "pizarra": [
             {
               "zona": "centro",
               "caja": "4. Metodología",
-              "texto": "5 Integrador · interdisciplinar · holístico"
-            },
+              "texto": "c) Todas las CEsp y CEv · d) Andalucía"
+            }
+          ]
+        },
+        {
+          "id": "p4b9",
+          "texto": "Quinto, proporcionan un enfoque integrador, interdisciplinar y holístico. Como defiende Zabala (2012), un enfoque globalizador acerca la escuela a la vida. Por ejemplo, en la unidad 2, en Conocimiento del Medio elaboramos una guía de las plantas del barrio; en Lengua, una exposición oral; en Matemáticas, un mercadillo con monedas y billetes; y en Educación Artística descubrimos «Las meninas» de Velázquez. A la vez escribimos el guion de «Ópera prima». Responde a una necesidad real del centro, la convivencia, dentro del Plan de Cultura de Paz: el alumnado crea un corto en stop motion sobre cómo resolver conflictos y lo ofrece a toda la comunidad educativa en el festival de cine de fin de curso.",
+          "pizarra": [
             {
               "zona": "normativa",
               "texto": "Zabala (2012)"
+            }
+          ]
+        },
+        {
+          "id": "p4b10",
+          "texto": "Sexto, contemplan medidas generales y específicas de atención a la diversidad: el cooperativo y la tutoría entre iguales son medidas generales del artículo 27 de la Orden, y cada unidad incluye actividades multinivel, que detallo en el sexto apartado. La coordinación, la tutoría y los recursos, en el quinto.",
+          "pizarra": [
+            {
+              "zona": "centro",
+              "caja": "4. Metodología",
+              "texto": "e) Holístico + APS · f) Diversidad"
             }
           ]
         }
@@ -374,150 +389,143 @@
       ],
       "minutos": 4.8,
       "esquema": [
-        "Espacios, tiempos (D. 301/2009, Orden 20/08/2010) y agrupamientos flexibles",
-        "Recursos personales, materiales, espaciales y TIC (Trujillo 2014)",
-        "Complementarias por UD y extraescolares voluntarias",
-        "Coordinación docente (D. 328/2010) y acción tutorial: 4 líneas",
-        "Temporalización: T1 UD 1-5 · T2 UD 6-9 · T3 UD 10-12",
-        "Las 12 UD contienen situación de aprendizaje"
+        "Tiempo: D. 301/2009 (178 días) y anexo I Orden 30/05/2023 (25 h); agrupamientos flexibles",
+        "g) Coordinación: art. 78 D. 328/2010 y O. 20/08/2010, horizontal y vertical + Inglés (vocabulario de cada UD)",
+        "h) Tutoría: 4 líneas + cartel de normas y roles (UD 1) + familias · i) Recursos (Trujillo 2014)",
+        "Complementarias (Tabla 7): UD 2 recogida de alimentos ↔ «¡Sí, chef!» · UD 7 marcha por la paz · UD 11 Pompidou → maqueta UD 12",
+        "Extraescolares (O. 17/04/2017): apoyo educativo (lectura, razonamiento) · artísticas (stop motion)",
+        "T1: UD 1 10-27/9 · 2 →18/10 · 3 →8/11 · 4 →29/11 · 5 →20/12 · T2: UD 6 7-24/1 · 7 →14/2 · 8 →14/3 · 9 →4/4",
+        "T3: UD 10 7/4-7/5 · 11 →30/5 · 12 →20/6 · cada UD: SdA + proyecto + APS",
+        "Pizarra: si falta sitio, borrar las cajas 1 y 2 del centro · Control: el apartado 6 empieza hacia el minuto 19,5"
       ],
       "bloques": [
         {
           "id": "p5b1",
-          "texto": "Paso al quinto apartado: la organización, los recursos y la temporalización. Organizo el espacio para favorecer el trabajo cooperativo: el aula dispuesta en equipos, la biblioteca, el aula del futuro, el huerto escolar, el patio y el pabellón. En cuanto al tiempo, el Decreto 301/2009 fija el calendario, con 178 días lectivos, y la Orden de 20 de agosto de 2010 regula el horario: veinticinco horas semanales con dos horas y media de recreo. Los agrupamientos son flexibles: gran grupo para explicar y debatir, pequeños grupos heterogéneos para proyectos, parejas para la tutoría entre iguales y trabajo individual.",
-          "pizarra": [
-            {
-              "zona": "centro",
-              "caja": "5. Organización",
-              "texto": "Espacios · tiempos · agrupamientos flexibles"
-            },
-            {
-              "zona": "normativa",
-              "texto": "D. 301/2009 · O. 20/08/2010"
-            }
-          ]
+          "texto": "Paso al quinto apartado: organización, recursos y temporalización. En cuanto al tiempo, el Decreto 301/2009 fija el calendario, con ciento setenta y ocho días lectivos, y el anexo uno de la Orden de 30 de mayo de 2023, el horario: veinticinco horas semanales. Los agrupamientos son flexibles: gran grupo, pequeños grupos heterogéneos, parejas y trabajo individual.",
+          "pizarra": []
         },
         {
           "id": "p5b2",
-          "texto": "Utilizo recursos didácticos, espaciales, personales y materiales variados. Como recursos personales, el equipo docente, las maestras de Pedagogía Terapéutica, de Audición y Lenguaje y de apoyo, las familias y expertos invitados. Como recursos materiales, material fungible, prensa, diccionarios, mapas y material manipulativo, como policubos, tangram, regletas, monedas o el reloj analógico. Y, siguiendo a Trujillo (2014), incorporo las TIC como artefactos digitales: la pizarra digital, Google Classroom, Google Maps, Canva, Moodle Centros, el blog de aula y las herramientas de animación.",
-          "pizarra": [
-            {
-              "zona": "centro",
-              "caja": "5. Organización",
-              "texto": "Recursos: personales · materiales · espaciales · TIC"
-            },
-            {
-              "zona": "normativa",
-              "texto": "Trujillo (2014)"
-            }
-          ]
+          "texto": "En séptimo lugar, mis estrategias facilitan la coordinación docente, que regulan el artículo 78 del Decreto 328/2010 y la Orden de 20 de agosto de 2010. En horizontal, con el equipo de ciclo, que elabora las programaciones y donde acordamos los proyectos de diseño, y con el equipo docente, que hace el seguimiento del grupo y que coordino como tutora. Al ser un centro bilingüe, en el equipo docente acuerdo con el profesorado de Inglés el vocabulario de cada unidad, como el de las plantas en la unidad 2. En vertical, con el Equipo Técnico de Coordinación Pedagógica, que fija las directrices, y con el equipo de orientación, que asesora.",
+          "pizarra": []
         },
         {
           "id": "p5b3",
-          "texto": "Incluyo actividades complementarias interesantes, atractivas y motivadoras en cada unidad, para que promuevan un aprendizaje significativo e integrado. En el primer trimestre, la jornada gastronómica andaluza, la recogida de alimentos del Día Mundial de la Alimentación, la salida a Aventura Amazonia, la bailaora del Día del Flamenco y el debate del Día de la Constitución. En el segundo, el Bioparc de Fuengirola, la marcha por la paz, el desayuno andaluz y el mural del Día Mundial del Agua. En el tercero, el taller de refranes del Día del Libro, la visita al Centro Pompidou, que inspira la maqueta final, y la exposición de dibujos contra la guerra. Las extraescolares son voluntarias: de apoyo, deportivas, artísticas y lúdico-saludables.",
-          "pizarra": [
-            {
-              "zona": "centro",
-              "caja": "5. Organización",
-              "texto": "Complementarias en cada UD · extraescolares voluntarias"
-            }
-          ]
+          "texto": "En octavo lugar, contemplan la orientación y acción tutorial, que el Decreto 101/2023 considera parte de la función docente. Sigo cuatro líneas: enseñar a pensar, a ser persona, a convivir y a tomar decisiones. Por ejemplo, en la unidad 1 consensuamos el cartel de normas de colaboración y repartimos los roles del equipo. Y las familias, informadas periódicamente, participan, por ejemplo, con la entrevista para el recetario andaluz.",
+          "pizarra": []
         },
         {
           "id": "p5b4",
-          "texto": "Mi programación facilita la coordinación docente que establece el Decreto 328/2010. En horizontal, con el equipo de ciclo, que elabora las programaciones, y con el equipo docente, que hace el seguimiento del grupo y que coordino como tutora. En vertical, con el Equipo Técnico de Coordinación Pedagógica, que fija las directrices, y con el equipo de orientación, que asesora. Y contempla la orientación y acción tutorial, que el Decreto 101/2023 considera parte de la función docente, con cuatro líneas: enseñar a pensar, enseñar a ser persona, enseñar a convivir y enseñar a tomar decisiones, junto con la información periódica a las familias.",
+          "texto": "En noveno lugar, utilizan recursos didácticos, espaciales, personales y materiales. Didácticos: el libro de lectura, la prensa, los diccionarios y el material manipulativo, como policubos y tangram. Espaciales: el aula, la biblioteca, el huerto, el patio y el aula del futuro. Personales: el equipo docente, las maestras de Pedagogía Terapéutica, de Audición y Lenguaje y de apoyo, y las familias. Y materiales, con las tecnologías como artefactos digitales, siguiendo a Trujillo (2014): la pizarra digital, Moodle Centros y el blog de aula.",
           "pizarra": [
             {
               "zona": "centro",
               "caja": "5. Organización",
-              "texto": "Coordinación horizontal y vertical · acción tutorial"
+              "texto": "g) Coordinación · h) Tutoría · i) Recursos"
             },
             {
               "zona": "normativa",
-              "texto": "D. 328/2010"
+              "texto": "D. 301/09 · O. 20/08/10 · O. 17/04/17 · Trujillo (2014)"
             }
           ]
         },
         {
           "id": "p5b5",
-          "texto": "Por último, la temporalización de las doce unidades didácticas, de trece a diecisiete días lectivos cada una. Subrayo que todas y cada una de las doce unidades didácticas contienen, al menos, una situación de aprendizaje con su producto final. Primer trimestre: unidad 1, «Somos un equipo», con un cartel de normas de colaboración; unidad 2, «¿Cómo son las plantas?», con una guía de las plantas que nos rodean; unidad 3, «¿Cómo son los animales?», con el diseño de un superhéroe animal; unidad 4, «Lo que importa es la salud», con un cartel de la pirámide de hábitos de salud; y unidad 5, «Cuidamos los ecosistemas», con un mural para proteger el planeta.",
+          "texto": "Incluyo una actividad complementaria en cada unidad, interesante, atractiva y motivadora, que promueve un aprendizaje significativo e integrado porque forma parte de la situación de aprendizaje. Por ejemplo, la recogida de alimentos del Día Mundial de la Alimentación, en la unidad 2, conecta con «¡Sí, chef!»; la marcha por la paz del 30 de enero, en la unidad 7, refuerza el Plan de Cultura de Paz; y la visita al Centro Pompidou, en la unidad 11, inspira la maqueta de la unidad 12.",
           "pizarra": [
             {
               "zona": "centro",
               "caja": "5. Organización",
-              "texto": "12 SdA · T1 UD 1-5 · T2 6-9 · T3 10-12"
+              "texto": "Complementaria en cada UD · extraescolares vinculadas"
             }
           ]
         },
         {
           "id": "p5b6",
-          "texto": "Segundo trimestre: unidad 6, «Cuidamos la ciudad», con un informe sobre la bicicleta como medio de transporte; unidad 7, «¿Cómo llego a un lugar?», con un plano del barrio que incluye los centros sanitarios; unidad 8, «Centinelas del mar», con un cómic sobre el cuidado del medioambiente; y unidad 9, «Somos ciudadanos», con un mural sobre las tradiciones oficiales de España. Tercer trimestre: unidad 10, «¿Qué edad tienes?», con una pirámide de población; unidad 11, «¿En qué edad estamos?», con una línea del tiempo de nuestra vida; y unidad 12, «Huellas del pasado», con una maqueta del Centro Pompidou de Málaga. A ellas se suman el proyecto de diseño de cada trimestre y «Opera prima».",
+          "texto": "Las extraescolares, según el artículo 16 de la Orden de 17 de abril de 2017, son voluntarias y no se evalúan, pero también las conecto: las de apoyo educativo refuerzan la lectura y el razonamiento, y en las de expresión artística propongo continuar el stop motion de «Ópera prima».",
+          "pizarra": []
+        },
+        {
+          "id": "p5b7",
+          "texto": "Por último, la temporalización. Subrayo que todas y cada una de las doce unidades contienen, al menos, una situación de aprendizaje con su producto final; de hecho, cada unidad integra tres: la suya, una fase del proyecto de diseño del trimestre y una fase de «Ópera prima». Primer trimestre: unidad 1, del 10 al 27 de septiembre, cartel de normas; unidad 2, hasta el 18 de octubre, guía de plantas; 3, hasta el 8 de noviembre, superhéroe animal; 4, hasta el 29 de noviembre, pirámide de hábitos de salud; y 5, hasta el 20 de diciembre, mural para proteger el planeta.",
+          "pizarra": [
+            {
+              "zona": "centro",
+              "caja": "5. Organización",
+              "texto": "T1 (10/9-20/12) UD 1-5 · T2 (7/1-4/4) 6-9 · T3 (7/4-20/6) 10-12"
+            }
+          ]
+        },
+        {
+          "id": "p5b8",
+          "texto": "Segundo trimestre: unidad 6, del 7 al 24 de enero, informe sobre la bicicleta; 7, hasta el 14 de febrero, plano del barrio; 8, hasta el 14 de marzo, cartel para cuidar el medioambiente; y 9, hasta el 4 de abril, mural de tradiciones. Tercer trimestre: unidad 10, del 7 de abril al 7 de mayo, pirámide de población; 11, hasta el 30 de mayo, línea del tiempo; y 12, hasta el 20 de junio, maqueta del Centro Pompidou de Málaga.",
           "pizarra": []
         }
       ]
     },
     {
       "id": "p6",
-      "titulo": "Atención a la diversidad y a las diferencias individuales",
+      "titulo": "Atención a la diversidad",
       "rubrica": [
         "Medidas de atención a la diversidad",
         "Aspectos metodológicos y principios pedagógicos"
       ],
-      "minutos": 3,
+      "minutos": 3.4,
       "esquema": [
         "Art. 17 D. 101/2023 · art. 26 Orden: DUA (representación, expresión, implicación)",
         "Generales (art. 27): segundo docente, agrupamientos flexibles, cooperativo, tutoría",
-        "Programas (art. 28): refuerzo 30' LCL y 30' MAT · profundización",
-        "Específicas (Instr. 08/03/2017, art. 33): TDAH (refuerzo + programa específico) y compensatoria",
-        "A lo largo de la puesta en práctica: multinivel en cada UD + evaluación continua",
-        "Coordinación: equipo docente, PT, AL, apoyo, orientación, familias"
+        "Programa de refuerzo (art. 28): 30' LCL (CEsp 4, 4.1.a) y 30' MAT (CEsp 2, 2.1.a) · profundización",
+        "Específicas (art. 33): DIA derivadas de TDAH → refuerzo + programa específico con PT (atención, memoria, emociones); UD 7 plano en 3 pasos",
+        "Compensación educativa: refuerzo, compañera tutora, extraescolares de apoyo, familia (González 2021)",
+        "Multinivel en cada UD (guía de plantas, UD 2) · cauces: PT y AL quincenal, equipo docente (Séneca), familias, protocolo 2017",
+        "Control de tiempo: el apartado 7 empieza hacia el minuto 23"
       ],
       "bloques": [
         {
           "id": "p6b1",
-          "texto": "Paso al sexto apartado: la atención a la diversidad y a las diferencias individuales. El artículo 17 del Decreto 101/2023 la define como el conjunto de medidas que garantizan la mejor respuesta a todo el alumnado en un entorno inclusivo, y el artículo 26 de la Orden de 30 de mayo de 2023 establece que esas medidas se rigen por el Diseño Universal para el Aprendizaje. Lo aplico con sus tres principios: múltiples formas de representación, con vocabulario clarificado, imágenes, vídeos y esquemas; múltiples formas de expresión, oral, escrita, gráfica o digital; y múltiples formas de implicación, con trabajo cooperativo, retroalimentación y actividades multinivel.",
+          "texto": "Paso al sexto apartado: la atención a la diversidad. El artículo 17 del Decreto 101/2023 la define como el conjunto de medidas que garantizan la mejor respuesta a todo el alumnado en un entorno inclusivo. Y el artículo 26 de la Orden de 30 de mayo de 2023 establece que esas medidas se rigen por el Diseño Universal para el Aprendizaje. Con sus tres principios: múltiples formas de representación, con imágenes, vídeos y esquemas; de expresión, oral, escrita, gráfica o digital; y de implicación, con trabajo cooperativo y retroalimentación.",
           "pizarra": [
             {
               "zona": "centro",
               "caja": "6. Diversidad",
-              "texto": "DUA: representación · expresión · implicación"
+              "texto": "DUA · generales · refuerzo · profundización"
             }
           ]
         },
         {
           "id": "p6b2",
-          "texto": "Como medidas generales del artículo 27 de esa Orden, aplico el apoyo de un segundo docente dentro del aula, los agrupamientos flexibles y las metodologías inclusivas de aprendizaje cooperativo y tutoría entre iguales. Como programas del artículo 28, un programa de refuerzo del aprendizaje para los dos alumnos con dificultades, con treinta minutos de refuerzo de Lengua y treinta de Matemáticas en el horario de autonomía del centro, material manipulativo, textos de lectura fácil y tareas graduadas. Y para el alumnado especialmente motivado, programas de profundización con investigaciones interdisciplinares, que enriquecen los saberes sin modificar los criterios de evaluación.",
-          "pizarra": [
-            {
-              "zona": "centro",
-              "caja": "6. Diversidad",
-              "texto": "Generales · refuerzo 30' LCL y MAT · profundización"
-            }
-          ]
+          "texto": "Como medidas generales del artículo 27, aplico el apoyo de un segundo docente en el aula, los agrupamientos flexibles, el aprendizaje cooperativo y la tutoría entre iguales. Como programas del artículo 28, un programa de refuerzo del aprendizaje para los dos alumnos con dificultades: treinta minutos de Lengua y treinta de Matemáticas. Como exige la Orden, especifica qué refuerza: la competencia específica 4 de Lengua, con el criterio 4.1.a, y la 2 de Matemáticas, con el criterio 2.1.a, con material manipulativo y textos de lectura fácil. Y para el alumnado especialmente motivado, programas de profundización con investigaciones, sin modificar los criterios.",
+          "pizarra": []
         },
         {
           "id": "p6b3",
-          "texto": "Como medidas específicas, según las Instrucciones de 8 de marzo de 2017 y el artículo 33 de la Orden, para el alumno con TDAH aplico un programa de refuerzo y un programa específico con la maestra de Pedagogía Terapéutica para mejorar la atención y la planificación. En el aula lo sitúo cerca de mí, fragmento las tareas, uso agendas visuales y le doy responsabilidades; en las pruebas, adapto el formato y amplío el tiempo. Para la alumna de compensatoria, un programa de refuerzo, una compañera tutora y una estrecha colaboración con la familia, porque, como señala González (2021), la escuela inclusiva convierte la diversidad en riqueza para todos.",
+          "texto": "Como medidas específicas, según el artículo 33 de la Orden, para el alumno con dificultades de aprendizaje derivadas de TDAH aplico un programa de refuerzo y un programa específico con la maestra de Pedagogía Terapéutica, que estimula procesos como la atención, la memoria y la gestión de las emociones. En el aula lo sitúo cerca de mí, fragmento las tareas y uso agendas visuales: por ejemplo, en la unidad 7, el plano del barrio se divide en tres pasos con una lista de comprobación visual.",
           "pizarra": [
             {
               "zona": "centro",
               "caja": "6. Diversidad",
-              "texto": "TDAH: refuerzo + PE · COM: refuerzo + tutora"
-            },
-            {
-              "zona": "normativa",
-              "texto": "Instr. 08/03/2017 · González (2021)"
+              "texto": "Específicas: DIA-TDAH (programa específico) · COM"
             }
           ]
         },
         {
           "id": "p6b4",
-          "texto": "Estas medidas no son estáticas: atiendo a las diferencias individuales a lo largo de toda la puesta en práctica, porque cada unidad didáctica incluye actividades multinivel de refuerzo y profundización, y la evaluación continua me permite ajustarlas. Y establezco cauces de coordinación docente con los profesionales implicados: las reuniones del equipo docente, la coordinación periódica con las maestras de Pedagogía Terapéutica, de Audición y Lenguaje y de apoyo, el asesoramiento del equipo de orientación y las tutorías con las familias.",
+          "texto": "Para la alumna de compensación educativa, cuya necesidad nace de una situación de desventaja sociocultural, aplico un programa de refuerzo, una compañera tutora, su participación en las extraescolares de apoyo educativo y una estrecha colaboración con la familia, porque, como señala González (2021), la escuela inclusiva convierte la diversidad en riqueza.",
+          "pizarra": [
+            {
+              "zona": "normativa",
+              "texto": "González (2021)"
+            }
+          ]
+        },
+        {
+          "id": "p6b5",
+          "texto": "Atiendo a las diferencias individuales a lo largo de toda la puesta en práctica, porque cada unidad incluye actividades multinivel. Por ejemplo, en la guía de las plantas de la unidad 2, unos trabajan con imágenes y frases modelo, otros con una ficha guiada y otros amplían con una pequeña investigación. Y establezco cauces de coordinación con los profesionales implicados: una reunión quincenal con las maestras de Pedagogía Terapéutica y de Audición y Lenguaje, las sesiones del equipo docente, cuyos acuerdos se registran en Séneca, y las tutorías con las familias. Si detecto nuevas dificultades, activo con el equipo de orientación el protocolo de las Instrucciones de 8 de marzo de 2017.",
           "pizarra": [
             {
               "zona": "centro",
               "caja": "6. Diversidad",
-              "texto": "Coordinación: PT · AL · apoyo · orientación · familias"
+              "texto": "Multinivel · cauces: PT, AL, equipo docente, familias"
             }
           ]
         }
@@ -530,83 +538,89 @@
         "Evaluación",
         "Bibliografía"
       ],
-      "minutos": 4.5,
+      "minutos": 5.0,
       "esquema": [
-        "Art. 141 LOE · art. 11 D. 101/2023 · art. 9 Orden: características; referente = criterios",
-        "Evaluación inicial: UD 1, informes previos, sesión antes del 15 de octubre",
-        "Procedimientos, instrumentos (registro anecdótico, cotejo, escalas, porfolio, rúbricas) y evidencias",
-        "Autoevaluación y coevaluación; calificación: rúbrica 5 niveles → media CEv → CE → área",
-        "Medidas de diversidad: anexo VI, escala 1-5",
-        "Práctica docente y programación: indicadores, instrumentos, evidencias (Herrán y Paredes 2020)"
+        "Art. 20 LOE · art. 14 RD 157/2022 · art. 11 D. 101/2023 · art. 9 Orden: características; referente = criterios",
+        "Inicial: primeros días, UD 1, prueba + observación + informe → sesión inicial → coordinación antes del 15/10 → decisiones",
+        "Procedimientos, instrumentos y evidencias (art. 10); ejemplo: cartel UD 1 → rúbrica 8.1.a",
+        "Autoevaluación (metacognición) y coevaluación: no califican",
+        "Rúbrica de 5 niveles: IN 1-4 · SU 5 · BI 6 · NT 7-8 · SB 9-10; CEsp = media de sus criterios (6 y 8 → 7)",
+        "Refuerzo: criterios del curso + formato y tiempo · medidas: anexo VI, escala 1-5",
+        "Práctica docente (Herrán y Paredes 2020) en cada UD · programación: ciclo, trimestre, cotejo + escala 1-4 + análisis; evidencias: resultados por criterio y acta",
+        "Control de tiempo: la conclusión empieza hacia el minuto 28"
       ],
       "bloques": [
         {
           "id": "p7b1",
-          "texto": "Paso al séptimo apartado: la evaluación. El artículo 141 de la Ley Orgánica de Educación y el artículo 11 del Decreto 101/2023 establecen que evaluaré tanto los aprendizajes del alumnado como los procesos de enseñanza y mi propia práctica docente. Según el artículo 9 de la Orden de 30 de mayo de 2023, la evaluación será continua, global, competencial, formativa, integradora, diferenciada y objetiva. El referente son los criterios de evaluación: su grado de superación indica el grado de consecución de cada competencia específica, y todos los criterios de una competencia tienen el mismo valor. Por eso, cada actividad de evaluación se alinea con un criterio concreto.",
+          "texto": "Paso al séptimo apartado: la evaluación. Según el artículo 20 de la Ley Orgánica de Educación, el artículo 14 del Real Decreto 157/2022 y el artículo 9 de la Orden de 30 de mayo de 2023, es continua, global, formativa, competencial, integradora, diferenciada y objetiva. Y, según el artículo 11 del Decreto 101/2023, evalúo tanto los aprendizajes como la enseñanza y mi propia práctica docente. El referente son los criterios de evaluación: su grado de superación indica el de cada competencia específica, y todos los criterios de una competencia tienen el mismo valor.",
           "pizarra": [
             {
               "zona": "centro",
               "caja": "7. Evaluación",
-              "texto": "Referente: criterios de evaluación (mismo valor)"
+              "texto": "Referente: CEv · inicial (15/10) → continua → final"
             }
           ]
         },
         {
           "id": "p7b2",
-          "texto": "En cuanto al procedimiento de evaluación inicial: durante las primeras semanas, en la unidad 1, «Somos un equipo», observo al alumnado en situaciones reales de lectura, escritura, resolución de problemas y trabajo en equipo, y reviso los informes del curso anterior y la información del tránsito. Antes del 15 de octubre, el equipo docente celebra la sesión de evaluación inicial, con carácter orientador, para adoptar las medidas de atención a la diversidad que cada alumno o alumna necesite.",
-          "pizarra": [
-            {
-              "zona": "centro",
-              "caja": "7. Evaluación",
-              "texto": "Inicial: UD 1 · sesión antes del 15 de octubre"
-            }
-          ]
+          "texto": "El procedimiento de evaluación inicial es este. En los primeros días, en la unidad 1, aplico tres instrumentos: una prueba competencial de lectura y de resolución de problemas, con los criterios 4.1.a de Lengua y 1.1.a de Matemáticas; una escala de observación del trabajo en equipo; y el análisis del informe de final del primer ciclo. Con ellos, el equipo docente celebra la sesión de evaluación inicial; y antes del 15 de octubre, una sesión de coordinación analiza los resultados y adopta decisiones: por ejemplo, incorporar a los dos alumnos con dificultades al programa de refuerzo.",
+          "pizarra": []
         },
         {
           "id": "p7b3",
-          "texto": "Utilizo instrumentos adecuados, coherentes y variados, como indica el artículo 10 de la Orden. Los procedimientos son la observación sistemática, el análisis de tareas y producciones, las pruebas orales y escritas, la autoevaluación y la coevaluación. Los instrumentos, el registro anecdótico, las listas de cotejo, las escalas de observación, el porfolio y las rúbricas. Y las evidencias, las respuestas a preguntas, los desempeños, los procesos de planificación y los productos finales. Por ejemplo, el cartel de normas de colaboración de la unidad 1 se evalúa con una rúbrica del criterio 8.1.a de Conocimiento del Medio, y su exposición oral, con una escala de observación.",
-          "pizarra": [
-            {
-              "zona": "centro",
-              "caja": "7. Evaluación",
-              "texto": "Observación · anecdotario · cotejo · porfolio · rúbricas"
-            }
-          ]
+          "texto": "Después, la evaluación continua recoge información en cada unidad. Y la final, al terminar el curso, expresa los resultados en la escala de insuficiente a sobresaliente, que comunico a las familias.",
+          "pizarra": []
         },
         {
           "id": "p7b4",
-          "texto": "En la autoevaluación, el alumnado reflexiona sobre cómo aprende con rúbricas sencillas, listas de cotejo y su porfolio; y en la coevaluación, por ejemplo, intercambia el cuaderno de dictado con un compañero para corregirlo. En cuanto a los criterios de calificación, cada criterio se califica con una rúbrica de cinco niveles: con dificultad, insuficiente, de 1 a 4; con ayuda, suficiente, 5; sin dificultades, bien, 6; con facilidad, notable, 7 u 8; y muestra dominio, sobresaliente, 9 o 10. La nota de cada competencia específica es la media de sus criterios, y la del área, la media de sus competencias específicas.",
+          "texto": "Utilizo instrumentos adecuados, coherentes y variados, como indica el artículo 10 de la Orden. Los procedimientos son la observación sistemática, el análisis de producciones y las pruebas orales y escritas. Los instrumentos, el registro anecdótico, las listas de cotejo, las escalas de observación, el porfolio y las rúbricas. Y las evidencias, las respuestas a preguntas, los desempeños, los procesos y los productos finales. Por ejemplo, el cartel de normas de la unidad 1 se evalúa con una rúbrica del criterio 8.1.a de Conocimiento del Medio.",
           "pizarra": [
             {
               "zona": "centro",
               "caja": "7. Evaluación",
-              "texto": "Auto y coevaluación · rúbrica 5 niveles → media"
+              "texto": "Anecdotario · cotejo · escalas · porfolio · rúbricas"
             }
           ]
         },
         {
           "id": "p7b5",
-          "texto": "Evalúo también las medidas generales y específicas de atención a la diversidad, siguiendo el anexo VI de la Orden de 30 de mayo de 2023: concreto la dificultad detectada, describo la medida aplicada y valoro su eficacia mediante la observación, en una escala del 1 al 5, de poco adecuada a excelente. Además, valoro las actividades de refuerzo y profundización y el trabajo cooperativo, y el propio alumnado se autoevalúa respecto a sus medidas. Si una medida no funciona, el equipo docente la revisa.",
+          "texto": "En la autoevaluación, el alumnado desarrolla la metacognición con rúbricas sencillas, listas de cotejo y su porfolio. En la coevaluación, por ejemplo, intercambia el cuaderno de dictado con un compañero. Ambas sirven para aprender y no afectan a la calificación. En cuanto a los criterios de calificación, cada criterio se califica con una rúbrica de cinco niveles que se corresponden con la escala oficial: «con dificultad» es insuficiente, de 1 a 4; «con ayuda», suficiente, 5; «sin dificultades», bien, 6; «con facilidad», notable, 7 u 8; y «muestra dominio», sobresaliente, 9 o 10.",
           "pizarra": [
             {
               "zona": "centro",
               "caja": "7. Evaluación",
-              "texto": "Medidas de diversidad: anexo VI · escala 1-5"
+              "texto": "Rúbrica 5 niveles: IN 1-4, SU 5, BI 6, NT 7-8, SB 9-10"
             }
           ]
         },
         {
           "id": "p7b6",
-          "texto": "Por último, evalúo mi práctica docente y la programación, porque, como recuerdan Herrán y Paredes (2020), evaluar la enseñanza es la base para mejorarla. Los indicadores son, entre otros: la programación relaciona los elementos curriculares, la metodología es competencial, las actividades son multinivel, la organización del aula es adecuada y se fomentan la lectura y el aprendizaje cooperativo. Los instrumentos: listas de cotejo, una escala de autoobservación del 1 al 4, el anecdotario y el análisis del desarrollo en el aula. Y las evidencias: los resultados del alumnado, sus producciones y sus valoraciones. Lo hago al final de cada unidad y trimestre, e incorporo propuestas de mejora.",
+          "texto": "La nota de cada competencia específica es la media de sus criterios, y la del área, la media de sus competencias. Por ejemplo, un 6 en el criterio 2.1.a y un 8 en el 2.2.a de Matemáticas dan un 7, notable, en la competencia específica 2. Al alumnado con programas de refuerzo lo evalúo con los criterios de su curso, como indica el artículo 28 de la Orden, con medidas de acceso: adaptación del formato de las pruebas y ampliación del tiempo.",
+          "pizarra": []
+        },
+        {
+          "id": "p7b7",
+          "texto": "Evalúo también las medidas de atención a la diversidad, según el anexo seis de la Orden: concreto la dificultad, describo la medida y valoro su eficacia por observación, en una escala del 1 al 5, de poco adecuada a excelente. Si no funciona, el equipo docente la revisa.",
+          "pizarra": []
+        },
+        {
+          "id": "p7b8",
+          "texto": "Evalúo mi práctica docente al final de cada unidad porque, como recuerdan Herrán y Paredes (2020), evaluar la enseñanza es la base para mejorarla. Indicadores: metodología competencial, actividades multinivel y fomento de la lectura y del cooperativo. Instrumentos: listas de cotejo, una escala de autoobservación del 1 al 4 y el anecdotario. Evidencias: los resultados del alumnado y sus producciones.",
+          "pizarra": [
+            {
+              "zona": "normativa",
+              "texto": "Herrán y Paredes (2020)"
+            }
+          ]
+        },
+        {
+          "id": "p7b9",
+          "texto": "Y evalúo la programación en el equipo de ciclo cada trimestre. Indicadores: si relaciona los elementos curriculares y si la organización del aula es adecuada. Instrumentos: una lista de cotejo, la escala del 1 al 4 y el análisis de su desarrollo en el aula. Evidencias: los resultados por criterio y el acta del ciclo. Las mejoras pasan a la memoria de autoevaluación del centro.",
           "pizarra": [
             {
               "zona": "centro",
               "caja": "7. Evaluación",
-              "texto": "Práctica docente: indicadores · instrumentos · evidencias"
-            },
-            {
-              "zona": "normativa",
-              "texto": "Herrán y Paredes (2020)"
+              "texto": "Evalúo medidas, práctica docente y programación"
             }
           ]
         }
@@ -619,23 +633,22 @@
         "Conclusión",
         "Expresión oral"
       ],
-      "minutos": 1.5,
+      "minutos": 1.4,
       "esquema": [
-        "Síntesis: currículo LOMLOE-Andalucía, cuatro áreas, 12 UD con SdA",
-        "Proyectos de diseño + APS; cooperativo, lectura, razonamiento",
-        "DUA y evaluación competencial del aprendizaje y de la práctica",
+        "Síntesis: grupo real (22 alumnos de Mijas Costa, 4 con medidas propias) · currículo LOMLOE-Andalucía, 4 áreas, 12 UD con SdA, proyectos + «Ópera prima»",
+        "Cooperativo con género, lectura, razonamiento; DUA; de la evaluación inicial a la final",
         "Valoración personal: programar es acompañar (Palacios, Marchesi y Coll 2021)",
         "Cierre: nadie aprende solo; aprendemos juntos"
       ],
       "bloques": [
         {
           "id": "p8b1",
-          "texto": "Concluyo con una síntesis de los aspectos más relevantes de mi programación. «Aprendemos juntos» concreta el currículo de la LOMLOE y de Andalucía para tercero de Primaria en cuatro áreas y doce unidades didácticas, todas con su situación de aprendizaje, más tres proyectos de diseño y el aprendizaje-servicio «Opera prima». Su metodología se apoya en el aprendizaje cooperativo con perspectiva de género, la lectura diaria y el razonamiento matemático, y conecta con la cultura andaluza. Atiende a cada alumno y alumna desde el Diseño Universal para el Aprendizaje, y evalúa de forma competencial tanto el aprendizaje como mi propia práctica docente.",
+          "texto": "Concluyo con una síntesis de lo más relevante. «Aprendemos juntos» concreta el currículo de la LOMLOE y de Andalucía para un grupo real: veintidós alumnos y alumnas de tercero de Mijas Costa, cuatro de ellos con medidas propias. Lo hace en cuatro áreas y doce unidades didácticas, todas con su situación de aprendizaje, más los proyectos de diseño y «Ópera prima». Se apoya en el aprendizaje cooperativo con perspectiva de género, la lectura diaria y el razonamiento matemático; atiende a cada alumno desde el Diseño Universal para el Aprendizaje; y lo acompaña desde la evaluación inicial hasta la final.",
           "pizarra": []
         },
         {
           "id": "p8b2",
-          "texto": "Como valoración personal, estoy convencida de que una buena programación evita la improvisación y orienta la enseñanza. Pero, sobre todo, de que, como señalan Palacios, Marchesi y Coll (2021), hay que partir de las capacidades y de los conocimientos previos de cada niño y de cada niña. Por eso, para mí, programar es acompañar: a mis veintidós alumnos y alumnas, a sus familias y al equipo docente. Termino con la idea que da nombre a mi programación y que guía mi trabajo como maestra: en el aula nadie aprende solo; aprendemos juntos. Muchas gracias por su atención.",
+          "texto": "Como valoración personal, estoy convencida de que una buena programación evita la improvisación y orienta la enseñanza. Y, como señalan Palacios, Marchesi y Coll (2021), hay que partir de las capacidades y de los conocimientos previos de cada niño y de cada niña. Por eso, para mí, programar es acompañar: a mi alumnado, a sus familias y al equipo docente. Termino con la idea que da nombre a mi programación: en el aula nadie aprende solo; aprendemos juntos. Muchas gracias por su atención.",
           "pizarra": [
             {
               "zona": "centro",
