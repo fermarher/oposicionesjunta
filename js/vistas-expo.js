@@ -82,15 +82,24 @@
       }
       ultima = e.frase;
     };
-    cont.addEventListener('click', (ev) => {
+    const alClic = (ev) => {
       const f = ev.target.closest('.frase');
       if (!f) return;
       reproductor.cargar(expo);
       reproductor.irAFrase(Number(f.dataset.f), { reproducir: true });
-    });
+    };
+    cont.addEventListener('click', alClic);
     const quitar = reproductor.suscribir(pintar);
     pintar(reproductor.estado());
-    return quitar;
+    return () => { quitar(); cont.removeEventListener('click', alClic); };
+  }
+
+  function montarBotonModo(boton, pz) {
+    if (!boton) return;
+    const rotular = () => { boton.textContent = pz.lista ? 'Ver como pizarra' : 'Ver como lista'; };
+    boton.addEventListener('click', () => { pz.ponerModo(pz.lista ? 'pizarra' : 'lista'); rotular(); });
+    rotular();
+    if ('ResizeObserver' in window) new ResizeObserver(rotular).observe(pz.marco);
   }
 
   // ---------------------------------------------------------------- controles del reproductor
@@ -253,7 +262,7 @@
         <div class="tarjeta"><div class="texto-vivo discurso ${Opo.Ajustes.leer().marcaPropio ? '' : 'sin-marca'}" data-texto>${htmlDiscurso(expo)}</div></div>
         <div class="panel-pizarra">
           <div data-pz></div>
-          <div class="fila"><button class="btn mini" data-acc-pz="pantalla">${ICONOS.pantalla} Pantalla completa</button><label class="interruptor"><input type="checkbox" data-acc-pz="todo"> Ver la pizarra completa</label></div>
+          <div class="fila"><button class="btn mini" data-acc-pz="pantalla">${ICONOS.pantalla} Pantalla completa</button><button class="btn mini" data-acc-pz="modo">Ver como lista</button><label class="interruptor"><input type="checkbox" data-acc-pz="todo"> Ver la pizarra completa</label></div>
           ${expo.tipo === 'ud' ? '<label class="interruptor"><input type="checkbox" data-acc-pz="propias"> Escuchar solo las frases con lo propio de esta UD</label>' : ''}
         </div>
       </div>`;
@@ -271,6 +280,7 @@
         sincro(reproductor.estado());
         $('[data-acc-pz=todo]', raiz).addEventListener('change', (ev) => pz.ponerTodo(ev.target.checked));
         $('[data-acc-pz=pantalla]', raiz).addEventListener('click', () => Opo.pantallaPizarra(expo));
+        montarBotonModo($('[data-acc-pz=modo]', raiz), pz);
         const prop = $('[data-acc-pz=propias]', raiz);
         if (prop) {
           prop.checked = reproductor.soloPropias;
@@ -298,6 +308,7 @@
           <button class="btn" data-pz-acc="sig">Siguiente →</button>
           <label class="interruptor"><input type="checkbox" data-pz-acc="todo"> Ver completa</label>
           <button class="btn" data-pz-acc="pantalla">${ICONOS.pantalla} Pantalla completa</button>
+          <button class="btn" data-pz-acc="modo">Ver como lista</button>
         </div>
         <p class="tenue">Con «Anterior» y «Siguiente» (o las flechas del teclado) escribes la pizarra paso a paso. ${expo.tipo === 'ud' ? 'La distribución es la misma en todas las UD: así la tienes automatizada.' : ''}</p>
         <details class="tarjeta"><summary><b>El plan de pizarra en texto</b> (${expo.pizarra.length} anotaciones)</summary><div class="rejilla-2" style="margin-top:12px">${plan}</div></details>
@@ -330,14 +341,16 @@
           const b = ev.target.closest('[data-pz-acc]');
           if (!b || b.tagName === 'INPUT') return;
           const a = b.dataset.pzAcc;
+          if (a === 'modo') return;
           if (a === 'play') reproductor.alternar();
           else if (a === 'ant') paso(-1);
           else if (a === 'sig') paso(1);
           else if (a === 'pantalla') Opo.pantallaPizarra(expo);
         });
         $('[data-pz-acc=todo]', raiz).addEventListener('change', (ev) => pz.ponerTodo(ev.target.checked));
+        montarBotonModo($('[data-pz-acc=modo]', raiz), pz);
         const tecla = (ev) => {
-          if (ev.target.closest('input,select,textarea')) return;
+          if (ev.defaultPrevented || document.querySelector('.pz-pantalla') || ev.target.closest('input,select,textarea')) return;
           if (ev.key === 'ArrowRight') { ev.preventDefault(); paso(1); } else if (ev.key === 'ArrowLeft') { ev.preventDefault(); paso(-1); }
         };
         document.addEventListener('keydown', tecla);
@@ -454,7 +467,7 @@
           const s = t.closest('[data-sec]');
           if (s) { st.sec = Number(s.dataset.sec); st.revelado = false; st.transcripcion = ''; pararRec(); pintar(); return; }
           const m = t.closest('[data-modo]');
-          if (m) { st.modo = m.dataset.modo; st.revelado = false; pintar(); return; }
+          if (m) { if (m.dataset.modo !== 'recitar') { pararRec(); st.transcripcion = ''; } st.modo = m.dataset.modo; st.revelado = false; pintar(); return; }
           const o = t.closest('.oculta');
           if (o) { o.classList.add('vista'); return; }
           const a = t.closest('[data-acc]');
@@ -482,7 +495,7 @@
           const r = t.closest('[data-srs]');
           if (r) {
             const v = Progreso.calificar(expo.id, expo.secciones[st.sec].id, r.dataset.srs);
-            Opo.aviso(`Guardado: nivel ${v.n} de 4 en «${expo.secciones[st.sec].titulo}»`);
+            Opo.aviso(v.guardado ? `Guardado: nivel ${v.n} de 4 en «${expo.secciones[st.sec].titulo}»` : 'No se ha podido guardar: este navegador no permite almacenar datos.');
             const chip = $(`[data-sec="${st.sec}"]`, raiz);
             chip.className = `chip ${nivelChip(st.sec)}`;
             if (st.sec < expo.secciones.length - 1) { st.sec++; st.revelado = false; st.transcripcion = ''; pintar(); }
@@ -500,6 +513,7 @@
     try {
       const Ctx = window.AudioContext || window.webkitAudioContext;
       const ctx = Pest._ctx || (Pest._ctx = new Ctx());
+      if (ctx.state !== 'running' && ctx.resume) ctx.resume().catch(() => {});
       const o = ctx.createOscillator(); const g = ctx.createGain();
       o.frequency.value = frec; o.connect(g); g.connect(ctx.destination);
       g.gain.setValueAtTime(0.0001, ctx.currentTime); g.gain.exponentialRampToValueAtTime(0.25, ctx.currentTime + 0.02); g.gain.exponentialRampToValueAtTime(0.0001, ctx.currentTime + dur);
@@ -574,7 +588,7 @@
         <div class="fila entre"><h3>Resultado del ensayo</h3><span class="chip ${total > LIMITE ? 'critico' : total > LIMITE - 60 ? 'aviso' : 'bueno'}">${mmss(total)} ${total > LIMITE ? '· te has pasado de 30:00' : ''}</span></div>
         <div class="desliza"><table class="tabla"><thead><tr><th>Sección</th><th class="n">Previsto</th><th class="n">Real</th><th class="n">Diferencia</th></tr></thead><tbody>${filas}</tbody></table></div>
         ${st.cobertura != null ? `<p class="${st.cobertura >= 80 ? 'info-caja' : 'aviso-caja'}">Palabras clave del discurso que se han oído: <b>${st.cobertura} %</b>.</p>` : ''}
-        ${st.grabacion ? `<div class="pila" style="gap:6px"><b>Tu grabación</b><audio controls src="${st.grabacion}" style="width:100%"></audio><a class="btn mini" href="${st.grabacion}" download="ensayo-${esc(expo.id)}.webm">Descargar la grabación</a></div>` : ''}
+        ${st.grabacion ? `<div class="pila" style="gap:6px"><b>Tu grabación</b><audio controls src="${st.grabacion}" style="width:100%"></audio><a class="btn mini" href="${st.grabacion}" download="ensayo-${esc(expo.id)}.${st.grabacionExt || 'webm'}">Descargar la grabación</a></div>` : ''}
         <div class="fila"><button class="btn primario" data-acc="otra">Otro ensayo</button><a class="btn" href="#${expo.id}-rubrica">Autoevaluarme con la rúbrica</a></div>
       </div>
       ${htmlHistorial()}`;
@@ -605,17 +619,21 @@
     };
     const empezarGrabacion = async () => {
       try {
-        stream = await navigator.mediaDevices.getUserMedia({ audio: true });
-        media = new MediaRecorder(stream);
+        if (stream) stream.getTracks().forEach((tr) => tr.stop());
+        const s = await navigator.mediaDevices.getUserMedia({ audio: true });
+        stream = s;
+        const m = new MediaRecorder(s);
+        media = m;
         st.trozos = [];
-        media.ondataavailable = (e) => { if (e.data.size) st.trozos.push(e.data); };
-        media.onstop = () => {
-          const blob = new Blob(st.trozos, { type: media.mimeType || 'audio/webm' });
-          st.grabacion = URL.createObjectURL(blob);
+        m.ondataavailable = (e) => { if (e.data.size) st.trozos.push(e.data); };
+        m.onstop = () => {
+          const tipo = m.mimeType || 'audio/webm';
+          st.grabacionExt = /mp4|aac|m4a/.test(tipo) ? 'm4a' : /ogg/.test(tipo) ? 'ogg' : 'webm';
+          st.grabacion = URL.createObjectURL(new Blob(st.trozos, { type: tipo }));
+          s.getTracks().forEach((tr) => tr.stop());
           if (st.fase === 'fin') pintar();
-          if (stream) stream.getTracks().forEach((tr) => tr.stop());
         };
-        media.start(1000);
+        m.start(1000);
       } catch (e) { st.grabar = false; Opo.aviso('No se ha podido usar el micrófono: el ensayo sigue sin grabar.'); }
     };
     const empezarTranscripcion = () => {
@@ -652,6 +670,11 @@
       st.sec++;
       pintar();
     };
+    const alVolver = async () => {
+      if (document.visibilityState === 'visible' && st.fase === 'corriendo' && navigator.wakeLock) {
+        try { wake = await navigator.wakeLock.request('screen'); } catch (e) { wake = null; }
+      }
+    };
     const tecla = (ev) => {
       if (st.fase !== 'corriendo' || ev.target.closest('input,select,textarea,button')) return;
       if (ev.code === 'Space' || ev.key === 'Enter') { ev.preventDefault(); siguiente(); }
@@ -663,22 +686,28 @@
         reproductor.pausa();
         pintar();
         document.addEventListener('keydown', tecla);
+        document.addEventListener('visibilitychange', alVolver);
         raiz.addEventListener('click', async (ev) => {
           const b = ev.target.closest('[data-acc]');
           if (!b) return;
           const a = b.dataset.acc;
           if (a === 'empezar') {
+            if (st.fase !== 'preparar' || st.arrancando) return;
+            st.arrancando = true;
+            b.disabled = true;
             st.esquema = !!$('#en-esq', raiz)?.checked; st.guion = !!$('#en-guion', raiz)?.checked; st.pitidos = !!$('#en-pit', raiz)?.checked;
             st.grabar = !!$('#en-grab', raiz)?.checked; st.transcribir = !!$('#en-trans', raiz)?.checked;
-            Object.assign(st, { fase: 'corriendo', acumulado: 0, inicio: performance.now(), corriendo: true, sec: 0, cortes: [], textos: [], avisados: {}, grabacion: null, cobertura: undefined });
             if (st.pitidos) pitido(520, 0.12);
+            Object.assign(st, { textos: [], avisados: {}, grabacion: null, cobertura: undefined });
             if (st.grabar) await empezarGrabacion();
             if (st.transcribir && RECONOCIMIENTO) empezarTranscripcion();
             try { if (navigator.wakeLock) wake = await navigator.wakeLock.request('screen'); } catch (e) { wake = null; }
+            Object.assign(st, { fase: 'corriendo', acumulado: 0, inicio: performance.now(), corriendo: true, sec: 0, cortes: [], arrancando: false });
             clearInterval(timer); timer = setInterval(tic, 250);
             pintar();
           } else if (a === 'siguiente') siguiente();
           else if (a === 'pausa') {
+            pitido(0, 0.001);
             if (st.corriendo) { st.acumulado = ahora(); st.corriendo = false; if (media && media.state === 'recording') media.pause(); }
             else { st.inicio = performance.now(); st.corriendo = true; if (media && media.state === 'paused') media.resume(); }
             pintar();
@@ -691,6 +720,7 @@
       destruir() {
         clearInterval(timer);
         document.removeEventListener('keydown', tecla);
+        document.removeEventListener('visibilitychange', alVolver);
         if (rec) { const r = rec; rec = null; try { r.stop(); } catch (e) { /* nada */ } }
         if (media && media.state !== 'inactive') { try { media.stop(); } catch (e) { /* nada */ } }
         if (stream) stream.getTracks().forEach((tr) => tr.stop());
@@ -825,8 +855,8 @@
           pt();
         });
         $('[data-acc=guardar]', raiz).addEventListener('click', () => {
-          Progreso.guardarAutoevaluacion({ expo: expo.id, tipo: expo.tipo, fecha: Date.now(), notas: { ...notas }, total: total() });
-          Opo.aviso('Autoevaluación guardada');
+          const ok = Progreso.guardarAutoevaluacion({ expo: expo.id, tipo: expo.tipo, fecha: Date.now(), notas: { ...notas }, total: total() });
+          Opo.aviso(ok ? 'Autoevaluación guardada' : 'No se ha podido guardar: este navegador no permite almacenar datos.');
           pintarHist(raiz);
         });
       },
@@ -883,24 +913,37 @@
       <button class="btn" data-a="cerrar">${ICONOS.cerrar} Cerrar</button></div>`;
     document.body.appendChild(capa);
     reproductor.cargar(expo);
-    const pz = new Opo.VistaPizarra($('[data-pz]', capa), expo);
+    const pz = new Opo.VistaPizarra($('[data-pz]', capa), expo, { modo: 'pizarra' });
     const sincro = (e) => {
       if (e.expo && e.expo.id === expo.id) pz.mostrarHasta(e.frase, e.seccion);
       $('[data-a=play]', capa).innerHTML = e.reproduciendo ? ICONOS.pausa : ICONOS.play;
     };
     const quitar = reproductor.suscribir(sincro);
     sincro(reproductor.estado());
+    let abierta = true;
     const cerrar = () => {
-      quitar(); pz.destruir(); capa.remove(); document.removeEventListener('keydown', tecla);
+      if (!abierta) return;
+      abierta = false;
+      quitar(); pz.destruir(); capa.remove();
+      document.removeEventListener('keydown', tecla, true);
+      window.removeEventListener('hashchange', cerrar);
+      document.removeEventListener('fullscreenchange', alSalirPantalla);
       if (document.fullscreenElement) document.exitFullscreen().catch(() => {});
     };
+    const alSalirPantalla = () => { if (!document.fullscreenElement) setTimeout(() => pz.reescalar(), 50); };
     const tecla = (ev) => {
-      if (ev.key === 'Escape') cerrar();
-      else if (ev.key === ' ') { ev.preventDefault(); reproductor.alternar(); }
-      else if (ev.key === 'ArrowRight') reproductor.seccionRelativa(1);
-      else if (ev.key === 'ArrowLeft') reproductor.seccionRelativa(-1);
+      const k = ev.key;
+      if (!['Escape', ' ', 'ArrowRight', 'ArrowLeft'].includes(k)) return;
+      ev.preventDefault();
+      ev.stopImmediatePropagation();
+      if (k === 'Escape') cerrar();
+      else if (k === ' ') reproductor.alternar();
+      else if (k === 'ArrowRight') reproductor.seccionRelativa(1);
+      else if (k === 'ArrowLeft') reproductor.seccionRelativa(-1);
     };
-    document.addEventListener('keydown', tecla);
+    document.addEventListener('keydown', tecla, true);
+    window.addEventListener('hashchange', cerrar);
+    document.addEventListener('fullscreenchange', alSalirPantalla);
     capa.addEventListener('click', (ev) => {
       const b = ev.target.closest('[data-a]');
       if (!b) return;
@@ -910,7 +953,14 @@
       else if (a === 'ant') reproductor.seccionRelativa(-1);
       else if (a === 'sig') reproductor.seccionRelativa(1);
     });
-    try { if (capa.requestFullscreen) capa.requestFullscreen().catch(() => {}); } catch (e) { /* opcional */ }
+    try {
+      if (capa.requestFullscreen) {
+        capa.requestFullscreen().then(() => {
+          try { if (screen.orientation && screen.orientation.lock) screen.orientation.lock('landscape').catch(() => {}); } catch (e) { /* opcional */ }
+          setTimeout(() => pz.reescalar(), 100);
+        }).catch(() => {});
+      }
+    } catch (e) { /* opcional */ }
     setTimeout(() => pz.reescalar(), 200);
   };
 

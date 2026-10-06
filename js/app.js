@@ -43,8 +43,11 @@
       return;
     }
     actual = r;
-    main.innerHTML = r.v.html;
-    try { if (r.v.montar) r.v.montar(main); } catch (e) { console.error(e); }
+    // Cada vista se monta en un contenedor nuevo: al cambiar de página desaparecen sus manejadores.
+    main.innerHTML = '<div data-vista></div>';
+    const cont = main.firstElementChild;
+    cont.innerHTML = r.v.html;
+    try { if (r.v.montar) r.v.montar(cont); } catch (e) { console.error(e); }
     document.title = `${r.v.titulo || 'Inicio'} · Oposiciones 2.ª prueba`;
     document.querySelectorAll('.nav a').forEach((a) => {
       if (a.getAttribute('href') === '#' + r.nav) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current');
@@ -93,6 +96,7 @@
     $('[data-mini-cerrar]').addEventListener('click', () => { reproductor.detener(); reproductor.irAFrase(0, { reproducir: false }); pintarMini({}); });
     reproductor.suscribir(pintarMini);
     document.addEventListener('keydown', (ev) => {
+      if (ev.defaultPrevented || document.querySelector('.pz-pantalla')) return;
       if (ev.target.closest('input,select,textarea,button,a,[contenteditable]')) return;
       const r = actual || {};
       if (ev.code === 'Space' && r.expo && ['escuchar', 'discurso', 'pizarra'].includes(r.pest)) {
@@ -109,6 +113,9 @@
     if (!Modelo.expos.pd && !Modelo.uds.length) {
       $('#principal').innerHTML = '<div class="aviso-caja">No se han encontrado los datos (datos/contenido.js). Genera los contenidos con <code>node herramientas/construir.mjs</code>.</div>';
       return;
+    }
+    if (!Opo.Almacen.disponible()) {
+      $('#principal').insertAdjacentHTML('beforebegin', '<div class="aviso-caja" style="max-width:1180px;margin:12px auto 0;width:calc(100% - 32px)">Este navegador no permite guardar datos: tu progreso no se conservará al cerrar. Usa «Copiar mi progreso» en Ajustes antes de salir.</div>');
     }
     pintar();
     if ('speechSynthesis' in window) {

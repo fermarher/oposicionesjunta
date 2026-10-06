@@ -14,7 +14,12 @@
     leer(clave, defecto) {
       try {
         const v = window.localStorage.getItem(PREFIJO + clave);
-        return v == null ? defecto : JSON.parse(v);
+        if (v == null) return defecto;
+        const x = JSON.parse(v);
+        // si el valor guardado no tiene la forma esperada, se usa el valor por defecto
+        if (Array.isArray(defecto) && !Array.isArray(x)) return defecto;
+        if (defecto && typeof defecto === 'object' && !Array.isArray(defecto) && (!x || typeof x !== 'object' || Array.isArray(x))) return defecto;
+        return x;
       } catch (e) { return defecto; }
     },
     escribir(clave, valor) {
@@ -33,7 +38,19 @@
       return out;
     },
     importar(obj) {
-      Object.entries(obj || {}).forEach(([k, v]) => Almacen.escribir(k, v));
+      const plano = (x) => x && typeof x === 'object' && !Array.isArray(x);
+      if (!plano(obj)) throw new Error('formato');
+      const tipos = { srs: 'obj', ajustes: 'obj', tarjetas: 'obj', escuchado: 'obj', ensayos: 'arr', rubricas: 'arr', sorteos: 'arr', sorteoPonderado: 'any', prepActual: 'any' };
+      Object.entries(obj).forEach(([k, v]) => {
+        const t = tipos[k];
+        if (!t) throw new Error('clave ' + k);
+        if (t === 'obj' && !plano(v)) throw new Error('tipo ' + k);
+        if (t === 'arr' && !Array.isArray(v)) throw new Error('tipo ' + k);
+      });
+      Object.entries(obj).forEach(([k, v]) => Almacen.escribir(k, v));
+    },
+    disponible() {
+      try { const k = PREFIJO + '__prueba'; window.localStorage.setItem(k, '1'); window.localStorage.removeItem(k); return true; } catch (e) { return false; }
     },
   };
 

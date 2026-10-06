@@ -68,6 +68,12 @@
       if (encaja) audio = { src: `audio/${audioClave}.mp3`, duracion: a.duracion, voz: a.voz };
       else console.warn(`[audio] ${audioClave}: las frases no coinciden con el texto; se usará la voz del navegador.`);
     }
+    // Cada línea del índice se refiere a una sección (por orden o por su número inicial).
+    const indice = pizarra.filter((p) => p.zona === 'indice');
+    indice.forEach((p, k) => {
+      const m = textoDe(p.partes).match(/^\s*(\d{1,2})[.)]/);
+      p.ref = indice.length === secciones.length ? k : m ? Number(m[1]) - 1 : p.seccion;
+    });
     const guion = doc.guion ? partes(doc.guion, valores) : null;
     return {
       id, tipo, titulo, corto, audioClave, secciones, bloques, frases: lista, pizarra, guion, audio, ud, ficha,
@@ -127,8 +133,8 @@
       const ahora = Date.now();
       const prox = nota === 'otra' ? ahora + 10 * 60000 : ahora + INTERVALOS[n] * DIA;
       s[expoId][secId] = { n, veces: (prev.veces || 0) + 1, prox, ult: ahora };
-      Almacen.escribir('srs', s);
-      return s[expoId][secId];
+      const guardado = Almacen.escribir('srs', s);
+      return { ...s[expoId][secId], guardado };
     },
     dominio(expo) {
       if (!expo) return 0;
@@ -144,9 +150,9 @@
       return out.sort((a, b) => a.prox - b.prox);
     },
     ensayos() { return Almacen.leer('ensayos', []); },
-    guardarEnsayo(e) { const l = this.ensayos(); l.unshift(e); Almacen.escribir('ensayos', l.slice(0, 200)); },
+    guardarEnsayo(e) { const l = this.ensayos(); l.unshift(e); return Almacen.escribir('ensayos', l.slice(0, 200)); },
     autoevaluaciones() { return Almacen.leer('rubricas', []); },
-    guardarAutoevaluacion(r) { const l = this.autoevaluaciones(); l.unshift(r); Almacen.escribir('rubricas', l.slice(0, 200)); },
+    guardarAutoevaluacion(r) { const l = this.autoevaluaciones(); l.unshift(r); return Almacen.escribir('rubricas', l.slice(0, 200)); },
     tarjetas() { return Almacen.leer('tarjetas', {}); },
     marcarTarjeta(clave, bien) {
       const t = this.tarjetas();
@@ -193,6 +199,21 @@
     return res;
   }
 
+  function trocearParaVoz(texto, max) {
+    const palabras = texto.split(/\s+/).filter(Boolean);
+    if (palabras.length <= max) return [texto];
+    const out = [];
+    let actual = [];
+    palabras.forEach((w, k) => {
+      actual.push(w);
+      const quedan = palabras.length - k - 1;
+      const corteNatural = /[,;:]$/.test(w) && actual.length >= max * 0.5;
+      if ((corteNatural || actual.length >= max) && quedan > 3) { out.push(actual.join(' ')); actual = []; }
+    });
+    if (actual.length) out.push(actual.join(' '));
+    return out;
+  }
+
   function vozPreferida() {
     if (!('speechSynthesis' in window)) return null;
     const voces = window.speechSynthesis.getVoices().filter((v) => /^es(-|_|$)/i.test(v.lang));
@@ -200,7 +221,7 @@
     const elegida = Opo.Ajustes.leer().voz;
     const exacta = voces.find((v) => v.name === elegida);
     if (exacta) return exacta;
-    const puntuar = (v) => (/es-ES/i.test(v.lang) ? 4 : 0) + (/natural|online|neural/i.test(v.name) ? 3 : 0) + (/google|elvira|alvaro|álvaro|lucia|lucía|mónica|monica|paulina|helena|laura/i.test(v.name) ? 2 : 0) + (v.localService ? 0 : 1);
+    const puntuar = (v) => (/es-ES/i.test(v.lang) ? 4 : 0) + (/natural|online|neural/i.test(v.name) ? 3 : 0) + (/google|elvira|alvaro|álvaro|lucia|lucía|mónica|monica|paulina|helena|laura/i.test(v.name) ? 2 : 0) + (v.localService ? 1 : 0);
     return voces.slice().sort((x, y) => puntuar(y) - puntuar(x))[0];
   }
 
@@ -272,20 +293,23 @@
     async alError() {
       const ex = this.expo;
       if (!ex || this.modo !== 'mp3') return;
-      if (!this.blobUrls[ex.id] && !this._intentoBlob) {
+      this._intentoBlob = this._intentoBlob || new Set();
+      if (!this.blobUrls[ex.id] && !this._intentoBlob.has(ex.id)) {
         // algunas plataformas bloquean <audio src> pero permiten fetch del mismo fichero
-        this._intentoBlob = true;
+        this._intentoBlob.add(ex.id);
         try {
           const r = await fetch(ex.audio.src);
           if (!r.ok) throw new Error(r.status);
           const b = await r.blob();
           this.blobUrls[ex.id] = URL.createObjectURL(b);
-          this._intentoBlob = false;
+          this._intentoBlob.delete(ex.id);
+          if (this.expo !== ex || this.modo !== 'mp3') return;
           const seguir = this.reproduciendo;
           this.audio.src = this.blobUrls[ex.id];
           this.irAFrase(this.frase, { reproducir: seguir });
           return;
-        } catch (e) { this._intentoBlob = false; }
+        } catch (e) { this._intentoBlob.delete(ex.id); }
+        if (this.expo !== ex) return;
       }
       this.fallidos = this.fallidos || new Set();
       this.fallidos.add(ex.id);
@@ -392,26 +416,34 @@
       this.frase = i;
       this.emitir();
       const fr = ex.frases[i];
-      const u = new SpeechSynthesisUtterance(Opo.paraVoz(fr.texto));
       const v = vozPreferida();
-      if (v) u.voice = v;
-      u.lang = (v && v.lang) || 'es-ES';
-      u.rate = this.velocidad;
-      u.onend = () => {
+      // Trozos de unas 22 palabras como máximo: algunas voces en red de Chrome se cortan a los ~15 s.
+      const trozos = trocearParaVoz(Opo.paraVoz(fr.texto), 22);
+      const decir = (k) => {
         if (tok !== this.token || !this.reproduciendo) return;
-        const sig = ex.frases[i + 1];
-        const pausa = !sig ? 0 : sig.seccion !== fr.seccion ? 900 : sig.bloque !== fr.bloque ? 450 : 120;
-        setTimeout(() => { if (tok === this.token && this.reproduciendo) this.hablar(i + 1); }, pausa / this.velocidad);
+        if (k >= trozos.length) {
+          const sig = ex.frases[i + 1];
+          const pausa = !sig ? 0 : sig.seccion !== fr.seccion ? 900 : sig.bloque !== fr.bloque ? 450 : 120;
+          setTimeout(() => { if (tok === this.token && this.reproduciendo) this.hablar(i + 1); }, pausa / this.velocidad);
+          return;
+        }
+        const u = new SpeechSynthesisUtterance(trozos[k]);
+        if (v) u.voice = v;
+        u.lang = (v && v.lang) || 'es-ES';
+        u.rate = this.velocidad;
+        u.onend = () => decir(k + 1);
+        u.onerror = (e) => { if (tok === this.token && e.error !== 'interrupted' && e.error !== 'canceled') { this.reproduciendo = false; this.emitir(); } };
+        window.speechSynthesis.speak(u);
       };
-      u.onerror = (e) => { if (tok === this.token && e.error !== 'interrupted' && e.error !== 'canceled') { this.reproduciendo = false; this.emitir(); } };
       try { window.speechSynthesis.cancel(); } catch (e) { /* nada */ }
-      window.speechSynthesis.speak(u);
+      decir(0);
     }
     irAFrase(i, { reproducir = null } = {}) {
       const ex = this.expo;
       if (!ex) return;
       i = Math.max(0, Math.min(ex.frases.length - 1, i));
       const seguir = reproducir == null ? this.reproduciendo : reproducir;
+      if (!seguir && this.reproduciendo) this.pausa();
       this.frase = i;
       if (this.modo === 'mp3') {
         this.fijarTiempo((ex.frases[i].t0 || 0) + 0.01);
@@ -425,6 +457,7 @@
       let i = this.frase;
       while (d > 0 && i < ex.frases.length - 1 && ex.frases[i + 1].est0 / this.velocidad <= objetivo) i++;
       while (d < 0 && i > 0 && ex.frases[i].est0 / this.velocidad > objetivo) i--;
+      if (d > 0 && i === this.frase && i < ex.frases.length - 1) i++;
       this.irAFrase(i);
     }
     irATiempo(t) {

@@ -1,17 +1,9 @@
 {
   "id": "ud_plantilla",
   "titulo": "Exposición de la unidad didáctica (plantilla común)",
-  "objetivoMinutos": 28.5,
+  "objetivoMinutos": 29.2,
+  "presupuesto": "Con los ejemplos (UD 1) el discurso dura unos 29,2 min. Cada UD debe quedar entre 28,8 y 29,5 min: rellena cada hueco cerca de la longitud de su ejemplo y sin pasar su máximo; las UD con cuatro competencias de Medio y Artística o con más criterios ya gastan unas 20 palabras más, así que compensa en los huecos de relación o de tarea. Comprueba con validar.mjs ud N.",
   "huecos": [
-    {
-      "id": "numero",
-      "descripcion": "Número de la UD en cifras, sin punto (se lee «número 1»).",
-      "ejemplo": "1",
-      "palabras": [
-        1,
-        1
-      ]
-    },
     {
       "id": "titulo",
       "descripcion": "Título literal de la UD, sin comillas (las comillas «» ya están en el texto común). Puede ser una pregunta con sus signos ¿?.",
@@ -28,6 +20,105 @@
       "palabras": [
         1,
         1
+      ]
+    },
+    {
+      "id": "centro_interes",
+      "descripcion": "Centro de interés de la UD (ficha: centroInteres) como sintagma nominal en minúscula CON artículo, sin punto. Va tras «se centra en» y tras «Epistemológicamente, su eje es», así que vale en singular o en plural.",
+      "ejemplo": "el trabajo en equipo",
+      "palabras": [
+        2,
+        5
+      ]
+    },
+    {
+      "id": "pz_producto",
+      "descripcion": "PIZARRA y guion. Producto de la SdA en 2-6 palabras, sin artículo, con mayúscula inicial («Guía de plantas del barrio», «Maqueta del Centro Pompidou»).",
+      "ejemplo": "Cartel de normas de colaboración",
+      "palabras": [
+        2,
+        6
+      ]
+    },
+    {
+      "id": "pz_ods",
+      "descripcion": "PIZARRA, guion y conclusión (va tras «vinculada con el»). El ODS u ODS de la UD con su número: «ODS 16» o «ODS 11 y 16».",
+      "ejemplo": "ODS 16",
+      "palabras": [
+        2,
+        4
+      ]
+    },
+    {
+      "id": "pregunta_motriz",
+      "descripcion": "Pregunta con la que ARRANCA la UD (la de la actividad inicial o del reto de la SdA en la ficha), con sus signos ¿?, en segunda o primera persona del plural, sin comillas (ya van en el texto común) y sin punto tras el cierre «?». Abre la exposición para captar la atención; evita repetir literalmente el título si este ya es una pregunta.",
+      "ejemplo": "¿Cómo podemos trabajar de forma cooperativa?",
+      "palabras": [
+        4,
+        7
+      ]
+    },
+    {
+      "id": "numero",
+      "descripcion": "Número de la UD en cifras, sin punto (se lee «número 1»).",
+      "ejemplo": "1",
+      "palabras": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "producto_sda",
+      "descripcion": "Producto final de la situación de aprendizaje de la UD (ficha: sda.ud.producto) como sintagma nominal en minúscula, sin punto, con el artículo que pida el sentido (determinado o indeterminado); nominaliza los infinitivos y pasa los posesivos a tercera persona («un plano del barrio con sus centros sanitarios cercanos»).",
+      "ejemplo": "un cartel para definir las normas de colaboración",
+      "palabras": [
+        3,
+        9
+      ]
+    },
+    {
+      "id": "justif_normativa",
+      "descripcion": "Justificación NORMATIVA vinculada con la UD (va tras «; en concreto, desarrolla»): el saber básico (o bloque de saberes) del anexo II de la Orden de 30 de mayo de 2023 que sostiene el centro de interés, con su nombre entre «» y su área, sin código; puede añadir «y el objetivo de etapa de …» si no repite objetivo_etapa_clave. Sin artículos de normas que no estén en la programación. Empieza en minúscula, sin punto final.",
+      "ejemplo": "el saber «Normas para la vida en sociedad» de Conocimiento del Medio, del anexo II de la Orden",
+      "palabras": [
+        10,
+        19
+      ]
+    },
+    {
+      "id": "justif_curricular",
+      "descripcion": "Justificación CURRICULAR: por qué esta UD es relevante en tercero (va tras «y es relevante en tercero porque»): qué abre, consolida o prepara dentro del curso y del segundo ciclo. No repitas los saberes que nombra justif_disciplinar. Empieza en minúscula, sin punto final.",
+      "ejemplo": "abre el segundo ciclo y forma los equipos cooperativos de todo el curso",
+      "palabras": [
+        8,
+        14
+      ]
+    },
+    {
+      "id": "justif_epistemologica",
+      "descripcion": "Justificación EPISTEMOLÓGICA en torno al CENTRO DE INTERÉS (va tras «Epistemológicamente, su eje es {{centro_interes}}:»): qué dice la disciplina de referencia (ciencias naturales, ciencias sociales, historia, geografía, arte) sobre ese centro de interés y cómo lo sirven la lengua y las matemáticas. No enumeres contenidos sueltos (sílaba, tilde, cifras) ni cites autores. Oración en minúscula, SIN punto final.",
+      "ejemplo": "las ciencias sociales muestran que toda comunidad necesita normas acordadas, y la lengua y las matemáticas sirven para escribirlas",
+      "palabras": [
+        12,
+        20
+      ]
+    },
+    {
+      "id": "relevancia",
+      "descripcion": "Relevancia social de la UD (ficha: relevanciaSocial) como oración enunciativa completa que empieza en minúscula y SIN punto final (va tras «Su relevancia social es clara:»). Sin citar normas.",
+      "ejemplo": "el trabajo cooperativo desarrolla las habilidades sociales, la empatía y la resolución pacífica de conflictos",
+      "palabras": [
+        8,
+        16
+      ]
+    },
+    {
+      "id": "ods",
+      "descripcion": "ODS de la UD (ficha: ods) con artículo y nombre OFICIAL completo, en minúscula salvo la sigla, sin punto. Uno: «el ODS 16, paz, justicia e instituciones sólidas». Dos: «los ODS 11, ciudades y comunidades sostenibles, y 16, paz, justicia e instituciones sólidas».",
+      "ejemplo": "el ODS 16, paz, justicia e instituciones sólidas",
+      "palabras": [
+        4,
+        9
       ]
     },
     {
@@ -49,102 +140,12 @@
       ]
     },
     {
-      "id": "centro_interes",
-      "descripcion": "Centro de interés de la UD (ficha: centroInteres) como sintagma nominal en minúscula CON artículo, sin punto. Va tras «se centra en» y tras «sobre», así que vale en singular o en plural.",
-      "ejemplo": "el trabajo en equipo",
-      "palabras": [
-        2,
-        8
-      ]
-    },
-    {
-      "id": "relevancia",
-      "descripcion": "Relevancia social de la UD (ficha: relevanciaSocial) como oración enunciativa completa que empieza en minúscula y SIN punto final (va tras «Su relevancia social es clara:»). Sin citar normas.",
-      "ejemplo": "el trabajo cooperativo desarrolla las habilidades sociales, la empatía y la resolución pacífica de conflictos",
-      "palabras": [
-        8,
-        20
-      ]
-    },
-    {
-      "id": "ods",
-      "descripcion": "ODS de la UD (ficha: ods) con artículo y nombre OFICIAL completo, en minúscula salvo la sigla, sin punto. Uno: «el ODS 16, paz, justicia e instituciones sólidas». Dos: «los ODS 11, ciudades y comunidades sostenibles, y 16, paz, justicia e instituciones sólidas».",
-      "ejemplo": "el ODS 16, paz, justicia e instituciones sólidas",
-      "palabras": [
-        4,
-        16
-      ]
-    },
-    {
-      "id": "producto_sda",
-      "descripcion": "Producto final de la situación de aprendizaje de la UD (ficha: sda.ud.producto) como sintagma nominal en minúscula, sin punto, con el artículo que pida el sentido (determinado o indeterminado); nominaliza los infinitivos y pasa los posesivos a tercera persona («un plano del barrio con sus centros sanitarios cercanos»).",
-      "ejemplo": "un cartel para definir las normas de colaboración",
-      "palabras": [
-        3,
-        10
-      ]
-    },
-    {
-      "id": "pz_producto",
-      "descripcion": "PIZARRA y guion. Producto de la SdA en 2-6 palabras, sin artículo, con mayúscula inicial («Guía de plantas del barrio», «Maqueta del Centro Pompidou»).",
-      "ejemplo": "Cartel de normas de colaboración",
-      "palabras": [
-        2,
-        6
-      ]
-    },
-    {
-      "id": "nombre_proyecto",
-      "descripcion": "Solo el nombre del proyecto de diseño del trimestre (ficha: sda.proyecto.nombre), sin comillas: «¡Sí, chef!», «¿Buceamos?» o «Huellas del pasado».",
-      "ejemplo": "¡Sí, chef!",
-      "palabras": [
-        1,
-        3
-      ]
-    },
-    {
-      "id": "producto_proyecto",
-      "descripcion": "Lo que aporta esta UD al proyecto de diseño (ficha: sda.proyecto.producto) como sintagma nominal en minúscula, sin punto, con el artículo que pida el sentido; nominaliza los infinitivos («la decoración y la presentación del lapbook»). Va tras «con», en la conclusión. En la UD 12, añade «, que da nombre a esta unidad» para no confundir la SdA y el proyecto.",
-      "ejemplo": "una entrevista a un familiar para el recetario andaluz",
-      "palabras": [
-        3,
-        12
-      ]
-    },
-    {
-      "id": "producto_aps",
-      "descripcion": "Producto del aprendizaje-servicio «Opera prima» en esta UD (ficha: sda.aps.producto) como sintagma nominal en minúscula, sin punto, con el artículo que pida el sentido; nominaliza los infinitivos. Va tras «con» («con el festival de cine de fin de curso»).",
-      "ejemplo": "un informe sobre la técnica de animación stop motion",
-      "palabras": [
-        3,
-        12
-      ]
-    },
-    {
-      "id": "justif_curricular",
-      "descripcion": "Justificación CURRICULAR: por qué esta UD es relevante en tercero (va tras «y es relevante en tercero porque»): qué abre, consolida o prepara dentro del curso y del segundo ciclo. No repitas los saberes que nombra justif_disciplinar. Empieza en minúscula, sin punto final.",
-      "ejemplo": "abre el segundo ciclo y forma los equipos cooperativos de todo el curso",
-      "palabras": [
-        8,
-        20
-      ]
-    },
-    {
-      "id": "justif_disciplinar",
-      "descripcion": "Justificación EPISTEMOLÓGICA desde las DISCIPLINAS (no desde la psicología): por qué los saberes centrales de la UD son clave en la lógica interna de las áreas (Lengua, Matemáticas, ciencias, historia, geografía, arte). Oración en minúscula (va tras «Epistemológicamente,») y SIN punto final (sigue «; y, como defiende Ausubel (2009),…»).",
-      "ejemplo": "la sílaba y la tilde son la base de la ortografía, y la numeración decimal, la base de todo el cálculo",
-      "palabras": [
-        10,
-        26
-      ]
-    },
-    {
       "id": "contexto_significativo",
-      "descripcion": "Lo más significativo del contexto para ESTA UD: el momento del curso y el plan o programa del centro que le da sentido (Plan de cultura de Paz, Plan de igualdad, CIMA hábitos de vida saludable, CIMA ALDEA, CIMA STEAM, Plan de actuación digital), o un rasgo del entorno (Mijas Costa, Málaga, la costa). Una o dos oraciones, sin dos puntos internos; empieza en minúscula (va tras dos puntos) y termina en punto.",
-      "ejemplo": "empieza el curso y el grupo debe hacerse equipo; el Plan de cultura de Paz da sentido a unas normas acordadas, y el programa CIMA de hábitos de vida saludable, a lo que comemos en casa.",
+      "descripcion": "Lo más significativo del contexto para ESTA UD: el momento del curso y el plan o programa del centro que le da sentido (Plan de cultura de Paz, Plan de igualdad de hombres y mujeres (obligatorio si la UD evalúa un criterio de igualdad), CIMA hábitos de vida saludable, CIMA ALDEA, CIMA STEAM, Plan de actuación digital), o un rasgo del entorno (Mijas Costa, Málaga, la costa). Una o dos oraciones, sin dos puntos internos; empieza en minúscula (va tras dos puntos) y termina en punto.",
+      "ejemplo": "empieza el curso y el grupo debe hacerse equipo; el Plan de cultura de Paz da sentido a las normas, el de igualdad a los roles rotativos y el programa CIMA a lo que comemos.",
       "palabras": [
         15,
-        42
+        37
       ]
     },
     {
@@ -153,61 +154,7 @@
       "ejemplo": "es la primera unidad y coincide con la evaluación inicial de los primeros días de clase.",
       "palabras": [
         8,
-        18
-      ]
-    },
-    {
-      "id": "objetivos_etapa",
-      "descripcion": "Letras de los objetivos de etapa (ficha: objetivosEtapa) escritas con su NOMBRE para que se lean bien: «a, be, ce, de, e, efe, ge, hache, i, jota, ka, ele, eme, ene, eñe»; la «o» se escribe «la o» («…, ka y la o»). Separadas por comas, la última con «y», sin punto.",
-      "ejemplo": "a, de, e, ge, hache, jota y eñe",
-      "palabras": [
-        7,
-        10
-      ]
-    },
-    {
-      "id": "objetivos_aprendizaje",
-      "descripcion": "Los SEIS objetivos de aprendizaje de la ficha, abreviados y AGRUPADOS por área en una sola enumeración: «en Lengua, …; en Matemáticas, …; …; y …». Infinitivos cortos, sin números. Empieza en minúscula (va tras «seis objetivos de aprendizaje:») y termina en punto.",
-      "ejemplo": "en Lengua, crear adivinanzas y usar la sílaba y el diccionario; en Matemáticas, componer y redondear números de cuatro cifras y usar los ordinales; trabajar en equipo con mediación; y conocer obras de arte de distintas épocas.",
-      "palabras": [
-        22,
-        45
-      ]
-    },
-    {
-      "id": "cc_principales",
-      "descripcion": "Las DOS (como mucho tres) competencias clave que más desarrolla la UD, con su nombre completo (en comunicación lingüística; plurilingüe; matemática y en ciencia, tecnología e ingeniería; digital; personal, social y de aprender a aprender; ciudadana; emprendedora; en conciencia y expresión culturales) y el porqué en pocas palabras. Va tras «a través de sus descriptores operativos, y sobre todo»; empieza por «la competencia» y va SIN punto final.",
-      "ejemplo": "la competencia personal, social y de aprender a aprender y la ciudadana, porque aprender a ser un equipo es su centro",
-      "palabras": [
-        12,
-        28
-      ]
-    },
-    {
-      "id": "curriculo_lcl",
-      "descripcion": "Concreción de CADA competencia específica de Lengua de la ficha. Va tras «Empiezo por Lengua Castellana y Literatura:»: empieza en MINÚSCULA por «la N,» y termina en punto. Cada competencia: «la N, [de qué trata en 2-4 palabras, en infinitivo o sintagma], con X1 y X2 (dos descriptores operativos, de la Tabla 3 de la programación y presentes en ficha.competenciasClave), criterio N.N.a y [nombre corto del saber básico, sin código]» (sin artículo delante de «criterio»). Competencias separadas por «; », la última con «; y la N, …». Si la ficha empareja mal competencia y criterio (p. ej. UD 2 LCL: competencia 9 sin criterio y 8.3.a sin competencia; UD 6 EAR: competencia 1 con 4.1.a), nombra la competencia que corresponde al criterio y omite la que no tiene criterio.",
-      "ejemplo": "la 1, valorar la diversidad lingüística, con CCL1 y CC1, criterio 1.3.a y el habla andaluza; la 4, comprender textos, con CCL2 y CD1, criterio 4.1.a y la comprensión lectora; la 5, escribir textos, con CCL3 y CCL5, criterio 5.1.a y la producción escrita; la 6, buscar información, con CD1 y CE3, criterio 6.1.a y la búsqueda guiada; y la 7, leer con autonomía, con CCL4 y CCEC1, criterio 7.1.a y la literatura infantil.",
-      "palabras": [
-        45,
-        80
-      ]
-    },
-    {
-      "id": "curriculo_mat",
-      "descripcion": "Igual que curriculo_lcl para Matemáticas. Va tras «…su criterio y su saber:»: empieza en MINÚSCULA por «la N,» y termina en punto. Cada competencia: «la N, [de qué trata en 2-4 palabras, en infinitivo o sintagma], con X1 y X2 (dos descriptores operativos, de la Tabla 3 de la programación y presentes en ficha.competenciasClave), criterio N.N.a y [nombre corto del saber básico, sin código]» (sin artículo delante de «criterio»). Competencias separadas por «; », la última con «; y la N, …». Si la ficha empareja mal competencia y criterio (p. ej. UD 2 LCL: competencia 9 sin criterio y 8.3.a sin competencia; UD 6 EAR: competencia 1 con 4.1.a), nombra la competencia que corresponde al criterio y omite la que no tiene criterio.",
-      "ejemplo": "la 1, interpretar situaciones cotidianas, con STEM1 y STEM2, criterio 1.1.a y el orden de magnitud; la 4, el pensamiento computacional, con STEM2 y CD1, criterio 4.1.a y los algoritmos sencillos; la 5, conectar ideas, con STEM1 y CC4, criterio 5.1.a y las relaciones geométricas; la 6, comunicar procesos, con CCL1 y STEM4, criterio 6.2.a y la recta numérica; y la 7, gestionar las emociones, con CPSAA1 y CE2, criterio 7.1.a y la tolerancia a la frustración.",
-      "palabras": [
-        45,
-        80
-      ]
-    },
-    {
-      "id": "curriculo_cmn_ear",
-      "descripcion": "Igual para Conocimiento del Medio y Educación Artística, en una o dos oraciones: «En Conocimiento del Medio, la N, [de qué trata], con …, el criterio … y …; y la N, …. Y en Educación Artística, la N, [de qué trata], con …». Empieza en MAYÚSCULA y termina en punto. Cada competencia: «la N, [de qué trata en 2-4 palabras, en infinitivo o sintagma], con X1 y X2 (dos descriptores operativos, de la Tabla 3 de la programación y presentes en ficha.competenciasClave), criterio N.N.a y [nombre corto del saber básico, sin código]» (sin artículo delante de «criterio»). Competencias separadas por «; », la última con «; y la N, …». Si la ficha empareja mal competencia y criterio (p. ej. UD 2 LCL: competencia 9 sin criterio y 8.3.a sin competencia; UD 6 EAR: competencia 1 con 4.1.a), nombra la competencia que corresponde al criterio y omite la que no tiene criterio.",
-      "ejemplo": "En Conocimiento del Medio, la 1, usar recursos digitales, con CD1 y CD2, criterio 1.1.a y los dispositivos digitales; y la 8, la igualdad y la diversidad, con CP3 y CC1, criterio 8.1.a y las normas de convivencia. Y en Educación Artística, la 1, descubrir propuestas artísticas, con CCEC1 y CCEC2, criterio 1.1.a y su recepción activa.",
-      "palabras": [
-        35,
-        70
+        17
       ]
     },
     {
@@ -238,111 +185,57 @@
       ]
     },
     {
-      "id": "sda_reto",
-      "descripcion": "Reto de la situación de aprendizaje en infinitivo (qué problema real resuelve el producto), en minúscula, sin punto; va entre comas tras «plantea un reto real,».",
-      "ejemplo": "descubrir cómo podemos trabajar de forma cooperativa",
+      "id": "objetivos_aprendizaje",
+      "descripcion": "Los SEIS objetivos de aprendizaje de la ficha, MUY abreviados (sustantivos o infinitivos cortos) y AGRUPADOS por área en una sola enumeración: «en Lengua, …; en Matemáticas, …; …; y …». Sin números. Empieza en minúscula (va tras «y los concreto en seis objetivos de aprendizaje:») y termina en punto.",
+      "ejemplo": "en Lengua, adivinanzas, sílaba y diccionario; en Matemáticas, números de cuatro cifras y ordinales; trabajo en equipo con mediación; y arte de distintas épocas.",
       "palabras": [
-        4,
-        14
+        16,
+        25
       ]
     },
     {
-      "id": "s1_lcl_ej",
-      "descripcion": "EJERCICIO DE APLICACIÓN de LENGUA de la fase 1 (ficha: semanas[0].LCL): automatismo o práctica que consolida (vocabulario, diccionario, sílabas, lectura y escritura de números, tablas, cálculo…), en primera persona del plural. Puede llevar «, con el criterio N.N.a». Empieza en minúscula (va tras «como ejercicio de aplicación,» o «como ejercicio,»), sin punto final (sigue «; y como actividad,»). Usa SOLO criterios de areas[].criterios de la ficha; si la semana cita un criterio ajeno o un código de saber (p. ej. 2.C.7), sustitúyelo por el criterio de la UD de esa área que mejor encaje por su SIGNIFICADO (consulta las observaciones). Entre las tres fases, cada criterio de la UD de esa área debe aparecer al menos una vez.",
-      "ejemplo": "distinguimos la lengua oral y la escrita en una noticia, con el criterio 1.3.a",
+      "id": "pz_obj_etapa",
+      "descripcion": "PIZARRA. Letras de los objetivos de etapa de la ficha (objetivosEtapa) unidas con «·», sin espacios ni paréntesis.",
+      "ejemplo": "a·d·e·g·h·j·ñ",
       "palabras": [
-        4,
-        16
+        1,
+        1
       ]
     },
     {
-      "id": "s1_lcl_act",
-      "descripcion": "ACTIVIDAD de LENGUA de la fase 1 (ficha: semanas[0].LCL): la que relaciona conocimientos y mejor se conecta con el producto, en primera persona del plural o con «cada alumno/equipo», y SIEMPRE con su criterio («, con el criterio N.N.a»; el segundo, «con el N.N.a»). Puede sumar una segunda actividad breve de la semana. Sin días de la semana salvo «el viernes». Empieza en minúscula y SIN punto final (sigue «:» y la relación). Usa SOLO criterios de areas[].criterios de la ficha; si la semana cita un criterio ajeno o un código de saber (p. ej. 2.C.7), sustitúyelo por el criterio de la UD de esa área que mejor encaje por su SIGNIFICADO (consulta las observaciones). Entre las tres fases, cada criterio de la UD de esa área debe aparecer al menos una vez.",
-      "ejemplo": "cada alumno inventa una adivinanza sobre una profesión para la competición por equipos, con el criterio 5.1.a, y ampliamos «La Tarara» con dos estrofas",
+      "id": "cc_principales",
+      "descripcion": "Las DOS (como mucho tres) competencias clave que más desarrolla la UD, con su nombre completo (en comunicación lingüística; plurilingüe; matemática y en ciencia, tecnología e ingeniería; digital; personal, social y de aprender a aprender; ciudadana; emprendedora; en conciencia y expresión culturales), sin explicar el porqué. Empieza por «la competencia» y va SIN punto final. Aparece en la concreción (tras «del Real Decreto 157/2022 y, sobre todo,») y en la conclusión (tras «Desarrolla sobre todo»).",
+      "ejemplo": "la competencia personal, social y de aprender a aprender y la ciudadana",
       "palabras": [
         8,
-        30
+        13
       ]
     },
     {
-      "id": "s1_rel_lcl",
-      "descripcion": "RELACIÓN de lo que hace Lengua en la fase 1 con el PRODUCTO (o con un paso del producto o de la tarea): cláusula que empieza en minúscula (va tras dos puntos, justo después de la actividad del área) y SIN punto final. Debe nombrar el producto o su paso («el cartel», «la guía», «las normas», «el título del cartel»…) y decir para qué sirve lo que se ha hecho. Solo relaciones verosímiles con actividades de la ficha; sin criterios, sin días y sin dos puntos internos (ya va tras dos puntos).",
-      "ejemplo": "crear juntos es nuestro primer ensayo de trabajo en equipo, que luego recogerá el cartel",
+      "id": "curriculo_lcl",
+      "descripcion": "Concreción de CADA competencia específica de Lengua de la ficha. Va tras «Empiezo por Lengua:»: empieza en MINÚSCULA por «la N,» y termina en punto. Cada competencia: «la N, [de qué trata en 2-4 palabras, en infinitivo o sintagma], con X1 y X2 (dos descriptores operativos, de la Tabla 3 de la programación y presentes en ficha.competenciasClave), criterio N.N.a y [nombre corto del saber básico, sin código]» (sin artículo delante de «criterio»). Competencias separadas por «; », la última con «; y la N, …». Si la ficha empareja mal competencia y criterio (p. ej. UD 2 LCL: competencia 9 sin criterio y 8.3.a sin competencia; UD 6 EAR: competencia 1 con 4.1.a), nombra la competencia que corresponde al criterio y omite la que no tiene criterio.",
+      "ejemplo": "la 1, valorar la diversidad lingüística, con CCL1 y CC1, criterio 1.3.a y el habla andaluza; la 4, comprender textos, con CCL2 y CD1, criterio 4.1.a y la comprensión lectora; la 5, escribir textos, con CCL3 y CCL5, criterio 5.1.a y la producción escrita; la 6, buscar información, con CD1 y CE3, criterio 6.1.a y la búsqueda guiada; y la 7, leer con autonomía, con CCL4 y CCEC1, criterio 7.1.a y la literatura infantil.",
       "palabras": [
-        8,
-        22
+        45,
+        78
       ]
     },
     {
-      "id": "s1_mat_ej",
-      "descripcion": "EJERCICIO DE APLICACIÓN de MATEMÁTICAS de la fase 1 (ficha: semanas[0].MAT): automatismo o práctica que consolida (vocabulario, diccionario, sílabas, lectura y escritura de números, tablas, cálculo…), en primera persona del plural. Puede llevar «, con el criterio N.N.a». Empieza en minúscula (va tras «como ejercicio de aplicación,» o «como ejercicio,»), sin punto final (sigue «; y como actividad,»). Usa SOLO criterios de areas[].criterios de la ficha; si la semana cita un criterio ajeno o un código de saber (p. ej. 2.C.7), sustitúyelo por el criterio de la UD de esa área que mejor encaje por su SIGNIFICADO (consulta las observaciones). Entre las tres fases, cada criterio de la UD de esa área debe aparecer al menos una vez.",
-      "ejemplo": "leemos, escribimos y representamos con bloques de base 10 números de tres cifras",
+      "id": "curriculo_mat",
+      "descripcion": "Igual que curriculo_lcl para Matemáticas. Va tras «Sigo con Matemáticas:»: empieza en MINÚSCULA por «la N,» y termina en punto. Cada competencia: «la N, [de qué trata en 2-4 palabras, en infinitivo o sintagma], con X1 y X2 (dos descriptores operativos, de la Tabla 3 de la programación y presentes en ficha.competenciasClave), criterio N.N.a y [nombre corto del saber básico, sin código]» (sin artículo delante de «criterio»). Competencias separadas por «; », la última con «; y la N, …». Si la ficha empareja mal competencia y criterio (p. ej. UD 2 LCL: competencia 9 sin criterio y 8.3.a sin competencia; UD 6 EAR: competencia 1 con 4.1.a), nombra la competencia que corresponde al criterio y omite la que no tiene criterio.",
+      "ejemplo": "la 1, interpretar situaciones cotidianas, con STEM1 y STEM2, criterio 1.1.a y el orden de magnitud; la 4, el pensamiento computacional, con STEM2 y CD1, criterio 4.1.a y los algoritmos sencillos; la 5, conectar ideas, con STEM1 y CC4, criterio 5.1.a y las relaciones geométricas; la 6, comunicar procesos, con CCL1 y STEM4, criterio 6.2.a y la recta numérica; y la 7, gestionar emociones, con CPSAA1 y CE2, criterio 7.1.a y la tolerancia a la frustración.",
       "palabras": [
-        4,
-        16
+        45,
+        80
       ]
     },
     {
-      "id": "s1_mat_act",
-      "descripcion": "ACTIVIDAD de MATEMÁTICAS de la fase 1 (ficha: semanas[0].MAT): la que relaciona conocimientos y mejor se conecta con el producto, en primera persona del plural o con «cada alumno/equipo», y SIEMPRE con su criterio («, con el criterio N.N.a»; el segundo, «con el N.N.a»). Puede sumar una segunda actividad breve de la semana. Sin días de la semana salvo «el viernes». Empieza en minúscula y SIN punto final (sigue «:» y la relación). Usa SOLO criterios de areas[].criterios de la ficha; si la semana cita un criterio ajeno o un código de saber (p. ej. 2.C.7), sustitúyelo por el criterio de la UD de esa área que mejor encaje por su SIGNIFICADO (consulta las observaciones). Entre las tres fases, cada criterio de la UD de esa área debe aparecer al menos una vez.",
-      "ejemplo": "resolvemos problemas de la vida cotidiana contando más allá del 999, con el criterio 1.1.a, y el viernes cada equipo inventa los suyos en el concurso",
+      "id": "curriculo_cmn_ear",
+      "descripcion": "Igual para Conocimiento del Medio y Educación Artística (va tras «Y termino con las otras dos áreas.»), en una o dos oraciones: «En Conocimiento del Medio, la N, [de qué trata], con …, el criterio … y …; y la N, …. Y en Educación Artística, la N, [de qué trata], con …». Empieza en MAYÚSCULA y termina en punto. Cada competencia: «la N, [de qué trata en 2-4 palabras, en infinitivo o sintagma], con X1 y X2 (dos descriptores operativos, de la Tabla 3 de la programación y presentes en ficha.competenciasClave), criterio N.N.a y [nombre corto del saber básico, sin código]» (sin artículo delante de «criterio»). Competencias separadas por «; », la última con «; y la N, …». Si la ficha empareja mal competencia y criterio (p. ej. UD 2 LCL: competencia 9 sin criterio y 8.3.a sin competencia; UD 6 EAR: competencia 1 con 4.1.a), nombra la competencia que corresponde al criterio y omite la que no tiene criterio.",
+      "ejemplo": "En Conocimiento del Medio, la 1, usar recursos digitales, con CD1 y CD2, criterio 1.1.a y los dispositivos digitales; y la 8, igualdad y diversidad, con CP3 y CC1, criterio 8.1.a y las normas de convivencia. Y en Educación Artística, la 1, descubrir propuestas artísticas, con CCEC1 y CCEC2, criterio 1.1.a y su recepción activa.",
       "palabras": [
-        8,
-        30
-      ]
-    },
-    {
-      "id": "s1_rel_mat",
-      "descripcion": "RELACIÓN de lo que hace Matemáticas en la fase 1 con el PRODUCTO (o con un paso del producto o de la tarea): cláusula que empieza en minúscula (va tras dos puntos, justo después de la actividad del área) y SIN punto final. Debe nombrar el producto o su paso («el cartel», «la guía», «las normas», «el título del cartel»…) y decir para qué sirve lo que se ha hecho. Solo relaciones verosímiles con actividades de la ficha; sin criterios, sin días y sin dos puntos internos (ya va tras dos puntos).",
-      "ejemplo": "cada miembro ejerce su rol, y lo que ayuda al equipo serán nuestras primeras normas",
-      "palabras": [
-        8,
-        24
-      ]
-    },
-    {
-      "id": "s1_cmn",
-      "descripcion": "Actividad de CONOCIMIENTO DEL MEDIO de la fase 1 que NO es la tarea (ficha: semanas[0].CMN, el jueves), en primera persona del plural y con su criterio si lo tiene. Empieza en minúscula (va tras «En Conocimiento del Medio,»), SIN punto final (sigue «:» y la relación). Usa SOLO criterios de areas[].criterios de la ficha; si la semana cita un criterio ajeno o un código de saber (p. ej. 2.C.7), sustitúyelo por el criterio de la UD de esa área que mejor encaje por su SIGNIFICADO (consulta las observaciones). Entre las tres fases, cada criterio de la UD de esa área debe aparecer al menos una vez.",
-      "ejemplo": "el jueves vemos un vídeo sobre el método científico y esquematizamos sus pasos",
-      "palabras": [
-        6,
-        26
-      ]
-    },
-    {
-      "id": "s1_rel_cmn",
-      "descripcion": "RELACIÓN de lo que hace Conocimiento del Medio en la fase 1 con el PRODUCTO (o con un paso del producto o de la tarea): cláusula que empieza en minúscula (va tras dos puntos, justo después de la actividad del área) y SIN punto final. Debe nombrar el producto o su paso («el cartel», «la guía», «las normas», «el título del cartel»…) y decir para qué sirve lo que se ha hecho. Solo relaciones verosímiles con actividades de la ficha; sin criterios, sin días y sin dos puntos internos (ya va tras dos puntos).",
-      "ejemplo": "con ese método comprobaremos después si las normas del cartel funcionan",
-      "palabras": [
-        8,
-        22
-      ]
-    },
-    {
-      "id": "s1_ear",
-      "descripcion": "Actividad de EDUCACIÓN ARTÍSTICA de la fase 1 (ficha: semanas[0].EAR); si es el APS, nombra «Opera prima». Empieza en minúscula (va tras «Y en Educación Artística,») y SIN punto final (sigue «:» y la relación). El criterio de Educación Artística debe ir con la actividad cuyo SIGNIFICADO encaja (identificar o conocer una obra o un artista → criterio de identificar propuestas; crear → criterio de producción), aunque la ficha lo ponga en otra semana; debe aparecer en al menos una fase. ",
-      "ejemplo": "creamos letras tridimensionales con materiales de plástica",
-      "palabras": [
-        4,
-        16
-      ]
-    },
-    {
-      "id": "s1_rel_ear",
-      "descripcion": "RELACIÓN de lo que hace Educación Artística en la fase 1 con el PRODUCTO (o con un paso del producto o de la tarea): cláusula que empieza en minúscula (va tras dos puntos, justo después de la actividad del área) y SIN punto final. Debe nombrar el producto o su paso («el cartel», «la guía», «las normas», «el título del cartel»…) y decir para qué sirve lo que se ha hecho. Solo relaciones verosímiles con actividades de la ficha; sin criterios, sin días y sin dos puntos internos (ya va tras dos puntos).",
-      "ejemplo": "serán las letras del título de nuestro cartel",
-      "palabras": [
-        6,
-        26
-      ]
-    },
-    {
-      "id": "s1_tarea",
-      "descripcion": "TAREA de la fase 1 (ficha: semanas[0].CMN, el viernes). Empieza por «el viernes damos el primer paso de la situación de aprendizaje.» y sigue con qué se hace ese día para el producto. Si en esa fase la SdA aún no ha arrancado (UD 9), empieza por «el viernes,» + la actividad de ese día (efeméride incluida), desarróllala como tarea y di que la situación de aprendizaje arranca en la fase dos. Desarróllala con CUATRO datos: agrupamiento, duración («en una sesión», sin inventar minutos), pasos (qué hace cada miembro o rol) y evidencia o instrumento con que se recoge; di también qué hace la maestra («Yo guío… y registro…»). SIEMPRE con su criterio y el ÁREA del criterio («con el criterio 1.1.a de Conocimiento del Medio»), y que la actividad encaje con el significado del criterio (si es de recursos digitales, hazla con un recurso digital de la UD: Canva, Google Classroom o Google Maps). Dos o tres oraciones; empieza en minúscula (va tras dos puntos) y termina en punto.",
-      "ejemplo": "el viernes damos el primer paso de la situación de aprendizaje. En una sesión, nos preguntamos en gran grupo cómo trabajar de forma cooperativa; después formamos equipos heterogéneos, cada miembro asume un rol, coordinador, secretario, portavoz o encargado del material, y el equipo diseña en Canva su tarjeta de roles, usando los recursos digitales de forma segura, con el criterio 1.1.a de Conocimiento del Medio. Yo guío y anoto lo que observo en una escala de observación.",
-      "palabras": [
-        40,
-        85
+        35,
+        70
       ]
     },
     {
@@ -355,102 +248,120 @@
       ]
     },
     {
-      "id": "s2_lcl_ej",
-      "descripcion": "EJERCICIO DE APLICACIÓN de LENGUA de la fase 2 (ficha: semanas[1].LCL): automatismo o práctica que consolida (vocabulario, diccionario, sílabas, lectura y escritura de números, tablas, cálculo…), en primera persona del plural. Puede llevar «, con el criterio N.N.a». Empieza en minúscula (va tras «como ejercicio de aplicación,» o «como ejercicio,»), sin punto final (sigue «; y como actividad,»). Usa SOLO criterios de areas[].criterios de la ficha; si la semana cita un criterio ajeno o un código de saber (p. ej. 2.C.7), sustitúyelo por el criterio de la UD de esa área que mejor encaje por su SIGNIFICADO (consulta las observaciones). Entre las tres fases, cada criterio de la UD de esa área debe aparecer al menos una vez.",
-      "ejemplo": "clasificamos las palabras según su número de sílabas",
+      "id": "sda_reto",
+      "descripcion": "Reto de la situación de aprendizaje en infinitivo (qué problema real resuelve el producto), en minúscula, sin punto; va entre comas tras «plantea un reto real,».",
+      "ejemplo": "descubrir cómo podemos trabajar de forma cooperativa",
       "palabras": [
         4,
-        16
+        8
       ]
     },
     {
-      "id": "s2_lcl_act",
-      "descripcion": "ACTIVIDAD de LENGUA de la fase 2 (ficha: semanas[1].LCL): la que relaciona conocimientos y mejor se conecta con el producto, en primera persona del plural o con «cada alumno/equipo», y SIEMPRE con su criterio («, con el criterio N.N.a»; el segundo, «con el N.N.a»). Puede sumar una segunda actividad breve de la semana. Sin días de la semana salvo «el viernes». Empieza en minúscula y SIN punto final (sigue «:» y la relación). Usa SOLO criterios de areas[].criterios de la ficha; si la semana cita un criterio ajeno o un código de saber (p. ej. 2.C.7), sustitúyelo por el criterio de la UD de esa área que mejor encaje por su SIGNIFICADO (consulta las observaciones). Entre las tres fases, cada criterio de la UD de esa área debe aparecer al menos una vez.",
-      "ejemplo": "leemos un cuento tradicional, con el criterio 7.1.a, y escribimos otro siguiendo los pasos, con el 5.1.a",
-      "palabras": [
-        8,
-        30
-      ]
-    },
-    {
-      "id": "s2_rel_lcl",
-      "descripcion": "RELACIÓN de lo que hace Lengua en la fase 2 con el PRODUCTO (o con un paso del producto o de la tarea): cláusula que empieza en minúscula (va tras dos puntos, justo después de la actividad del área) y SIN punto final. Debe nombrar el producto o su paso («el cartel», «la guía», «las normas», «el título del cartel»…) y decir para qué sirve lo que se ha hecho. Solo relaciones verosímiles con actividades de la ficha; sin criterios, sin días y sin dos puntos internos (ya va tras dos puntos).",
-      "ejemplo": "planificar, escribir, revisar y corregir es el mismo proceso con el que escribiremos las normas del cartel",
-      "palabras": [
-        8,
-        22
-      ]
-    },
-    {
-      "id": "s2_mat_ej",
-      "descripcion": "EJERCICIO DE APLICACIÓN de MATEMÁTICAS de la fase 2 (ficha: semanas[1].MAT): automatismo o práctica que consolida (vocabulario, diccionario, sílabas, lectura y escritura de números, tablas, cálculo…), en primera persona del plural. Puede llevar «, con el criterio N.N.a». Empieza en minúscula (va tras «como ejercicio de aplicación,» o «como ejercicio,»), sin punto final (sigue «; y como actividad,»). Usa SOLO criterios de areas[].criterios de la ficha; si la semana cita un criterio ajeno o un código de saber (p. ej. 2.C.7), sustitúyelo por el criterio de la UD de esa área que mejor encaje por su SIGNIFICADO (consulta las observaciones). Entre las tres fases, cada criterio de la UD de esa área debe aparecer al menos una vez.",
-      "ejemplo": "contamos números de cuatro cifras en series de diez, de cien y de mil",
+      "id": "s1_lcl_ej",
+      "descripcion": "EJERCICIO DE APLICACIÓN de LENGUA de la fase 1 (ficha: semanas[0].LCL): automatismo o práctica que consolida (vocabulario, diccionario, sílabas, lectura y escritura de números, tablas, cálculo…), en primera persona del plural. Puede llevar «, con el criterio N.N.a». Va tras «En Lengua, como ejercicio de aplicación,» / «En Matemáticas, como ejercicio,»: empieza en minúscula por un VERBO en presente, sin punto final (sigue «;»). Usa SOLO criterios de areas[].criterios de la ficha; si la semana cita un criterio ajeno o un código de saber (p. ej. 2.C.7), sustitúyelo por el criterio de la UD de esa área que mejor encaje por su SIGNIFICADO (consulta las observaciones): el criterio debe poder EVIDENCIARSE en esa actividad (p. ej., un criterio de habla andaluza va con una canción o un texto oral andaluz, no con una noticia; uno de localizar información, con una búsqueda real en el diccionario, la biblioteca o una web guiada). Entre las tres fases, cada criterio de la UD de esa área debe aparecer al menos una vez.",
+      "ejemplo": "leemos una noticia y distinguimos la lengua oral y la escrita",
       "palabras": [
         4,
-        16
+        12
       ]
     },
     {
-      "id": "s2_mat_act",
-      "descripcion": "ACTIVIDAD de MATEMÁTICAS de la fase 2 (ficha: semanas[1].MAT): la que relaciona conocimientos y mejor se conecta con el producto, en primera persona del plural o con «cada alumno/equipo», y SIEMPRE con su criterio («, con el criterio N.N.a»; el segundo, «con el N.N.a»). Puede sumar una segunda actividad breve de la semana. Sin días de la semana salvo «el viernes». Empieza en minúscula y SIN punto final (sigue «:» y la relación). Usa SOLO criterios de areas[].criterios de la ficha; si la semana cita un criterio ajeno o un código de saber (p. ej. 2.C.7), sustitúyelo por el criterio de la UD de esa área que mejor encaje por su SIGNIFICADO (consulta las observaciones). Entre las tres fases, cada criterio de la UD de esa área debe aparecer al menos una vez.",
-      "ejemplo": "el viernes, en el concurso de problemas, calculamos mentalmente y explicamos el proceso, con el criterio 6.2.a",
+      "id": "s1_lcl_act",
+      "descripcion": "ACTIVIDAD de LENGUA de la fase 1 (ficha: semanas[0].LCL): la que relaciona conocimientos y mejor se conecta con el producto, en primera persona del plural o con «cada niño y cada niña» / «cada equipo» (evita «cada alumno»), y SIEMPRE con su criterio («, con el criterio N.N.a»; el segundo, «con el N.N.a»). Puede sumar una segunda actividad breve de la semana. Sin días de la semana salvo «el viernes». Va tras «y como actividad,»: empieza en minúscula y SIN punto final (sigue «:» y la relación). Usa SOLO criterios de areas[].criterios de la ficha; si la semana cita un criterio ajeno o un código de saber (p. ej. 2.C.7), sustitúyelo por el criterio de la UD de esa área que mejor encaje por su SIGNIFICADO (consulta las observaciones): el criterio debe poder EVIDENCIARSE en esa actividad (p. ej., un criterio de habla andaluza va con una canción o un texto oral andaluz, no con una noticia; uno de localizar información, con una búsqueda real en el diccionario, la biblioteca o una web guiada). Entre las tres fases, cada criterio de la UD de esa área debe aparecer al menos una vez.",
+      "ejemplo": "inventamos adivinanzas de profesiones para competir por equipos, con el criterio 5.1.a, y en «La Tarara» reconocemos rasgos de nuestra habla andaluza, con el 1.3.a",
       "palabras": [
         8,
-        30
+        26
       ]
     },
     {
-      "id": "s2_rel_mat",
-      "descripcion": "RELACIÓN de lo que hace Matemáticas en la fase 2 con el PRODUCTO (o con un paso del producto o de la tarea): cláusula que empieza en minúscula (va tras dos puntos, justo después de la actividad del área) y SIN punto final. Debe nombrar el producto o su paso («el cartel», «la guía», «las normas», «el título del cartel»…) y decir para qué sirve lo que se ha hecho. Solo relaciones verosímiles con actividades de la ficha; sin criterios, sin días y sin dos puntos internos (ya va tras dos puntos).",
-      "ejemplo": "explicar el cálculo en voz alta entrena la exposición oral del cartel",
+      "id": "s1_rel_lcl",
+      "descripcion": "RELACIÓN de lo que hace LENGUA en la fase 1 con el PRODUCTO (o con un paso del producto o de la tarea): cláusula que empieza en minúscula (va tras dos puntos, justo después de la actividad del área) y SIN punto final. Debe nombrar el producto o su paso («el cartel», «la guía», «las normas», «el título del cartel»…) y decir qué APORTA de verdad lo hecho: una evidencia, un contenido o un paso del proceso cooperativo («el secretario anota qué norma nos ha ayudado»), NO una analogía («como la mochila, ordenamos las normas»). Si anuncia algo para más adelante («comprobaremos…»), tiene que cumplirse en una fase posterior. Solo actividades de la ficha; sin criterios, sin días y sin dos puntos internos.",
+      "ejemplo": "crear juntos es nuestro primer ensayo de equipo, y respetar cada forma de hablar será una norma",
+      "palabras": [
+        8,
+        18
+      ]
+    },
+    {
+      "id": "s1_mat_ej",
+      "descripcion": "EJERCICIO DE APLICACIÓN de MATEMÁTICAS de la fase 1 (ficha: semanas[0].MAT): automatismo o práctica que consolida (vocabulario, diccionario, sílabas, lectura y escritura de números, tablas, cálculo…), en primera persona del plural. Puede llevar «, con el criterio N.N.a». Va tras «En Lengua, como ejercicio de aplicación,» / «En Matemáticas, como ejercicio,»: empieza en minúscula por un VERBO en presente, sin punto final (sigue «;»). Usa SOLO criterios de areas[].criterios de la ficha; si la semana cita un criterio ajeno o un código de saber (p. ej. 2.C.7), sustitúyelo por el criterio de la UD de esa área que mejor encaje por su SIGNIFICADO (consulta las observaciones): el criterio debe poder EVIDENCIARSE en esa actividad (p. ej., un criterio de habla andaluza va con una canción o un texto oral andaluz, no con una noticia; uno de localizar información, con una búsqueda real en el diccionario, la biblioteca o una web guiada). Entre las tres fases, cada criterio de la UD de esa área debe aparecer al menos una vez.",
+      "ejemplo": "leemos, escribimos y representamos con bloques de base 10 números de tres cifras",
+      "palabras": [
+        4,
+        14
+      ]
+    },
+    {
+      "id": "s1_mat_act",
+      "descripcion": "ACTIVIDAD de MATEMÁTICAS de la fase 1 (ficha: semanas[0].MAT): la que relaciona conocimientos y mejor se conecta con el producto, en primera persona del plural o con «cada niño y cada niña» / «cada equipo» (evita «cada alumno»), y SIEMPRE con su criterio («, con el criterio N.N.a»; el segundo, «con el N.N.a»). Puede sumar una segunda actividad breve de la semana. Sin días de la semana salvo «el viernes». Va tras «y como actividad,»: empieza en minúscula y SIN punto final (sigue «:» y la relación). Usa SOLO criterios de areas[].criterios de la ficha; si la semana cita un criterio ajeno o un código de saber (p. ej. 2.C.7), sustitúyelo por el criterio de la UD de esa área que mejor encaje por su SIGNIFICADO (consulta las observaciones): el criterio debe poder EVIDENCIARSE en esa actividad (p. ej., un criterio de habla andaluza va con una canción o un texto oral andaluz, no con una noticia; uno de localizar información, con una búsqueda real en el diccionario, la biblioteca o una web guiada). Entre las tres fases, cada criterio de la UD de esa área debe aparecer al menos una vez.",
+      "ejemplo": "resolvemos problemas cotidianos contando más allá del 999, con el criterio 1.1.a, y el viernes cada equipo inventa los suyos en el concurso",
       "palabras": [
         8,
         24
       ]
     },
     {
-      "id": "s2_cmn",
-      "descripcion": "Actividad de CONOCIMIENTO DEL MEDIO de la fase 2 que NO es la tarea (ficha: semanas[1].CMN, el jueves), en primera persona del plural y con su criterio si lo tiene. Empieza en minúscula (va tras «En Conocimiento del Medio,»), SIN punto final (sigue «:» y la relación). Usa SOLO criterios de areas[].criterios de la ficha; si la semana cita un criterio ajeno o un código de saber (p. ej. 2.C.7), sustitúyelo por el criterio de la UD de esa área que mejor encaje por su SIGNIFICADO (consulta las observaciones). Entre las tres fases, cada criterio de la UD de esa área debe aparecer al menos una vez.",
-      "ejemplo": "el jueves cada alumno presenta a un científico o una científica",
-      "palabras": [
-        6,
-        26
-      ]
-    },
-    {
-      "id": "s2_rel_cmn",
-      "descripcion": "RELACIÓN de lo que hace Conocimiento del Medio en la fase 2 con el PRODUCTO (o con un paso del producto o de la tarea): cláusula que empieza en minúscula (va tras dos puntos, justo después de la actividad del área) y SIN punto final. Debe nombrar el producto o su paso («el cartel», «la guía», «las normas», «el título del cartel»…) y decir para qué sirve lo que se ha hecho. Solo relaciones verosímiles con actividades de la ficha; sin criterios, sin días y sin dos puntos internos (ya va tras dos puntos).",
-      "ejemplo": "como la ciencia se hace en equipo, anotamos qué normas siguen y las llevamos al cartel",
+      "id": "s1_rel_mat",
+      "descripcion": "RELACIÓN de lo que hace MATEMÁTICAS en la fase 1 con el PRODUCTO (o con un paso del producto o de la tarea): cláusula que empieza en minúscula (va tras dos puntos, justo después de la actividad del área) y SIN punto final. Debe nombrar el producto o su paso («el cartel», «la guía», «las normas», «el título del cartel»…) y decir qué APORTA de verdad lo hecho: una evidencia, un contenido o un paso del proceso cooperativo («el secretario anota qué norma nos ha ayudado»), NO una analogía («como la mochila, ordenamos las normas»). Si anuncia algo para más adelante («comprobaremos…»), tiene que cumplirse en una fase posterior. Solo actividades de la ficha; sin criterios, sin días y sin dos puntos internos.",
+      "ejemplo": "cada miembro ejerce su rol, y lo que ayuda al equipo serán nuestras primeras normas",
       "palabras": [
         8,
-        22
-      ]
-    },
-    {
-      "id": "s2_ear",
-      "descripcion": "Actividad de EDUCACIÓN ARTÍSTICA de la fase 2 (ficha: semanas[1].EAR); si es el APS, nombra «Opera prima». Empieza en minúscula (va tras «Y en Educación Artística,») y SIN punto final (sigue «:» y la relación). El criterio de Educación Artística debe ir con la actividad cuyo SIGNIFICADO encaja (identificar o conocer una obra o un artista → criterio de identificar propuestas; crear → criterio de producción), aunque la ficha lo ponga en otra semana; debe aparecer en al menos una fase. ",
-      "ejemplo": "conocemos a Velázquez con un vídeo e identificamos «Las meninas», con el criterio 1.1.a",
-      "palabras": [
-        4,
         16
       ]
     },
     {
-      "id": "s2_rel_ear",
-      "descripcion": "RELACIÓN de lo que hace Educación Artística en la fase 2 con el PRODUCTO (o con un paso del producto o de la tarea): cláusula que empieza en minúscula (va tras dos puntos, justo después de la actividad del área) y SIN punto final. Debe nombrar el producto o su paso («el cartel», «la guía», «las normas», «el título del cartel»…) y decir para qué sirve lo que se ha hecho. Solo relaciones verosímiles con actividades de la ficha; sin criterios, sin días y sin dos puntos internos (ya va tras dos puntos).",
-      "ejemplo": "Velázquez organiza un grupo en el que cada personaje tiene su papel, como en nuestros equipos",
+      "id": "s1_cmn",
+      "descripcion": "Actividad de CONOCIMIENTO DEL MEDIO de la fase 1 que NO es la tarea (ficha: semanas[0].CMN, el jueves), en primera persona del plural y con su criterio si lo tiene. Empieza en minúscula (va tras «En Conocimiento del Medio,»), SIN punto final (sigue «:» y la relación). Usa SOLO criterios de areas[].criterios de la ficha; si la semana cita un criterio ajeno o un código de saber (p. ej. 2.C.7), sustitúyelo por el criterio de la UD de esa área que mejor encaje por su SIGNIFICADO (consulta las observaciones): el criterio debe poder EVIDENCIARSE en esa actividad (p. ej., un criterio de habla andaluza va con una canción o un texto oral andaluz, no con una noticia; uno de localizar información, con una búsqueda real en el diccionario, la biblioteca o una web guiada). Entre las tres fases, cada criterio de la UD de esa área debe aparecer al menos una vez.",
+      "ejemplo": "el jueves vemos un vídeo sobre el método científico y esquematizamos sus pasos",
       "palabras": [
         6,
-        26
+        14
       ]
     },
     {
-      "id": "s2_tarea",
-      "descripcion": "TAREA de la fase 2 = paso de la situación de aprendizaje del viernes (ficha: semanas[1].CMN). En las UD 2-12 el producto de la SdA SE TERMINA en esta fase: dilo («y queda terminada la guía…»). Desarróllala con CUATRO datos: agrupamiento, duración («en una sesión», sin inventar minutos), pasos (qué hace cada miembro o rol) y evidencia o instrumento con que se recoge; di también qué hace la maestra («Yo guío… y registro…»). SIEMPRE con su criterio y el ÁREA del criterio («con el criterio 1.1.a de Conocimiento del Medio»), y que la actividad encaje con el significado del criterio (si es de recursos digitales, hazla con un recurso digital de la UD: Canva, Google Classroom o Google Maps). Dos o tres oraciones; empieza en minúscula (va tras dos puntos) y termina en punto.",
-      "ejemplo": "el viernes, en una sesión por equipos y con el folio giratorio, cada miembro propone una norma; el secretario las pasa al borrador del cartel en Google Classroom, el portavoz las lee y el equipo las revisa y decide por consenso, con el criterio 1.1.a de Conocimiento del Medio. Yo guío con preguntas y registro el proceso en la escala de observación.",
+      "id": "s1_rel_cmn",
+      "descripcion": "RELACIÓN de lo que hace CONOCIMIENTO DEL MEDIO en la fase 1 con el PRODUCTO (o con un paso del producto o de la tarea): cláusula que empieza en minúscula (va tras dos puntos, justo después de la actividad del área) y SIN punto final. Debe nombrar el producto o su paso («el cartel», «la guía», «las normas», «el título del cartel»…) y decir qué APORTA de verdad lo hecho: una evidencia, un contenido o un paso del proceso cooperativo («el secretario anota qué norma nos ha ayudado»), NO una analogía («como la mochila, ordenamos las normas»). Si anuncia algo para más adelante («comprobaremos…»), tiene que cumplirse en una fase posterior. Solo actividades de la ficha; sin criterios, sin días y sin dos puntos internos.",
+      "ejemplo": "con ese método, las normas serán una hipótesis que comprobaremos en la fase tres",
+      "palabras": [
+        8,
+        15
+      ]
+    },
+    {
+      "id": "pz_f1",
+      "descripcion": "PIZARRA. Caja «4. Fase 1»: las aportaciones de las áreas en esta fase, en 3-7 palabras separadas por «·», en el orden Lengua · Matemáticas · Medio · Artística, sin siglas de área (p. ej. «Receta · medidas · huerto · bodegón»). Solo actividades de ESTA fase.",
+      "ejemplo": "Adivinanzas · concurso · método científico · letras",
+      "palabras": [
+        3,
+        8
+      ]
+    },
+    {
+      "id": "s1_ear",
+      "descripcion": "Actividad de EDUCACIÓN ARTÍSTICA de la fase 1 (ficha: semanas[0].EAR); si es el APS, nombra «Opera prima». Empieza en minúscula (va tras «Y en Educación Artística,») y SIN punto final (sigue «:» y la relación). El criterio de Educación Artística debe ir con la actividad cuyo SIGNIFICADO encaja (identificar o conocer una obra o un artista → criterio de identificar propuestas; crear → criterio de producción), aunque la ficha lo ponga en otra semana; debe aparecer en al menos una fase.",
+      "ejemplo": "creamos letras tridimensionales con materiales de plástica",
+      "palabras": [
+        4,
+        8
+      ]
+    },
+    {
+      "id": "s1_rel_ear",
+      "descripcion": "RELACIÓN de lo que hace EDUCACIÓN ARTÍSTICA en la fase 1 con el PRODUCTO (o con un paso del producto o de la tarea): cláusula que empieza en minúscula (va tras dos puntos, justo después de la actividad del área) y SIN punto final. Debe nombrar el producto o su paso («el cartel», «la guía», «las normas», «el título del cartel»…) y decir qué APORTA de verdad lo hecho: una evidencia, un contenido o un paso del proceso cooperativo («el secretario anota qué norma nos ha ayudado»), NO una analogía («como la mochila, ordenamos las normas»). Si anuncia algo para más adelante («comprobaremos…»), tiene que cumplirse en una fase posterior. Solo actividades de la ficha; sin criterios, sin días y sin dos puntos internos.",
+      "ejemplo": "serán las letras del título de nuestro cartel",
+      "palabras": [
+        6,
+        9
+      ]
+    },
+    {
+      "id": "s1_tarea",
+      "descripcion": "TAREA de la fase 1 (ficha: semanas[0].CMN, el viernes). Empieza por «el viernes damos el primer paso de la situación de aprendizaje.» y sigue con qué se hace ese día para el producto. Si en esa fase la SdA aún no ha arrancado (UD 9), empieza por «el viernes,» + la actividad de ese día (efeméride incluida), desarróllala como tarea y di que la situación de aprendizaje arranca en la fase dos. Desarróllala con CUATRO datos: agrupamiento, duración («en una sesión», sin inventar minutos), pasos (qué hace cada miembro o rol) y evidencia o instrumento con que se recoge; di también qué hace la maestra («Yo guío… y registro…»). SIEMPRE con su criterio y el ÁREA del criterio («con el criterio 1.1.a de Conocimiento del Medio»), y que el producto muestre de forma visible lo que pide el criterio (si es de igualdad o diversidad, di qué parte del producto lo evidencia; si es de recursos digitales, hazla con un recurso digital de la UD: Canva, Google Classroom o Google Maps). Dos o tres oraciones; empieza en minúscula (va tras dos puntos) y termina en punto.",
+      "ejemplo": "el viernes damos el primer paso de la situación de aprendizaje. En una sesión, formamos equipos heterogéneos; cada miembro asume un rol, coordinador, secretario, portavoz o encargado del material, y el equipo diseña su tarjeta de roles en Canva, con el criterio 1.1.a de Conocimiento del Medio. Yo guío y la registro en una escala.",
       "palabras": [
         40,
-        85
+        58
       ]
     },
     {
@@ -463,345 +374,237 @@
       ]
     },
     {
-      "id": "s3_lcl_ej",
-      "descripcion": "EJERCICIO DE APLICACIÓN de LENGUA de la fase 3 (ficha: semanas[2].LCL): automatismo o práctica que consolida (vocabulario, diccionario, sílabas, lectura y escritura de números, tablas, cálculo…), en primera persona del plural. Puede llevar «, con el criterio N.N.a». Empieza en minúscula (va tras «como ejercicio de aplicación,» o «como ejercicio,»), sin punto final (sigue «; y como actividad,»). Usa SOLO criterios de areas[].criterios de la ficha; si la semana cita un criterio ajeno o un código de saber (p. ej. 2.C.7), sustitúyelo por el criterio de la UD de esa área que mejor encaje por su SIGNIFICADO (consulta las observaciones). Entre las tres fases, cada criterio de la UD de esa área debe aparecer al menos una vez.",
-      "ejemplo": "trabajamos la sílaba tónica y la tilde con un dictado",
+      "id": "s2_lcl_ej",
+      "descripcion": "EJERCICIO DE APLICACIÓN de LENGUA de la fase 2 (ficha: semanas[1].LCL): automatismo o práctica que consolida (vocabulario, diccionario, sílabas, lectura y escritura de números, tablas, cálculo…), en primera persona del plural. Puede llevar «, con el criterio N.N.a». Va tras «para consolidar,» (Lengua y Matemáticas): empieza en minúscula por un VERBO en presente, sin punto final (sigue «;»). Usa SOLO criterios de areas[].criterios de la ficha; si la semana cita un criterio ajeno o un código de saber (p. ej. 2.C.7), sustitúyelo por el criterio de la UD de esa área que mejor encaje por su SIGNIFICADO (consulta las observaciones): el criterio debe poder EVIDENCIARSE en esa actividad (p. ej., un criterio de habla andaluza va con una canción o un texto oral andaluz, no con una noticia; uno de localizar información, con una búsqueda real en el diccionario, la biblioteca o una web guiada). Entre las tres fases, cada criterio de la UD de esa área debe aparecer al menos una vez.",
+      "ejemplo": "clasificamos las palabras según su número de sílabas",
       "palabras": [
         4,
-        16
+        9
       ]
     },
     {
-      "id": "s3_lcl_act",
-      "descripcion": "ACTIVIDAD de LENGUA de la fase 3 (ficha: semanas[2].LCL): la que relaciona conocimientos y mejor se conecta con el producto, en primera persona del plural o con «cada alumno/equipo», y SIEMPRE con su criterio («, con el criterio N.N.a»; el segundo, «con el N.N.a»). Puede sumar una segunda actividad breve de la semana. Sin días de la semana salvo «el viernes». Empieza en minúscula y SIN punto final (sigue «:» y la relación). Usa SOLO criterios de areas[].criterios de la ficha; si la semana cita un criterio ajeno o un código de saber (p. ej. 2.C.7), sustitúyelo por el criterio de la UD de esa área que mejor encaje por su SIGNIFICADO (consulta las observaciones). Entre las tres fases, cada criterio de la UD de esa área debe aparecer al menos una vez.",
-      "ejemplo": "leemos el capítulo del libro, con el criterio 4.1.a, y buscamos la sílaba tónica de lo que desayunamos, con el 6.1.a",
+      "id": "s2_lcl_act",
+      "descripcion": "ACTIVIDAD de LENGUA de la fase 2 (ficha: semanas[1].LCL): la que relaciona conocimientos y mejor se conecta con el producto, en primera persona del plural o con «cada niño y cada niña» / «cada equipo» (evita «cada alumno»), y SIEMPRE con su criterio («, con el criterio N.N.a»; el segundo, «con el N.N.a»). Puede sumar una segunda actividad breve de la semana. Sin días de la semana salvo «el viernes». Va tras «y, para relacionar,»: empieza en minúscula y SIN punto final (sigue «:» y la relación). Usa SOLO criterios de areas[].criterios de la ficha; si la semana cita un criterio ajeno o un código de saber (p. ej. 2.C.7), sustitúyelo por el criterio de la UD de esa área que mejor encaje por su SIGNIFICADO (consulta las observaciones): el criterio debe poder EVIDENCIARSE en esa actividad (p. ej., un criterio de habla andaluza va con una canción o un texto oral andaluz, no con una noticia; uno de localizar información, con una búsqueda real en el diccionario, la biblioteca o una web guiada). Entre las tres fases, cada criterio de la UD de esa área debe aparecer al menos una vez.",
+      "ejemplo": "leemos un cuento tradicional, con el criterio 7.1.a, y escribimos otro siguiendo los pasos, con el 5.1.a",
       "palabras": [
         8,
-        30
+        18
       ]
     },
     {
-      "id": "s3_rel_lcl",
-      "descripcion": "RELACIÓN de lo que hace Lengua en la fase 3 con el PRODUCTO (o con un paso del producto o de la tarea): cláusula que empieza en minúscula (va tras dos puntos, justo después de la actividad del área) y SIN punto final. Debe nombrar el producto o su paso («el cartel», «la guía», «las normas», «el título del cartel»…) y decir para qué sirve lo que se ha hecho. Solo relaciones verosímiles con actividades de la ficha; sin criterios, sin días y sin dos puntos internos (ya va tras dos puntos).",
-      "ejemplo": "con la tilde y el dictado escribimos el cartel definitivo sin faltas",
+      "id": "s2_rel_lcl",
+      "descripcion": "RELACIÓN de lo que hace LENGUA en la fase 2 con el PRODUCTO (o con un paso del producto o de la tarea): cláusula que empieza en minúscula (va tras dos puntos, justo después de la actividad del área) y SIN punto final. Debe nombrar el producto o su paso («el cartel», «la guía», «las normas», «el título del cartel»…) y decir qué APORTA de verdad lo hecho: una evidencia, un contenido o un paso del proceso cooperativo («el secretario anota qué norma nos ha ayudado»), NO una analogía («como la mochila, ordenamos las normas»). Si anuncia algo para más adelante («comprobaremos…»), tiene que cumplirse en una fase posterior. Solo actividades de la ficha; sin criterios, sin días y sin dos puntos internos.",
+      "ejemplo": "planificar, escribir, revisar y corregir es el proceso con el que escribiremos las normas",
       "palabras": [
         8,
-        22
+        15
       ]
     },
     {
-      "id": "s3_mat_ej",
-      "descripcion": "EJERCICIO DE APLICACIÓN de MATEMÁTICAS de la fase 3 (ficha: semanas[2].MAT): automatismo o práctica que consolida (vocabulario, diccionario, sílabas, lectura y escritura de números, tablas, cálculo…), en primera persona del plural. Puede llevar «, con el criterio N.N.a». Empieza en minúscula (va tras «como ejercicio de aplicación,» o «como ejercicio,»), sin punto final (sigue «; y como actividad,»). Usa SOLO criterios de areas[].criterios de la ficha; si la semana cita un criterio ajeno o un código de saber (p. ej. 2.C.7), sustitúyelo por el criterio de la UD de esa área que mejor encaje por su SIGNIFICADO (consulta las observaciones). Entre las tres fases, cada criterio de la UD de esa área debe aparecer al menos una vez.",
-      "ejemplo": "redondeamos números en la recta numérica gestionando el error, con el criterio 7.1.a",
+      "id": "s2_mat_ej",
+      "descripcion": "EJERCICIO DE APLICACIÓN de MATEMÁTICAS de la fase 2 (ficha: semanas[1].MAT): automatismo o práctica que consolida (vocabulario, diccionario, sílabas, lectura y escritura de números, tablas, cálculo…), en primera persona del plural. Puede llevar «, con el criterio N.N.a». Va tras «para consolidar,» (Lengua y Matemáticas): empieza en minúscula por un VERBO en presente, sin punto final (sigue «;»). Usa SOLO criterios de areas[].criterios de la ficha; si la semana cita un criterio ajeno o un código de saber (p. ej. 2.C.7), sustitúyelo por el criterio de la UD de esa área que mejor encaje por su SIGNIFICADO (consulta las observaciones): el criterio debe poder EVIDENCIARSE en esa actividad (p. ej., un criterio de habla andaluza va con una canción o un texto oral andaluz, no con una noticia; uno de localizar información, con una búsqueda real en el diccionario, la biblioteca o una web guiada). Entre las tres fases, cada criterio de la UD de esa área debe aparecer al menos una vez.",
+      "ejemplo": "contamos números de cuatro cifras en series de diez, de cien y de mil",
       "palabras": [
         4,
-        16
+        15
       ]
     },
     {
-      "id": "s3_mat_act",
-      "descripcion": "ACTIVIDAD de MATEMÁTICAS de la fase 3 (ficha: semanas[2].MAT): la que relaciona conocimientos y mejor se conecta con el producto, en primera persona del plural o con «cada alumno/equipo», y SIEMPRE con su criterio («, con el criterio N.N.a»; el segundo, «con el N.N.a»). Puede sumar una segunda actividad breve de la semana. Sin días de la semana salvo «el viernes». Empieza en minúscula y SIN punto final (sigue «:» y la relación). Usa SOLO criterios de areas[].criterios de la ficha; si la semana cita un criterio ajeno o un código de saber (p. ej. 2.C.7), sustitúyelo por el criterio de la UD de esa área que mejor encaje por su SIGNIFICADO (consulta las observaciones). Entre las tres fases, cada criterio de la UD de esa área debe aparecer al menos una vez.",
-      "ejemplo": "pensamos paso a paso cómo preparar la mochila, con el criterio 4.1.a, y conectamos ideas en los problemas exprés, con el 5.1.a",
+      "id": "s2_mat_act",
+      "descripcion": "ACTIVIDAD de MATEMÁTICAS de la fase 2 (ficha: semanas[1].MAT): la que relaciona conocimientos y mejor se conecta con el producto, en primera persona del plural o con «cada niño y cada niña» / «cada equipo» (evita «cada alumno»), y SIEMPRE con su criterio («, con el criterio N.N.a»; el segundo, «con el N.N.a»). Puede sumar una segunda actividad breve de la semana. Sin días de la semana salvo «el viernes». Va tras «y, para relacionar,»: empieza en minúscula y SIN punto final (sigue «:» y la relación). Usa SOLO criterios de areas[].criterios de la ficha; si la semana cita un criterio ajeno o un código de saber (p. ej. 2.C.7), sustitúyelo por el criterio de la UD de esa área que mejor encaje por su SIGNIFICADO (consulta las observaciones): el criterio debe poder EVIDENCIARSE en esa actividad (p. ej., un criterio de habla andaluza va con una canción o un texto oral andaluz, no con una noticia; uno de localizar información, con una búsqueda real en el diccionario, la biblioteca o una web guiada). Entre las tres fases, cada criterio de la UD de esa área debe aparecer al menos una vez.",
+      "ejemplo": "el viernes, en el concurso de problemas, calculamos mentalmente y explicamos el proceso, con el criterio 6.2.a",
       "palabras": [
         8,
-        30
+        18
       ]
     },
     {
-      "id": "s3_rel_mat",
-      "descripcion": "RELACIÓN de lo que hace Matemáticas en la fase 3 con el PRODUCTO (o con un paso del producto o de la tarea): cláusula que empieza en minúscula (va tras dos puntos, justo después de la actividad del área) y SIN punto final. Debe nombrar el producto o su paso («el cartel», «la guía», «las normas», «el título del cartel»…) y decir para qué sirve lo que se ha hecho. Solo relaciones verosímiles con actividades de la ficha; sin criterios, sin días y sin dos puntos internos (ya va tras dos puntos).",
-      "ejemplo": "ordenar por pasos, como la mochila, nos sirve para ordenar las normas del cartel",
+      "id": "s2_rel_mat",
+      "descripcion": "RELACIÓN de lo que hace MATEMÁTICAS en la fase 2 con el PRODUCTO (o con un paso del producto o de la tarea): cláusula que empieza en minúscula (va tras dos puntos, justo después de la actividad del área) y SIN punto final. Debe nombrar el producto o su paso («el cartel», «la guía», «las normas», «el título del cartel»…) y decir qué APORTA de verdad lo hecho: una evidencia, un contenido o un paso del proceso cooperativo («el secretario anota qué norma nos ha ayudado»), NO una analogía («como la mochila, ordenamos las normas»). Si anuncia algo para más adelante («comprobaremos…»), tiene que cumplirse en una fase posterior. Solo actividades de la ficha; sin criterios, sin días y sin dos puntos internos.",
+      "ejemplo": "cada rol actúa, y el secretario anota qué norma ha ayudado, para el borrador",
       "palabras": [
         8,
-        24
+        15
       ]
     },
     {
-      "id": "s3_cmn",
-      "descripcion": "Actividad de CONOCIMIENTO DEL MEDIO de la fase 3 que NO es la tarea (ficha: semanas[2].CMN, el jueves), en primera persona del plural y con su criterio si lo tiene. Empieza en minúscula (va tras «En Conocimiento del Medio,»), SIN punto final (sigue «:» y la relación). Usa SOLO criterios de areas[].criterios de la ficha; si la semana cita un criterio ajeno o un código de saber (p. ej. 2.C.7), sustitúyelo por el criterio de la UD de esa área que mejor encaje por su SIGNIFICADO (consulta las observaciones). Entre las tres fases, cada criterio de la UD de esa área debe aparecer al menos una vez.",
-      "ejemplo": "el jueves escribimos el cuestionario de una entrevista sobre lo que comemos en casa, y esa tarde cada alumno entrevista a un familiar",
+      "id": "s2_cmn",
+      "descripcion": "Actividad de CONOCIMIENTO DEL MEDIO de la fase 2 que NO es la tarea (ficha: semanas[1].CMN, el jueves), en primera persona del plural y con su criterio si lo tiene. Empieza en minúscula (va tras «En Conocimiento del Medio,»), SIN punto final (sigue «:» y la relación). Usa SOLO criterios de areas[].criterios de la ficha; si la semana cita un criterio ajeno o un código de saber (p. ej. 2.C.7), sustitúyelo por el criterio de la UD de esa área que mejor encaje por su SIGNIFICADO (consulta las observaciones): el criterio debe poder EVIDENCIARSE en esa actividad (p. ej., un criterio de habla andaluza va con una canción o un texto oral andaluz, no con una noticia; uno de localizar información, con una búsqueda real en el diccionario, la biblioteca o una web guiada). Entre las tres fases, cada criterio de la UD de esa área debe aparecer al menos una vez.",
+      "ejemplo": "el jueves cada niño y cada niña presenta a un científico o a una científica",
       "palabras": [
         6,
-        26
-      ]
-    },
-    {
-      "id": "s3_rel_cmn",
-      "descripcion": "RELACIÓN de lo que hace Conocimiento del Medio en la fase 3 con el PRODUCTO (o con un paso del producto o de la tarea): cláusula que empieza en minúscula (va tras dos puntos, justo después de la actividad del área) y SIN punto final. Debe nombrar el producto o su paso («el cartel», «la guía», «las normas», «el título del cartel»…) y decir para qué sirve lo que se ha hecho. Solo relaciones verosímiles con actividades de la ficha; sin criterios, sin días y sin dos puntos internos (ya va tras dos puntos).",
-      "ejemplo": "las preguntas se redactan en equipo con las normas acordadas, y la entrevista es el paso de «¡Sí, chef!»",
-      "palabras": [
-        8,
-        22
-      ]
-    },
-    {
-      "id": "s3_ear",
-      "descripcion": "Actividad de EDUCACIÓN ARTÍSTICA de la fase 3 (ficha: semanas[2].EAR); si es el APS, nombra «Opera prima». Empieza en minúscula (va tras «Y en Educación Artística,») y SIN punto final (sigue «:» y la relación). El criterio de Educación Artística debe ir con la actividad cuyo SIGNIFICADO encaja (identificar o conocer una obra o un artista → criterio de identificar propuestas; crear → criterio de producción), aunque la ficha lo ponga en otra semana; debe aparecer en al menos una fase. ",
-      "ejemplo": "dentro de «Opera prima», elaboramos un informe sobre la animación stop motion",
-      "palabras": [
-        4,
         16
       ]
     },
     {
-      "id": "s3_rel_ear",
-      "descripcion": "RELACIÓN de lo que hace Educación Artística en la fase 3 con el PRODUCTO (o con un paso del producto o de la tarea): cláusula que empieza en minúscula (va tras dos puntos, justo después de la actividad del área) y SIN punto final. Debe nombrar el producto o su paso («el cartel», «la guía», «las normas», «el título del cartel»…) y decir para qué sirve lo que se ha hecho. Solo relaciones verosímiles con actividades de la ficha; sin criterios, sin días y sin dos puntos internos (ya va tras dos puntos).",
-      "ejemplo": "el stop motion también se hace en equipo y con roles, así que aplicamos las normas del cartel",
+      "id": "s2_rel_cmn",
+      "descripcion": "RELACIÓN de lo que hace CONOCIMIENTO DEL MEDIO en la fase 2 con el PRODUCTO (o con un paso del producto o de la tarea): cláusula que empieza en minúscula (va tras dos puntos, justo después de la actividad del área) y SIN punto final. Debe nombrar el producto o su paso («el cartel», «la guía», «las normas», «el título del cartel»…) y decir qué APORTA de verdad lo hecho: una evidencia, un contenido o un paso del proceso cooperativo («el secretario anota qué norma nos ha ayudado»), NO una analogía («como la mochila, ordenamos las normas»). Si anuncia algo para más adelante («comprobaremos…»), tiene que cumplirse en una fase posterior. Solo actividades de la ficha; sin criterios, sin días y sin dos puntos internos.",
+      "ejemplo": "la ciencia se hace en equipo, así que anotamos sus normas para el cartel",
       "palabras": [
-        6,
-        26
+        8,
+        15
       ]
     },
     {
-      "id": "s3_tarea",
-      "descripcion": "TAREA FINAL de la fase 3 (ficha: semanas[2].CMN, el viernes). En la UD 1 se leen las entrevistas de «¡Sí, chef!» y se elabora y expone el cartel. En las UD 2-12 es el paso del proyecto de diseño (nómbralo: «¡Sí, chef!», «¿Buceamos?», «Huellas del pasado») con su criterio; añade cómo se presenta o se usa el producto de la SdA, ya terminado, sin inventar actividades nuevas. Desarróllala con CUATRO datos: agrupamiento, duración («en una sesión», sin inventar minutos), pasos (qué hace cada miembro o rol) y evidencia o instrumento con que se recoge; di también qué hace la maestra («Yo guío… y registro…»). SIEMPRE con su criterio y el ÁREA del criterio («con el criterio 1.1.a de Conocimiento del Medio»), y que la actividad encaje con el significado del criterio (si es de recursos digitales, hazla con un recurso digital de la UD: Canva, Google Classroom o Google Maps). Dos o tres oraciones; empieza en minúscula (va tras dos puntos) y termina en punto.",
-      "ejemplo": "el viernes leemos las entrevistas para el recetario andaluz de «¡Sí, chef!», y cada equipo elabora su cartel definitivo y lo expone a la clase, con el criterio 8.1.a de Conocimiento del Medio: el portavoz presenta las normas y todos responden a las preguntas. La evidencia es el propio cartel.",
+      "id": "pz_f2",
+      "descripcion": "PIZARRA. Caja «5. Fase 2»: las aportaciones de las áreas en esta fase, en 3-7 palabras separadas por «·», en el orden Lengua · Matemáticas · Medio · Artística, sin siglas de área (p. ej. «Receta · medidas · huerto · bodegón»). Solo actividades de ESTA fase.",
+      "ejemplo": "Cuento · cálculo · científicos · Meninas",
+      "palabras": [
+        3,
+        8
+      ]
+    },
+    {
+      "id": "s2_ear",
+      "descripcion": "Actividad de EDUCACIÓN ARTÍSTICA de la fase 2 (ficha: semanas[1].EAR); si es el APS, nombra «Opera prima». Empieza en minúscula (va tras «Y en Educación Artística,») y SIN punto final (sigue «:» y la relación). El criterio de Educación Artística debe ir con la actividad cuyo SIGNIFICADO encaja (identificar o conocer una obra o un artista → criterio de identificar propuestas; crear → criterio de producción), aunque la ficha lo ponga en otra semana; debe aparecer en al menos una fase.",
+      "ejemplo": "conocemos a Velázquez con un vídeo e identificamos «Las meninas», con el criterio 1.1.a",
+      "palabras": [
+        4,
+        15
+      ]
+    },
+    {
+      "id": "s2_rel_ear",
+      "descripcion": "RELACIÓN de lo que hace EDUCACIÓN ARTÍSTICA en la fase 2 con el PRODUCTO (o con un paso del producto o de la tarea): cláusula que empieza en minúscula (va tras dos puntos, justo después de la actividad del área) y SIN punto final. Debe nombrar el producto o su paso («el cartel», «la guía», «las normas», «el título del cartel»…) y decir qué APORTA de verdad lo hecho: una evidencia, un contenido o un paso del proceso cooperativo («el secretario anota qué norma nos ha ayudado»), NO una analogía («como la mochila, ordenamos las normas»). Si anuncia algo para más adelante («comprobaremos…»), tiene que cumplirse en una fase posterior. Solo actividades de la ficha; sin criterios, sin días y sin dos puntos internos.",
+      "ejemplo": "cada personaje tiene su papel, como cada rol en nuestros equipos",
+      "palabras": [
+        6,
+        12
+      ]
+    },
+    {
+      "id": "s2_tarea",
+      "descripcion": "TAREA de la fase 2 = paso de la situación de aprendizaje del viernes (ficha: semanas[1].CMN). En las UD 2-12 el producto de la SdA SE TERMINA en esta fase: dilo («y queda terminada la guía…»). Desarróllala con CUATRO datos: agrupamiento, duración («en una sesión», sin inventar minutos), pasos (qué hace cada miembro o rol) y evidencia o instrumento con que se recoge; di también qué hace la maestra («Yo guío… y registro…»). SIEMPRE con su criterio y el ÁREA del criterio («con el criterio 1.1.a de Conocimiento del Medio»), y que el producto muestre de forma visible lo que pide el criterio (si es de igualdad o diversidad, di qué parte del producto lo evidencia; si es de recursos digitales, hazla con un recurso digital de la UD: Canva, Google Classroom o Google Maps). Dos o tres oraciones; empieza en minúscula (va tras dos puntos) y termina en punto.",
+      "ejemplo": "el viernes, en una sesión por equipos y con el folio giratorio, cada miembro propone una norma; el secretario las pasa al borrador en Classroom y el equipo decide por consenso, con el criterio 1.1.a de Conocimiento del Medio. Yo guío y registro el proceso en el anecdotario.",
       "palabras": [
         40,
-        85
+        50
       ]
     },
     {
       "id": "pz_s3",
       "descripcion": "GUION. La tarea de la fase 3 en 3-6 palabras (siglas y abreviaturas permitidas).",
-      "ejemplo": "cartel expuesto + entrevistas",
+      "ejemplo": "hipótesis comprobada + cartel definitivo",
       "palabras": [
         2,
         6
       ]
     },
     {
-      "id": "pz_rel_lcl",
-      "descripcion": "PIZARRA. Flecha del esquema de la secuencia para Lengua: la relación más representativa de las tres fases en 2-5 palabras, «qué se hizo → para qué sirve en el producto» (se escribe tras «LCL:»).",
-      "ejemplo": "escritura por pasos → normas",
+      "id": "nombre_proyecto",
+      "descripcion": "Solo el nombre del proyecto de diseño del trimestre (ficha: sda.proyecto.nombre), sin comillas: «¡Sí, chef!», «¿Buceamos?» o «Huellas del pasado».",
+      "ejemplo": "¡Sí, chef!",
       "palabras": [
-        2,
-        6
+        1,
+        3
       ]
     },
     {
-      "id": "pz_rel_mat",
-      "descripcion": "PIZARRA. Flecha del esquema de la secuencia para Matemáticas: la relación más representativa de las tres fases en 2-5 palabras, «qué se hizo → para qué sirve en el producto» (se escribe tras «MAT:»).",
-      "ejemplo": "cálculo explicado → exposición",
+      "id": "s3_lcl_ej",
+      "descripcion": "EJERCICIO DE APLICACIÓN de LENGUA de la fase 3 (ficha: semanas[2].LCL): automatismo o práctica que consolida (vocabulario, diccionario, sílabas, lectura y escritura de números, tablas, cálculo…), en primera persona del plural. Puede llevar «, con el criterio N.N.a». Va tras «primero, como ejercicio,»: empieza en minúscula por un VERBO en presente, sin punto final (sigue «;»). Usa SOLO criterios de areas[].criterios de la ficha; si la semana cita un criterio ajeno o un código de saber (p. ej. 2.C.7), sustitúyelo por el criterio de la UD de esa área que mejor encaje por su SIGNIFICADO (consulta las observaciones): el criterio debe poder EVIDENCIARSE en esa actividad (p. ej., un criterio de habla andaluza va con una canción o un texto oral andaluz, no con una noticia; uno de localizar información, con una búsqueda real en el diccionario, la biblioteca o una web guiada). Entre las tres fases, cada criterio de la UD de esa área debe aparecer al menos una vez.",
+      "ejemplo": "trabajamos la sílaba tónica y la tilde con un dictado",
       "palabras": [
-        2,
-        6
+        4,
+        11
       ]
     },
     {
-      "id": "pz_rel_cmn",
-      "descripcion": "PIZARRA. Flecha del esquema de la secuencia para Conocimiento del Medio: la relación más representativa de las tres fases en 2-5 palabras, «qué se hizo → para qué sirve en el producto» (se escribe tras «CMN:»).",
-      "ejemplo": "científicos → normas",
-      "palabras": [
-        2,
-        6
-      ]
-    },
-    {
-      "id": "pz_rel_ear",
-      "descripcion": "PIZARRA. Flecha del esquema de la secuencia para Educación Artística: la relación más representativa de las tres fases en 2-5 palabras, «qué se hizo → para qué sirve en el producto» (se escribe tras «EAR:»).",
-      "ejemplo": "letras → título · Meninas → roles",
-      "palabras": [
-        2,
-        8
-      ]
-    },
-    {
-      "id": "transferencia",
-      "descripcion": "TRANSFERENCIA: dos o tres usos de lo APRENDIDO en esta UD (contenidos concretos: números, ortografía, medidas, vocabulario, normas…) en contextos DISTINTOS del aula: la familia, el centro (patio, comedor, la actividad complementaria o la salida de la Tabla 7; si la ficha la marca «SdA», dila como situación de aprendizaje), la localidad o Andalucía. Cada uso con su contexto y lo que se aplica («en la entrevista, … y lo escribe con sus cuatro cifras»). No pongas actitudes como uso. Los contextos digital y bilingüe ya están en el texto común. Empieza en minúscula (va tras dos puntos), separa con punto y coma y termina en punto.",
-      "ejemplo": "en la entrevista, el alumnado pregunta el año de nacimiento del familiar y lo escribe con sus cuatro cifras; en la jornada gastronómica andaluza, escribimos con tilde los nombres de los platos y redondeamos sus precios; y en el patio y el comedor aplicamos las normas del cartel, que llevamos al Plan de cultura de Paz.",
-      "palabras": [
-        30,
-        62
-      ]
-    },
-    {
-      "id": "uso_real",
-      "descripcion": "Uso real y efectivo del producto de la SdA después de la unidad (dónde queda, quién lo usa, para qué). Oración que empieza en minúscula (va tras dos puntos) y termina en punto. Coherente con la ficha.",
-      "ejemplo": "el cartel queda colgado en el aula y lo consultamos cada vez que un equipo tiene un conflicto, durante todo el curso.",
-      "palabras": [
-        10,
-        24
-      ]
-    },
-    {
-      "id": "reparto_dias",
-      "descripcion": "Cómo se reparten de verdad los días lectivos entre las tres fases (va tras «en tres fases de unos cinco días;»): semanas incompletas, festivos (Inmaculada, 28 de febrero, 1 de mayo), Semana Blanca, Semana Santa, salidas. Sin decir el día de la semana de una fecha. Empieza en minúscula y termina en punto.",
-      "ejemplo": "la primera tiene cuatro días, porque coincide con la semana de inicio del curso.",
+      "id": "s3_lcl_act",
+      "descripcion": "ACTIVIDAD de LENGUA de la fase 3 (ficha: semanas[2].LCL): la que relaciona conocimientos y mejor se conecta con el producto, en primera persona del plural o con «cada niño y cada niña» / «cada equipo» (evita «cada alumno»), y SIEMPRE con su criterio («, con el criterio N.N.a»; el segundo, «con el N.N.a»). Puede sumar una segunda actividad breve de la semana. Sin días de la semana salvo «el viernes». Va tras «y después, como actividad,»: empieza en minúscula y SIN punto final (sigue «:» y la relación). Usa SOLO criterios de areas[].criterios de la ficha; si la semana cita un criterio ajeno o un código de saber (p. ej. 2.C.7), sustitúyelo por el criterio de la UD de esa área que mejor encaje por su SIGNIFICADO (consulta las observaciones): el criterio debe poder EVIDENCIARSE en esa actividad (p. ej., un criterio de habla andaluza va con una canción o un texto oral andaluz, no con una noticia; uno de localizar información, con una búsqueda real en el diccionario, la biblioteca o una web guiada). Entre las tres fases, cada criterio de la UD de esa área debe aparecer al menos una vez.",
+      "ejemplo": "leemos en voz alta el capítulo, con el criterio 4.1.a, y buscamos en el diccionario los alimentos del desayuno y su sílaba tónica, con el 6.1.a",
       "palabras": [
         8,
-        22
+        27
       ]
     },
     {
-      "id": "progresion",
-      "descripcion": "Por qué la secuencia es coherente: de qué a qué se progresa en Lengua y en Matemáticas y cómo avanza el producto (va tras «La progresión es coherente:»). Empieza en minúscula y termina en punto.",
-      "ejemplo": "en Matemáticas pasamos de tres a cuatro cifras y después a comparar y redondear; en Lengua, de la sílaba a la sílaba tónica y la tilde; y el cartel avanza de los roles al borrador y a la exposición.",
-      "palabras": [
-        20,
-        42
-      ]
-    },
-    {
-      "id": "ajuste_realidad",
-      "descripcion": "Por qué la secuencia de ESTA UD se ajusta a la realidad del grupo y del ENTORNO REAL: momento del curso, festividades o salidas de la UD, vivencias del alumnado y, al menos, un rasgo concreto de Mijas Costa o de Málaga (localidad turística, costa, patrimonio, servicios del barrio). Empieza en minúscula con verbos en tercera persona cuyo sujeto es «la secuencia» («abre…», «aprovecha…», «se apoya en…»; no «parte de», que ya está en el texto común) y termina en punto.",
-      "ejemplo": "abre el curso formando los equipos de todo el año y aprovecha la jornada gastronómica andaluza; y, en una localidad turística como Mijas Costa, la entrevista admite recetas del país de origen de cada familia.",
-      "palabras": [
-        15,
-        50
-      ]
-    },
-    {
-      "id": "m_lectura",
-      "descripcion": "Un texto concreto que se lee en la UD y cómo se lee, como sintagma nominal en minúscula con artículo, sin punto y SIN empezar por «la lectura» (va tras «La lectura, eje de todas las áreas, con»).",
-      "ejemplo": "el cuento «Los duendes y el zapatero», con estrategias de antes, durante y después de leer",
+      "id": "s3_rel_lcl",
+      "descripcion": "RELACIÓN de lo que hace LENGUA en la fase 3 con el PRODUCTO (o con un paso del producto o de la tarea): cláusula que empieza en minúscula (va tras dos puntos, justo después de la actividad del área) y SIN punto final. Debe nombrar el producto o su paso («el cartel», «la guía», «las normas», «el título del cartel»…) y decir qué APORTA de verdad lo hecho: una evidencia, un contenido o un paso del proceso cooperativo («el secretario anota qué norma nos ha ayudado»), NO una analogía («como la mochila, ordenamos las normas»). Si anuncia algo para más adelante («comprobaremos…»), tiene que cumplirse en una fase posterior. Solo actividades de la ficha; sin criterios, sin días y sin dos puntos internos.",
+      "ejemplo": "con la tilde y el diccionario revisamos la ortografía del cartel definitivo",
       "palabras": [
         8,
-        18
+        13
       ]
     },
     {
-      "id": "m_tic",
-      "descripcion": "Recursos digitales de ESTA UD, cada uno con la actividad en que se usa: Canva, Google Classroom y Google Maps (están en todas las fichas) y los vídeos o búsquedas de la ficha. Sintagma en minúscula sin punto (va tras «Las TIC, con»). No nombres herramientas que la UD no use.",
-      "ejemplo": "Canva para la tarjeta de equipo, Google Classroom para el borrador del cartel y los vídeos del método científico y de Velázquez",
+      "id": "s3_mat_ej",
+      "descripcion": "EJERCICIO DE APLICACIÓN de MATEMÁTICAS de la fase 3 (ficha: semanas[2].MAT): automatismo o práctica que consolida (vocabulario, diccionario, sílabas, lectura y escritura de números, tablas, cálculo…), en primera persona del plural. Puede llevar «, con el criterio N.N.a». Va tras «primero, como ejercicio,»: empieza en minúscula por un VERBO en presente, sin punto final (sigue «;»). Usa SOLO criterios de areas[].criterios de la ficha; si la semana cita un criterio ajeno o un código de saber (p. ej. 2.C.7), sustitúyelo por el criterio de la UD de esa área que mejor encaje por su SIGNIFICADO (consulta las observaciones): el criterio debe poder EVIDENCIARSE en esa actividad (p. ej., un criterio de habla andaluza va con una canción o un texto oral andaluz, no con una noticia; uno de localizar información, con una búsqueda real en el diccionario, la biblioteca o una web guiada). Entre las tres fases, cada criterio de la UD de esa área debe aparecer al menos una vez.",
+      "ejemplo": "redondeamos números en la recta numérica gestionando el error, con el criterio 7.1.a",
+      "palabras": [
+        4,
+        14
+      ]
+    },
+    {
+      "id": "s3_mat_act",
+      "descripcion": "ACTIVIDAD de MATEMÁTICAS de la fase 3 (ficha: semanas[2].MAT): la que relaciona conocimientos y mejor se conecta con el producto, en primera persona del plural o con «cada niño y cada niña» / «cada equipo» (evita «cada alumno»), y SIEMPRE con su criterio («, con el criterio N.N.a»; el segundo, «con el N.N.a»). Puede sumar una segunda actividad breve de la semana. Sin días de la semana salvo «el viernes». Va tras «y después, como actividad,»: empieza en minúscula y SIN punto final (sigue «:» y la relación). Usa SOLO criterios de areas[].criterios de la ficha; si la semana cita un criterio ajeno o un código de saber (p. ej. 2.C.7), sustitúyelo por el criterio de la UD de esa área que mejor encaje por su SIGNIFICADO (consulta las observaciones): el criterio debe poder EVIDENCIARSE en esa actividad (p. ej., un criterio de habla andaluza va con una canción o un texto oral andaluz, no con una noticia; uno de localizar información, con una búsqueda real en el diccionario, la biblioteca o una web guiada). Entre las tres fases, cada criterio de la UD de esa área debe aparecer al menos una vez.",
+      "ejemplo": "en el concurso pensamos paso a paso cómo preparar la mochila, con el criterio 4.1.a, y conectamos ideas en los problemas exprés, con el 5.1.a",
       "palabras": [
         8,
         26
       ]
     },
     {
-      "id": "m_andalucia",
-      "descripcion": "Dos o tres elementos de la UD que conectan con las realidades sociales y culturales de Andalucía (textos, autores, fiestas, paisajes, gastronomía, modalidad lingüística), como enumeración en minúscula con artículos, sin punto.",
-      "ejemplo": "la canción popular «La Tarara», el pintor sevillano Velázquez y la jornada gastronómica andaluza",
+      "id": "s3_rel_mat",
+      "descripcion": "RELACIÓN de lo que hace MATEMÁTICAS en la fase 3 con el PRODUCTO (o con un paso del producto o de la tarea): cláusula que empieza en minúscula (va tras dos puntos, justo después de la actividad del área) y SIN punto final. Debe nombrar el producto o su paso («el cartel», «la guía», «las normas», «el título del cartel»…) y decir qué APORTA de verdad lo hecho: una evidencia, un contenido o un paso del proceso cooperativo («el secretario anota qué norma nos ha ayudado»), NO una analogía («como la mochila, ordenamos las normas»). Si anuncia algo para más adelante («comprobaremos…»), tiene que cumplirse en una fase posterior. Solo actividades de la ficha; sin criterios, sin días y sin dos puntos internos.",
+      "ejemplo": "el concurso se juega con roles, y el secretario anota en una tabla si se cumplen las normas",
+      "palabras": [
+        8,
+        19
+      ]
+    },
+    {
+      "id": "s3_cmn",
+      "descripcion": "Actividad de CONOCIMIENTO DEL MEDIO de la fase 3 que NO es la tarea (ficha: semanas[2].CMN, el jueves), en primera persona del plural y con su criterio si lo tiene. Empieza en minúscula (va tras «En Conocimiento del Medio,»), SIN punto final (sigue «:» y la relación). Usa SOLO criterios de areas[].criterios de la ficha; si la semana cita un criterio ajeno o un código de saber (p. ej. 2.C.7), sustitúyelo por el criterio de la UD de esa área que mejor encaje por su SIGNIFICADO (consulta las observaciones): el criterio debe poder EVIDENCIARSE en esa actividad (p. ej., un criterio de habla andaluza va con una canción o un texto oral andaluz, no con una noticia; uno de localizar información, con una búsqueda real en el diccionario, la biblioteca o una web guiada). Entre las tres fases, cada criterio de la UD de esa área debe aparecer al menos una vez.",
+      "ejemplo": "el jueves redactamos en equipo una entrevista sobre lo que comemos en casa, para hacérsela a un familiar",
       "palabras": [
         6,
+        19
+      ]
+    },
+    {
+      "id": "s3_rel_cmn",
+      "descripcion": "RELACIÓN de lo que hace CONOCIMIENTO DEL MEDIO en la fase 3 con el PRODUCTO (o con un paso del producto o de la tarea): cláusula que empieza en minúscula (va tras dos puntos, justo después de la actividad del área) y SIN punto final. Debe nombrar el producto o su paso («el cartel», «la guía», «las normas», «el título del cartel»…) y decir qué APORTA de verdad lo hecho: una evidencia, un contenido o un paso del proceso cooperativo («el secretario anota qué norma nos ha ayudado»), NO una analogía («como la mochila, ordenamos las normas»). Si anuncia algo para más adelante («comprobaremos…»), tiene que cumplirse en una fase posterior. Solo actividades de la ficha; sin criterios, sin días y sin dos puntos internos.",
+      "ejemplo": "redactarla en equipo pone a prueba las normas, y es nuestra aportación a «¡Sí, chef!»",
+      "palabras": [
+        8,
         16
       ]
     },
     {
-      "id": "m_agrupamientos",
-      "descripcion": "Los cuatro agrupamientos, cada uno ligado a una actividad CONCRETA de la UD, en este orden: «el gran grupo para …; los equipos heterogéneos para …; las parejas para …; y el trabajo individual para ….». Empieza en minúscula (va tras dos puntos) y termina en punto.",
-      "ejemplo": "el gran grupo para la pregunta inicial; los equipos heterogéneos para las adivinanzas y el cartel; las parejas para corregir el dictado; y el trabajo individual para escribir números.",
+      "id": "pz_f3",
+      "descripcion": "PIZARRA. Caja «6. Fase 3»: las aportaciones de las áreas en esta fase, en 3-7 palabras separadas por «·», en el orden Lengua · Matemáticas · Medio · Artística, sin siglas de área (p. ej. «Receta · medidas · huerto · bodegón»). Solo actividades de ESTA fase.",
+      "ejemplo": "Dictado · mochila · entrevista · stop motion",
       "palabras": [
-        20,
-        35
+        3,
+        8
       ]
     },
     {
-      "id": "recursos_ud",
-      "descripcion": "Espacios y recursos de la UD (ficha: recursos), CADA UNO LIGADO A SU ACTIVIDAD: «la biblioteca, para …; el patio, …; los policubos y el tangram, en …; las familias, en …». Primero los espacios (aula, biblioteca, patio y, si la hay, la salida de la Tabla 7), después el material manipulativo y los recursos personales. Sin herramientas digitales (van en m_tic). Empieza en minúscula (va tras «Y cada espacio y recurso, también:») y SIN punto final.",
-      "ejemplo": "la biblioteca, para el listado de cuentos tradicionales; el patio, donde también aplicamos las normas; los bloques de base 10 y el tangram, en los problemas; la prensa, en las noticias; y las familias, en la entrevista",
+      "id": "s3_ear",
+      "descripcion": "Actividad de EDUCACIÓN ARTÍSTICA de la fase 3 (ficha: semanas[2].EAR); si es el APS, nombra «Opera prima». Empieza en minúscula (va tras «Y en Educación Artística,») y SIN punto final (sigue «:» y la relación). El criterio de Educación Artística debe ir con la actividad cuyo SIGNIFICADO encaja (identificar o conocer una obra o un artista → criterio de identificar propuestas; crear → criterio de producción), aunque la ficha lo ponga en otra semana; debe aparecer en al menos una fase.",
+      "ejemplo": "dentro de «Opera prima», elaboramos un informe sobre la animación stop motion",
       "palabras": [
-        15,
-        48
+        4,
+        13
       ]
     },
     {
-      "id": "m_previos",
-      "descripcion": "Actividad inicial de la fase 1 que activa los conocimientos previos (pregunta, vídeo, diálogo) como sintagma nominal en minúscula con artículo, sin punto. Va tras «la unidad parte de».",
-      "ejemplo": "la pregunta «¿Cómo podemos trabajar de forma cooperativa?», en la que cada alumno cuenta sus experiencias",
+      "id": "s3_rel_ear",
+      "descripcion": "RELACIÓN de lo que hace EDUCACIÓN ARTÍSTICA en la fase 3 con el PRODUCTO (o con un paso del producto o de la tarea): cláusula que empieza en minúscula (va tras dos puntos, justo después de la actividad del área) y SIN punto final. Debe nombrar el producto o su paso («el cartel», «la guía», «las normas», «el título del cartel»…) y decir qué APORTA de verdad lo hecho: una evidencia, un contenido o un paso del proceso cooperativo («el secretario anota qué norma nos ha ayudado»), NO una analogía («como la mochila, ordenamos las normas»). Si anuncia algo para más adelante («comprobaremos…»), tiene que cumplirse en una fase posterior. Solo actividades de la ficha; sin criterios, sin días y sin dos puntos internos.",
+      "ejemplo": "cada miembro redacta una parte según su rol, respetando la norma de los turnos",
       "palabras": [
-        8,
-        18
+        6,
+        15
       ]
     },
     {
-      "id": "dua_ejemplos",
-      "descripcion": "Los tres principios DUA aplicados a actividades CONCRETAS de la UD, en tres oraciones con este arranque fijo: «Con múltiples formas de representación, …. Con múltiples formas de acción y expresión, …. Y con múltiples formas de implicación, ….». Empieza en mayúscula y termina en punto.",
-      "ejemplo": "Con múltiples formas de representación, presento el método científico con vídeo y esquema, y las cifras con bloques de base 10. Con múltiples formas de acción y expresión, el alumnado cuenta, escribe o dramatiza sus adivinanzas. Y con múltiples formas de implicación, trabajamos en equipo y nos damos retroalimentación al revisar el cartel.",
+      "id": "s3_tarea",
+      "descripcion": "TAREA FINAL de la fase 3 (ficha: semanas[2].CMN, el viernes). En la UD 1 se cierra el método científico anunciado en la fase 1, se leen las entrevistas de «¡Sí, chef!» y se elabora el cartel. En las UD 2-12 es el paso del proyecto de diseño (nómbralo: «¡Sí, chef!», «¿Buceamos?», «Huellas del pasado») con su criterio; añade cómo se presenta o se usa el producto de la SdA, ya terminado, sin inventar actividades nuevas. Si se juntan dos cosas, ARTICÚLALAS («primero…; después…», y por qué una sirve a la otra). El público de fuera del aula va en publico_real, no aquí. Desarróllala con CUATRO datos: agrupamiento, duración («en una sesión», sin inventar minutos), pasos (qué hace cada miembro o rol) y evidencia o instrumento con que se recoge; di también qué hace la maestra («Yo guío… y registro…»). SIEMPRE con su criterio y el ÁREA del criterio («con el criterio 1.1.a de Conocimiento del Medio»), y que el producto muestre de forma visible lo que pide el criterio (si es de igualdad o diversidad, di qué parte del producto lo evidencia; si es de recursos digitales, hazla con un recurso digital de la UD: Canva, Google Classroom o Google Maps). Dos o tres oraciones; empieza en minúscula (va tras dos puntos) y termina en punto.",
+      "ejemplo": "el viernes, en una sesión por equipos, cerramos el método científico, y con la tabla del secretario comprobamos la hipótesis y corregimos la norma que falla. Después, cada equipo lee sus entrevistas para «¡Sí, chef!» respetando los turnos y elabora su cartel definitivo, con una norma de igualdad, que los roles roten entre niñas y niños, y otra de respeto a todas las familias, con el criterio 8.1.a de Conocimiento del Medio. Yo lo valoro con la rúbrica.",
       "palabras": [
-        40,
-        62
-      ]
-    },
-    {
-      "id": "d_multinivel",
-      "descripcion": "Una actividad CONCRETA de la UD planteada como multinivel: «[actividad]: el refuerzo …, y la profundización …». Empieza en minúscula (va tras «la actividad multinivel es») y termina en punto.",
-      "ejemplo": "el concurso de problemas: el refuerzo resuelve problemas de tres cifras con bloques de base 10, y la profundización inventa problemas de dos pasos con cuatro cifras.",
-      "palabras": [
-        15,
-        30
-      ]
-    },
-    {
-      "id": "d_vinculo",
-      "descripcion": "Vinculación de las medidas con actividades CONCRETAS de esta UD, en este orden: «los dos alumnos con dificultades …; el alumno con TDAH …; y la alumna de compensatoria …». Coherente con la programación: dificultades → material manipulativo, lectura fácil, tareas graduadas; TDAH → cerca de la maestra, tareas fragmentadas, agenda visual, autoinstrucciones, responsabilidades; compensatoria → vocabulario con pictogramas o imágenes, préstamo de material, compañera tutora y, si la actividad depende de la familia, una alternativa en el centro. Empieza en minúscula y termina en punto.",
-      "ejemplo": "los dos alumnos con dificultades leen números de cuatro cifras con bloques de base 10 y preparan el dictado con lectura fácil; el alumno con TDAH sigue la adivinanza con una agenda visual y usa autoinstrucciones en el concurso; y la alumna de compensatoria trabaja el vocabulario de la entrevista con pictogramas y, si su familia no puede, entrevista a la cocinera del comedor.",
-      "palabras": [
-        40,
+        45,
         82
-      ]
-    },
-    {
-      "id": "e_inicial",
-      "descripcion": "La actividad CONCRETA de evaluación inicial de la UD (la de m_previos u otra de la fase 1) y dónde se registra (anecdotario, escala de observación). Sintagma que empieza en minúscula con artículo (va tras «La evaluación inicial es») y termina en punto.",
-      "ejemplo": "la asamblea «¿Cómo podemos trabajar de forma cooperativa?», cuyas respuestas registro en el anecdotario.",
-      "palabras": [
-        8,
-        22
-      ]
-    },
-    {
-      "id": "e_rubrica",
-      "descripcion": "Producto final de la situación de aprendizaje evaluado con rúbrica y su criterio: «el/la + producto se evalúa con una rúbrica del criterio N.N.a de + área, y su exposición oral, con una escala de observación.». Empieza en minúscula (va tras «Por ejemplo,») y termina en punto.",
-      "ejemplo": "el cartel de normas de colaboración se evalúa con una rúbrica del criterio 8.1.a de Conocimiento del Medio, y su exposición oral, con una escala de observación.",
-      "palabras": [
-        18,
-        30
-      ]
-    },
-    {
-      "id": "e_observacion",
-      "descripcion": "Dos actividades concretas de la UD con su instrumento y su criterio (lista de cotejo, escala de observación o registro anecdótico), de áreas distintas a la del producto. Empieza en minúscula (va tras «Además,») y termina en punto.",
-      "ejemplo": "la lectura del capítulo se registra con una lista de cotejo del criterio 4.1.a de Lengua, y el razonamiento de la mochila, con una escala de observación del 4.1.a de Matemáticas.",
-      "palabras": [
-        18,
-        35
-      ]
-    },
-    {
-      "id": "e_porfolio",
-      "descripcion": "Qué producciones CONCRETAS de la UD recoge el porfolio (dos o tres, de áreas distintas), enumeración en minúscula con artículos (va tras «Y el porfolio recoge») y terminada en punto.",
-      "ejemplo": "la adivinanza, el cuento escrito por pasos y el dictado corregido.",
-      "palabras": [
-        6,
-        20
-      ]
-    },
-    {
-      "id": "e_coevaluacion",
-      "descripcion": "Una o dos actividades concretas de autoevaluación o coevaluación de la UD (intercambio de cuadernos, valoración del trabajo en equipo, revisión del producto), en primera persona del plural o con «cada equipo/alumno» como sujeto. Empieza en minúscula (va tras «por ejemplo,») y termina en punto.",
-      "ejemplo": "nos intercambiamos los cuadernos para corregir el dictado, y cada equipo valora con una lista de cotejo si ha cumplido sus normas.",
-      "palabras": [
-        12,
-        26
-      ]
-    },
-    {
-      "id": "e_diversidad",
-      "descripcion": "Ejemplo del anexo VI aplicado a una medida de ESTA UD: dificultad, medida y cómo se valora en la escala 1-5. Empieza en minúscula (va tras «Por ejemplo,») y termina en punto.",
-      "ejemplo": "si cuesta leer números de cuatro cifras, la medida son los bloques de base 10 con un compañero tutor, y si ya los leen con ayuda, la valoro con un 4, buena.",
-      "palabras": [
-        18,
-        32
-      ]
-    },
-    {
-      "id": "conclusion_ud",
-      "descripcion": "Síntesis propia de la UD: qué aprende el alumnado (dos o tres contenidos clave de distintas áreas) y qué significa el producto final, vinculado al título o al centro de interés. Empieza por «En definitiva,» y termina en punto.",
-      "ejemplo": "En definitiva, con esta unidad mi alumnado no solo lee números de cuatro cifras, crea adivinanzas o distingue la sílaba tónica: aprende a ser un equipo, y lo deja escrito en un cartel que nos acompañará todo el curso.",
-      "palabras": [
-        25,
-        42
-      ]
-    },
-    {
-      "id": "siguiente_ud",
-      "descripcion": "Unidad siguiente y qué retoma de esta, como sintagma en minúscula sin punto (va tras «es el punto de partida de»): «la unidad N, «Título», en la que …». En la UD 12: «cuarto de Primaria, donde …».",
-      "ejemplo": "la unidad 2, «¿Cómo son las plantas?», donde estos equipos elaborarán una guía de las plantas",
-      "palabras": [
-        6,
-        18
       ]
     },
     {
@@ -812,6 +615,303 @@
         2,
         5
       ]
+    },
+    {
+      "id": "transferencia",
+      "descripcion": "TRANSFERENCIA: TRES usos de lo APRENDIDO en esta UD (contenidos concretos: números, ortografía, medidas, vocabulario, normas…) en tres contextos distintos del aula y en este orden: la FAMILIA; el CENTRO (patio, comedor, la actividad complementaria de la Tabla 7; si la ficha la marca «SdA», dila como situación de aprendizaje); y la LOCALIDAD de Mijas o Andalucía (calle, parque, playa, comercios, servicios del barrio, patrimonio). Cada uso con su contexto y lo que se aplica. No pongas actitudes como uso ni inventes salidas que no estén en la ficha. El digital y el bilingüe van aparte. Empieza en minúscula (va tras dos puntos), separa con punto y coma y termina en punto.",
+      "ejemplo": "en la entrevista, el alumnado escribe con cuatro cifras el año de nacimiento del familiar; en la jornada gastronómica andaluza, escribimos con tilde los platos; y en Mijas, en el parque o la playa, reconocemos normas como las nuestras.",
+      "palabras": [
+        32,
+        41
+      ]
+    },
+    {
+      "id": "contexto_digital",
+      "descripcion": "Uso de lo aprendido en el contexto DIGITAL con un recurso de la ficha (Google Classroom, Canva, Google Maps, vídeos, búsquedas guiadas): qué se hace y para qué. Va tras «En el contexto digital,»: empieza en minúscula, SIN punto final (sigue «; y, como somos un centro bilingüe…»).",
+      "ejemplo": "escribimos el borrador en Google Classroom, y cada equipo lo revisa desde casa",
+      "palabras": [
+        8,
+        14
+      ]
+    },
+    {
+      "id": "contexto_bilingue",
+      "descripcion": "Qué se trabaja en inglés con la maestra de inglés en esta UD, CONCRETO (vocabulario del centro de interés o del producto, con dos o tres palabras en inglés entre «»). Va tras «con la maestra de inglés»: empieza por un verbo en primera persona del plural, SIN punto final. Nada ambiguo como «su vocabulario».",
+      "ejemplo": "aprendemos a nombrar los roles y las normas, como «listen», «help» o «take turns»",
+      "palabras": [
+        6,
+        15
+      ]
+    },
+    {
+      "id": "situacion_nueva",
+      "descripcion": "SITUACIÓN NUEVA, fuera de las tareas de la SdA, en la que el alumnado aplica POR SÍ MISMO lo aprendido, sin pautas de la maestra: qué ocurre, qué hace el alumnado y qué aprendizaje de la UD usa. Coherente con la ficha y la programación (un problema real del centro, de la familia o del barrio, la UD siguiente, la actividad complementaria…); no repitas lo de transferencia. Va tras «por propia iniciativa en una situación nueva:»: empieza en minúscula y termina en punto.",
+      "ejemplo": "cuando surge un conflicto en el patio o en el comedor, los implicados consultan el cartel, proponen una solución con la mediación aprendida y la cuentan en la asamblea.",
+      "palabras": [
+        20,
+        30
+      ]
+    },
+    {
+      "id": "publico_real",
+      "descripcion": "PÚBLICO REAL del producto de la SdA más allá de la propia clase (otra clase de tercero o de otro curso, las familias, el blog o la web del centro, el comedor, el pasillo, la comunidad): quién lo recibe y cómo. Va tras «fuera de nuestra clase:»: empieza en minúscula, con el producto como «lo/la» si hace falta, y termina en punto.",
+      "ejemplo": "el portavoz de cada equipo lo expone ante otra clase de tercero, y lo publicamos en el blog del centro para las familias.",
+      "palabras": [
+        14,
+        24
+      ]
+    },
+    {
+      "id": "uso_real",
+      "descripcion": "Uso real y efectivo del producto de la SdA DESPUÉS de la unidad (dónde queda, quién lo usa, para qué). Oración que empieza en minúscula (va tras «Y un uso real:») y termina en punto. Coherente con la ficha; sin repetir publico_real.",
+      "ejemplo": "el cartel queda colgado en el aula, y lo consultamos todo el curso cuando un equipo necesita ponerse de acuerdo.",
+      "palabras": [
+        10,
+        21
+      ]
+    },
+    {
+      "id": "reparto_dias",
+      "descripcion": "Reparto REAL de los días lectivos entre las tres fases (va tras «{{dias}} días lectivos en tres fases»): «de cuatro, cinco y cinco días;» + el porqué de la fase distinta (semana de inicio, festivos como la Inmaculada, el 28 de febrero o el 1 de mayo, Semana Blanca, Semana Santa, salidas) + cuántas sesiones ocupa la situación de aprendizaje (y, si termina en la fase dos, dilo). La suma debe dar {{dias}}. Sin decir el día de la semana de una fecha. Empieza en minúscula y termina en punto.",
+      "ejemplo": "de cuatro, cinco y cinco días, porque la primera coincide con el inicio del curso; y la situación de aprendizaje ocupa tres sesiones, una cada viernes.",
+      "palabras": [
+        14,
+        27
+      ]
+    },
+    {
+      "id": "progresion",
+      "descripcion": "Por qué la secuencia es coherente: de qué a qué se progresa en Lengua y en Matemáticas y cómo avanza el producto (va tras «La progresión es coherente:»). Empieza en minúscula y termina en punto.",
+      "ejemplo": "en Matemáticas pasamos de tres a cuatro cifras y a redondear; en Lengua, de la sílaba a la tilde; y el cartel, de los roles al borrador y a la versión final.",
+      "palabras": [
+        20,
+        34
+      ]
+    },
+    {
+      "id": "ajuste_realidad",
+      "descripcion": "Por qué la secuencia de ESTA UD se ajusta a la realidad del grupo y del ENTORNO REAL: momento del curso, festividades o salidas de la UD, vivencias del alumnado y, al menos, un rasgo concreto de Mijas Costa o de Málaga (localidad turística, costa, patrimonio, servicios del barrio). Empieza en minúscula con verbos en tercera persona cuyo sujeto es «la secuencia» («abre…», «aprovecha…», «se apoya en…»; no «parte de», que ya está en el texto común) y termina en punto.",
+      "ejemplo": "abre el curso formando los equipos del año y aprovecha la jornada gastronómica andaluza; y, en una localidad turística como Mijas Costa, la entrevista admite recetas de otros países.",
+      "palabras": [
+        15,
+        30
+      ]
+    },
+    {
+      "id": "m_lectura",
+      "descripcion": "Un texto concreto que se lee en la UD y cómo se lee, como sintagma nominal en minúscula con artículo, sin punto y SIN empezar por «la lectura» (va tras «La lectura la trabajo, según las Instrucciones de 21 de junio de 2023, con»; sigue «;»).",
+      "ejemplo": "el cuento «Los duendes y el zapatero», con estrategias de antes, durante y después de leer",
+      "palabras": [
+        8,
+        17
+      ]
+    },
+    {
+      "id": "m_tic",
+      "descripcion": "Recursos digitales de ESTA UD, cada uno con la actividad en que se usa: Canva, Google Classroom y Google Maps (están en todas las fichas) y los vídeos o búsquedas de la ficha. Sintagma en minúscula sin punto (va tras «las TIC, con»; sigue «;»). No nombres herramientas que la UD no use.",
+      "ejemplo": "Canva para la tarjeta de roles, Classroom para el borrador y vídeos sobre el método científico y Velázquez",
+      "palabras": [
+        8,
+        19
+      ]
+    },
+    {
+      "id": "m_emocional",
+      "descripcion": "Principio de INTELIGENCIA EMOCIONAL aplicado a una actividad concreta de la UD (gestión de emociones, frustración, empatía, autoestima), con su criterio si lo hay. Sintagma en minúscula con artículo, sin punto (va tras «se educa, con»; sin punto, sigue «;»).",
+      "ejemplo": "la gestión de la frustración al redondear, con el criterio 7.1.a de Matemáticas",
+      "palabras": [
+        6,
+        14
+      ]
+    },
+    {
+      "id": "m_conflictos",
+      "descripcion": "Principio de RESOLUCIÓN PACÍFICA DE CONFLICTOS aplicado a esta UD (normas del equipo, mediación, asamblea, debate, acuerdos en la SdA). Sintagma en minúscula con artículo, sin punto (va tras «la resolución pacífica de conflictos, con»).",
+      "ejemplo": "el cartel y la mediación, con los que los equipos resuelven sus desacuerdos",
+      "palabras": [
+        6,
+        14
+      ]
+    },
+    {
+      "id": "m_sostenible",
+      "descripcion": "Principio de DESARROLLO SOSTENIBLE en esta UD: el ODS de la ficha y una actividad o actitud concreta que lo hace real (reciclar, ahorrar agua, cuidar el entorno, convivir en paz). Sintagma en minúscula, sin punto (va tras «el desarrollo sostenible, con»).",
+      "ejemplo": "el ODS 16, que las normas acordadas llevan a la vida del aula",
+      "palabras": [
+        6,
+        14
+      ]
+    },
+    {
+      "id": "m_andalucia",
+      "descripcion": "Dos o tres elementos de la UD que conectan con las realidades sociales y culturales de Andalucía, como enumeración en minúscula con artículos, sin punto (va tras «a través de»): textos, autores, fiestas, paisajes, gastronomía y, cuando la UD lo permita, el HABLA ANDALUZA (si hay criterio de diversidad lingüística) y el ENTORNO DE MIJAS o de Málaga. No te quedes solo en el folclore.",
+      "ejemplo": "nuestra habla andaluza en «La Tarara», el sevillano Velázquez y la jornada gastronómica con recetas de Mijas",
+      "palabras": [
+        10,
+        18
+      ]
+    },
+    {
+      "id": "producto_aps",
+      "descripcion": "Producto del aprendizaje-servicio «Opera prima» en esta UD (ficha: sda.aps.producto) como sintagma nominal en minúscula, sin punto, con el artículo que pida el sentido; nominaliza los infinitivos. Va tras «con» («con el festival de cine de fin de curso»).",
+      "ejemplo": "un informe sobre la técnica de animación stop motion",
+      "palabras": [
+        3,
+        10
+      ]
+    },
+    {
+      "id": "m_agrupamientos",
+      "descripcion": "Los cuatro agrupamientos, cada uno ligado a una actividad CONCRETA de la UD, en este orden: «el gran grupo para …; los equipos heterogéneos para …; las parejas para …; y el trabajo individual para ….». Empieza en minúscula (va tras dos puntos) y termina en punto.",
+      "ejemplo": "el gran grupo para la pregunta inicial; los equipos heterogéneos para las adivinanzas y el cartel; las parejas para el dictado; y el trabajo individual para los números.",
+      "palabras": [
+        20,
+        29
+      ]
+    },
+    {
+      "id": "recursos_ud",
+      "descripcion": "Espacios y recursos de la UD (ficha: recursos), CADA UNO LIGADO A SU ACTIVIDAD: «la biblioteca, para …; el patio, …; los policubos y el tangram, en …; las familias, en …». Primero los espacios (aula, biblioteca, patio y, si la hay, la salida de la Tabla 7), después el material manipulativo y los recursos personales. Sin herramientas digitales (van en m_tic). Empieza en minúscula (va tras «Y cada espacio y recurso, también:») y SIN punto final.",
+      "ejemplo": "la biblioteca, para los cuentos tradicionales; el patio, para aplicar las normas; los bloques de base 10 y el tangram, en los problemas; y las familias, en la entrevista",
+      "palabras": [
+        15,
+        30
+      ]
+    },
+    {
+      "id": "m_previos",
+      "descripcion": "Actividad inicial de la fase 1 que activa los conocimientos previos (asamblea, pregunta, vídeo, diálogo) como sintagma nominal en minúscula con artículo, sin punto. Va tras «la unidad parte de». Si es la pregunta_motriz, no la repitas: «la asamblea sobre la pregunta del inicio…».",
+      "ejemplo": "la asamblea sobre la pregunta del inicio, donde el alumnado cuenta sus experiencias",
+      "palabras": [
+        8,
+        14
+      ]
+    },
+    {
+      "id": "dua_ejemplos",
+      "descripcion": "Los tres principios DUA aplicados a actividades CONCRETAS de la UD, en tres oraciones con este arranque fijo: «Con múltiples formas de representación, …. Con múltiples formas de acción y expresión, …. Y con múltiples formas de implicación, ….». Empieza en mayúscula y termina en punto.",
+      "ejemplo": "Con múltiples formas de representación, presento el método científico con vídeo y esquema, y las cifras con bloques de base 10. Con múltiples formas de acción y expresión, cuentan, escriben o dramatizan sus adivinanzas. Y con múltiples formas de implicación, trabajan en equipo y se dan retroalimentación.",
+      "palabras": [
+        40,
+        49
+      ]
+    },
+    {
+      "id": "d_multinivel",
+      "descripcion": "Una actividad CONCRETA de la UD planteada como multinivel: «[actividad]: el refuerzo …, y la profundización …». Empieza en minúscula con artículo (va tras «y actividades multinivel, como») y termina en punto.",
+      "ejemplo": "el concurso de problemas: el refuerzo resuelve problemas de tres cifras con bloques de base 10, y la profundización inventa problemas de dos pasos.",
+      "palabras": [
+        15,
+        25
+      ]
+    },
+    {
+      "id": "d_profundizacion",
+      "descripcion": "Actividad CONCRETA del PROGRAMA DE PROFUNDIZACIÓN (art. 28 de la Orden) para el alumnado más motivado: enriquece un saber de la UD con una pequeña investigación o tarea creativa ligada a una actividad de la ficha y, si puede, al producto. El sujeto es «el más motivado» (ya dicho): empieza en minúscula por un verbo en tercera persona del singular y termina en punto. Distinta de la profundización de d_multinivel.",
+      "ejemplo": "investiga cómo trabajan en equipo los científicos presentados y propone al cartel una norma inspirada en ellos.",
+      "palabras": [
+        14,
+        18
+      ]
+    },
+    {
+      "id": "d_vinculo",
+      "descripcion": "Vinculación de las medidas con actividades CONCRETAS de esta UD (no las tareas de la SdA, que van en d_sda), en este orden: «los dos alumnos con dificultades …; el alumno con TDAH …; y la alumna de compensatoria …». Coherente con la programación: dificultades → material manipulativo, lectura fácil, tareas graduadas; TDAH → cerca de la maestra, tareas fragmentadas, agenda visual, autoinstrucciones, responsabilidades; compensatoria → glosario visual o imágenes del vocabulario, préstamo de material, compañera tutora y, si la actividad depende de la familia, una alternativa en el centro (no digas que desconoce el idioma). Empieza en minúscula (va tras «Las vinculo con las actividades:») y termina en punto.",
+      "ejemplo": "los dos alumnos con dificultades leen números con bloques de base 10 y preparan el dictado con lectura fácil; el alumno con TDAH sigue la adivinanza con una agenda visual; y la alumna de compensatoria prepara la entrevista con un glosario visual y, si lo necesita, entrevista a la cocinera del comedor.",
+      "palabras": [
+        36,
+        55
+      ]
+    },
+    {
+      "id": "d_sda",
+      "descripcion": "Las medidas aplicadas a las TAREAS DE LA SITUACIÓN DE APRENDIZAJE: rol asignado al alumno con TDAH (encargado del material, cronometrador…), tarea fragmentada, apoyo visual o modelo del producto para los alumnos con dificultades o la alumna de compensatoria. Va tras «Y con las tareas de la situación de aprendizaje:»: empieza en minúscula y termina en punto.",
+      "ejemplo": "el alumno con TDAH es el encargado del material, un rol que le permite moverse, y sigue la tarea por pasos; y los alumnos con dificultades parten de una norma modelo.",
+      "palabras": [
+        18,
+        33
+      ]
+    },
+    {
+      "id": "n_criterios",
+      "descripcion": "Número total de criterios de evaluación de la UD (suma de areas[].criterios de la ficha, normalmente «trece» o «catorce»), en letra y en minúscula.",
+      "ejemplo": "trece",
+      "palabras": [
+        1,
+        1
+      ]
+    },
+    {
+      "id": "e_inicial",
+      "descripcion": "La actividad CONCRETA de evaluación inicial de la UD (la de m_previos u otra de la fase 1) y dónde se registra (anecdotario, escala de observación). Sintagma que empieza en minúscula con artículo (va tras «La evaluación inicial es») y termina en punto.",
+      "ejemplo": "la asamblea con la pregunta del inicio, cuyas respuestas registro en el anecdotario.",
+      "palabras": [
+        8,
+        14
+      ]
+    },
+    {
+      "id": "e_fases",
+      "descripcion": "EVIDENCIA que deja cada FASE de la SdA y su instrumento, con el criterio y el área la primera vez: «en la primera, …; en la segunda, …; y en la tercera, …». La evidencia es el resultado de la tarea de esa fase (la del producto, con rúbrica). Coherente con s1_tarea, s2_tarea y s3_tarea. Empieza en minúscula (va tras «cada fase deja su evidencia:») y termina en punto.",
+      "ejemplo": "en la primera, la tarjeta de roles, con escala de observación del 1.1.a de Medio; en la segunda, el borrador, en el anecdotario; y en la tercera, el cartel, con una rúbrica del 8.1.a.",
+      "palabras": [
+        30,
+        36
+      ]
+    },
+    {
+      "id": "e_criterios",
+      "descripcion": "TODOS los criterios de la UD que NO estén ya en e_fases, AGRUPADOS POR INSTRUMENTO, cada uno con su evidencia (la actividad de la secuencia en que se recoge, en 1-4 palabras), su código y su área: «con una rúbrica de …, X, N.N.a de Lengua; con escala de observación, …; con lista de cotejo, …; con el porfolio, …; y con el registro anecdótico, …». Instrumento ADECUADO: lectura en voz alta → rúbrica de fluidez lectora; producciones escritas → porfolio o rúbrica; procesos y explicaciones → escala de observación; pasos o comprobaciones → lista de cotejo; actitudes y emociones → registro anecdótico. Ningún criterio sin instrumento. Empieza en minúscula (va tras «tiene también la suya:») y termina en punto.",
+      "ejemplo": "con rúbrica de fluidez, la lectura en voz alta, 4.1.a de Lengua; con escala de observación, «La Tarara», 1.3.a, y la mochila y el cálculo, 4.1.a y 6.2.a de Matemáticas; con lista de cotejo, el diccionario, 6.1.a, los problemas, 1.1.a y 5.1.a de Matemáticas, y «Las meninas», 1.1.a de Artística; con el porfolio, el cuento, 5.1.a; y con el registro anecdótico, la lectura autónoma y la frustración, ambos 7.1.a.",
+      "palabras": [
+        55,
+        76
+      ]
+    },
+    {
+      "id": "e_coevaluacion",
+      "descripcion": "Una o dos actividades concretas de autoevaluación o coevaluación de la UD (intercambio de cuadernos, valoración del trabajo en equipo, revisión del producto), en primera persona del plural o con «cada equipo» o «cada niño y cada niña» como sujeto. Empieza en minúscula (va tras «el alumnado reflexiona sobre cómo aprende:») y termina en punto.",
+      "ejemplo": "cada equipo valora con una lista de cotejo si ha cumplido sus normas, y corregimos el dictado intercambiando los cuadernos.",
+      "palabras": [
+        12,
+        21
+      ]
+    },
+    {
+      "id": "e_diversidad",
+      "descripcion": "Ejemplo del anexo VI aplicado a una medida de ESTA UD: dificultad, medida y cómo se valora en la escala 1-5. Empieza en minúscula (va tras «Por ejemplo,») y termina en punto.",
+      "ejemplo": "si cuesta leer números de cuatro cifras, la medida son los bloques de base 10 con un compañero tutor; si ya los leen con ayuda, la valoro con un 4.",
+      "palabras": [
+        18,
+        32
+      ]
+    },
+    {
+      "id": "producto_proyecto",
+      "descripcion": "Lo que aporta esta UD al proyecto de diseño (ficha: sda.proyecto.producto) como sintagma nominal en minúscula, sin punto, con el artículo que pida el sentido; nominaliza los infinitivos («la decoración y la presentación del lapbook»). Va tras «con», en la conclusión. En la UD 12, añade «, que da nombre a esta unidad» para no confundir la SdA y el proyecto.",
+      "ejemplo": "una entrevista a un familiar para el recetario andaluz",
+      "palabras": [
+        3,
+        10
+      ]
+    },
+    {
+      "id": "conclusion_ud",
+      "descripcion": "Síntesis propia de la UD: qué aprende el alumnado (dos o tres contenidos clave de distintas áreas) y qué significa el producto final, vinculado al título o al centro de interés. Empieza por «En definitiva,» y termina en punto.",
+      "ejemplo": "En definitiva, mi alumnado no solo lee números de cuatro cifras o crea adivinanzas: aprende a ser un equipo, y lo deja escrito en un cartel para todo el curso.",
+      "palabras": [
+        25,
+        32
+      ]
+    },
+    {
+      "id": "siguiente_ud",
+      "descripcion": "Unidad siguiente y qué retoma de esta, como sintagma en minúscula sin punto (va tras «es el punto de partida de»): «la unidad N, «Título», en la que …». En la UD 12: «cuarto de Primaria, donde …».",
+      "ejemplo": "la unidad 2, «¿Cómo son las plantas?», donde estos equipos elaborarán una guía de las plantas",
+      "palabras": [
+        6,
+        17
+      ]
     }
   ],
   "secciones": [
@@ -821,22 +921,23 @@
       "rubrica": [
         "Presentación, introducción y justificación",
         "Bibliografía",
-        "Uso adecuado de la pizarra"
+        "Uso adecuado de la pizarra",
+        "Expresión oral"
       ],
-      "minutos": 2.1,
+      "minutos": 2.0,
       "esquema": [
-        "Saludo · UD {{numero}} «{{titulo}}» · {{trimestre_letra}} trimestre · {{centro_interes}}",
+        "Saludo · pregunta que abre la UD → «{{titulo}}» · {{trimestre_letra}} trimestre · {{centro_interes}}",
         "Una SdA con el mismo título → {{pz_producto}} · y avanzan los dos proyectos",
-        "Índice en voz alta, once puntos, mientras lo escribo",
-        "Normativa: RD 157/2022 · D. 101/2023 · Orden 30/05/2023",
+        "Once puntos en la pizarra: de la presentación a la conclusión, núcleo en tres fases",
+        "Normativa: RD 157/2022 · D. 101/2023 · Orden 30/05/2023 → el saber del anexo II que la sostiene",
         "Curricular: Coll (2013) + por qué en 3.º",
-        "Epistemológica: las disciplinas + Ausubel (2009)",
-        "Relevancia social → ODS"
+        "Epistemológica: gira en torno a {{centro_interes}} · Ausubel (2009): parto de lo que saben",
+        "Relevancia social → {{pz_ods}}"
       ],
       "bloques": [
         {
           "id": "u1b1",
-          "texto": "Buenos días a la presidencia y a todos los miembros del tribunal. De las tres unidades extraídas, he elegido la unidad didáctica número {{numero}} de mi programación «Aprendemos juntos»: «{{titulo}}». Se desarrolla en el {{trimestre_letra}} trimestre de tercero de Primaria y se centra en {{centro_interes}}. Contiene una situación de aprendizaje, con su mismo título, cuyo producto final es {{producto_sda}}, y hace avanzar los dos proyectos del curso. Seguiré once puntos, que escribo en la pizarra: presentación, contexto, concreción curricular, la secuencia en tres fases, contextos y tiempos, metodología, diversidad, evaluación y conclusión.",
+          "texto": "Buenos días a la presidencia y a los miembros del tribunal. «{{pregunta_motriz}}» Con esta pregunta empieza mi alumnado la unidad didáctica que he elegido, la número {{numero}} de mi programación «Aprendemos juntos», «{{titulo}}». Se desarrolla en el {{trimestre_letra}} trimestre de tercero y se centra en {{centro_interes}}. Su situación de aprendizaje, con el mismo título, tiene como producto {{producto_sda}}, y la unidad hace avanzar los dos proyectos del curso. Seguiré once puntos, que escribo en la pizarra, de la presentación a la conclusión, con la secuencia en tres fases como núcleo.",
           "pizarra": [
             {
               "zona": "cabecera",
@@ -894,11 +995,11 @@
         },
         {
           "id": "u1b2",
-          "texto": "Justifico su importancia y su relevancia en tres planos. Normativamente, concreta el currículo del Real Decreto 157/2022, del Decreto 101/2023 y de la Orden de 30 de mayo de 2023. Curricularmente, como explica Coll (2013), es el tercer nivel de concreción, y es relevante en tercero porque {{justif_curricular}}. Epistemológicamente, {{justif_disciplinar}}; y, como defiende Ausubel (2009), parto de lo que el alumnado ya sabe. Su relevancia social es clara: {{relevancia}}. Por eso la vinculo con {{ods}}.",
+          "texto": "Justifico su importancia y su relevancia en tres planos. Normativamente, concreta el currículo del Real Decreto 157/2022, del Decreto 101/2023 y de la Orden de 30 de mayo de 2023; en concreto, desarrolla {{justif_normativa}}. Curricularmente, según Coll (2013), es el tercer nivel de concreción, y es relevante en tercero porque {{justif_curricular}}. Epistemológicamente, su eje es {{centro_interes}}: {{justif_epistemologica}}; y, como defiende Ausubel (2009), parto de lo que el alumnado ya sabe. Su relevancia social es clara: {{relevancia}}. Por eso la vinculo con {{ods}}.",
           "pizarra": [
             {
               "zona": "centro",
-              "texto": "Normativa · curricular · epistemológica → ODS",
+              "texto": "Normativa · curricular · epistemológica → {{pz_ods}}",
               "caja": "1. Justificación"
             },
             {
@@ -920,12 +1021,12 @@
         "Contextualización",
         "Bibliografía"
       ],
-      "minutos": 1.6,
+      "minutos": 1.5,
       "esquema": [
         "CEIP bilingüe de Mijas Costa (Málaga), localidad turística, tres líneas",
-        "22 alumnos/as de 8-9 años: Piaget e Inhelder, «Psicología del niño» (2022)",
+        "22 alumnos y alumnas de 8-9 años: Piaget e Inhelder (2022), hechos concretos",
         "NEAE: 2 con dificultades en Lengua y Matemáticas · TDAH · compensatoria",
-        "Lo significativo para esta UD: momento del curso + plan o programa (Paz, CIMA…)",
+        "Lo significativo para esta UD: momento del curso + planes (Paz, igualdad, CIMA…)",
         "{{fechas}} · {{trimestre_letra}} trimestre · {{dias}} días (D. 301/2009)",
         "Lugar en el curso respecto a la UD anterior",
         "Cuatro áreas con su nombre completo"
@@ -933,7 +1034,7 @@
       "bloques": [
         {
           "id": "u2b1",
-          "texto": "Paso al punto dos: la contextualización. Desarrollo la unidad en un colegio público bilingüe de Infantil y Primaria de Mijas Costa, en Málaga, una localidad turística, con tres líneas por nivel. Mi grupo de tercero tiene veintidós alumnos y alumnas de ocho y nueve años que, como explican Piaget e Inhelder en «Psicología del niño» (2022), razonan sobre hechos concretos. Entre ellos hay dos alumnos con dificultades en Lengua y Matemáticas, un alumno con TDAH y una alumna de compensatoria. Para esta unidad, lo más significativo del contexto es esto: {{contexto_significativo}}",
+          "texto": "Paso al punto dos: la contextualización. Desarrollo la unidad en un colegio público bilingüe de Infantil y Primaria de Mijas Costa, en Málaga, una localidad turística, con tres líneas por nivel. Mi grupo de tercero tiene veintidós alumnos y alumnas de ocho y nueve años que, como explican Piaget e Inhelder (2022), razonan sobre hechos concretos. Entre ellos hay dos alumnos con dificultades en Lengua y Matemáticas, un alumno con TDAH y una alumna de compensatoria. Para esta unidad, lo más significativo del contexto es esto: {{contexto_significativo}}",
           "pizarra": [
             {
               "zona": "centro",
@@ -960,12 +1061,12 @@
         "Concreción curricular y vinculación con los aprendizajes",
         "Bibliografía"
       ],
-      "minutos": 3.2,
+      "minutos": 2.8,
       "esquema": [
         "Escamilla (2018): encadenar los elementos del currículo",
-        "Objetivos de etapa (art. 5 D. 101/2023) → los 6 objetivos, por áreas",
+        "Siete objetivos de etapa (D. 101/2023), letras en la pizarra → seis objetivos de aprendizaje",
         "8 competencias clave (RD 157/2022) · sobre todo, las de esta UD",
-        "Cada competencia: de qué trata + 2 descriptores + criterio + saber",
+        "Anexo II de la Orden: de qué trata + 2 descriptores (sigla = competencia clave) + criterio + saber",
         "{{pz_lcl}}",
         "{{pz_mat}}",
         "{{pz_cmn_ear}}"
@@ -973,8 +1074,13 @@
       "bloques": [
         {
           "id": "u3b1",
-          "texto": "Paso al punto tres: la concreción curricular y la vinculación con los aprendizajes. Como señala Escamilla (2018), programar por competencias es encadenar los elementos del currículo. La unidad contribuye a los objetivos de etapa {{objetivos_etapa}} del Decreto 101/2023, que concreto en seis objetivos de aprendizaje: {{objetivos_aprendizaje}}",
+          "texto": "Paso al punto tres: la concreción curricular y la vinculación con los aprendizajes. Siguiendo a Escamilla (2018), encadeno los elementos del currículo. La unidad contribuye a siete objetivos de etapa del Decreto 101/2023, cuyas letras escribo en la pizarra, y los concreto en seis objetivos de aprendizaje: {{objetivos_aprendizaje}}",
           "pizarra": [
+            {
+              "zona": "centro",
+              "texto": "Objetivos de etapa: {{pz_obj_etapa}}",
+              "caja": "3. Concreción"
+            },
             {
               "zona": "normativa",
               "texto": "Escamilla 2018"
@@ -983,7 +1089,7 @@
         },
         {
           "id": "u3b2",
-          "texto": "Estos objetivos desarrollan las ocho competencias clave del Real Decreto 157/2022, a través de sus descriptores operativos, y sobre todo {{cc_principales}}. Concreto ahora cada competencia específica. Empiezo por Lengua Castellana y Literatura: {{curriculo_lcl}}",
+          "texto": "Estos objetivos desarrollan las ocho competencias clave del Real Decreto 157/2022 y, sobre todo, {{cc_principales}}. Concreto cada competencia específica según el anexo II de la Orden, siempre en el mismo orden: de qué trata, sus descriptores operativos, cuya sigla es la de su competencia clave, su criterio y su saber básico. Empiezo por Lengua: {{curriculo_lcl}}",
           "pizarra": [
             {
               "zona": "centro",
@@ -994,19 +1100,13 @@
         },
         {
           "id": "u3b3",
-          "texto": "Sigo con Matemáticas, siempre en el mismo orden: de qué trata cada competencia, sus descriptores operativos, su criterio de evaluación y su saber básico: {{curriculo_mat}}",
+          "texto": "Sigo con Matemáticas: {{curriculo_mat}} Y termino con las otras dos áreas. {{curriculo_cmn_ear}} Así, cada criterio tiene su actividad en la secuencia y su instrumento en la evaluación.",
           "pizarra": [
             {
               "zona": "centro",
               "texto": "{{pz_mat}}",
               "caja": "3. Concreción"
-            }
-          ]
-        },
-        {
-          "id": "u3b4",
-          "texto": "Y termino con las otras dos áreas. {{curriculo_cmn_ear}} Así, cada criterio tiene su actividad en la secuencia y su instrumento en la evaluación, como muestro a continuación.",
-          "pizarra": [
+            },
             {
               "zona": "centro",
               "texto": "{{pz_cmn_ear}}",
@@ -1021,26 +1121,27 @@
       "titulo": "Secuencia y SdA: fase 1, motivar y activar",
       "rubrica": [
         "Secuencia didáctica 1: actividades y relación entre ellas",
-        "Bibliografía"
+        "Bibliografía",
+        "Uso adecuado de la pizarra"
       ],
-      "minutos": 3.3,
+      "minutos": 2.95,
       "esquema": [
         "SdA: actividades articuladas en un contexto (art. 7 D. 101/2023)",
         "Reto real → {{pz_producto}}",
         "Tres fases de Baena (2019) · enfoque globalizador (Zabala 2012)",
-        "Ejercicio de aplicación → actividad → tarea (Bloom)",
-        "Fase 1: cada área y cómo PREPARA el producto (Lengua, Matemáticas, Medio, Artística)",
+        "Ejercicio de aplicación (consolida) → actividad (relaciona) → tarea (integra)",
+        "Fase 1: cada área PREPARA el producto (Lengua, Matemáticas, Medio, Artística)",
         "«Todo esto prepara la tarea…»: {{pz_s1}} (agrupamiento, sesión, pasos, evidencia)"
       ],
       "bloques": [
         {
           "id": "u4b1",
-          "texto": "Paso al punto cuatro, el núcleo de mi exposición: la secuencia didáctica y su situación de aprendizaje. Según el artículo 7 del Decreto 101/2023, una situación de aprendizaje es un conjunto de actividades articuladas en un contexto determinado. La de esta unidad plantea un reto real, {{sda_reto}}, y su producto es {{producto_sda}}. Se organiza en las tres fases del aprendizaje experiencial de Baena (2019), con el enfoque globalizador que defiende Zabala (2012). En cada fase distingo ejercicios de aplicación, que consolidan; actividades, que relacionan; y una tarea, que integra, de lo sencillo a lo complejo, según la taxonomía de Bloom.",
+          "texto": "Paso al punto cuatro, el núcleo de mi exposición: la secuencia didáctica y su situación de aprendizaje. Según el artículo 7 del Decreto 101/2023, una situación de aprendizaje es un conjunto de actividades articuladas en un contexto determinado. La de esta unidad plantea un reto real, {{sda_reto}}, y su producto es {{producto_sda}}. Se organiza en las tres fases del aprendizaje experiencial de Baena (2019), con el enfoque globalizador que defiende Zabala (2012). En cada fase distingo ejercicios de aplicación, que consolidan; actividades, que relacionan; y una tarea, que integra. Así avanzamos de lo sencillo a lo complejo.",
           "pizarra": [
             {
               "zona": "centro",
-              "texto": "Ejercicio → actividad → tarea (Bloom)",
-              "caja": "4-6. Secuencia y SdA"
+              "texto": "Ejercicio → actividad → tarea",
+              "caja": "4. Fase 1 · Motivar"
             },
             {
               "zona": "normativa",
@@ -1050,13 +1151,19 @@
         },
         {
           "id": "u4b2",
-          "texto": "Primera fase: motivar y activar los conocimientos previos sobre {{centro_interes}}. Cada área prepara el producto. En Lengua, como ejercicio de aplicación, {{s1_lcl_ej}}; y como actividad, {{s1_lcl_act}}: {{s1_rel_lcl}}.",
+          "texto": "Primera fase: motivar y activar los conocimientos previos sobre el centro de interés. Cada área prepara el producto. En Lengua, como ejercicio de aplicación, {{s1_lcl_ej}}; y como actividad, {{s1_lcl_act}}: {{s1_rel_lcl}}.",
           "pizarra": []
         },
         {
           "id": "u4b3",
           "texto": "Son ejercicios que parten de lo concreto y lo manipulativo. En Matemáticas, como ejercicio, {{s1_mat_ej}}; y como actividad, {{s1_mat_act}}: {{s1_rel_mat}}. En Conocimiento del Medio, {{s1_cmn}}: {{s1_rel_cmn}}.",
-          "pizarra": []
+          "pizarra": [
+            {
+              "zona": "centro",
+              "texto": "{{pz_f1}}",
+              "caja": "4. Fase 1 · Motivar"
+            }
+          ]
         },
         {
           "id": "u4b4",
@@ -1064,8 +1171,8 @@
           "pizarra": [
             {
               "zona": "centro",
-              "texto": "{{pz_producto}} ← 4 áreas",
-              "caja": "4-6. Secuencia y SdA"
+              "texto": "Tarea: {{pz_s1}}",
+              "caja": "4. Fase 1 · Motivar"
             }
           ]
         }
@@ -1077,43 +1184,42 @@
       "rubrica": [
         "Secuencia didáctica 1: actividades y relación entre ellas"
       ],
-      "minutos": 2.3,
+      "minutos": 2.05,
       "esquema": [
         "Explorar y estructurar: investigar, comparar, organizar",
         "«Gracias a lo anterior…» cada área APORTA contenido al producto",
-        "Lengua y Matemáticas: ejercicio + actividad con criterio + relación",
-        "Medio + Artística: actividad + relación",
-        "«Gracias a todo ello…» tarea: {{pz_s2}}",
+        "Lengua y Matemáticas: para consolidar + para relacionar (con criterio) + relación",
         "Pasos heurísticos comunes en los problemas",
-        "Pizarra: flechas LCL y MAT"
+        "Medio + Artística: actividad + relación",
+        "«Gracias a todo ello…» tarea: {{pz_s2}}"
       ],
       "bloques": [
         {
           "id": "u5b1",
-          "texto": "Paso al punto cinco: la segunda fase, explorar y estructurar. Gracias a lo anterior, el alumnado ya investiga, compara y organiza, y cada área aporta contenido al producto. En Lengua, como ejercicio de aplicación, {{s2_lcl_ej}}; y como actividad, {{s2_lcl_act}}: {{s2_rel_lcl}}.",
-          "pizarra": [
-            {
-              "zona": "centro",
-              "texto": "LCL: {{pz_rel_lcl}}",
-              "caja": "4-6. Secuencia y SdA"
-            }
-          ]
+          "texto": "Paso al punto cinco: la segunda fase, explorar y estructurar. Gracias a lo anterior, el alumnado ya investiga, compara y organiza, y cada área aporta contenido al producto. En Lengua, para consolidar, {{s2_lcl_ej}}; y, para relacionar, {{s2_lcl_act}}: {{s2_rel_lcl}}.",
+          "pizarra": []
         },
         {
           "id": "u5b2",
-          "texto": "En Matemáticas, como ejercicio, {{s2_mat_ej}}; y como actividad, {{s2_mat_act}}: {{s2_rel_mat}}. Y todos los problemas siguen los mismos pasos: comprender, planificar, resolver y comprobar. En Conocimiento del Medio, {{s2_cmn}}: {{s2_rel_cmn}}.",
+          "texto": "En Matemáticas, para consolidar, {{s2_mat_ej}}; y, para relacionar, {{s2_mat_act}}: {{s2_rel_mat}}. Y todos los problemas siguen los mismos pasos: comprender, planificar, resolver y comprobar. En Conocimiento del Medio, {{s2_cmn}}: {{s2_rel_cmn}}.",
           "pizarra": [
             {
               "zona": "centro",
-              "texto": "MAT: {{pz_rel_mat}}",
-              "caja": "4-6. Secuencia y SdA"
+              "texto": "{{pz_f2}}",
+              "caja": "5. Fase 2 · Explorar"
             }
           ]
         },
         {
           "id": "u5b3",
           "texto": "Y en Educación Artística, {{s2_ear}}: {{s2_rel_ear}}. Gracias a todo ello, llegamos a la tarea de esta fase, que integra lo que han aportado las cuatro áreas: {{s2_tarea}}",
-          "pizarra": []
+          "pizarra": [
+            {
+              "zona": "centro",
+              "texto": "Tarea: {{pz_s2}}",
+              "caja": "5. Fase 2 · Explorar"
+            }
+          ]
         }
       ]
     },
@@ -1123,45 +1229,50 @@
       "rubrica": [
         "Secuencia didáctica 1: actividades y relación entre ellas"
       ],
-      "minutos": 2.7,
+      "minutos": 2.85,
       "esquema": [
         "Aplicar y concluir: situaciones nuevas, productos y reflexión",
-        "«Todo culmina…»: cada área CULMINA su aportación al producto",
-        "Lengua y Matemáticas: ejercicio + actividad con criterio + relación",
+        "«Todo culmina…»: cada área CULMINA su aportación (primero ejercicio, después actividad)",
         "Medio (jueves) + Artística («Opera prima»): actividad + relación",
-        "Tarea final del viernes: {{pz_s3}} · paso de «{{nombre_proyecto}}»",
-        "Integrador, interdisciplinar y holístico: cada área, una pieza",
-        "Pizarra: flechas CMN y EAR"
+        "Tarea final del viernes: {{pz_s3}} · «{{nombre_proyecto}}»",
+        "Integrador, interdisciplinar y holístico: cada área, una pieza"
       ],
       "bloques": [
         {
           "id": "u6b1",
-          "texto": "Paso al punto seis: la tercera fase, aplicar y concluir. Ahora todo culmina: el alumnado aplica lo aprendido a situaciones nuevas, termina sus productos y reflexiona. En Lengua, como ejercicio de aplicación, {{s3_lcl_ej}}; y como actividad, {{s3_lcl_act}}: {{s3_rel_lcl}}.",
+          "texto": "Paso al punto seis: la tercera fase, aplicar y concluir. Ahora todo culmina: el alumnado aplica lo aprendido a situaciones nuevas, termina sus productos y reflexiona. En Lengua, primero, como ejercicio, {{s3_lcl_ej}}; y después, como actividad, {{s3_lcl_act}}: {{s3_rel_lcl}}.",
           "pizarra": []
         },
         {
           "id": "u6b2",
-          "texto": "En Matemáticas, como ejercicio, {{s3_mat_ej}}; y como actividad, {{s3_mat_act}}: {{s3_rel_mat}}. En esta fase, el alumnado ya explica cómo lo ha resuelto. En Conocimiento del Medio, {{s3_cmn}}: {{s3_rel_cmn}}.",
-          "pizarra": []
-        },
-        {
-          "id": "u6b3",
-          "texto": "Y en Educación Artística, {{s3_ear}}: {{s3_rel_ear}}. Y todo culmina en la tarea final de la unidad, que reúne el trabajo de las tres fases: {{s3_tarea}}",
-          "pizarra": []
-        },
-        {
-          "id": "u6b4",
-          "texto": "Por eso afirmo que la secuencia tiene un enfoque integrador, interdisciplinar y holístico: el alumnado no aprende las cuatro áreas por separado, sino que cada una aporta una pieza a tareas reales: {{producto_sda}}, el paso del proyecto «{{nombre_proyecto}}» y la aportación a «Opera prima».",
+          "texto": "En Matemáticas, primero, como ejercicio, {{s3_mat_ej}}; y después, como actividad, {{s3_mat_act}}: {{s3_rel_mat}}. En esta fase, el alumnado ya explica cómo lo ha resuelto. En Conocimiento del Medio, {{s3_cmn}}: {{s3_rel_cmn}}.",
           "pizarra": [
             {
               "zona": "centro",
-              "texto": "CMN: {{pz_rel_cmn}}",
-              "caja": "4-6. Secuencia y SdA"
-            },
+              "texto": "{{pz_f3}}",
+              "caja": "6. Fase 3 · Aplicar"
+            }
+          ]
+        },
+        {
+          "id": "u6b3",
+          "texto": "Y en Educación Artística, {{s3_ear}}: {{s3_rel_ear}}. Y todo desemboca en la tarea final de la unidad, que reúne el trabajo de las tres fases: {{s3_tarea}}",
+          "pizarra": [
             {
               "zona": "centro",
-              "texto": "EAR: {{pz_rel_ear}}",
-              "caja": "4-6. Secuencia y SdA"
+              "texto": "Tarea final: {{pz_s3}}",
+              "caja": "6. Fase 3 · Aplicar"
+            }
+          ]
+        },
+        {
+          "id": "u6b4",
+          "texto": "Por eso la secuencia tiene un enfoque integrador, interdisciplinar y holístico: las cuatro áreas no se aprenden por separado, sino que cada una aporta una pieza a tareas reales: el producto de la situación de aprendizaje, el paso del proyecto «{{nombre_proyecto}}» y la aportación a «Opera prima».",
+          "pizarra": [
+            {
+              "zona": "centro",
+              "texto": "Integrador · interdisciplinar · holístico",
+              "caja": "6. Fase 3 · Aplicar"
             }
           ]
         }
@@ -1176,36 +1287,47 @@
         "Secuencia didáctica 4: ajuste a la realidad y al alumnado",
         "Bibliografía"
       ],
-      "minutos": 3.3,
+      "minutos": 3.95,
       "esquema": [
-        "SD2: lo aprendido sale del cuaderno: familia · centro · entorno (transferencia)",
-        "Contexto digital (Google Classroom) y bilingüe (maestra de inglés)",
-        "Uso real del producto → «el mismo aprendizaje en contextos distintos»",
-        "SD3: {{dias}} días · tres fases · reparto real · progresión",
-        "Horario: Lengua y Matemáticas diarias · CMN J-V · Plástica V · lectura diaria · razonamiento M-X-V · refuerzo en la franja de autonomía",
-        "SD4: evaluación inicial · ajuste a Mijas y al grupo · si una familia no puede · NEAE (punto 9)",
+        "SD2: lo aprendido sale del cuaderno: familia · centro · Mijas",
+        "Digital (recurso de la UD) · bilingüe (palabras en inglés con la maestra de inglés)",
+        "Situación nueva sin mi guía → «ha hecho suyo el aprendizaje» · público real · uso real",
+        "SD3: {{dias}} días · tres fases · reparto real · sesiones de la SdA · progresión",
+        "Horario: lectura diaria · razonamiento M-X-V · refuerzo 30 + 30 en la franja de autonomía",
+        "SD4: evaluación inicial · {{pz_compl}} · seis equipos (4 × 4 + 2 × 3) · tutores · TDAH cerca · familias",
         "Pizarra: si falta sitio, borro las cajas 1-3"
       ],
       "bloques": [
         {
           "id": "u7b1",
-          "texto": "Paso al punto siete: cómo integro los aprendizajes y los utilizo de manera efectiva en diferentes situaciones y contextos. Lo que se aprende en la unidad sale del cuaderno: {{transferencia}} En el contexto digital, compartimos el producto con las familias en Google Classroom; y, como somos un centro bilingüe, con la maestra de inglés trabajamos su vocabulario en inglés.",
+          "texto": "Paso al punto siete: cómo integro los aprendizajes y los utilizo de manera efectiva en diferentes situaciones y contextos. Lo que se aprende en la unidad sale del cuaderno: {{transferencia}}",
           "pizarra": [
             {
               "zona": "centro",
-              "texto": "Familia · centro · digital · inglés",
+              "texto": "Familia · centro · Mijas · digital · inglés",
               "caja": "7. Contextos y tiempo"
             }
           ]
         },
         {
           "id": "u7b2",
-          "texto": "Y el producto tiene un uso real y efectivo: {{uso_real}} Así, el mismo aprendizaje funciona en contextos distintos: eso es integrarlo y utilizarlo de manera efectiva.",
-          "pizarra": []
+          "texto": "En el contexto digital, {{contexto_digital}}; y, como somos un centro bilingüe, con la maestra de inglés {{contexto_bilingue}}. Pero integrar es, sobre todo, aplicar lo aprendido por propia iniciativa en una situación nueva: {{situacion_nueva}} Resolverla sin mi guía demuestra que el aprendizaje ya es suyo.",
+          "pizarra": [
+            {
+              "zona": "centro",
+              "texto": "Situación nueva · público real · uso real",
+              "caja": "7. Contextos y tiempo"
+            }
+          ]
         },
         {
           "id": "u7b3",
-          "texto": "En cuanto a la secuenciación y la temporalización, la unidad es completa y coherente a lo largo de su periodo: {{dias}} días lectivos en tres fases de unos cinco días; {{reparto_dias}} La progresión es coherente: {{progresion}}",
+          "texto": "Además, el producto tiene un público real, fuera de nuestra clase: {{publico_real}} Y un uso real: {{uso_real}} Así, lo aprendido funciona en la familia, en el centro, en Mijas, en el mundo digital y en inglés: eso es integrarlo y utilizarlo de manera efectiva.",
+          "pizarra": []
+        },
+        {
+          "id": "u7b4",
+          "texto": "En cuanto a la secuenciación y la temporalización, la unidad es completa y coherente a lo largo de su periodo: {{dias}} días lectivos en tres fases {{reparto_dias}} La progresión es coherente: {{progresion}}",
           "pizarra": [
             {
               "zona": "centro",
@@ -1215,8 +1337,8 @@
           ]
         },
         {
-          "id": "u7b4",
-          "texto": "Lengua y Matemáticas se trabajan a diario, Conocimiento del Medio el jueves y el viernes, y la Plástica el viernes. Cada día empieza con media hora de lectura, según las Instrucciones de 21 de junio de 2023; martes, miércoles y viernes hay treinta minutos de razonamiento matemático, según las de 18 de junio de 2024; y el refuerzo ocupa la franja de autonomía del centro.",
+          "id": "u7b5",
+          "texto": "Lengua y Matemáticas son diarias; Conocimiento del Medio, jueves y viernes; y Plástica, el viernes. Cada día empieza con media hora de lectura, según las Instrucciones de 21 de junio de 2023; martes, miércoles y viernes hay treinta minutos de razonamiento matemático, según las de 18 de junio de 2024; y el refuerzo suma treinta minutos de Lengua y treinta de Matemáticas en la franja de autonomía del centro.",
           "pizarra": [
             {
               "zona": "normativa",
@@ -1225,12 +1347,12 @@
           ]
         },
         {
-          "id": "u7b5",
-          "texto": "Por último, la secuencia se ajusta a la realidad y se adecúa al contexto y al alumnado al que va dirigida. Parte de la evaluación inicial y, además, {{ajuste_realidad}} Si una familia no puede colaborar, un miembro de la comunidad educativa ocupa su lugar; y las actividades se adaptan a los cuatro alumnos con NEAE, como detallo en el punto nueve.",
+          "id": "u7b6",
+          "texto": "Por último, la secuencia se ajusta a la realidad y se adecúa al contexto y al alumnado al que va dirigida. Parte de la evaluación inicial y, además, {{ajuste_realidad}} Y se ajusta al grupo: formo seis equipos heterogéneos, cuatro de cuatro y dos de tres, con un compañero tutor para cada niño o niña con NEAE; el alumno con TDAH se sienta cerca de mí; y, si una familia no puede colaborar, otro miembro de la comunidad educativa ocupa su lugar.",
           "pizarra": [
             {
               "zona": "centro",
-              "texto": "Ajuste: Mijas · familias · NEAE",
+              "texto": "Ajuste: Mijas · 6 equipos · NEAE",
               "caja": "7. Contextos y tiempo"
             }
           ]
@@ -1244,31 +1366,47 @@
         "Metodología",
         "Bibliografía"
       ],
-      "minutos": 2.7,
+      "minutos": 3.4,
       "esquema": [
-        "Art. 6 D. 101/2023 → actividad de la secuencia: lectura · problemas · TIC · Andalucía · proyectos",
-        "Cooperativo (Pujolás y Lago 2023) · ABP (Cooper y Murphy 2024) · tutoría entre iguales",
-        "Roles rotativos con perspectiva de género · AICLE con la maestra de inglés",
-        "Cuatro agrupamientos, cada uno con su actividad",
-        "Cada espacio y recurso, con su actividad",
-        "Implicación y conocimientos previos (Bueno 2019) · educación emocional (Bisquerra, Pérez y García 2015)"
+        "Art. 6 D. 101/2023 → actividad: lectura · problemas (Instr. 18/06/2024) · TIC · competencias clave",
+        "Inteligencia emocional (Bisquerra, Pérez y García 2015) · conflictos · sostenible · DUA · Andalucía (habla, Mijas)",
+        "Cooperativo (Pujolás y Lago 2023) con roles y perspectiva de género · tutoría entre iguales",
+        "Proyectos (Cooper y Murphy 2024) · aprendizaje-servicio: «Opera prima» → festival de cine",
+        "Mi papel: guía, modelo, mediadora de lectura (Instr. 21/06/2023) · AICLE",
+        "Agrupamientos, espacios y recursos, cada uno con su actividad",
+        "Implicación y conocimientos previos (Bueno 2019)"
       ],
       "bloques": [
         {
           "id": "u8b1",
-          "texto": "Paso al punto ocho: la metodología. Vinculo los principios pedagógicos del artículo 6 del Decreto 101/2023 con la secuencia que he presentado. La lectura, con {{m_lectura}}. El razonamiento matemático, con los problemas exprés y el concurso de problemas. Las TIC, con {{m_tic}}. La realidad social y cultural de Andalucía, con {{m_andalucia}}. Y los proyectos significativos, con la situación de aprendizaje y los dos proyectos del curso.",
+          "texto": "Paso al punto ocho: la metodología. Vinculo cada principio pedagógico del artículo 6 del Decreto 101/2023 que recoge mi programación con una actividad de esta unidad. La lectura la trabajo, según las Instrucciones de 21 de junio de 2023, con {{m_lectura}}; la resolución de problemas, con los problemas exprés y el concurso, según las de 18 de junio de 2024; las TIC, con {{m_tic}}; y las competencias clave, con la situación de aprendizaje.",
           "pizarra": [
             {
               "zona": "centro",
-              "texto": "Art. 6 · cooperativo · ABP · AICLE",
+              "texto": "Art. 6 → actividades · maestra guía",
               "caja": "8. Metodología"
             }
           ]
         },
         {
           "id": "u8b2",
-          "texto": "Aplico tres estrategias metodológicas: el aprendizaje cooperativo, con estructuras de Pujolás y Lago (2023) como el folio giratorio; el aprendizaje basado en proyectos, que, según Cooper y Murphy (2024), da sentido a lo aprendido; y la tutoría entre iguales. Los roles rotan para que niñas y niños sean por igual coordinadores o portavoces, con perspectiva de género; y, como centro bilingüe, me coordino con la maestra de inglés en el enfoque AICLE. Cada agrupamiento tiene su actividad: {{m_agrupamientos}}",
+          "texto": "Vinculo también la inteligencia emocional, que, según Bisquerra, Pérez y García (2015), se educa, con {{m_emocional}}; la resolución pacífica de conflictos, con {{m_conflictos}}; el desarrollo sostenible, con {{m_sostenible}}; el DUA, en cada actividad; y las peculiaridades de Andalucía, conectando con sus realidades sociales y culturales a través de {{m_andalucia}}.",
           "pizarra": [
+            {
+              "zona": "normativa",
+              "texto": "Bisquerra et al. 2015"
+            }
+          ]
+        },
+        {
+          "id": "u8b3",
+          "texto": "Aplico cuatro estrategias: el aprendizaje cooperativo, con estructuras de Pujolás y Lago (2023) como el folio giratorio y roles que rotan entre niñas y niños, con perspectiva de género; la tutoría entre iguales; el aprendizaje basado en proyectos, que, según Cooper y Murphy (2024), da sentido a lo aprendido; y el aprendizaje-servicio, con «Opera prima», cuyo corto se estrena en el festival de cine de fin de curso para toda la comunidad educativa: en esta unidad aportamos {{producto_aps}}.",
+          "pizarra": [
+            {
+              "zona": "centro",
+              "texto": "Cooperativo · proyectos · aprendizaje-servicio",
+              "caja": "8. Metodología"
+            },
             {
               "zona": "normativa",
               "texto": "Pujolás y Lago 2023 · Cooper y Murphy 2024"
@@ -1276,12 +1414,17 @@
           ]
         },
         {
-          "id": "u8b3",
-          "texto": "Y cada espacio y recurso, también: {{recursos_ud}}. Planteo actividades que propician la implicación, la participación y el interés y conectan con los conocimientos previos: como explica Bueno (2019), la emoción y la curiosidad activan el aprendizaje, y por eso la unidad parte de {{m_previos}}. Y cuido la educación emocional, como proponen Bisquerra, Pérez y García (2015).",
+          "id": "u8b4",
+          "texto": "Mi papel es el de guía y mediadora: planteo preguntas, modelo los procesos, acompaño la lectura y ayudo a resolver los desacuerdos; y me coordino con la maestra de inglés en el enfoque AICLE. Cada agrupamiento tiene su actividad: {{m_agrupamientos}} Y cada espacio y recurso, también: {{recursos_ud}}.",
+          "pizarra": []
+        },
+        {
+          "id": "u8b5",
+          "texto": "Planteo actividades que propician la implicación, la participación y el interés y conectan con los conocimientos previos: como explica Bueno (2019), la emoción y la curiosidad activan el aprendizaje, y por eso la unidad parte de {{m_previos}}.",
           "pizarra": [
             {
               "zona": "normativa",
-              "texto": "Bueno 2019 · Bisquerra et al. 2015"
+              "texto": "Bueno 2019"
             }
           ]
         }
@@ -1294,41 +1437,46 @@
         "Medidas de atención a la diversidad",
         "Bibliografía"
       ],
-      "minutos": 2.8,
+      "minutos": 3.0,
       "esquema": [
         "DUA (art. 26 Orden 30/05/2023): representación · acción y expresión · implicación → actividades",
         "Medidas generales (art. 27): cooperativo, tutoría entre iguales, multinivel → la de esta UD",
-        "Programas (art. 28): refuerzo para los 2 con dificultades, el alumno con TDAH y la alumna de compensatoria",
-        "Medidas específicas (art. 33, Instr. 08/03/2017): TDAH → PT en el aula + programa específico de atención y autorregulación",
-        "Vinculadas a actividades: dificultades → TDAH → compensatoria",
-        "Cauces (D. 328/2010): equipo docente · PT semanal · EOE · familias · Palacios, Marchesi y Coll (2021)"
+        "Programas (art. 28): refuerzo (2 con dificultades, TDAH, compensatoria) · profundización → actividad",
+        "Medidas específicas (art. 33, Instr. 08/03/2017): TDAH → PT en el aula + programa específico",
+        "Vinculadas a actividades (dificultades → TDAH → compensatoria) y a las tareas de la SdA",
+        "Cauces (D. 328/2010): equipo docente · PT y AL · maestras de tercero · orientación · familias · Palacios, Marchesi y Coll (2021)"
       ],
       "bloques": [
         {
           "id": "u9b1",
-          "texto": "Paso al punto nueve: las medidas de atención a la diversidad. Según el artículo 26 de la Orden de 30 de mayo de 2023, todas se rigen por el Diseño Universal para el Aprendizaje, cuyos tres principios aplico a actividades concretas. {{dua_ejemplos}}",
+          "texto": "Paso al punto nueve: las medidas de atención a la diversidad. Según el artículo 26 de la Orden de 30 de mayo de 2023, se rigen por el Diseño Universal para el Aprendizaje, cuyos principios aplico así. {{dua_ejemplos}} Como medidas generales del artículo 27, aplico el aprendizaje cooperativo, la tutoría entre iguales y actividades multinivel, como {{d_multinivel}}",
           "pizarra": [
             {
               "zona": "centro",
-              "texto": "DUA · multinivel · refuerzo · PT + PE",
+              "texto": "DUA · multinivel · refuerzo · profundización",
               "caja": "9. Diversidad"
             }
           ]
         },
         {
           "id": "u9b2",
-          "texto": "Como medidas generales del artículo 27, aplico el aprendizaje cooperativo, la tutoría entre iguales y actividades multinivel. En esta unidad, la actividad multinivel es {{d_multinivel}}",
+          "texto": "Como programas del artículo 28, el alumnado con NEAE sigue un programa de refuerzo del aprendizaje, y el más motivado, uno de profundización, que enriquece los saberes sin cambiar los criterios: {{d_profundizacion}}",
           "pizarra": []
         },
         {
           "id": "u9b3",
-          "texto": "Como programas de atención a la diversidad del artículo 28, los dos alumnos con dificultades, el alumno con TDAH y la alumna de compensatoria siguen un programa de refuerzo del aprendizaje. Y como medidas específicas del artículo 33, según las Instrucciones de 8 de marzo de 2017, el alumno con TDAH recibe el apoyo de la maestra de Pedagogía Terapéutica dentro del aula y un programa específico de atención y autorregulación.",
+          "texto": "Y como medida específica del artículo 33, según las Instrucciones de 8 de marzo de 2017, el alumno con TDAH recibe en el aula el apoyo de la maestra de Pedagogía Terapéutica y un programa específico de atención. Las vinculo con las actividades: {{d_vinculo}}",
           "pizarra": []
         },
         {
           "id": "u9b4",
-          "texto": "Las vinculo con esta unidad: {{d_vinculo}} Y las coordino por cauces concretos, según el Decreto 328/2010: el equipo docente planifica y sigue los programas; cada semana preparo los materiales con la maestra de Pedagogía Terapéutica; el equipo de orientación nos asesora; y con las familias me coordino en tutoría y por iPasen. Como señalan Palacios, Marchesi y Coll (2021), partimos de las posibilidades de cada niño y niña.",
+          "texto": "Y con las tareas de la situación de aprendizaje: {{d_sda}} Y las coordino por cauces concretos, según el Decreto 328/2010: el equipo docente sigue los programas; cada semana preparo materiales con la maestra de Pedagogía Terapéutica, y con la de Audición y Lenguaje, que refuerza la expresión oral de las exposiciones; acuerdo las medidas con las otras maestras de tercero; el equipo de orientación nos asesora; y con las familias hablo en tutoría y por iPasen. Como señalan Palacios, Marchesi y Coll (2021), partimos de las posibilidades de cada niño y niña.",
           "pizarra": [
+            {
+              "zona": "centro",
+              "texto": "Coordinación: PT · AL · tercero · orientación · familias",
+              "caja": "9. Diversidad"
+            },
             {
               "zona": "normativa",
               "texto": "Instr. 08/03/2017 · D. 328/2010 · Palacios et al. 2021"
@@ -1344,40 +1492,46 @@
         "Evaluación",
         "Bibliografía"
       ],
-      "minutos": 3.0,
+      "minutos": 3.05,
       "esquema": [
-        "Art. 9 Orden 30/05/2023 · referente: los criterios de evaluación",
+        "Art. 9 Orden 30/05/2023 · referente: los criterios → cada uno con instrumento y evidencia",
         "Evaluación inicial: la actividad de partida, en el anecdotario",
-        "Instrumentos (art. 10): rúbrica del producto · cotejo · escala · porfolio con su contenido",
-        "Cinco niveles con su nota · autoevaluación y coevaluación",
+        "Art. 10: evidencia de cada fase de la SdA + el resto de criterios por instrumento",
+        "Cinco niveles · autoevaluación y coevaluación con su ejemplo",
         "Medidas de diversidad: anexo VI, escala 1-5 + ejemplo",
         "La UD (diana) y la práctica docente: indicadores, instrumentos, evidencias (Herrán y Paredes 2020)"
       ],
       "bloques": [
         {
           "id": "u10b1",
-          "texto": "Paso al punto diez: la evaluación. Según el artículo 9 de la Orden de 30 de mayo de 2023, es continua, global, competencial, formativa e integradora, y su referente son los criterios de evaluación. La evaluación inicial es {{e_inicial}} Después, uso instrumentos adecuados, coherentes y variados, como indica el artículo 10. Por ejemplo, {{e_rubrica}}",
+          "texto": "Paso al punto diez: la evaluación. Según el artículo 9 de la Orden de 30 de mayo de 2023, es continua, global, competencial, formativa e integradora, y su referente son los criterios: cada uno de los {{n_criterios}} de esta unidad tiene su instrumento y su evidencia. La evaluación inicial es {{e_inicial}}",
           "pizarra": [
             {
               "zona": "centro",
-              "texto": "Inicial · rúbrica · porfolio · 1-10 · diana",
+              "texto": "Cada criterio → instrumento + evidencia",
               "caja": "10. Evaluación"
             }
           ]
         },
         {
           "id": "u10b2",
-          "texto": "Además, {{e_observacion}} Y el porfolio recoge {{e_porfolio}} Califico cada criterio con una rúbrica de cinco niveles: con dificultad, insuficiente, menos de cinco; con ayuda, suficiente, cinco; sin dificultades, bien, seis; con facilidad, notable, siete u ocho; y con dominio, sobresaliente, nueve o diez.",
+          "texto": "Uso instrumentos adecuados, coherentes y variados, como indica el artículo 10. En la situación de aprendizaje, cada fase deja su evidencia: {{e_fases}} Y el resto de criterios tiene también la suya: {{e_criterios}}",
           "pizarra": []
         },
         {
           "id": "u10b3",
-          "texto": "En la autoevaluación y la coevaluación, el alumnado reflexiona sobre cómo aprende; por ejemplo, {{e_coevaluacion}} Y evalúo las medidas de atención a la diversidad según el anexo seis de la Orden: concreto la dificultad, describo la medida y valoro su aplicación en una escala del 1 al 5, de poco adecuada a excelente. Por ejemplo, {{e_diversidad}}",
-          "pizarra": []
+          "texto": "Califico cada criterio en cinco niveles, de «con dificultad», insuficiente, a «con dominio», sobresaliente. En la autoevaluación y la coevaluación, el alumnado reflexiona sobre cómo aprende: {{e_coevaluacion}} Y valoro las medidas de atención a la diversidad según el anexo seis de la Orden: concreto la dificultad, describo la medida y valoro su aplicación del 1 al 5. Por ejemplo, {{e_diversidad}}",
+          "pizarra": [
+            {
+              "zona": "centro",
+              "texto": "Fases · 5 niveles · autoevaluación · escala 1-5",
+              "caja": "10. Evaluación"
+            }
+          ]
         },
         {
           "id": "u10b4",
-          "texto": "Por último, evalúo la unidad y mi práctica docente, porque, como recuerdan Herrán y Paredes (2020), evaluar la enseñanza es la base para mejorarla. De la unidad valoro si los {{dias}} días han bastado y cuántos alumnos han superado cada criterio, y el alumnado la valora con una diana. De mi práctica, los indicadores son si los recursos, la metodología y los agrupamientos han funcionado; los instrumentos, el anecdotario, las listas de cotejo y una escala del 1 al 4; y las evidencias, los resultados y las producciones del alumnado.",
+          "texto": "Por último, evalúo la unidad y mi práctica docente, porque, como recuerdan Herrán y Paredes (2020), evaluar la enseñanza es la base para mejorarla. De la unidad valoro si los {{dias}} días han bastado y cuántos niños y niñas superan cada criterio, y el alumnado la valora con una diana. De mi práctica, los indicadores son si los recursos, la metodología y los agrupamientos han funcionado; los instrumentos, el anecdotario, listas de cotejo y una escala del 1 al 4; y las evidencias, los resultados y las producciones del alumnado.",
           "pizarra": [
             {
               "zona": "normativa",
@@ -1394,18 +1548,19 @@
         "Conclusión",
         "Expresión oral"
       ],
-      "minutos": 1.7,
+      "minutos": 1.65,
       "esquema": [
-        "Síntesis: cuatro áreas integradas · SdA → {{pz_producto}}",
+        "Síntesis: cuatro áreas integradas · SdA → {{pz_producto}} con público real",
         "Proyectos en marcha: «{{nombre_proyecto}}» + «Opera prima»",
-        "Tres fases · cooperativo · DUA · evaluación del aprendizaje y de mi práctica",
-        "Lo propio de la UD (En definitiva…) → retomo el ODS",
+        "Tres fases · cooperativo · DUA · cada criterio evaluado · mi práctica",
+        "Competencias clave que más desarrolla",
+        "Lo propio de la UD (En definitiva…) → retomo {{pz_ods}}",
         "Siguiente UD · Vygotsky · nadie aprende solo; aprendemos juntos"
       ],
       "bloques": [
         {
           "id": "u11b1",
-          "texto": "Paso al punto once: la conclusión. Sintetizo lo más relevante de la unidad didáctica número {{numero}}, «{{titulo}}». Integra cuatro áreas en una situación de aprendizaje con un producto real, {{producto_sda}}, y hace avanzar «{{nombre_proyecto}}», con {{producto_proyecto}}, y «Opera prima», con {{producto_aps}}. Se desarrolla en tres fases, con aprendizaje cooperativo y DUA para que nadie se quede atrás, y evalúa tanto el aprendizaje como mi práctica.",
+          "texto": "Paso al punto once: la conclusión. Sintetizo lo más relevante de la unidad didáctica número {{numero}}, «{{titulo}}». Integra cuatro áreas en una situación de aprendizaje con un producto real y con público, {{producto_sda}}, y hace avanzar «{{nombre_proyecto}}», con {{producto_proyecto}}, y «Opera prima», con {{producto_aps}}. Se desarrolla en tres fases, con aprendizaje cooperativo y DUA para que nadie se quede atrás, y evalúa cada criterio y mi práctica. Desarrolla sobre todo {{cc_principales}}.",
           "pizarra": [
             {
               "zona": "centro",
@@ -1416,7 +1571,7 @@
         },
         {
           "id": "u11b2",
-          "texto": "{{conclusion_ud}} Así retomo la justificación inicial, vinculada con {{ods}}. Y lo aprendido aquí es el punto de partida de {{siguiente_ud}}. Como enseña Vygotsky en «Pensamiento y lenguaje» (2020), lo que hoy un niño hace con ayuda, mañana lo hará solo. Por eso termino con el lema de mi programación: nadie aprende solo; aprendemos juntos. Muchas gracias por su atención.",
+          "texto": "{{conclusion_ud}} Así retomo la justificación inicial, vinculada con el {{pz_ods}}. Y lo aprendido aquí es el punto de partida de {{siguiente_ud}}. Como enseña Vygotsky en «Pensamiento y lenguaje» (2020), lo que hoy un niño hace con ayuda, mañana lo hará solo. Por eso termino con el lema de mi programación: nadie aprende solo; aprendemos juntos. Muchas gracias por su atención.",
           "pizarra": [
             {
               "zona": "normativa",
@@ -1427,5 +1582,5 @@
       ]
     }
   ],
-  "guion": "UD {{numero}} «{{titulo}}» · {{dias}} días\n1. Once puntos. SdA → {{pz_producto}}. Coll, Ausubel. ODS\n2. Mijas bilingüe. NEAE. {{pz_compl}}\n3. Escamilla. Qué trata, descriptores, criterio, saber\n4. Art. 7. Baena, Zabala, Bloom. F1 → {{pz_s1}}\n5. F2 → {{pz_s2}}. Heurísticos\n6. F3 → {{pz_s3}}. Holístico\n7. Familia, centro, digital, inglés. Horario. Ajuste\n8. Art. 6. Pujolás, Cooper, AICLE. Bueno, Bisquerra\n9. DUA. Arts. 27, 28, 33. Cauces. Palacios\n10. Inicial. Instrumentos. Niveles. Diversidad. Herrán\n11. Síntesis. ODS. Siguiente UD. Vygotsky"
+  "guion": "UD {{numero}} «{{titulo}}» · {{dias}} días\n1. Pregunta. Once puntos. SdA → {{pz_producto}}. Saber, Coll, eje, Ausubel. {{pz_ods}}\n2. Mijas bilingüe. NEAE. Planes\n3. Escamilla. Etapa. Qué trata, descriptores, criterio, saber\n4. Art. 7. Baena, Zabala. F1 → {{pz_s1}}\n5. F2 → {{pz_s2}}. Heurísticos\n6. F3 → {{pz_s3}}. Holístico\n7. Familia, centro, Mijas, digital, inglés. Situación nueva. Público. Horario. Equipos\n8. Art. 6. Bisquerra. Pujolás, Cooper. Servicio. Guía. Bueno\n9. DUA. Arts. 27, 28, 33. Profundización. PT, AL. Palacios\n10. Cada criterio. Fases. Niveles. Diversidad. Herrán\n11. Síntesis. Competencias. Siguiente UD. Vygotsky"
 }

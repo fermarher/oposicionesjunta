@@ -314,6 +314,8 @@
   function vistaSorteo() {
     const st = { bolas: [], fase: 'bombo', elegida: 0, prepInicio: 0, prepAcum: 0, prepCorriendo: false };
     let timer = null;
+    let esperas = [];
+    let vivo = true;
     const nums = Modelo.uds.map((u) => u.numero);
     const pintar = (raiz) => {
       const c = $('[data-cuerpo]', raiz);
@@ -325,7 +327,7 @@
             <span class="eyebrow">Preparación · UD ${u.numero}. ${esc(u.titulo)}</span>
             <div class="cronometro" data-prep>60:00</div>
             <p class="suave">Una hora sin dispositivos: escribe el guion A5 (máx. 120 palabras) y repasa el esquema. Aquí puedes consultarlo todo.</p>
-            <div class="fila"><button class="btn" data-acc="prep-pausa">${st.prepCorriendo ? 'Pausa' : 'Seguir'}</button><button class="btn primario" data-acc="exponer">Empezar la exposición (30:00)</button></div>
+            <div class="fila"><button class="btn" data-acc="prep-pausa">${st.prepCorriendo ? 'Pausa' : 'Seguir'}</button><button class="btn primario" data-acc="exponer">Empezar la exposición (30:00)</button><button class="btn" data-acc="prep-cancelar">Cancelar y volver a sortear</button></div>
           </div>
           <div class="tarjeta pila">
             <h3>Material de la unidad</h3>
@@ -378,7 +380,9 @@
         salen.push(pick);
       }
       st.bolas = []; st.fase = 'sacando'; pintar(raiz);
-      salen.forEach((n, i) => setTimeout(() => {
+      esperas.forEach(clearTimeout);
+      esperas = salen.map((n, i) => setTimeout(() => {
+        if (!vivo) return;
         st.bolas.push(n);
         if (st.bolas.length === salen.length) { st.fase = 'elegir'; Progreso.guardarSorteo({ fecha: Date.now(), bolas: salen.slice(), elegida: 0 }); }
         pintar(raiz);
@@ -420,6 +424,10 @@
             if (st.prepCorriendo) { st.prepAcum += (performance.now() - st.prepInicio) / 1000; st.prepCorriendo = false; Almacen.escribir('prepActual', { elegida: st.elegida, desde: Date.now() - st.prepAcum * 1000, pausado: true, acum: st.prepAcum }); }
             else { st.prepInicio = performance.now(); st.prepCorriendo = true; Almacen.escribir('prepActual', { elegida: st.elegida, desde: Date.now() - st.prepAcum * 1000, pausado: false, acum: st.prepAcum }); }
             pintar(raiz);
+          } else if (a === 'prep-cancelar') {
+            Almacen.escribir('prepActual', null);
+            Object.assign(st, { fase: 'bombo', bolas: [], elegida: 0, prepAcum: 0, prepCorriendo: false });
+            pintar(raiz);
           } else if (a === 'exponer') {
             Almacen.escribir('prepActual', null);
             Opo.App.pendiente = { empezar: true };
@@ -427,7 +435,7 @@
           }
         });
       },
-      destruir() { clearInterval(timer); },
+      destruir() { vivo = false; clearInterval(timer); esperas.forEach(clearTimeout); },
     };
   }
 
@@ -449,7 +457,7 @@
             <label class="campo">Fuente<select id="aj-fuente"><option value="auto">Audio grabado si existe (recomendado)</option><option value="voz">Siempre la voz del navegador</option></select></label>
             <label class="campo">Voz del navegador<select id="aj-voz"><option value="">Automática</option>${voces.map((v) => `<option value="${esc(v.name)}">${esc(v.name)} (${esc(v.lang)})</option>`).join('')}</select></label>
             <div class="fila"><button class="btn" data-acc="probar">Probar la voz</button></div>
-            ${voces.length ? '' : '<p class="tenue">Este navegador no ofrece voces en español (o aún no las ha cargado).</p>'}
+            <p class="tenue" id="aj-sin-voces" ${voces.length ? 'hidden' : ''}>Este navegador no ofrece voces en español (o aún no las ha cargado).</p>
           </div>
         </div>
         <div class="tarjeta pila">
@@ -463,7 +471,19 @@
       </div>`;
     return {
       html, titulo: 'Ajustes',
+      destruir() { if (this._quitarVoces) this._quitarVoces(); },
       montar(raiz) {
+        if ('speechSynthesis' in window) {
+          const rellenar = () => {
+            const sel = $('#aj-voz', raiz);
+            if (!sel) return;
+            const vs = window.speechSynthesis.getVoices().filter((v) => /^es/i.test(v.lang));
+            sel.innerHTML = '<option value="">Automática</option>' + vs.map((v) => `<option value="${esc(v.name)}">${esc(v.name)} (${esc(v.lang)})</option>`).join('');
+            sel.value = Opo.Ajustes.leer().voz;
+            $('#aj-sin-voces', raiz).hidden = vs.length > 0;
+          };
+          try { window.speechSynthesis.addEventListener('voiceschanged', rellenar); this._quitarVoces = () => window.speechSynthesis.removeEventListener('voiceschanged', rellenar); } catch (e) { /* nada */ }
+        }
         $('#aj-tema', raiz).value = aj.tema;
         $('#aj-fuente', raiz).value = aj.fuente;
         $('#aj-voz', raiz).value = aj.voz;
