@@ -29,9 +29,9 @@ SALIDA = os.path.join(RAIZ, 'audio')
 SR = 24000
 HUECO = re.compile(r'\{\{\s*([a-z0-9_]+)\s*\}\}')
 
-PAUSA_FRASE = 0.32
-PAUSA_BLOQUE = 0.65
-PAUSA_SECCION = 1.3
+PAUSA_FRASE = 0.5
+PAUSA_BLOQUE = 1.0
+PAUSA_SECCION = 2.2
 
 # ---------------------------------------------------------------- texto
 
