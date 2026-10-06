@@ -34,7 +34,7 @@
   function puntosControl() {
     const linea = (expo, etiqueta) => {
       if (!expo) return '';
-      const en = (m) => { const s = expo.secciones.find((x) => x.iniMin <= m && x.finMin > m) || expo.secciones[expo.secciones.length - 1]; return s ? s.titulo.toLowerCase() : ''; };
+      const en = (m) => { const s = expo.secciones.find((x) => x.iniMin <= m && x.finMin > m) || expo.secciones[expo.secciones.length - 1]; return s ? s.titulo.charAt(0).toLowerCase() + s.titulo.slice(1) : ''; };
       return `<li><b>${etiqueta}:</b> en el minuto 10, ${esc(en(10))}; en el 20, ${esc(en(20))}; a los 28, cerrando.</li>`;
     };
     const ud = Modelo.uds.length ? Modelo.expo(Modelo.idUD(Modelo.uds[0].numero)) : null;
@@ -80,12 +80,13 @@
             <h2>Defensa de la programación</h2>
             ${pd ? `<p class="suave">${pd.secciones.length} secciones · ${pd.palabras} palabras · ≈ ${coma(pd.minutosTexto)} min · ${pd.audio ? 'audio grabado' : 'voz del navegador'}</p>${dominioHtml(pd)}` : '<p class="suave">Contenido pendiente.</p>'}
           </a>
-          <a class="tarjeta acceso" href="#uds">
+          <div class="tarjeta acceso">
             <span class="eyebrow">Parte B</span>
-            <h2>Unidades didácticas</h2>
+            <h2><a href="#uds" style="color:inherit;text-decoration:none">Unidades didácticas</a></h2>
             <p class="suave">Un discurso común para las 12: memorízalo una vez y después solo lo propio de cada unidad.</p>
             <div class="fila" style="gap:6px">${udsHtml}</div>
-          </a>
+            <div><a class="btn mini" href="#uds">Ver las 12 unidades</a></div>
+          </div>
         </section>
 
         ${R ? `<section class="pila">
@@ -181,8 +182,9 @@
     const pl = Modelo.plantilla;
     if (!pl) return { html: '<div class="aviso-caja">La plantilla aún no está disponible.</div>' };
     const st = { ud: 0 };
-    const huecosTabla = `<div class="desliza"><table class="tabla"><thead><tr><th>Hueco</th><th>Qué va</th><th>Ejemplo (UD 1)</th></tr></thead><tbody>
-      ${(pl.huecos || []).map((h) => `<tr><td><b>${esc(Modelo.etiquetasHuecos[h.id])}</b></td><td>${esc(h.descripcion)}</td><td class="tenue">${esc(h.ejemplo)}</td></tr>`).join('')}</tbody></table></div>`;
+    const v1 = ((Modelo.uds.find((x) => x.numero === 1) || {}).valores) || {};
+    const huecosTabla = `<div class="desliza"><table class="tabla"><thead><tr><th>Hueco</th><th>Qué va</th><th>En la UD 1</th></tr></thead><tbody>
+      ${(pl.huecos || []).map((h) => `<tr><td><b>${esc(Modelo.etiquetasHuecos[h.id])}</b></td><td>${esc(h.descripcion)}</td><td class="tenue">${esc(v1[h.id] ?? h.ejemplo)}</td></tr>`).join('')}</tbody></table></div>`;
     const cuerpo = () => {
       const u = st.ud ? Modelo.uds.find((x) => x.numero === st.ud) : null;
       const val = u ? u.valores : null;
@@ -213,9 +215,18 @@
       if (ip < 0) continue;
       let off = 0;
       for (let i = 0; i < ip; i++) off += bl.partes[i].t.length;
-      const corte = bl.cortes.find(([a, b]) => off >= a && off < b) || [0, bl.texto.length];
-      const trozo = partesPorFrase(bl.partes, [corte]).find((t) => t.frase === 0);
+      let corte = bl.cortes.find(([a, b]) => off >= a && off < b) || [0, bl.texto.length];
+      let trozo = partesPorFrase(bl.partes, [corte]).find((t) => t.frase === 0);
       if (!trozo) continue;
+      // si la frase es solo el hueco, se amplía con la frase anterior (o la siguiente) para que haya contexto
+      if (trozo.trozos.every((t) => t.h === huecoId || !t.t.trim())) {
+        const k = bl.cortes.indexOf(corte);
+        if (k > 0) corte = [bl.cortes[k - 1][0], corte[1]];
+        else if (k >= 0 && k < bl.cortes.length - 1) corte = [corte[0], bl.cortes[k + 1][1]];
+        else return null;
+        trozo = partesPorFrase(bl.partes, [corte]).find((t) => t.frase === 0);
+        if (!trozo) return null;
+      }
       let puesto = false;
       return trozo.trozos.map((t) => {
         if (t.h === huecoId) { if (puesto) return ''; puesto = true; return '<span class="hueco-vacio">¿…?</span>'; }
@@ -232,9 +243,9 @@
     const st = { modo: 'tarjetas', ud: 0, hueco: '', actual: null, mostrado: false, aciertos: 0, fallos: 0 };
     const tabla = () => `<div class="matriz-cont"><table class="matriz"><thead><tr><th>Hueco</th>${Modelo.uds.map((u) => `<th>UD ${u.numero}. ${esc(u.titulo)}</th>`).join('')}</tr></thead><tbody>
       ${huecos.map((h) => `<tr><th>${esc(Modelo.etiquetasHuecos[h])}</th>${Modelo.uds.map((u) => `<td>${esc((u.valores || {})[h] || '')}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
-    const elegir = () => {
+    const elegir = (previa) => {
       const t = Progreso.tarjetas();
-      const candidatos = [];
+      let candidatos = [];
       Modelo.uds.forEach((u) => {
         if (st.ud && u.numero !== st.ud) return;
         huecos.forEach((h) => {
@@ -246,19 +257,21 @@
           candidatos.push({ n: u.numero, h, peso: Math.max(0.2, peso) });
         });
       });
+      if (previa && candidatos.length > 1) candidatos = candidatos.filter((c) => !(c.n === previa.n && c.h === previa.h));
       const total = candidatos.reduce((a, c) => a + c.peso, 0);
       let r = Math.random() * total;
       for (const c of candidatos) { r -= c.peso; if (r <= 0) return c; }
       return candidatos[candidatos.length - 1];
     };
     const htmlTarjeta = () => {
-      if (!st.actual) st.actual = elegir();
+      if (!st.actual) st.actual = elegir(st.previa);
       const { n, h } = st.actual;
       const u = Modelo.uds.find((x) => x.numero === n);
       const e = Modelo.expo(Modelo.idUD(n));
       const ctx = e ? contextoHueco(e, h) : null;
+      const cab = h === 'titulo' ? `UD ${n}` : h === 'numero' ? esc(u.titulo) : `UD ${n} · ${esc(u.titulo)}`;
       return `<div class="tarjeta elevada pila">
-        <div class="fila entre"><span class="eyebrow">UD ${n} · ${esc(u.titulo)}</span><span class="chip">${esc(Modelo.etiquetasHuecos[h])}</span></div>
+        <div class="fila entre"><span class="eyebrow">${cab}</span><span class="chip">${esc(Modelo.etiquetasHuecos[h])}</span></div>
         <p class="contexto-hueco">${ctx || `¿Qué va en «${esc(Modelo.etiquetasHuecos[h])}»?`}</p>
         ${st.mostrado ? `<div class="info-caja"><b>${esc((u.valores || {})[h] || '')}</b></div>
           <div class="fila"><button class="btn" data-acc="mal">No me lo sabía</button><button class="btn primario" data-acc="bien">Me lo sabía</button></div>`
@@ -295,11 +308,11 @@
           if (!b) return;
           const a = b.dataset.acc;
           if (a === 'mostrar') st.mostrado = true;
-          else if (a === 'saltar') { st.actual = null; st.mostrado = false; }
+          else if (a === 'saltar') { st.previa = st.actual; st.actual = null; st.mostrado = false; }
           else if (a === 'bien' || a === 'mal') {
             Progreso.marcarTarjeta(`${st.actual.n}:${st.actual.h}`, a === 'bien');
             if (a === 'bien') st.aciertos++; else st.fallos++;
-            st.actual = null; st.mostrado = false;
+            st.previa = st.actual; st.actual = null; st.mostrado = false;
           }
           pintar();
         });
@@ -409,6 +422,7 @@
         }
         pintar(raiz);
         timer = setInterval(() => ticPrep(raiz), 500);
+        raiz.addEventListener('change', (ev) => { if (ev.target.id === 'so-peso') Almacen.escribir('sorteoPonderado', ev.target.checked); });
         raiz.addEventListener('click', (ev) => {
           const b = ev.target.closest('[data-acc],[data-elegir]');
           if (!b) return;

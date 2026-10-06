@@ -442,6 +442,7 @@
       const ex = this.expo;
       if (!ex) return;
       i = Math.max(0, Math.min(ex.frases.length - 1, i));
+      if (this.soloPropias) { const j = this.siguientePermitida(i); if (j < ex.frases.length) i = j; }
       const seguir = reproducir == null ? this.reproduciendo : reproducir;
       if (!seguir && this.reproduciendo) this.pausa();
       this.frase = i;

@@ -288,7 +288,7 @@
           $('[data-texto]', raiz).classList.toggle('solo-propias', prop.checked);
         }
       },
-      destruir() { limpiar.forEach((f) => f && f()); if (pz) pz.destruir(); },
+      destruir() { if (reproductor.soloPropias) reproductor.ponerSoloPropias(false); limpiar.forEach((f) => f && f()); if (pz) pz.destruir(); },
     };
   };
 

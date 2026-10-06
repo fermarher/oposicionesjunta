@@ -401,3 +401,11 @@ textarea { width: 100%; min-height: 120px; font-family: var(--f-mono); font-size
 /* el esquema no debe desbordar en móvil */
 @media (max-width: 640px) { .esq-seccion { grid-template-columns: minmax(0, 1fr); } }
 .esq-seccion .chip { white-space: normal; text-align: left; }
+
+/* desplegables y chips que no deben ensanchar la página en el móvil */
+.campo { min-width: 0; max-width: 100%; }
+.campo select { min-width: 0; max-width: 100%; text-overflow: ellipsis; }
+.fila > .campo { flex: 0 1 auto; }
+[data-cuerpo] .chip { white-space: normal; text-align: left; }
+.campo select { max-width: min(100%, calc(100vw - 48px)); }
+[data-filtros] .campo select { max-width: 52vw; }
